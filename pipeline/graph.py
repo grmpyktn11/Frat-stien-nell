@@ -68,25 +68,34 @@ def canonical_institution(label):
     return label
 
 
+def person_colleges(p):
+    """Colleges a person attended (parent-university names), Ivy schools first."""
+    insts = []
+    for school, v in p.get("schools", {}).items():
+        if v.get("status") in ("yes", "possible"):
+            insts.append(IVY_NAMES[school])
+    for label in p.get("education", []):
+        c = canonical_institution(label)
+        if c and c not in insts:
+            insts.append(c)
+    ivy = set(IVY_NAMES.values())
+    return sorted(dict.fromkeys(insts), key=lambda x: (x not in ivy, insts.index(x)))
+
+
 def build_graph(people):
     person_nodes, inst_members, frat_members = [], {}, {}
     ivy_inst = set(IVY_NAMES.values())
     for p in people:
-        insts = set()
-        for label in p.get("education", []):
-            c = canonical_institution(label)
-            if c:
-                insts.add(c)
-        for school, v in p.get("schools", {}).items():
-            if v.get("status") == "yes":
-                insts.add(IVY_NAMES[school])
+        insts = {i for i in person_colleges(p)
+                 if not any(IVY_NAMES[s] == i and v.get("status") != "yes" for s, v in p.get("schools", {}).items())}
         frats = set(p["frat"].get("orgs", [])) if p["frat"].get("status") == "yes" else set()
         for i in insts:
             inst_members.setdefault(i, set()).add(p["name"])
         for f in frats:
             frat_members.setdefault(f, set()).add(p["name"])
         person_nodes.append({"id": "p:" + p["name"], "type": "person", "label": re.sub(r"\s*\(.*\)$", "", p["name"]),
-                             "name": p["name"], "description": p.get("description", ""), "url": p.get("url")})
+                             "name": p["name"], "description": p.get("description", ""), "url": p.get("url"),
+                             "epstein": p.get("epstein", True), "cases": [c["case"] for c in p.get("cases", [])]})
 
     kept_inst = {i: m for i, m in inst_members.items() if len(m) >= 2 or i in ivy_inst}
     nodes, links = [], []

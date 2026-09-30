@@ -39,6 +39,7 @@ dl{margin:0}
       <h2>Method</h2>
       <ol>
         <li><b>Names</b> come from Wikipedia's <a id="srcLink" href="https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files">List of people named in the Epstein files</a>. That list covers the flight logs, the contact book, the court filings and the DOJ/Congressional releases. <span id="rev"></span></li>
+        <li><b>Other scandals:</b> a chosen list of high-profile cases (fraud, abuse, corruption), kept in <a href="https://github.com/grmpyktn11/Frat-stien-nell/blob/main/data/scandals.json">data/scandals.json</a>. Each person is listed with the case and its outcome on the public record: conviction, guilty plea, or resignation or firing.</li>
         <li><b>Filter:</b> public figures only. Victims, survivors and Epstein's staff are removed, along with private individuals who have no public role.</li>
         <li><b>Ivy League:</b> a person counts as <i>attended</i> when Wikidata's "educated at" lists the school, when their Wikipedia article is in the school's alumni category, or when a checked source says so. Graduate and professional schools count (Wharton, Harvard Law, Weill Cornell). Faculty, fellows and trustees are marked separately. Honorary degrees don't count.</li>
         <li><b>Fraternities:</b> Wikidata "member of" entries that are fraternities or sororities, plus article text naming one. Every match was checked by hand. Honor societies such as Phi Beta Kappa and Kappa Beta Phi don't count.</li>
@@ -56,6 +57,7 @@ dl{margin:0}
         <li><a href="https://www.wikidata.org/wiki/Property:P69">Wikidata — educated at (P69)</a> and <a href="https://www.wikidata.org/wiki/Property:P463">member of (P463)</a></li>
         <li>Each person's English Wikipedia article: categories and text</li>
         <li>Professional bios and news reporting for people without an article (listed per person below)</li>
+        <li>Case outcomes: each person's Wikipedia article (linked below)</li>
       </ul>
       <p>Code and raw data: <a href="https://github.com/grmpyktn11/Frat-stien-nell">github.com/grmpyktn11/Frat-stien-nell</a> (<a href="data/people.json">people.json</a>, <a href="data/graph.json">graph.json</a>, <a href="data/excluded.json">excluded.json</a>).</p>
     </section>
@@ -96,10 +98,11 @@ function links(p){
   (p.frat.evidence||[]).forEach(e=>add(e.url,e.source.replace(/\s*\(.*\)$/,"").replace(/^Wikipedia.*/,"Wikipedia")));
   return [...L].map(([u,l])=>`<a href="${safeUrl(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join("");
 }
+function caseLine(p){const c=[p.epstein?"Epstein files":"",...(p.cases||[]).map(x=>`${x.case}: ${x.outcome}`)].filter(Boolean);return `<div class="muted" style="font-size:13px">${c.map(esc).join(" · ")}</div>`}
 function render(){
   const q=$("q").value.trim().toLowerCase();
-  const rows=P.filter(p=>!q||p.name.toLowerCase().includes(q)).sort((a,b)=>a.name.localeCompare(b.name));
-  $("list").innerHTML=rows.map(p=>`<div><div class="who">${esc(p.name.replace(/\s*\(.*\)$/,""))}</div><div class="links">${links(p)||'<span class="muted">No source links</span>'}</div></div>`).join("")||'<p class="muted">No matches.</p>';
+  const rows=P.filter(p=>!q||(p.name+' '+(p.cases||[]).map(c=>c.case).join(' ')).toLowerCase().includes(q)).sort((a,b)=>a.name.localeCompare(b.name));
+  $("list").innerHTML=rows.map(p=>`<div><div class="who">${esc(p.name.replace(/\s*\(.*\)$/,""))}</div>${caseLine(p)}<div class="links">${links(p)||'<span class="muted">No source links</span>'}</div></div>`).join("")||'<p class="muted">No matches.</p>';
 }
 $("q").addEventListener("input",render);
 </script>

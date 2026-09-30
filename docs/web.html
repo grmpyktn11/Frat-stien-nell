@@ -10,7 +10,12 @@
 <link rel="stylesheet" href="assets/site.css">
 <style>
 .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
-.bar .field{flex:1 1 220px}
+.find{flex:1 1 260px;min-width:0}
+.results{list-style:none;margin:4px 0 0;padding:0;border:1px solid var(--ink);background:var(--surface)}
+.results button{all:unset;box-sizing:border-box;display:flex;justify-content:space-between;gap:8px;width:100%;min-height:44px;padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--line)}
+.results li:last-child button{border-bottom:0}
+.results button:hover,.results button:focus-visible{background:var(--hl)}
+.results .t{font-family:var(--mono);font-size:11px;color:var(--muted)}
 .key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--muted);margin-bottom:8px}
 .key span{display:inline-flex;align-items:center;gap:6px}
 .sw{display:inline-block;width:10px;height:10px}
@@ -26,7 +31,7 @@ text{font-family:var(--sans);paint-order:stroke;stroke:var(--surface);stroke-wid
 #panel ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
 #panel li button{min-height:36px;padding:0 10px;border:1px solid var(--line);background:var(--surface);cursor:pointer}
 #panel li button:hover{border-color:var(--ink)}
-@media (max-width:719px){.bar .field{flex-basis:100%}.bar .btn{flex:1;padding:0 6px}.wrap{padding:16px 0 32px}.top,.stats,.bar,.key,#panel{margin-left:16px;margin-right:16px}.top{padding-left:0;padding-right:0}#chart{border-left:0;border-right:0}}
+@media (max-width:719px){.find{flex-basis:100%}.bar select{flex:1 1 100%}.bar .btn{flex:1;padding:0 6px}.wrap{padding:16px 0 32px}.top,.stats,.bar,.key,#panel{margin-left:16px;margin-right:16px}.top{padding-left:0;padding-right:0}#chart{border-left:0;border-right:0}}
 </style>
 </head>
 <body>
@@ -37,8 +42,9 @@ text{font-family:var(--sans);paint-order:stroke;stroke:var(--surface);stroke-wid
   </header>
   <div class="stats" id="stats"></div>
   <div class="bar">
-    <label class="field"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="sr">Find a person, college or fraternity</span><input id="q" list="names" placeholder="Find a person, college or fraternity"></label>
-    <datalist id="names"></datalist>
+    <div class="find"><label class="field"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="sr">Find a person, college or fraternity</span><input id="q" type="search" placeholder="Find a person, college or fraternity" autocomplete="off" enterkeyhint="search" aria-controls="results"></label>
+    <ul id="results" class="results" hidden></ul></div>
+    <label class="sr" for="grp">People</label><select id="grp"><option value="">All people</option><option value="epstein">Epstein files</option><option value="scandal">Other scandals</option></select>
     <button class="btn" id="tColleges" aria-pressed="true">Colleges</button>
     <button class="btn" id="tFrats" aria-pressed="true">Fraternities</button>
     <button class="btn" id="tIvy" aria-pressed="false">Ivy only</button>
@@ -46,7 +52,8 @@ text{font-family:var(--sans);paint-order:stroke;stroke:var(--surface);stroke-wid
   <div class="key">
     <span><svg width="12" height="12" aria-hidden="true"><rect width="12" height="12" fill="var(--college)"/></svg>College (size = people)</span>
     <span><svg width="12" height="12" aria-hidden="true"><rect x="2" y="2" width="8" height="8" transform="rotate(45 6 6)" fill="var(--frat)"/></svg>Fraternity / sorority</span>
-    <span><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="4" fill="var(--ink)"/></svg>Person</span>
+    <span><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="4" fill="var(--ink)"/></svg>Epstein files</span>
+    <span><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="3.5" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.8"/></svg>Other scandal</span>
   </div>
   <div id="chart">
     <svg id="svg" role="img" aria-label="Network of people linked to the colleges and fraternities they share"></svg>
@@ -61,22 +68,24 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const GREEK={Alpha:"Α",Beta:"Β",Gamma:"Γ",Delta:"Δ",Epsilon:"Ε",Zeta:"Ζ",Eta:"Η",Theta:"Θ",Iota:"Ι",Kappa:"Κ",Lambda:"Λ",Mu:"Μ",Nu:"Ν",Xi:"Ξ",Omicron:"Ο",Pi:"Π",Rho:"Ρ",Sigma:"Σ",Tau:"Τ",Upsilon:"Υ",Phi:"Φ",Chi:"Χ",Psi:"Ψ",Omega:"Ω"};
 const greek=o=>{const w=o.split(/\s+/);return w.every(x=>GREEK[x])?w.map(x=>GREEK[x]).join(""):o};
-const state={colleges:true,frats:true,ivy:false,sel:null};
+const state={colleges:true,frats:true,ivy:false,grp:"",sel:null};
 let G,sim,zoom,svg,gRoot,gLinks,gNodes,nodeSel,linkSel,labelSel,k=1;
 
 fetch("data/graph.json").then(r=>r.json()).then(g=>{
   G=g;const c=g.counts;
   $("stats").innerHTML=`<span><b>${c.people_linked}</b>people linked</span><span><b>${c.colleges}</b>colleges</span><span><b>${c.frats}</b>fraternities</span><span><b>${c.people_unlinked}</b>with no shared link</span>`;
-  $("names").innerHTML=g.nodes.map(n=>`<option value="${esc(n.label)}"></option>`).join("");
   init();draw();
 }).catch(e=>{$("panel").innerHTML=`<p class="muted">Could not load data: ${esc(e.message)}</p>`});
 
 function visible(){
   const keepNode=n=>n.type==="college"?state.colleges&&(!state.ivy||n.ivy):n.type==="frat"?state.frats:true;
   const hubs=new Set(G.nodes.filter(n=>n.type!=="person"&&keepNode(n)).map(n=>n.id));
-  const links=G.links.filter(l=>hubs.has(l.target.id||l.target));
+  const allLinks=G.links.filter(l=>hubs.has(l.target.id||l.target));
+  const okPerson=new Set(G.nodes.filter(n=>n.type==="person"&&(!state.grp||(state.grp==="epstein"?n.epstein:n.cases.length))).map(n=>n.id));
+  const links=allLinks.filter(l=>okPerson.has(l.source.id||l.source));
   const people=new Set(links.map(l=>l.source.id||l.source));
-  const nodes=G.nodes.filter(n=>n.type==="person"?people.has(n.id):hubs.has(n.id));
+  const used=new Set(links.map(l=>l.target.id||l.target));
+  const nodes=G.nodes.filter(n=>n.type==="person"?people.has(n.id):hubs.has(n.id)&&(n.ivy||used.has(n.id)));
   return {nodes,links};
 }
 function size(n){return n.type==="person"?4:n.type==="frat"?7:5+Math.sqrt(n.count)*3.2}
@@ -93,7 +102,18 @@ function init(){
   $("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.4);
   $("zfit").onclick=fit;
   [["tColleges","colleges"],["tFrats","frats"],["tIvy","ivy"]].forEach(([id,key])=>$(id).onclick=()=>{state[key]=!state[key];$(id).setAttribute("aria-pressed",state[key]);draw()});
-  $("q").addEventListener("change",()=>{const v=$("q").value.trim().toLowerCase();const n=G.nodes.find(n=>n.label.toLowerCase()===v)||G.nodes.find(n=>n.label.toLowerCase().includes(v));if(n){select(n.id);focus(n.id)}});
+  $("grp").onchange=()=>{state.grp=$("grp").value;draw()};
+  const res=$("results");
+  const pick=id=>{res.hidden=true;$("q").value=G.nodes.find(n=>n.id===id).label;$("q").blur();select(id);focus(id);$("chart").scrollIntoView({block:"start",behavior:"smooth"})};
+  $("q").addEventListener("input",()=>{
+    const v=$("q").value.trim().toLowerCase();
+    if(!v){res.hidden=true;res.innerHTML="";return}
+    const hits=G.nodes.filter(n=>n.label.toLowerCase().includes(v)).sort((a,b)=>a.label.toLowerCase().indexOf(v)-b.label.toLowerCase().indexOf(v)).slice(0,6);
+    res.innerHTML=hits.map(n=>`<li><button data-id="${esc(n.id)}"><span>${esc(n.label)}</span><span class="t">${n.type==="person"?"person":n.type==="frat"?"fraternity":"college"}</span></button></li>`).join("")||'<li class="muted" style="padding:10px 12px">No matches</li>';
+    res.hidden=false;
+  });
+  $("q").addEventListener("keydown",e=>{if(e.key==="Enter"){const b=res.querySelector("button");if(b)pick(b.dataset.id);else $("q").blur()}if(e.key==="Escape"){res.hidden=true;$("q").blur()}});
+  res.addEventListener("click",e=>{const b=e.target.closest("button[data-id]");if(b)pick(b.dataset.id)});
   new ResizeObserver(()=>{sizeSvg()}).observe($("chart"));
 }
 function sizeSvg(){const r=$("chart").getBoundingClientRect();svg.attr("viewBox",[-r.width/2,-r.height/2,r.width,r.height])}
@@ -109,7 +129,8 @@ function draw(){
       const s=d3.select(this),r=size(d);
       if(d.type==="college")s.append("rect").attr("x",-r).attr("y",-r).attr("width",r*2).attr("height",r*2).attr("fill",cCol);
       else if(d.type==="frat")s.append("rect").attr("x",-r*.75).attr("y",-r*.75).attr("width",r*1.5).attr("height",r*1.5).attr("transform","rotate(45)").attr("fill",cFrat);
-      else s.append("circle").attr("r",r).attr("fill",cInk);
+      else if(d.epstein)s.append("circle").attr("r",r).attr("fill",cInk);
+      else s.append("circle").attr("r",r-.5).attr("fill",css("--surface")).attr("stroke",cInk).attr("stroke-width",1.8);
       s.append("text").attr("dy",d.type==="person"?-8:-(r+5)).attr("text-anchor","middle")
         .attr("font-size",d.type==="person"?10:d.type==="frat"?12:11).attr("font-weight",d.type==="person"?400:600)
         .attr("fill",d.type==="college"?cCol:d.type==="frat"?cFrat:cInk)
@@ -141,7 +162,7 @@ function labels(){
   labelSel.attr("display",d=>{
     if(nb)return nb.has(d.id)?null:"none";
     if(d.type==="person")return k>1.8?null:"none";
-    if(d.type==="college")return d.count>=3||k>1.2?null:"none";
+    if(d.type==="college")return d.ivy||d.count>=3||k>1.2?null:"none";
     return null;
   });
 }
@@ -160,7 +181,7 @@ function select(id){
   let h="";
   if(n.type==="person"){
     const hubs=G.links.filter(l=>(l.source.id||l.source)===id).map(l=>l.target.id||l.target);
-    h=`<h2>${esc(n.label)}</h2><p class="muted" style="margin:0">${esc(n.description)}</p>`+hubs.map(hid=>{
+    h=`<h2>${esc(n.label)}</h2><p class="muted" style="margin:0">${esc(n.description)}</p><p style="margin:4px 0 0;font-size:13px">${[n.epstein?"Epstein files":"",...n.cases].filter(Boolean).map(esc).join(" · ")}</p>`+hubs.map(hid=>{
       const hub=G.nodes.find(x=>x.id===hid),others=members(hid).filter(x=>x!==id);
       return `<h3>${esc(hub.label)}${others.length?` — shared with ${others.length}`:""}</h3>${others.length?`<ul>${others.map(btn).join("")}</ul>`:'<p class="muted" style="margin:0">No one else in this dataset.</p>'}`;
     }).join("");

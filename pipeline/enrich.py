@@ -81,7 +81,7 @@ def is_honor(org, types=""):
     return any(h in o for h in HONOR_SOCIETIES) or "honor society" in types.lower() or "honour society" in types.lower()
 
 
-def resolve_titles(titles):
+def resolve_titles(titles, context=None):
     """Map raw title -> resolved canonical title (or None) using redirects, then search fallback."""
     out = {}
     for batch in chunks(titles, 50):
@@ -102,17 +102,17 @@ def resolve_titles(titles):
         disamb |= {p["title"] for p in data["query"]["pages"] if "disambiguation" in p.get("pageprops", {})}
     for t, v in out.items():
         if v is None or v in disamb:
-            out[t] = search_person(t)
+            out[t] = search_person(t, (context or {}).get(t, "Epstein"))
     return out
 
 
-def search_person(name):
-    """Find the article for a person named in the Epstein files; the right article mentions Epstein."""
+def search_person(name, context="Epstein"):
+    """Find a person's article; the right article mentions the context (Epstein, or the scandal's name)."""
     clean = re.sub(r"^(Dr|Sir|Lord|Lady|Prof)\.?\s+", "", name).strip()
     words = clean.lower().split()
     if not words:
         return None
-    res = wp({"action": "query", "list": "search", "srsearch": f'"{clean}" Epstein', "srlimit": 5,
+    res = wp({"action": "query", "list": "search", "srsearch": f'"{clean}" {context}', "srlimit": 5,
               "srnamespace": 0})
     for hit in res["query"]["search"]:
         title = hit["title"].lower()
