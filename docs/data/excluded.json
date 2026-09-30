@@ -1,55 +1,11 @@
 {
  "excluded": [
   {
-   "name": "Bill Gates",
-   "reason": "described as Epstein staff"
-  },
-  {
-   "name": "David Copperfield",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "Delson",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "Gary King",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "George Church",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "Jack Horner",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "Jack Lang",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "John Brockman",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "John Phelan",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "Josh Harris",
+   "name": "Estate of Jeffrey Epstein",
    "reason": "not a person (Wikidata)"
   },
   {
    "name": "Mar-a-Lago Crowd",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "Mariya Prusakova",
-   "reason": "not a person (Wikidata)"
-  },
-  {
-   "name": "Michael Wolff",
    "reason": "not a person (Wikidata)"
   },
   {
@@ -61,16 +17,34 @@
    "reason": "not a person (Wikidata)"
   },
   {
-   "name": "Stephen Alexander",
+   "name": "Relationship of Bill Clinton and Jeffrey Epstein",
    "reason": "not a person (Wikidata)"
   },
   {
-   "name": "William Burns",
+   "name": "Relationship of Donald Trump and Jeffrey Epstein",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Relationship of Les Wexner and Jeffrey Epstein",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Relationship of Mette-Marit, Crown Princess of Norway, and Jeffrey Epstein",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Relationship of Peter Mandelson and Jeffrey Epstein",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Relationship of Thorbjørn Jagland and Jeffrey Epstein",
    "reason": "not a person (Wikidata)"
   }
  ],
  "unresolved": [
+  "Stephen Alexander",
   "Francisco D'Agostino",
+  "Lawrence Delson",
   "Caroline Lang",
   "Julian Leese",
   "Nick Leese",
@@ -79,6 +53,7 @@
   "Matthew Menchel",
   "Letty Moss-Salentijn",
   "Alberto Pinto and Linda Pinto",
+  "David A. Ross",
   "Rony Shimony",
   "Anastasiya Siroochenko",
   "Jess Ting",

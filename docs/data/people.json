@@ -1,21 +1,21 @@
 {
  "meta": {
-  "generated": "2026-09-30T16:19:44+00:00",
+  "generated": "2026-09-30T16:21:46+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "counts": {
-   "people": 127,
-   "excluded": 17,
-   "unresolved": 13,
-   "ivy_yes": 40,
-   "ivy_possible": 3,
+   "people": 131,
+   "excluded": 10,
+   "unresolved": 16,
+   "ivy_yes": 44,
+   "ivy_possible": 4,
    "by_school": {
     "Brown": {
      "yes": 1,
      "possible": 0
     },
     "Columbia": {
-     "yes": 7,
+     "yes": 8,
      "possible": 3
     },
     "Cornell": {
@@ -27,7 +27,7 @@
      "possible": 0
     },
     "Harvard": {
-     "yes": 22,
+     "yes": 27,
      "possible": 0
     },
     "Penn": {
@@ -36,15 +36,15 @@
     },
     "Princeton": {
      "yes": 2,
-     "possible": 1
+     "possible": 2
     },
     "Yale": {
-     "yes": 4,
+     "yes": 3,
      "possible": 2
     }
    },
-   "frat_yes": 4,
-   "frat_possible": 19
+   "frat_yes": 3,
+   "frat_possible": 17
   }
  },
  "people": [
@@ -247,14 +247,31 @@
    "verified": false
   },
   {
-   "name": "Andrew Farkas",
-   "url": "https://en.wikipedia.org/wiki/Andrew_Farkas",
-   "qid": "Q4756931",
-   "description": "American writer (born 1978)",
+   "name": "Andrew Farkas (businessman)",
+   "url": "https://en.wikipedia.org/wiki/Andrew_Farkas_(businessman)",
+   "qid": "Q137441763",
+   "description": "American real estate developer",
    "documents": [
     "Emails"
    ],
-   "schools": {},
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Andrew_Farkas_(businessman)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Farkas studied economics at Harvard College, graduating in 1982.",
+       "url": "https://en.wikipedia.org/wiki/Andrew_Farkas_(businessman)"
+      }
+     ]
+    }
+   },
    "frat": {
     "status": "no",
     "orgs": [],
@@ -453,79 +470,71 @@
    "verified": false
   },
   {
-   "name": "Bill Clinton",
-   "url": "https://en.wikipedia.org/wiki/Bill_Clinton",
-   "qid": "Q1124",
-   "description": "President of the United States from 1993 to 2001",
+   "name": "Bill Gates",
+   "url": "https://en.wikipedia.org/wiki/Bill_Gates",
+   "qid": "Q5284",
+   "description": "American businessman and philanthropist (born 1955)",
    "documents": [
     "Emails"
    ],
    "schools": {
-    "Yale": {
+    "Harvard": {
      "status": "yes",
-     "faculty": false,
+     "faculty": true,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
-       "text": "Yale Law School",
-       "url": "https://www.wikidata.org/wiki/Q1124"
+       "text": "Harvard College",
+       "url": "https://www.wikidata.org/wiki/Q5284"
       },
       {
        "source": "Wikipedia category",
-       "text": "Yale Law School alumni",
-       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Bill_Gates"
       },
       {
        "source": "Wikipedia article text",
-       "text": "Born and raised in Arkansas, Clinton graduated from Georgetown University in 1968, and later from Yale Law School, where he met his future wife, Hillary Rodham.",
-       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+       "text": "In 1973, he enrolled at Harvard University, where he took classes including Math 55 and graduate-level computer science courses, but he dropped out in 1975 to co-found and lead Microsoft.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Gates"
       },
       {
        "source": "Wikipedia article text",
-       "text": "After Oxford, Clinton attended Yale Law School and earned a Juris Doctor (J.D.) degree in 1973.",
-       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+       "text": "He scored 1590 out of 1600 on the SAT and enrolled at Harvard University in the autumn of 1973.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Gates"
       },
       {
-       "source": "Wikipedia article text",
-       "text": "After graduating from Yale Law School, Clinton returned to Arkansas and became a law professor at the University of Arkansas.",
-       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "While at Harvard, he met fellow student and future Microsoft CEO Steve Ballmer.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Gates"
       }
      ]
     }
    },
    "frat": {
-    "status": "yes",
-    "orgs": [
-     "Phi Beta Kappa Society",
-     "Alpha Phi Omega",
-     "Kappa Kappa Psi"
-    ],
-    "honor_societies": [
-     "Phi Beta Kappa"
-    ],
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
     "evidence": [
      {
-      "source": "Wikidata (member of)",
-      "text": "Phi Beta Kappa Society (organization, learned society, honor society, academic publisher)",
-      "url": "https://www.wikidata.org/wiki/Q1124"
+      "source": "Wikipedia article text",
+      "text": "In 2010, he and Warren Buffett founded the Giving Pledge, whereby they and other billionaires pledged to give at least half their wealth to philanthropy.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Gates"
      },
      {
       "source": "Wikipedia article text",
-      "text": "While in college, he became a brother of service fraternity Alpha Phi Omega and was elected to Phi Beta Kappa.",
-      "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      "text": "He also pledged an additional $50 million to start-up ventures working in Alzheimer's research.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Gates"
      },
      {
       "source": "Wikipedia article text",
-      "text": "He is a member of Kappa Kappa Psi honorary band fraternity.",
-      "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      "text": "One was Mission Innovation, in which 20 national governments pledged to double their spending on research and development for carbon-free energy in over five years' time.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Gates"
      }
     ]
    },
    "education": [
-    "Hot Springs High School",
-    "Yale Law School",
-    "Walsh School of Foreign Service",
-    "University College, Oxford"
+    "Lakeside School",
+    "Harvard College"
    ],
    "verified": false
   },
@@ -596,22 +605,6 @@
     "Roslyn High School",
     "University of Michigan"
    ],
-   "verified": false
-  },
-  {
-   "name": "Boris Nikolić",
-   "url": "https://en.wikipedia.org/wiki/Boris_Nikoli%C4%87",
-   "qid": "Q16088106",
-   "description": "Serbian fashion designer (1974–2008)",
-   "documents": [],
-   "schools": {},
-   "frat": {
-    "status": "no",
-    "orgs": [],
-    "honor_societies": [],
-    "evidence": []
-   },
-   "education": [],
    "verified": false
   },
   {
@@ -942,6 +935,28 @@
    "verified": false
   },
   {
+   "name": "David Copperfield (illusionist)",
+   "url": "https://en.wikipedia.org/wiki/David_Copperfield_(illusionist)",
+   "qid": "Q139637",
+   "description": "American magician (born 1956)",
+   "documents": [
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Metuchen High School",
+    "Fordham University"
+   ],
+   "verified": false
+  },
+  {
    "name": "David Gelernter",
    "url": "https://en.wikipedia.org/wiki/David_Gelernter",
    "qid": "Q92680",
@@ -993,27 +1008,6 @@
    "verified": false
   },
   {
-   "name": "David Ross (baseball)",
-   "url": "https://en.wikipedia.org/wiki/David_Ross_(baseball)",
-   "qid": "Q3018729",
-   "description": "American baseball player (born 1977)",
-   "documents": [],
-   "schools": {},
-   "frat": {
-    "status": "no",
-    "orgs": [],
-    "honor_societies": [],
-    "evidence": []
-   },
-   "education": [
-    "Florida State University School",
-    "Florida State University",
-    "Auburn University",
-    "University of Florida"
-   ],
-   "verified": false
-  },
-  {
    "name": "David Schoen",
    "url": "https://en.wikipedia.org/wiki/David_Schoen",
    "qid": "Q105416185",
@@ -1047,60 +1041,21 @@
    "verified": false
   },
   {
-   "name": "David Stern",
-   "url": "https://en.wikipedia.org/wiki/David_Stern",
-   "qid": "Q347958",
-   "description": "American businessman, lawyer, and NBA commissioner (1942–2020)",
+   "name": "David Stern (German businessman)",
+   "url": "https://en.wikipedia.org/wiki/David_Stern_(German_businessman)",
+   "qid": "Q138565282",
+   "description": "German-French businessman",
    "documents": [
     "Emails"
    ],
-   "schools": {
-    "Columbia": {
-     "status": "yes",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikidata (educated at)",
-       "text": "Columbia Law School",
-       "url": "https://www.wikidata.org/wiki/Q347958"
-      },
-      {
-       "source": "Wikipedia category",
-       "text": "Columbia Law School alumni",
-       "url": "https://en.wikipedia.org/wiki/David_Stern"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He was on the Rutgers University Board of Overseers, a Director of Jazz at Lincoln Center and chair of JALC's Marketing Committee, and was a Chair Emeritus of the Board of Trustees of Columbia University.",
-       "url": "https://en.wikipedia.org/wiki/David_Stern"
-      },
-      {
-       "source": "Wikipedia article text",
-       "text": "Stern then attended Columbia Law School, receiving a J.D. in 1966.",
-       "url": "https://en.wikipedia.org/wiki/David_Stern"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
-    "status": "possible",
-    "orgs": [
-     "Sigma Alpha Mu"
-    ],
+    "status": "no",
+    "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "After graduating from Teaneck High School in 1959, Stern went to Rutgers University, where he was a member of the Sigma Alpha Mu fraternity and graduated in 1963 with a B.A. in history.",
-      "url": "https://en.wikipedia.org/wiki/David_Stern"
-     }
-    ]
+    "evidence": []
    },
-   "education": [
-    "Teaneck High School",
-    "Columbia Law School",
-    "Rutgers University"
-   ],
+   "education": [],
    "verified": false
   },
   {
@@ -1203,74 +1158,6 @@
    },
    "education": [
     "All India Institutes of Medical Sciences"
-   ],
-   "verified": false
-  },
-  {
-   "name": "Donald Trump",
-   "url": "https://en.wikipedia.org/wiki/Donald_Trump",
-   "qid": "Q22686",
-   "description": "President of the United States (2017–2021; since 2025)",
-   "documents": [
-    "DOJ / Congressional release",
-    "Emails"
-   ],
-   "schools": {
-    "Penn": {
-     "status": "yes",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikidata (educated at)",
-       "text": "The Wharton School",
-       "url": "https://www.wikidata.org/wiki/Q22686"
-      },
-      {
-       "source": "Wikidata (educated at)",
-       "text": "University of Pennsylvania",
-       "url": "https://www.wikidata.org/wiki/Q22686"
-      },
-      {
-       "source": "Wikipedia category",
-       "text": "Wharton School alumni",
-       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
-      },
-      {
-       "source": "Wikipedia article text",
-       "text": "Born into a wealthy New York City family, Trump graduated from the University of Pennsylvania in 1968 with a bachelor's degree in economics.",
-       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
-      },
-      {
-       "source": "Wikipedia article text",
-       "text": "In his junior year, he transferred to the Wharton School of the University of Pennsylvania, most often commuting to his father's office on weekends, and graduated in May 1968 with a Bachelor of Science in economics.",
-       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
-      }
-     ]
-    }
-   },
-   "frat": {
-    "status": "possible",
-    "orgs": [],
-    "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "He pledged to deport millions of illegal immigrants residing in the U.S., and criticized birthright citizenship for incentivizing \"anchor babies\". According to an analysis in Political Science Quarterly, Trump made \"explicitly racist and sexist appeals to win over white voters\" during his 2016 presidential campaign.",
-      "url": "https://en.wikipedia.org/wiki/Donald_Trump"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "In the 2016 campaign, he pledged that Roe v. Wade would be overturned \"automatically\" if he were elected and given the opportunity to appoint two or three anti-abortion justices.",
-      "url": "https://en.wikipedia.org/wiki/Donald_Trump"
-     }
-    ]
-   },
-   "education": [
-    "The Kew-Forest School",
-    "New York Military Academy",
-    "The Wharton School",
-    "Fordham University",
-    "University of Pennsylvania"
    ],
    "verified": false
   },
@@ -1580,7 +1467,6 @@
     ]
    },
    "education": [
-    "Stanford University",
     "Smith School of Business",
     "Bryanston High School",
     "Waterkloof House Preparatory School",
@@ -1588,7 +1474,8 @@
     "Queen's University",
     "The Wharton School",
     "University of Pretoria",
-    "University of Pennsylvania"
+    "University of Pennsylvania",
+    "Stanford University"
    ],
    "verified": false
   },
@@ -1629,6 +1516,81 @@
     "evidence": []
    },
    "education": [],
+   "verified": false
+  },
+  {
+   "name": "Gary King (politician)",
+   "url": "https://en.wikipedia.org/wiki/Gary_King_(politician)",
+   "qid": "Q5525366",
+   "description": "American attorney and politician",
+   "documents": [
+    "Flight logs",
+    "Financial records"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of New Mexico School of Law",
+    "New Mexico State University",
+    "University of Colorado Boulder"
+   ],
+   "verified": false
+  },
+  {
+   "name": "George Church (geneticist)",
+   "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)",
+   "qid": "Q3298995",
+   "description": "American geneticist (born 1954)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q3298995"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Medical School alumni",
+       "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Medical School faculty",
+       "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He is the Robert Winthrop Professor of Genetics at Harvard Medical School, Professor of Health Sciences and Technology at Harvard University and Massachusetts Institute of Technology, and a founding member of the Wyss Institute for Biologically Inspired Engineering at Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Church returned to graduate work at Harvard University in 1977 under Walter Gilbert, and completed a Ph.D in biochemistry and molecular biology working on mobile genetic elements within introns of yeast mitochondrial and mouse immunoglobulin genes (1984).",
+       "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Phillips Academy",
+    "Duke University",
+    "Harvard University"
+   ],
    "verified": false
   },
   {
@@ -1805,6 +1767,57 @@
    "verified": false
   },
   {
+   "name": "Jack Horner (paleontologist)",
+   "url": "https://en.wikipedia.org/wiki/Jack_Horner_(paleontologist)",
+   "qid": "Q247264",
+   "description": "American paleontologist",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Princeton": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "After this, he helped run the family sand-and-gravel business for two years, during which he regularly sent letters to scientific institutions looking for a job, until he was admitted as a preparator at Princeton University (New Jersey) in 1975.",
+       "url": "https://en.wikipedia.org/wiki/Jack_Horner_(paleontologist)"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of Montana"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Jack Lang (French politician)",
+   "url": "https://en.wikipedia.org/wiki/Jack_Lang_(French_politician)",
+   "qid": "Q379229",
+   "description": "French politician (born 1939)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Palais de l'Université de Nancy",
+    "Paris Institute of Political Studies"
+   ],
+   "verified": false
+  },
+  {
    "name": "Jean Pigozzi",
    "url": "https://en.wikipedia.org/wiki/Jean_Pigozzi",
    "qid": "Q6171375",
@@ -1915,6 +1928,89 @@
    "verified": false
   },
   {
+   "name": "John Brockman (literary agent)",
+   "url": "https://en.wikipedia.org/wiki/John_Brockman_(literary_agent)",
+   "qid": "Q1314332",
+   "description": "American literary agent and author",
+   "documents": [],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/John_Brockman_(literary_agent)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Expanding on C. P. Snow's \"two cultures\", he introduced the \"third culture\" consisting of \"those scientists and other thinkers in the empirical world who, through their work and expository writing, are taking the place of the traditional intellectual in rendering visible the deeper meanings of our lives, redefining who and what we are.\" Brockman attended Babson Institute (now Babson College) and e",
+       "url": "https://en.wikipedia.org/wiki/John_Brockman_(literary_agent)"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "John C. Phelan",
+   "url": "https://en.wikipedia.org/wiki/John_C._Phelan",
+   "qid": "Q130564571",
+   "description": "American businessman and government official (born 1964)",
+   "documents": [
+    "Flight logs"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Business School",
+       "url": "https://www.wikidata.org/wiki/Q130564571"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q130564571"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/John_C._Phelan"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He went on to earn an MBA from Harvard Business School, in 1990.",
+       "url": "https://en.wikipedia.org/wiki/John_C._Phelan"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Southern Methodist University",
+    "London School of Economics and Political Science",
+    "Harvard Business School",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
    "name": "John de Jongh Jr.",
    "url": "https://en.wikipedia.org/wiki/John_de_Jongh_Jr.",
    "qid": "Q676489",
@@ -2004,6 +2100,116 @@
     "Osnabrück University",
     "University of Waikato",
     "Humboldt-Universität zu Berlin"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Josh Harris (businessman)",
+   "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)",
+   "qid": "Q6289885",
+   "description": "American investor and sports team owner (born 1964)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Business School",
+       "url": "https://www.wikidata.org/wiki/Q6289885"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Harris earned a degree in economics from the Wharton School at the University of Pennsylvania in 1986 and an MBA from Harvard Business School four years later, forming Apollo with Leon Black and Marc Rowan following graduation.",
+       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He left after two years to attend Harvard Business School and received a Master of Business Administration degree (MBA) as a Baker Loeb Scholar, an honor given to the top 5% of the school's graduating class, in 1990.",
+       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Harris is on the board of trustees of Mount Sinai Health System, Wharton, and Harvard Business School, and is a member of the Council on Foreign Relations think tank.",
+       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+      }
+     ]
+    },
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q6289885"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Harris earned a degree in economics from the Wharton School at the University of Pennsylvania in 1986 and an MBA from Harvard Business School four years later, forming Apollo with Leon Black and Marc Rowan following graduation.",
+       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He attended the University of Pennsylvania School of Arts and Sciences in Philadelphia before transferring as a freshman to the Wharton School to study economics after discovering an affinity for statistics.",
+       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "yes",
+    "orgs": [
+     "Phi Delta Theta",
+     "Kappa Beta Phi",
+     "Sigma Alpha Epsilon"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikidata (member of)",
+      "text": "Phi Delta Theta (fraternity)",
+      "url": "https://www.wikidata.org/wiki/Q6289885"
+     },
+     {
+      "source": "Wikidata (member of)",
+      "text": "Kappa Beta Phi (organization, honor society)",
+      "url": "https://www.wikidata.org/wiki/Q6289885"
+     },
+     {
+      "source": "Wikidata (member of)",
+      "text": "Sigma Alpha Epsilon (fraternity)",
+      "url": "https://www.wikidata.org/wiki/Q6289885"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "During summer vacations in 1983 and 1984, Harris managed operations of a lemonade stand business with locations at the National Zoo and Farragut North station in Washington, D.C. He is a member of the Sigma Alpha Epsilon fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "Harris was inducted into Kappa Beta Phi, a Wall Street fraternity, in 2011.",
+      "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+     }
+    ]
+   },
+   "education": [
+    "The Field School",
+    "The Wharton School",
+    "Harvard Business School"
    ],
    "verified": false
   },
@@ -2663,60 +2869,6 @@
    "verified": false
   },
   {
-   "name": "Les Wexner",
-   "url": "https://en.wikipedia.org/wiki/Les_Wexner",
-   "qid": "Q1675849",
-   "description": "American businessman (born 1937)",
-   "documents": [
-    "Court documents",
-    "DOJ / Congressional release",
-    "Financial records"
-   ],
-   "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 1993, Wexner hired Len Schlesinger, a Harvard Business School professor, whom he later appointed as a company director, to advise him.",
-       "url": "https://en.wikipedia.org/wiki/Les_Wexner"
-      }
-     ]
-    }
-   },
-   "frat": {
-    "status": "yes",
-    "orgs": [
-     "Sigma Alpha Mu"
-    ],
-    "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikidata (member of)",
-      "text": "Sigma Alpha Mu (fraternity)",
-      "url": "https://www.wikidata.org/wiki/Q1675849"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "While a student at Ohio State University, he joined the Sigma Alpha Mu fraternity.",
-      "url": "https://en.wikipedia.org/wiki/Les_Wexner"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "The award was presented by the Woodrow Wilson International Center for Scholars of the Smithsonian Institution in Washington, D.C. On February 16, 2011, Wexner pledged a donation of $100 million to Ohio State, to be allocated to the university's academic Medical Center and James Cancer Hospital and Solove Research Institute, with additional gifts to the Wexner Center for the Arts and other areas.",
-      "url": "https://en.wikipedia.org/wiki/Les_Wexner"
-     }
-    ]
-   },
-   "education": [
-    "Moritz College of Law",
-    "Bexley High School",
-    "Ohio State University"
-   ],
-   "verified": false
-  },
-  {
    "name": "Lisa Randall",
    "url": "https://en.wikipedia.org/wiki/Lisa_Randall",
    "qid": "Q450404",
@@ -2894,6 +3046,24 @@
    "education": [
     "Faculty of Public Administration"
    ],
+   "verified": false
+  },
+  {
+   "name": "Mariya Prusakova (snowboarder)",
+   "url": "https://en.wikipedia.org/wiki/Mariya_Prusakova_(snowboarder)",
+   "qid": "Q16689231",
+   "description": "Russian snowboarder",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
    "verified": false
   },
   {
@@ -3116,6 +3286,50 @@
     "Harvard College",
     "Princeton University",
     "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Michael Wolff (journalist)",
+   "url": "https://en.wikipedia.org/wiki/Michael_Wolff_(journalist)",
+   "qid": "Q6835425",
+   "description": "American writer (born 1953)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Columbia University",
+       "url": "https://www.wikidata.org/wiki/Q6835425"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia College, Columbia University alumni",
+       "url": "https://en.wikipedia.org/wiki/Michael_Wolff_(journalist)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He attended Vassar College and transferred to Columbia University, from which he graduated in 1975.",
+       "url": "https://en.wikipedia.org/wiki/Michael_Wolff_(journalist)"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Montclair Kimberley Academy",
+    "Vassar College",
+    "Columbia University"
    ],
    "verified": false
   },
@@ -3545,11 +3759,11 @@
     "evidence": []
    },
    "education": [
+    "Oak Lane Day School",
     "Central High School",
     "University of Pennsylvania",
     "Massachusetts Institute of Technology",
-    "Harvard University",
-    "Oak Lane Day School"
+    "Harvard University"
    ],
    "verified": false
   },
@@ -3678,28 +3892,6 @@
    "verified": false
   },
   {
-   "name": "Peter Mandelson",
-   "url": "https://en.wikipedia.org/wiki/Peter_Mandelson",
-   "qid": "Q310046",
-   "description": "British politician and diplomat (born 1953)",
-   "documents": [
-    "Emails",
-    "Financial records"
-   ],
-   "schools": {},
-   "frat": {
-    "status": "no",
-    "orgs": [],
-    "honor_societies": [],
-    "evidence": []
-   },
-   "education": [
-    "Hendon School",
-    "St Catherine's College"
-   ],
-   "verified": false
-  },
-  {
    "name": "Peter Thiel",
    "url": "https://en.wikipedia.org/wiki/Peter_Thiel",
    "qid": "Q705525",
@@ -3756,33 +3948,6 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
-  },
-  {
-   "name": "Queen Mette-Marit of Norway",
-   "url": "https://en.wikipedia.org/wiki/Queen_Mette-Marit_of_Norway",
-   "qid": "Q470362",
-   "description": "Queen of Norway since 2026",
-   "documents": [
-    "DOJ / Congressional release",
-    "Emails"
-   ],
-   "schools": {},
-   "frat": {
-    "status": "no",
-    "orgs": [],
-    "honor_societies": [],
-    "evidence": []
-   },
-   "education": [
-    "Bjørknes Private School",
-    "Wangaratta High School",
-    "Kristiansand Cathedral School",
-    "University of Agder",
-    "BI Norwegian Business School",
-    "University of Oslo",
-    "SOAS, University of London"
-   ],
    "verified": false
   },
   {
@@ -3994,12 +4159,12 @@
     ]
    },
    "education": [
+    "University of Oxford",
     "University of London Worldwide",
     "Kutama College",
     "Achimota School",
     "University of Fort Hare",
-    "University of South Africa",
-    "University of Oxford"
+    "University of South Africa"
    ],
    "verified": false
   },
@@ -4570,32 +4735,6 @@
    "verified": false
   },
   {
-   "name": "Thorbjørn Jagland",
-   "url": "https://en.wikipedia.org/wiki/Thorbj%C3%B8rn_Jagland",
-   "qid": "Q209611",
-   "description": "Norwegian politician (born 1950)",
-   "documents": [
-    "Emails"
-   ],
-   "schools": {},
-   "frat": {
-    "status": "possible",
-    "orgs": [],
-    "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "The whole of my remaining realizable estate shall be dealt with in the following way...the capital, invested in safe securities by my executors, shall constitute a fund, the interest on which shall be annually distributed in the form of prizes to those who, during the preceding year, shall have conferred the greatest benefit to mankind... and one part to the person who shall have done the most or ",
-      "url": "https://en.wikipedia.org/wiki/Thorbj%C3%B8rn_Jagland"
-     }
-    ]
-   },
-   "education": [
-    "University of Oslo"
-   ],
-   "verified": false
-  },
-  {
    "name": "Todd Boehly",
    "url": "https://en.wikipedia.org/wiki/Todd_Boehly",
    "qid": "Q56513174",
@@ -4695,6 +4834,25 @@
    "education": [
     "Diplomatic Academy of the Ministry of Foreign Affairs of the Russian Federation",
     "Moscow State Institute of International Relations"
+   ],
+   "verified": false
+  },
+  {
+   "name": "William J. Burns (diplomat)",
+   "url": "https://en.wikipedia.org/wiki/William_J._Burns_(diplomat)",
+   "qid": "Q1276563",
+   "description": "American diplomat (born 1956)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "La Salle University",
+    "St John's College"
    ],
    "verified": false
   },
