@@ -1,8 +1,9 @@
 {
  "meta": {
-  "generated": "2026-09-30T18:32:20+00:00",
+  "generated": "2026-09-30T18:45:03+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
+  "member_list_error": "Traceback (most recent call last):\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/run.py\", line 110, in main\n    listed = lookup(set(pages), existing)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/member_lists.py\", line 178, in lookup\n    canon = resolve(sorted(all_links))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/member_lists.py\", line 79, in existing\n    q = wp({\"action\": \"query\", \"titles\": \"|\".join(batch), \"redirects\": 1}).get(\"query\", {})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/common.py\", line 34, in wp\n    return get_json(WP_API, base, post=len(str(params.get(\"titles\", \"\"))) > 1500)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/common.py\", line 20, in get_json\n    raise requests.HTTPError(f\"HTTP {r.status_code}\")\nrequests.exceptions.HTTPError: HTTP 429\n",
   "counts": {
    "people": 210,
    "epstein": 152,
@@ -46,9 +47,9 @@
      "possible": 0
     }
    },
-   "frat_yes": 18,
+   "frat_yes": 19,
    "frat_possible": 0,
-   "orgs_yes": 0,
+   "orgs_yes": 2,
    "orgs_possible": 11
   }
  },
@@ -2410,6 +2411,19 @@
        "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer"
       }
      ]
+    },
+    {
+     "evidence": [
+      {
+       "source": "The Daily Princetonian",
+       "text": "An activist USG chairman who led a student campaign for divestment from South Africa.",
+       "url": "https://www.dailyprincetonian.com/article/2011/05/after-scandal-spitzer-81-rebounds"
+      }
+     ],
+     "school": "Princeton",
+     "name": "Princeton Undergraduate Student Government",
+     "kind": "political",
+     "status": "yes"
     }
    ],
    "education": [
@@ -2418,7 +2432,7 @@
     "Harvard Law School",
     "Princeton University"
    ],
-   "verified": false,
+   "verified": true,
    "colleges": [
     "Harvard University",
     "Princeton University"
@@ -4595,19 +4609,42 @@
    ],
    "schools": {},
    "frat": {
-    "status": "no",
-    "orgs": [],
+    "status": "yes",
+    "orgs": [
+     "Sigma Alpha Mu"
+    ],
     "honor_societies": [],
-    "evidence": []
+    "evidence": [
+     {
+      "source": "Her Campus Bucknell",
+      "text": "He was a member of Sigma Alpha Mu fraternity.",
+      "url": "https://www.hercampus.com/school/bucknell/les-moonves-cap-and-dagger-cbs-0/"
+     }
+    ]
    },
-   "orgs": [],
+   "orgs": [
+    {
+     "evidence": [
+      {
+       "source": "Her Campus Bucknell",
+       "text": "Performed with Cap and Dagger, Bucknell's theatre society.",
+       "url": "https://www.hercampus.com/school/bucknell/les-moonves-cap-and-dagger-cbs-0/"
+      }
+     ],
+     "school": "Bucknell",
+     "name": "Cap and Dagger",
+     "kind": "club",
+     "status": "yes"
+    }
+   ],
    "education": [
     "Valley Stream Central High School",
     "The Center for Early Education",
     "Bucknell University",
     "Neighborhood Playhouse School of the Theatre"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Sigma Alpha Mu and Cap and Dagger (theatre society) at Bucknell.",
    "colleges": [
     "Bucknell University"
    ]

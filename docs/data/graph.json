@@ -765,6 +765,18 @@
    "cases": []
   },
   {
+   "id": "p:Les Moonves",
+   "type": "person",
+   "label": "Les Moonves",
+   "name": "Les Moonves",
+   "description": "American actor and television executive (born 1949)",
+   "url": "https://en.wikipedia.org/wiki/Les_Moonves",
+   "epstein": false,
+   "cases": [
+    "Moonves misconduct allegations"
+   ]
+  },
+  {
    "id": "p:Les Wexner",
    "type": "person",
    "label": "Les Wexner",
@@ -1813,12 +1825,20 @@
    "id": "f:Sigma Alpha Mu",
    "type": "frat",
    "label": "Sigma Alpha Mu",
-   "count": 4
+   "count": 5
   },
   {
    "id": "f:Sigma Phi Epsilon",
    "type": "frat",
    "label": "Sigma Phi Epsilon",
+   "count": 1
+  },
+  {
+   "id": "o:Cap and Dagger",
+   "type": "club",
+   "kind": "club",
+   "school": "Bucknell",
+   "label": "Cap and Dagger",
    "count": 1
   },
   {
@@ -1836,6 +1856,14 @@
    "school": null,
    "label": "Phi Beta Kappa",
    "count": 3
+  },
+  {
+   "id": "o:Princeton Undergraduate Student Government",
+   "type": "club",
+   "kind": "political",
+   "school": "Princeton",
+   "label": "Princeton Undergraduate Student Government",
+   "count": 1
   }
  ],
  "links": [
@@ -2850,6 +2878,11 @@
    "kind": "frat"
   },
   {
+   "source": "p:Les Moonves",
+   "target": "f:Sigma Alpha Mu",
+   "kind": "frat"
+  },
+  {
    "source": "p:Les Wexner",
    "target": "f:Sigma Alpha Mu",
    "kind": "frat"
@@ -2870,6 +2903,11 @@
    "kind": "frat"
   },
   {
+   "source": "p:Les Moonves",
+   "target": "o:Cap and Dagger",
+   "kind": "club"
+  },
+  {
    "source": "p:Marvin Minsky",
    "target": "o:Harvard Society of Fellows",
    "kind": "club"
@@ -2888,13 +2926,18 @@
    "source": "p:Robert Lawrence Kuhn",
    "target": "o:Phi Beta Kappa",
    "kind": "club"
+  },
+  {
+   "source": "p:Eliot Spitzer",
+   "target": "o:Princeton Undergraduate Student Government",
+   "kind": "club"
   }
  ],
  "counts": {
-  "people_linked": 135,
-  "people_unlinked": 75,
+  "people_linked": 136,
+  "people_unlinked": 74,
   "colleges": 43,
   "frats": 15,
-  "clubs": 2
+  "clubs": 4
  }
 }
