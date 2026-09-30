@@ -190,9 +190,12 @@ def lookup(person_titles):
         for line in member_lines(text, whole):
             if re.search(r"honorary|honoris", line, re.I):
                 continue
-            for m in LINK_RE.finditer(line):
+            # Only the line's first person link counts: later links are usually context
+            # ("attorney to President Bill Clinton", "daughter of Donald Trump").
+            m = LINK_RE.search(line)
+            if m:
                 target = m.group(1).strip()
-                if target and norm_title(target) in alias:
+                if norm_title(target) in alias and not re.search(r"\b(?:son|daughter|wife|husband|father|mother|brother|sister) of\b", line[:m.start()], re.I):
                     hits.append((target, line))
         per_source.append((org, kind, school, title, hits))
     out = {}

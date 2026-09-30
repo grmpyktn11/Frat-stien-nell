@@ -228,3 +228,10 @@ Founded by [[Founder Person]].
     assert not any("Founder Person" in l or "Ref Person" in l or "Critic" in l for l in lines)
     assert clean_line("* [[Bill Clinton|Clinton]] – 42nd President<ref>x</ref>") == "Clinton – 42nd President"
     assert norm_title("bill_clinton") == "Bill clinton"
+
+
+def test_member_list_first_link_only():
+    import member_lists
+    lines = ["* [[David E. Kendall]] (Alpha-Pi), Attorney to President [[Bill Clinton]]", "* [[Bill Clinton]], President"]
+    firsts = [member_lists.LINK_RE.search(l).group(1) for l in lines]
+    assert firsts == ["David E. Kendall", "Bill Clinton"]
