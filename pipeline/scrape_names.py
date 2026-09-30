@@ -67,7 +67,8 @@ def parse_wikitext(wikitext):
             if len(plain) <= 3 or re.fullmatch(r"[A-Z]\s*[–-]\s*[A-Z]", plain):
                 current = None
                 continue
-            current = {"title": first_link(text) or plain, "context": ""}
+            current = {"title": first_link(text) or plain, "context": "", "from_heading": True,
+                       "linked": bool(first_link(text))}
             entries.append(current)
             continue
         if stop:
@@ -89,8 +90,30 @@ def parse_wikitext(wikitext):
         if current is not None:
             current["context"] += " " + line
     for e in entries:
+        if e.pop("from_heading", False) and not e.get("linked"):
+            e["title"] = pick_body_link(e["title"], e["context"]) or e["title"]
+        e.pop("linked", None)
         e["context"] = strip_markup(e["context"])[:4000]
     return entries
+
+
+MAIN_TPL_RE = re.compile(r"\{\{\s*(?:Main|Main article|Further|See also)\s*\|([^|}]+)", re.I)
+
+
+def pick_body_link(name, body):
+    """For a plain-text heading, find the article link that refers to the same person
+    (e.g. heading 'David Copperfield' -> [[David Copperfield (illusionist)]])."""
+    name_l = name.lower()
+    surname = name_l.split()[-1] if name_l.split() else name_l
+    m = MAIN_TPL_RE.search(body)
+    if m and surname in m.group(1).lower():
+        return m.group(1).strip()
+    for lm in re.finditer(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]", body):
+        target, label = lm.group(1).strip(), (lm.group(2) or "").strip()
+        base = re.sub(r"\s*\(.*\)$", "", target).lower()
+        if base == name_l or label.lower() == name_l or (target.lower().startswith(name_l) and "(" in target):
+            return target
+    return None
 
 
 def fetch_source_wikitext():

@@ -111,5 +111,17 @@ def test_frat_wikidata_yes():
 
 def test_exclusion():
     assert exclusion_reason(page(desc="American sex trafficking survivor"), "")
-    assert exclusion_reason(page(), "She worked as Epstein's assistant for years.")
+    assert exclusion_reason(page("Jane Doe is an American who worked as Epstein's assistant."), "")
+    assert exclusion_reason(page(desc="Microsoft co-founder"), "Gates met Epstein's assistant.") is None
     assert exclusion_reason(page(desc="American businessman"), "flight logs") is None
+
+
+def test_heading_uses_body_link_for_disambiguated_name():
+    wt = """== C ==
+=== David Copperfield ===
+{{Main|David Copperfield (illusionist)}}
+Named in testimony.
+=== George Church ===
+[[George Church (geneticist)|George Church]], a Harvard professor, attended dinners.
+"""
+    assert titles(wt) == ["David Copperfield (illusionist)", "George Church (geneticist)"]

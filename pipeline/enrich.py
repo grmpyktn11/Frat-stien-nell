@@ -85,15 +85,31 @@ def resolve_titles(titles):
             t2 = norm.get(t, t)
             t3 = redir.get(t2, t2)
             out[t] = None if t3 in missing else t3
+    # Disambiguation pages don't identify a person: search instead.
+    resolved = [v for v in out.values() if v]
+    disamb = set()
+    for batch in chunks(resolved, 50):
+        data = wp({"action": "query", "titles": "|".join(batch), "prop": "pageprops", "ppprop": "disambiguation"})
+        disamb |= {p["title"] for p in data["query"]["pages"] if "disambiguation" in p.get("pageprops", {})}
     for t, v in out.items():
-        if v is None:
-            clean = re.sub(r"^(Dr|Sir|Lord|Lady|Prof)\.?\s+", "", t)
-            res = wp({"action": "query", "list": "search", "srsearch": clean, "srlimit": 1})
-            hits = res["query"]["search"]
-            surname = clean.split()[-1].lower() if clean.split() else ""
-            if hits and surname and surname in hits[0]["title"].lower():
-                out[t] = hits[0]["title"]
+        if v is None or v in disamb:
+            out[t] = search_person(t)
     return out
+
+
+def search_person(name):
+    """Find the article for a person named in the Epstein files; the right article mentions Epstein."""
+    clean = re.sub(r"^(Dr|Sir|Lord|Lady|Prof)\.?\s+", "", name).strip()
+    words = clean.lower().split()
+    if not words:
+        return None
+    res = wp({"action": "query", "list": "search", "srsearch": f'"{clean}" Epstein', "srlimit": 5,
+              "srnamespace": 0})
+    for hit in res["query"]["search"]:
+        title = hit["title"].lower()
+        if all(w in title for w in (words[0], words[-1])) and "list of" not in title:
+            return hit["title"]
+    return None
 
 
 def fetch_page(title):
@@ -223,6 +239,8 @@ def exclusion_reason(page, entry_context):
     lead = page["text"][:600]
     if EXCLUDE_DESC_RE.search(lead) and re.search(r"Epstein", lead):
         return "article lead describes a victim/survivor"
-    if STAFF_CTX_RE.search(entry_context) or STAFF_CTX_RE.search(lead):
+    # Only the person's own description/lead defines them as staff; entry text mentions
+    # staff incidentally (e.g. "met through Epstein's assistant").
+    if STAFF_CTX_RE.search(page["description"]) or STAFF_CTX_RE.search(lead[:300]):
         return "described as Epstein staff"
     return None
