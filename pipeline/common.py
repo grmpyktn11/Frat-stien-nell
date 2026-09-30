@@ -11,12 +11,15 @@ _session = requests.Session()
 _session.headers.update({"User-Agent": UA})
 
 
-def get_json(url, params, retries=4, pause=0.1, post=False):
+def get_json(url, params, retries=6, pause=0.15, post=False):
     for attempt in range(retries):
         try:
             r = (_session.post(url, data=params, timeout=60) if post
                  else _session.get(url, params=params, timeout=60))
-            if r.status_code == 429 or r.status_code >= 500:
+            if r.status_code == 429:
+                time.sleep(min(60, float(r.headers.get("Retry-After", 5) or 5)))
+                raise requests.HTTPError("HTTP 429")
+            if r.status_code >= 500:
                 raise requests.HTTPError(f"HTTP {r.status_code}")
             r.raise_for_status()
             time.sleep(pause)

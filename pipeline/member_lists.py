@@ -64,6 +64,27 @@ CATEGORY_CANDIDATES = [
 ]
 
 
+def norm_title(t):
+    t = re.sub(r"[_\s]+", " ", t).strip()
+    return t[:1].upper() + t[1:] if t else t
+
+
+def aliases_for(titles):
+    """Map every redirect title (and the title itself) to our canonical person title."""
+    out = {norm_title(t): t for t in titles}
+    for batch in chunks(sorted(titles), 50):
+        params = {"action": "query", "titles": "|".join(batch), "prop": "redirects", "rdlimit": "max", "rdnamespace": 0}
+        while True:
+            res = wp(params)
+            for p in res.get("query", {}).get("pages", []):
+                for r in p.get("redirects", []):
+                    out[norm_title(r["title"])] = p["title"]
+            if "continue" not in res:
+                break
+            params = {**params, **res["continue"]}
+    return out
+
+
 def list_titles_for(org):
     base = org.replace("–", "-")
     return [f"List of {base} {w}" for w in ("members", "brothers", "sisters", "people", "alumni")]
@@ -133,9 +154,10 @@ def org_for_list_title(title):
     return m.group(1).strip() if m else None
 
 
-def lookup(person_titles, resolve):
-    """person_titles: set of our people's Wikipedia titles. resolve(list_of_titles) -> {title: canonical}.
+def lookup(person_titles):
+    """person_titles: set of our people's Wikipedia titles.
     Returns {person_title: [ {name, kind, school, evidence} ]}."""
+    alias = aliases_for(person_titles)
     sources = []  # (org_name, kind, school, page_title, whole_page)
     greek_lists = existing([t for g in GREEK_ORGS for t in list_titles_for(g)])
     for req, real in greek_lists.items():
@@ -162,7 +184,6 @@ def lookup(person_titles, resolve):
 
     # Gather candidate links per source, resolve them in bulk, keep those that are our people.
     per_source = []
-    all_links = set()
     for org, kind, school, title, whole in sources:
         text = wikitext(title)
         hits = []
@@ -171,15 +192,13 @@ def lookup(person_titles, resolve):
                 continue
             for m in LINK_RE.finditer(line):
                 target = m.group(1).strip()
-                if target and not target.lower().startswith(("file:", "image:", "category:")):
+                if target and norm_title(target) in alias:
                     hits.append((target, line))
-                    all_links.add(target)
         per_source.append((org, kind, school, title, hits))
-    canon = resolve(sorted(all_links))
     out = {}
     for org, kind, school, title, hits in per_source:
         for target, line in hits:
-            t = canon.get(target)
+            t = alias.get(norm_title(target))
             if t in person_titles:
                 rec = out.setdefault(t, {})
                 if org not in rec:

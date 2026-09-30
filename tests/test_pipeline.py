@@ -6,6 +6,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "pipelin
 from enrich import detect_ivy, detect_school, detect_frat, exclusion_reason  # noqa: E402
 from graph import build_graph, canonical_institution  # noqa: E402
 from orgs import detect_orgs  # noqa: E402
+from member_lists import member_lines, clean_line, norm_title  # noqa: E402
 from scrape_names import parse_wikitext  # noqa: E402
 
 HEADING_STYLE = """Intro text.
@@ -210,3 +211,20 @@ def test_detect_orgs():
     assert names["Skull and Bones"]["kind"] == "society" and names["Skull and Bones"]["status"] == "possible"
     r = detect_orgs(page(cats=["Members of Skull and Bones"]), {})
     assert r[0]["status"] == "yes"
+
+
+def test_member_list_parsing():
+    wt = """Intro mentions [[Critic Person]].
+== History ==
+Founded by [[Founder Person]].
+== Notable members ==
+* [[Bill Clinton]] – 42nd President
+* [[Honorary Guy]] (honorary)
+== References ==
+* [[Ref Person]]
+"""
+    lines = [l for l in member_lines(wt, False)]
+    assert any("Bill Clinton" in l for l in lines)
+    assert not any("Founder Person" in l or "Ref Person" in l or "Critic" in l for l in lines)
+    assert clean_line("* [[Bill Clinton|Clinton]] – 42nd President<ref>x</ref>") == "Clinton – 42nd President"
+    assert norm_title("bill_clinton") == "Bill clinton"

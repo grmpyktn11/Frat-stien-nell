@@ -11,7 +11,7 @@ from enrich import (  # noqa: E402
 )
 from graph import build_graph, person_colleges  # noqa: E402
 from orgs import detect_orgs  # noqa: E402
-from member_lists import existing, lookup  # noqa: E402
+from member_lists import lookup  # noqa: E402
 from scrape_names import SOURCE_PAGE, classify, get_entries  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -107,7 +107,7 @@ def main():
     facts = wikidata_facts(sorted({p["qid"] for p in pages.values() if p["qid"]}))
     member_list_error = None
     try:
-        listed = lookup(set(pages), existing)
+        listed = lookup(set(pages))
     except Exception as exc:  # keep the run going; report in meta
         import traceback
         member_list_error = traceback.format_exc()[-2000:]
