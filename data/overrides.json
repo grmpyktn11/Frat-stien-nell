@@ -1,1 +1,61 @@
-{}
+{
+ "Al Seckel": {
+  "schools": {"Cornell": {"status": "yes"}},
+  "note": "Attended Cornell 1976–78, left without a degree (Wikipedia).",
+  "verified": true
+ },
+ "Edward Jay Epstein": {
+  "schools": {"Cornell": {"status": "yes"}, "Harvard": {"status": "yes"}},
+  "note": "B.A. and M.A. in government from Cornell; Ph.D. from Harvard. No relation to Jeffrey Epstein.",
+  "verified": true
+ },
+ "Noam Chomsky": {
+  "schools": {"Penn": {"status": "yes"}, "Harvard": {"status": "yes"}},
+  "note": "Degrees (B.A., M.A., Ph.D.) from Penn. At Harvard he was a Junior Fellow in the Society of Fellows (1951–55), not a degree student.",
+  "verified": true
+ },
+ "Kenneth Mapp": {
+  "schools": {"Harvard": {"status": "yes"}},
+  "note": "Harvard Kennedy School: executive programs and fellowships, not a degree program.",
+  "verified": true
+ },
+ "Bill Clinton": {
+  "frat": {"status": "yes", "orgs": ["Alpha Phi Omega", "Kappa Kappa Psi"]},
+  "note": "Alpha Phi Omega is a service fraternity (joined at Georgetown); Kappa Kappa Psi is an honorary band fraternity. Phi Beta Kappa (honor society) not counted.",
+  "verified": true
+ },
+ "Doug Band": {
+  "frat": {"status": "yes", "orgs": ["Sigma Phi Epsilon"]},
+  "verified": true
+ },
+ "Mark Zuckerberg": {
+  "frat": {"status": "yes", "orgs": ["Alpha Epsilon Pi"]},
+  "note": "Member of Alpha Epsilon Pi at Harvard.",
+  "verified": true
+ },
+ "Ken Starr": {
+  "frat": {"status": "yes", "orgs": ["Delta Phi Epsilon"]},
+  "note": "Delta Phi Epsilon is a professional foreign-service fraternity, joined at George Washington University.",
+  "verified": true
+ },
+ "Les Wexner": {
+  "frat": {"status": "yes", "orgs": ["Sigma Alpha Mu"]},
+  "note": "Joined at Ohio State University.",
+  "verified": true
+ },
+ "Bill Richardson": {
+  "frat": {"status": "yes", "orgs": ["Delta Tau Delta"]},
+  "note": "Member and president of Delta Tau Delta at Tufts.",
+  "verified": true
+ },
+ "Stacey Plaskett": {
+  "frat": {"status": "yes", "orgs": ["Delta Sigma Theta"]},
+  "note": "Sorority. Initiated through the St. Croix Alumnae Chapter in 2019, not as a student.",
+  "verified": true
+ },
+ "Josh Harris (businessman)": {
+  "frat": {"status": "yes", "orgs": ["Sigma Alpha Epsilon", "Phi Delta Theta"]},
+  "note": "Wikipedia article text names Sigma Alpha Epsilon; Wikidata also lists Phi Delta Theta. Kappa Beta Phi is a Wall Street honor society, not counted.",
+  "verified": false
+ }
+}

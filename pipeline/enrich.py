@@ -8,7 +8,8 @@ GREEK = (
     "Omicron|Pi|Rho|Sigma|Tau|Upsilon|Phi|Chi|Psi|Omega"
 )
 GREEK_ORG_RE = re.compile(rf"\b(?:(?:{GREEK})\s+){{1,3}}(?:{GREEK})\b")
-FRAT_WORD_RE = re.compile(r"\b(fraternity|fraternities|sorority|frat brother|pledged)\b", re.I)
+FRAT_WORD_RE = re.compile(r"\b(fraternity|fraternities|sorority|sororities|frat)\b", re.I)
+FRAT_MEMBER_RE = re.compile(r"\b(member|joined|brother|sister|pledge[sd]?|initiated|belonged|president of|rushed)\b", re.I)
 
 # Academic honor / professional societies: Greek-lettered but not social frats.
 HONOR_SOCIETIES = {
@@ -38,17 +39,24 @@ IVY = {
         r"Annenberg School for Communication|\bUPenn\b"
     ),
     "Princeton": r"Princeton University|Princeton School of Public|Woodrow Wilson School",
-    "Yale": r"Yale(?! Club)",
+    "Yale": r"Yale(?! Club|-China| Club)",
 }
 IVY_RE = {k: re.compile(v) for k, v in IVY.items()}
 
 ATTEND = (
     r"(?:graduat\w*|attend\w*|studi\w*|enroll\w*|degree|alumn\w*|matriculat\w*|"
     r"B\.?A\.?|B\.?S\.?|M\.?B\.?A\.?|J\.?D\.?|Ph\.?D\.?|M\.?D\.?|LL\.?[BM]\.?|A\.?B\.?|"
-    r"bachelor'?s?|master'?s?|doctorate|transferr\w*|dropped out|educated|admitted)"
+    r"bachelor'?s?|master'?s?|doctorate|transferr\w*|dropped out|educated)"
 )
 ATTEND_BEFORE = rf"\b{ATTEND}\b[^;]{{0,90}}?"
 ATTEND_AFTER = r"[^;]{0,20}?\b(?:graduate|alumn\w*|dropout|class of|degree)\b"
+HONORARY_RE = re.compile(r"\bhonorary\b|honoris causa", re.I)
+RELATIVE_RE = re.compile(
+    r"\b(?:his|her|their|\w+'s)\s+(?:father|mother|wife|husband|son|daughter|brother|sister|"
+    r"parents|children|child|spouse|partner|grandfather|grandmother)\b"
+    r"|\bmarried to\b",
+    re.I,
+)
 FACULTY_RE = re.compile(r"(professor|faculty|taught|lecturer|trustee|chair of|dean|fellow)", re.I)
 
 EXCLUDE_DESC_RE = re.compile(r"\b(victim|survivor|accuser|abuse advocate)\b", re.I)
@@ -68,8 +76,9 @@ def canonical_org(name):
     return re.sub(r"\s+", " ", name).strip()
 
 
-def is_honor(org):
-    return org.lower() in HONOR_SOCIETIES
+def is_honor(org, types=""):
+    o = org.lower()
+    return any(h in o for h in HONOR_SOCIETIES) or "honor society" in types.lower() or "honour society" in types.lower()
 
 
 def resolve_titles(titles):
@@ -178,13 +187,24 @@ def detect_school(page, wd, school):
             elif re.search(r"faculty|trustees|fellows|staff", c, re.I):
                 faculty = True
                 evidence.append({"source": "Wikipedia category", "text": c, "url": page["url"]})
-    attend_rx = re.compile(rf"{ATTEND_BEFORE}(?:{rx.pattern})|(?:{rx.pattern}){ATTEND_AFTER}", re.I)
+    before_rx = re.compile(rf"\b{ATTEND}\b", re.I)
+    after_rx = re.compile(ATTEND_AFTER, re.I)
     for s in sentences_with(page["text"], rx.pattern):
-        if attend_rx.search(s):
+        if HONORARY_RE.search(s) or RELATIVE_RE.search(s):
+            continue  # honorary degrees and relatives' schooling don't count
+        kind = None
+        for m in rx.finditer(s):
+            if FACULTY_RE.search(s[max(0, m.start() - 45):m.start()]):
+                kind = kind or "faculty"
+            elif before_rx.search(s[max(0, m.start() - 90):m.start()]) or after_rx.match(s[m.end():m.end() + 25]):
+                kind = "attend"
+        if kind is None and FACULTY_RE.search(s):
+            kind = "faculty"
+        if kind == "attend":
             if status == "no":
                 status = "possible"
             evidence.append({"source": "Wikipedia article text", "text": s[:400], "url": page["url"]})
-        elif FACULTY_RE.search(s):
+        elif kind == "faculty":
             faculty = True
             evidence.append({"source": "Wikipedia article text (faculty/other)", "text": s[:400], "url": page["url"]})
     return {"status": status, "faculty": faculty, "evidence": evidence[:5]}
@@ -207,7 +227,7 @@ def detect_frat(page, wd):
         types = " ".join(m["types"]).lower()
         label = m["label"]
         greek = GREEK_ORG_RE.fullmatch(label.strip()) or GREEK_ORG_RE.match(label)
-        if is_honor(label):
+        if is_honor(label, types):
             honors.append(label)
         elif "fraternit" in types or "sororit" in types or "greek" in types or greek:
             status = "yes"
@@ -224,7 +244,7 @@ def detect_frat(page, wd):
         found = [canonical_org(x) for x in GREEK_ORG_RE.findall(s)]
         social = [o for o in found if not is_honor(o)]
         honors += [o for o in found if is_honor(o)]
-        if social or FRAT_WORD_RE.search(s):
+        if social or (FRAT_WORD_RE.search(s) and FRAT_MEMBER_RE.search(s)):
             if status == "no":
                 status = "possible"
             orgs += social

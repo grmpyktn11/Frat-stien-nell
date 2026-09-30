@@ -128,3 +128,25 @@ Flight logs.
 [[George Church (geneticist)|George Church]], a Harvard professor, attended dinners.
 """
     assert titles(wt) == ["David Copperfield (illusionist)", "Bill Clinton", "George Church (geneticist)"]
+
+
+def test_ivy_false_positive_patterns():
+    txt = ("Ariely was born while his father was studying for an MBA at Columbia University. "
+           "In 2015, Kamen received an honorary Doctor of Engineering degree from Yale University. "
+           "Black is married to Debra Ressler, a 1976 Barnard College graduate. "
+           "He was admitted as a preparator at Princeton University in 1975.")
+    assert detect_ivy(page(txt), {}) == {}
+    r = detect_ivy(page("After her graduate work at Harvard, Randall held professorships at MIT and Princeton University."), {})
+    assert r["Harvard"]["status"] == "possible"
+    assert r["Princeton"]["status"] == "no" and r["Princeton"]["faculty"]
+    assert detect_ivy(page(), {"educated_at": [{"id": "Q1", "label": "Yale-China Chinese Language Center"}]}) == {}
+
+
+def test_frat_false_positive_patterns():
+    txt = ("Musk pledged $1 billion of funding. The prize goes to whoever does the most for fraternity between nations. "
+           "Upon assuming office, Bryan pledged to fill his cabinet.")
+    assert detect_frat(page(txt), {})["status"] == "no"
+    wd = {"member_of": [{"id": "Q1", "label": "Phi Beta Kappa Society", "types": ["honor society"]},
+                        {"id": "Q2", "label": "Kappa Beta Phi", "types": ["organization", "honor society"]}]}
+    r = detect_frat(page(), wd)
+    assert r["status"] == "no" and len(r["honor_societies"]) == 2
