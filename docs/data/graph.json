@@ -31,6 +31,18 @@
    "cases": []
   },
   {
+   "id": "p:Andrew Cuomo",
+   "type": "person",
+   "label": "Andrew Cuomo",
+   "name": "Andrew Cuomo",
+   "description": "American lawyer and politician (born 1957)",
+   "url": "https://en.wikipedia.org/wiki/Andrew_Cuomo",
+   "epstein": false,
+   "cases": [
+    "Cuomo harassment report"
+   ]
+  },
+  {
    "id": "p:Andrew Farkas (businessman)",
    "type": "person",
    "label": "Andrew Farkas",
@@ -39,6 +51,18 @@
    "url": "https://en.wikipedia.org/wiki/Andrew_Farkas_(businessman)",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Andrew Fastow",
+   "type": "person",
+   "label": "Andrew Fastow",
+   "name": "Andrew Fastow",
+   "description": "American convicted felon and financier",
+   "url": "https://en.wikipedia.org/wiki/Andrew_Fastow",
+   "epstein": false,
+   "cases": [
+    "Enron"
+   ]
   },
   {
    "id": "p:Andrés Pastrana Arango",
@@ -81,6 +105,18 @@
    "cases": []
   },
   {
+   "id": "p:Bernie Madoff",
+   "type": "person",
+   "label": "Bernie Madoff",
+   "name": "Bernie Madoff",
+   "description": "American financier and con artist (1938–2021)",
+   "url": "https://en.wikipedia.org/wiki/Bernie_Madoff",
+   "epstein": false,
+   "cases": [
+    "Madoff Ponzi scheme"
+   ]
+  },
+  {
    "id": "p:Bill Clinton",
    "type": "person",
    "label": "Bill Clinton",
@@ -89,6 +125,18 @@
    "url": "https://en.wikipedia.org/wiki/Bill_Clinton",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Bill Cosby",
+   "type": "person",
+   "label": "Bill Cosby",
+   "name": "Bill Cosby",
+   "description": "American entertainer (born 1937)",
+   "url": "https://en.wikipedia.org/wiki/Bill_Cosby",
+   "epstein": false,
+   "cases": [
+    "Cosby sexual assault case"
+   ]
   },
   {
    "id": "p:Bill Gates",
@@ -101,12 +149,34 @@
    "cases": []
   },
   {
+   "id": "p:Bill O'Reilly (political commentator)",
+   "type": "person",
+   "label": "Bill O'Reilly",
+   "name": "Bill O'Reilly (political commentator)",
+   "description": "American television host and writer (born 1949)",
+   "url": "https://en.wikipedia.org/wiki/Bill_O%27Reilly_(political_commentator)",
+   "epstein": false,
+   "cases": [
+    "Fox News harassment scandal"
+   ]
+  },
+  {
    "id": "p:Bill Richardson",
    "type": "person",
    "label": "Bill Richardson",
    "name": "Bill Richardson",
    "description": "American politician (1947–2023)",
    "url": "https://en.wikipedia.org/wiki/Bill_Richardson",
+   "epstein": true,
+   "cases": []
+  },
+  {
+   "id": "p:Bobby Kotick",
+   "type": "person",
+   "label": "Bobby Kotick",
+   "name": "Bobby Kotick",
+   "description": "American businessman and former CEO of Activision Blizzard",
+   "url": "https://en.wikipedia.org/wiki/Bobby_Kotick",
    "epstein": true,
    "cases": []
   },
@@ -131,6 +201,18 @@
    "cases": []
   },
   {
+   "id": "p:Caroline Ellison",
+   "type": "person",
+   "label": "Caroline Ellison",
+   "name": "Caroline Ellison",
+   "description": "American business executive and convicted fraudster (born 1994)",
+   "url": "https://en.wikipedia.org/wiki/Caroline_Ellison",
+   "epstein": false,
+   "cases": [
+    "FTX collapse"
+   ]
+  },
+  {
    "id": "p:Casey Wasserman",
    "type": "person",
    "label": "Casey Wasserman",
@@ -139,6 +221,30 @@
    "url": "https://en.wikipedia.org/wiki/Casey_Wasserman",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Charles Kushner",
+   "type": "person",
+   "label": "Charles Kushner",
+   "name": "Charles Kushner",
+   "description": "American real-estate developer and diplomat (born 1954)",
+   "url": "https://en.wikipedia.org/wiki/Charles_Kushner",
+   "epstein": false,
+   "cases": [
+    "Kushner tax and tampering case"
+   ]
+  },
+  {
+   "id": "p:Charlie Javice",
+   "type": "person",
+   "label": "Charlie Javice",
+   "name": "Charlie Javice",
+   "description": "French and American businesswoman and convicted felon (born 1993)",
+   "url": "https://en.wikipedia.org/wiki/Charlie_Javice",
+   "epstein": false,
+   "cases": [
+    "Frank / JPMorgan fraud"
+   ]
   },
   {
    "id": "p:Corina Tarnita",
@@ -181,6 +287,18 @@
    "cases": []
   },
   {
+   "id": "p:David Petraeus",
+   "type": "person",
+   "label": "David Petraeus",
+   "name": "David Petraeus",
+   "description": "American U.S. Army general (born 1952)",
+   "url": "https://en.wikipedia.org/wiki/David_Petraeus",
+   "epstein": false,
+   "cases": [
+    "Petraeus classified-information case"
+   ]
+  },
+  {
    "id": "p:David Schoen",
    "type": "person",
    "label": "David Schoen",
@@ -189,6 +307,18 @@
    "url": "https://en.wikipedia.org/wiki/David_Schoen",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Do Kwon",
+   "type": "person",
+   "label": "Do Kwon",
+   "name": "Do Kwon",
+   "description": "South Korean convicted felon (born 1991)",
+   "url": "https://en.wikipedia.org/wiki/Do_Kwon",
+   "epstein": false,
+   "cases": [
+    "Terra-Luna collapse"
+   ]
   },
   {
    "id": "p:Donald Trump",
@@ -241,6 +371,18 @@
    "cases": []
   },
   {
+   "id": "p:Eliot Spitzer",
+   "type": "person",
+   "label": "Eliot Spitzer",
+   "name": "Eliot Spitzer",
+   "description": "Governor of New York from 2007 to 2008",
+   "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer",
+   "epstein": false,
+   "cases": [
+    "Spitzer prostitution scandal"
+   ]
+  },
+  {
    "id": "p:Elisa New",
    "type": "person",
    "label": "Elisa New",
@@ -251,6 +393,18 @@
    "cases": []
   },
   {
+   "id": "p:Elizabeth Holmes",
+   "type": "person",
+   "label": "Elizabeth Holmes",
+   "name": "Elizabeth Holmes",
+   "description": "American fraudulent businesswoman (born 1984)",
+   "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+   "epstein": false,
+   "cases": [
+    "Theranos"
+   ]
+  },
+  {
    "id": "p:Elon Musk",
    "type": "person",
    "label": "Elon Musk",
@@ -259,6 +413,18 @@
    "url": "https://en.wikipedia.org/wiki/Elon_Musk",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Felicity Huffman",
+   "type": "person",
+   "label": "Felicity Huffman",
+   "name": "Felicity Huffman",
+   "description": "American actress (born 1962)",
+   "url": "https://en.wikipedia.org/wiki/Felicity_Huffman",
+   "epstein": false,
+   "cases": [
+    "Varsity Blues admissions scandal"
+   ]
   },
   {
    "id": "p:George Church (geneticist)",
@@ -301,6 +467,30 @@
    "cases": []
   },
   {
+   "id": "p:Hunter Biden",
+   "type": "person",
+   "label": "Hunter Biden",
+   "name": "Hunter Biden",
+   "description": "American businessman and lobbyist (born 1970)",
+   "url": "https://en.wikipedia.org/wiki/Hunter_Biden",
+   "epstein": false,
+   "cases": [
+    "Hunter Biden gun and tax cases"
+   ]
+  },
+  {
+   "id": "p:Jack Abramoff",
+   "type": "person",
+   "label": "Jack Abramoff",
+   "name": "Jack Abramoff",
+   "description": "American lobbyist (born 1959)",
+   "url": "https://en.wikipedia.org/wiki/Jack_Abramoff",
+   "epstein": false,
+   "cases": [
+    "Abramoff lobbying scandal"
+   ]
+  },
+  {
    "id": "p:Jack Lang (French politician)",
    "type": "person",
    "label": "Jack Lang",
@@ -319,6 +509,18 @@
    "url": "https://en.wikipedia.org/wiki/Jean_Pigozzi",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Jeffrey Skilling",
+   "type": "person",
+   "label": "Jeffrey Skilling",
+   "name": "Jeffrey Skilling",
+   "description": "American businessman and felon (born 1953)",
+   "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling",
+   "epstein": false,
+   "cases": [
+    "Enron"
+   ]
   },
   {
    "id": "p:Jes Staley",
@@ -359,6 +561,30 @@
    "url": "https://en.wikipedia.org/wiki/Joi_Ito",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Jordan Belfort",
+   "type": "person",
+   "label": "Jordan Belfort",
+   "name": "Jordan Belfort",
+   "description": "American stockbroker (born 1962)",
+   "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+   "epstein": false,
+   "cases": [
+    "Stratton Oakmont fraud"
+   ]
+  },
+  {
+   "id": "p:Joseph Nacchio",
+   "type": "person",
+   "label": "Joseph Nacchio",
+   "name": "Joseph Nacchio",
+   "description": "American executive (born 1949)",
+   "url": "https://en.wikipedia.org/wiki/Joseph_Nacchio",
+   "epstein": false,
+   "cases": [
+    "Qwest"
+   ]
   },
   {
    "id": "p:Josh Harris (businessman)",
@@ -421,6 +647,16 @@
    "cases": []
   },
   {
+   "id": "p:Kevin Rudd",
+   "type": "person",
+   "label": "Kevin Rudd",
+   "name": "Kevin Rudd",
+   "description": "Prime Minister of Australia (2007–2010; 2013)",
+   "url": "https://en.wikipedia.org/wiki/Kevin_Rudd",
+   "epstein": true,
+   "cases": []
+  },
+  {
    "id": "p:Kimbal Musk",
    "type": "person",
    "label": "Kimbal Musk",
@@ -429,6 +665,18 @@
    "url": "https://en.wikipedia.org/wiki/Kimbal_Musk",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Larry Nassar",
+   "type": "person",
+   "label": "Larry Nassar",
+   "name": "Larry Nassar",
+   "description": "American sex offender (born 1963)",
+   "url": "https://en.wikipedia.org/wiki/Larry_Nassar",
+   "epstein": false,
+   "cases": [
+    "USA Gymnastics abuse scandal"
+   ]
   },
   {
    "id": "p:Larry Summers",
@@ -531,6 +779,18 @@
    "cases": []
   },
   {
+   "id": "p:Martha Stewart",
+   "type": "person",
+   "label": "Martha Stewart",
+   "name": "Martha Stewart",
+   "description": "American businesswoman, writer, TV personality (born 1941)",
+   "url": "https://en.wikipedia.org/wiki/Martha_Stewart",
+   "epstein": false,
+   "cases": [
+    "ImClone insider trading"
+   ]
+  },
+  {
    "id": "p:Marvin Minsky",
    "type": "person",
    "label": "Marvin Minsky",
@@ -539,6 +799,42 @@
    "url": "https://en.wikipedia.org/wiki/Marvin_Minsky",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Matt Lauer",
+   "type": "person",
+   "label": "Matt Lauer",
+   "name": "Matt Lauer",
+   "description": "American TV journalist (born 1957)",
+   "url": "https://en.wikipedia.org/wiki/Matt_Lauer",
+   "epstein": false,
+   "cases": [
+    "NBC misconduct allegation"
+   ]
+  },
+  {
+   "id": "p:Michael Cohen (lawyer)",
+   "type": "person",
+   "label": "Michael Cohen",
+   "name": "Michael Cohen (lawyer)",
+   "description": "Attorney for Donald Trump from 2006 to 2018",
+   "url": "https://en.wikipedia.org/wiki/Michael_Cohen_(lawyer)",
+   "epstein": false,
+   "cases": [
+    "Mueller investigation"
+   ]
+  },
+  {
+   "id": "p:Michael Milken",
+   "type": "person",
+   "label": "Michael Milken",
+   "name": "Michael Milken",
+   "description": "American financier, racketeer and securities fraudster (born 1946)",
+   "url": "https://en.wikipedia.org/wiki/Michael_Milken",
+   "epstein": false,
+   "cases": [
+    "Drexel junk-bond scandal"
+   ]
   },
   {
    "id": "p:Michael Wolff (journalist)",
@@ -569,6 +865,18 @@
    "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Mossimo Giannulli",
+   "type": "person",
+   "label": "Mossimo Giannulli",
+   "name": "Mossimo Giannulli",
+   "description": "American fashion designer",
+   "url": "https://en.wikipedia.org/wiki/Mossimo_Giannulli",
+   "epstein": false,
+   "cases": [
+    "Varsity Blues admissions scandal"
+   ]
   },
   {
    "id": "p:Nathan Myhrvold",
@@ -621,6 +929,30 @@
    "cases": []
   },
   {
+   "id": "p:Paul Manafort",
+   "type": "person",
+   "label": "Paul Manafort",
+   "name": "Paul Manafort",
+   "description": "American political consultant (born 1949)",
+   "url": "https://en.wikipedia.org/wiki/Paul_Manafort",
+   "epstein": false,
+   "cases": [
+    "Mueller investigation"
+   ]
+  },
+  {
+   "id": "p:Paul Wolfowitz",
+   "type": "person",
+   "label": "Paul Wolfowitz",
+   "name": "Paul Wolfowitz",
+   "description": "American politician and diplomat (born 1943)",
+   "url": "https://en.wikipedia.org/wiki/Paul_Wolfowitz",
+   "epstein": false,
+   "cases": [
+    "World Bank pay controversy"
+   ]
+  },
+  {
    "id": "p:Peter Attia",
    "type": "person",
    "label": "Peter Attia",
@@ -629,6 +961,18 @@
    "url": "https://en.wikipedia.org/wiki/Peter_Attia",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Peter Navarro",
+   "type": "person",
+   "label": "Peter Navarro",
+   "name": "Peter Navarro",
+   "description": "American economist and author (born 1949)",
+   "url": "https://en.wikipedia.org/wiki/Peter_Navarro",
+   "epstein": false,
+   "cases": [
+    "January 6 committee subpoena"
+   ]
   },
   {
    "id": "p:Peter Thiel",
@@ -649,6 +993,30 @@
    "url": "https://en.wikipedia.org/wiki/Queen_Mette-Marit_of_Norway",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Raj Rajaratnam",
+   "type": "person",
+   "label": "Raj Rajaratnam",
+   "name": "Raj Rajaratnam",
+   "description": "American investments manager",
+   "url": "https://en.wikipedia.org/wiki/Raj_Rajaratnam",
+   "epstein": false,
+   "cases": [
+    "Galleon insider trading"
+   ]
+  },
+  {
+   "id": "p:Rajat Gupta",
+   "type": "person",
+   "label": "Rajat Gupta",
+   "name": "Rajat Gupta",
+   "description": "Indian-American business executive (born 1948)",
+   "url": "https://en.wikipedia.org/wiki/Rajat_Gupta",
+   "epstein": false,
+   "cases": [
+    "Galleon insider trading"
+   ]
   },
   {
    "id": "p:Reid Hoffman",
@@ -711,6 +1079,52 @@
    "cases": []
   },
   {
+   "id": "p:Rod Blagojevich",
+   "type": "person",
+   "label": "Rod Blagojevich",
+   "name": "Rod Blagojevich",
+   "description": "Governor of Illinois from 2003 to 2009",
+   "url": "https://en.wikipedia.org/wiki/Rod_Blagojevich",
+   "epstein": false,
+   "cases": [
+    "Blagojevich corruption case"
+   ]
+  },
+  {
+   "id": "p:Roger Ailes",
+   "type": "person",
+   "label": "Roger Ailes",
+   "name": "Roger Ailes",
+   "description": "American TV executive and consultant (1940–2017)",
+   "url": "https://en.wikipedia.org/wiki/Roger_Ailes",
+   "epstein": false,
+   "cases": [
+    "Fox News harassment scandal"
+   ]
+  },
+  {
+   "id": "p:Roger Schank",
+   "type": "person",
+   "label": "Roger Schank",
+   "name": "Roger Schank",
+   "description": "American scientist (1946–2023)",
+   "url": "https://en.wikipedia.org/wiki/Roger_Schank",
+   "epstein": true,
+   "cases": []
+  },
+  {
+   "id": "p:Roger Stone",
+   "type": "person",
+   "label": "Roger Stone",
+   "name": "Roger Stone",
+   "description": "American political consultant and lobbyist (born 1952)",
+   "url": "https://en.wikipedia.org/wiki/Roger_Stone",
+   "epstein": false,
+   "cases": [
+    "Mueller investigation"
+   ]
+  },
+  {
    "id": "p:Ronald Lauder",
    "type": "person",
    "label": "Ronald Lauder",
@@ -719,6 +1133,42 @@
    "url": "https://en.wikipedia.org/wiki/Ronald_Lauder",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Sam Bankman-Fried",
+   "type": "person",
+   "label": "Sam Bankman-Fried",
+   "name": "Sam Bankman-Fried",
+   "description": "American cryptocurrency entrepreneur and criminal (born 1992)",
+   "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+   "epstein": false,
+   "cases": [
+    "FTX collapse"
+   ]
+  },
+  {
+   "id": "p:Samuel D. Waksal",
+   "type": "person",
+   "label": "Samuel D. Waksal",
+   "name": "Samuel D. Waksal",
+   "description": "American immunologist, businessman and convicted insider trader",
+   "url": "https://en.wikipedia.org/wiki/Samuel_D._Waksal",
+   "epstein": false,
+   "cases": [
+    "ImClone insider trading"
+   ]
+  },
+  {
+   "id": "p:Scooter Libby",
+   "type": "person",
+   "label": "Scooter Libby",
+   "name": "Scooter Libby",
+   "description": "American lawyer and political advisor (born 1950)",
+   "url": "https://en.wikipedia.org/wiki/Scooter_Libby",
+   "epstein": false,
+   "cases": [
+    "Plame affair"
+   ]
   },
   {
    "id": "p:Sergey Brin",
@@ -791,6 +1241,18 @@
    "cases": []
   },
   {
+   "id": "p:Steve Wynn",
+   "type": "person",
+   "label": "Steve Wynn",
+   "name": "Steve Wynn",
+   "description": "American casino mogul and art collector",
+   "url": "https://en.wikipedia.org/wiki/Steve_Wynn",
+   "epstein": false,
+   "cases": [
+    "Wynn misconduct allegations"
+   ]
+  },
+  {
    "id": "p:Steven Pinker",
    "type": "person",
    "label": "Steven Pinker",
@@ -809,6 +1271,18 @@
    "url": "https://en.wikipedia.org/wiki/Sultan_Ahmed_bin_Sulayem",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Sunny Balwani",
+   "type": "person",
+   "label": "Sunny Balwani",
+   "name": "Sunny Balwani",
+   "description": "Former president and COO of Theranos",
+   "url": "https://en.wikipedia.org/wiki/Sunny_Balwani",
+   "epstein": false,
+   "cases": [
+    "Theranos"
+   ]
   },
   {
    "id": "p:Terje Rød-Larsen",
@@ -847,6 +1321,16 @@
    "name": "Todd Boehly",
    "description": "American businessman (born 1973)",
    "url": "https://en.wikipedia.org/wiki/Todd_Boehly",
+   "epstein": true,
+   "cases": []
+  },
+  {
+   "id": "p:Tom Barrack",
+   "type": "person",
+   "label": "Tom Barrack",
+   "name": "Tom Barrack",
+   "description": "American investor and diplomat (born 1947)",
+   "url": "https://en.wikipedia.org/wiki/Tom_Barrack",
    "epstein": true,
    "cases": []
   },
@@ -911,9 +1395,23 @@
    "cases": []
   },
   {
+   "id": "i:American University",
+   "type": "college",
+   "label": "American University",
+   "ivy": false,
+   "count": 2
+  },
+  {
    "id": "i:Bowdoin College",
    "type": "college",
    "label": "Bowdoin College",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Brandeis University",
+   "type": "college",
+   "label": "Brandeis University",
    "ivy": false,
    "count": 2
   },
@@ -929,14 +1427,14 @@
    "type": "college",
    "label": "Columbia University",
    "ivy": true,
-   "count": 11
+   "count": 13
   },
   {
    "id": "i:Cornell University",
    "type": "college",
    "label": "Cornell University",
    "ivy": true,
-   "count": 2
+   "count": 3
   },
   {
    "id": "i:Dartmouth College",
@@ -957,6 +1455,13 @@
    "type": "college",
    "label": "Fordham University",
    "ivy": false,
+   "count": 3
+  },
+  {
+   "id": "i:George Washington University",
+   "type": "college",
+   "label": "George Washington University",
+   "ivy": false,
    "count": 2
   },
   {
@@ -964,14 +1469,14 @@
    "type": "college",
    "label": "Georgetown University",
    "ivy": false,
-   "count": 7
+   "count": 11
   },
   {
    "id": "i:Harvard University",
    "type": "college",
    "label": "Harvard University",
    "ivy": true,
-   "count": 27
+   "count": 32
   },
   {
    "id": "i:Hebrew University of Jerusalem",
@@ -979,6 +1484,20 @@
    "label": "Hebrew University of Jerusalem",
    "ivy": false,
    "count": 2
+  },
+  {
+   "id": "i:Hofstra University",
+   "type": "college",
+   "label": "Hofstra University",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:John F. Kennedy School of Government",
+   "type": "college",
+   "label": "John F. Kennedy School of Government",
+   "ivy": false,
+   "count": 3
   },
   {
    "id": "i:London School of Economics",
@@ -992,7 +1511,7 @@
    "type": "college",
    "label": "Massachusetts Institute of Technology",
    "ivy": false,
-   "count": 5
+   "count": 7
   },
   {
    "id": "i:Moscow State Institute of International Relations",
@@ -1002,18 +1521,46 @@
    "count": 2
   },
   {
+   "id": "i:National Taiwan Normal University",
+   "type": "college",
+   "label": "National Taiwan Normal University",
+   "ivy": false,
+   "count": 2
+  },
+  {
    "id": "i:New York University",
    "type": "college",
    "label": "New York University",
    "ivy": false,
-   "count": 3
+   "count": 6
+  },
+  {
+   "id": "i:Northwestern University",
+   "type": "college",
+   "label": "Northwestern University",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Ohio State University",
+   "type": "college",
+   "label": "Ohio State University",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Ohio University",
+   "type": "college",
+   "label": "Ohio University",
+   "ivy": false,
+   "count": 2
   },
   {
    "id": "i:Princeton University",
    "type": "college",
    "label": "Princeton University",
    "ivy": true,
-   "count": 2
+   "count": 4
   },
   {
    "id": "i:Queen's University",
@@ -1030,11 +1577,18 @@
    "count": 2
   },
   {
+   "id": "i:Southern Methodist University",
+   "type": "college",
+   "label": "Southern Methodist University",
+   "ivy": false,
+   "count": 2
+  },
+  {
    "id": "i:Stanford University",
    "type": "college",
    "label": "Stanford University",
    "ivy": false,
-   "count": 8
+   "count": 11
   },
   {
    "id": "i:Stony Brook University",
@@ -1048,14 +1602,14 @@
    "type": "college",
    "label": "Temple University",
    "ivy": false,
-   "count": 2
+   "count": 3
   },
   {
    "id": "i:Tufts University",
    "type": "college",
    "label": "Tufts University",
    "ivy": false,
-   "count": 3
+   "count": 5
   },
   {
    "id": "i:UCLA",
@@ -1065,11 +1619,25 @@
    "count": 4
   },
   {
+   "id": "i:University of California, Berkeley",
+   "type": "college",
+   "label": "University of California, Berkeley",
+   "ivy": false,
+   "count": 2
+  },
+  {
    "id": "i:University of Chicago",
    "type": "college",
    "label": "University of Chicago",
    "ivy": false,
-   "count": 4
+   "count": 5
+  },
+  {
+   "id": "i:University of Michigan",
+   "type": "college",
+   "label": "University of Michigan",
+   "ivy": false,
+   "count": 2
   },
   {
    "id": "i:University of Oslo",
@@ -1097,7 +1665,21 @@
    "type": "college",
    "label": "University of Pennsylvania",
    "ivy": true,
-   "count": 8
+   "count": 12
+  },
+  {
+   "id": "i:University of Southern California",
+   "type": "college",
+   "label": "University of Southern California",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:University of Texas at Austin",
+   "type": "college",
+   "label": "University of Texas at Austin",
+   "ivy": false,
+   "count": 2
   },
   {
    "id": "i:University of the Virgin Islands",
@@ -1111,7 +1693,7 @@
    "type": "college",
    "label": "Yale University",
    "ivy": true,
-   "count": 3
+   "count": 5
   },
   {
    "id": "f:Alpha Epsilon Pi",
@@ -1176,6 +1758,16 @@
  ],
  "links": [
   {
+   "source": "p:Jordan Belfort",
+   "target": "i:American University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Michael Cohen (lawyer)",
+   "target": "i:American University",
+   "kind": "college"
+  },
+  {
    "source": "p:George J. Mitchell",
    "target": "i:Bowdoin College",
    "kind": "college"
@@ -1183,6 +1775,16 @@
   {
    "source": "p:Jes Staley",
    "target": "i:Bowdoin College",
+   "kind": "college"
+  },
+  {
+   "source": "p:Elisa New",
+   "target": "i:Brandeis University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Jack Abramoff",
+   "target": "i:Brandeis University",
    "kind": "college"
   },
   {
@@ -1226,12 +1828,22 @@
    "kind": "college"
   },
   {
+   "source": "p:Martha Stewart",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
    "source": "p:Michael Wolff (journalist)",
    "target": "i:Columbia University",
    "kind": "college"
   },
   {
    "source": "p:Richard Axel",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Scooter Libby",
    "target": "i:Columbia University",
    "kind": "college"
   },
@@ -1256,6 +1868,11 @@
    "kind": "college"
   },
   {
+   "source": "p:Paul Wolfowitz",
+   "target": "i:Cornell University",
+   "kind": "college"
+  },
+  {
    "source": "p:Leon Black",
    "target": "i:Dartmouth College",
    "kind": "college"
@@ -1276,6 +1893,11 @@
    "kind": "college"
   },
   {
+   "source": "p:Andrew Cuomo",
+   "target": "i:Fordham University",
+   "kind": "college"
+  },
+  {
    "source": "p:David Copperfield (illusionist)",
    "target": "i:Fordham University",
    "kind": "college"
@@ -1286,7 +1908,22 @@
    "kind": "college"
   },
   {
+   "source": "p:Ken Starr",
+   "target": "i:George Washington University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Roger Stone",
+   "target": "i:George Washington University",
+   "kind": "college"
+  },
+  {
    "source": "p:Bill Clinton",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:David Petraeus",
    "target": "i:Georgetown University",
    "kind": "college"
   },
@@ -1301,7 +1938,22 @@
    "kind": "college"
   },
   {
+   "source": "p:Hunter Biden",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Jack Abramoff",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
    "source": "p:Kathryn Ruemmler",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Paul Manafort",
    "target": "i:Georgetown University",
    "kind": "college"
   },
@@ -1336,6 +1988,11 @@
    "kind": "college"
   },
   {
+   "source": "p:Bill O'Reilly (political commentator)",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
    "source": "p:Brad S. Karp",
    "target": "i:Harvard University",
    "kind": "college"
@@ -1351,12 +2008,22 @@
    "kind": "college"
   },
   {
+   "source": "p:Eliot Spitzer",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
    "source": "p:George Church (geneticist)",
    "target": "i:Harvard University",
    "kind": "college"
   },
   {
    "source": "p:Jean Pigozzi",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Jeffrey Skilling",
    "target": "i:Harvard University",
    "kind": "college"
   },
@@ -1436,6 +2103,16 @@
    "kind": "college"
   },
   {
+   "source": "p:Peter Navarro",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Rajat Gupta",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
    "source": "p:Robert F. Kennedy Jr.",
    "target": "i:Harvard University",
    "kind": "college"
@@ -1466,6 +2143,31 @@
    "kind": "college"
   },
   {
+   "source": "p:Bernie Madoff",
+   "target": "i:Hofstra University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Charles Kushner",
+   "target": "i:Hofstra University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Bill O'Reilly (political commentator)",
+   "target": "i:John F. Kennedy School of Government",
+   "kind": "college"
+  },
+  {
+   "source": "p:Kenneth Mapp",
+   "target": "i:John F. Kennedy School of Government",
+   "kind": "college"
+  },
+  {
+   "source": "p:Peter Navarro",
+   "target": "i:John F. Kennedy School of Government",
+   "kind": "college"
+  },
+  {
    "source": "p:John C. Phelan",
    "target": "i:London School of Economics",
    "kind": "college"
@@ -1482,6 +2184,11 @@
   },
   {
    "source": "p:Edward Boyden",
+   "target": "i:Massachusetts Institute of Technology",
+   "kind": "college"
+  },
+  {
+   "source": "p:Joseph Nacchio",
    "target": "i:Massachusetts Institute of Technology",
    "kind": "college"
   },
@@ -1506,6 +2213,11 @@
    "kind": "college"
   },
   {
+   "source": "p:Sam Bankman-Fried",
+   "target": "i:Massachusetts Institute of Technology",
+   "kind": "college"
+  },
+  {
    "source": "p:Miroslav Lajčák",
    "target": "i:Moscow State Institute of International Relations",
    "kind": "college"
@@ -1513,6 +2225,16 @@
   {
    "source": "p:Vitaly Churkin",
    "target": "i:Moscow State Institute of International Relations",
+   "kind": "college"
+  },
+  {
+   "source": "p:Andrew Fastow",
+   "target": "i:National Taiwan Normal University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Kevin Rudd",
+   "target": "i:National Taiwan Normal University",
    "kind": "college"
   },
   {
@@ -1526,8 +2248,63 @@
    "kind": "college"
   },
   {
+   "source": "p:Charles Kushner",
+   "target": "i:New York University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Felicity Huffman",
+   "target": "i:New York University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Joseph Nacchio",
+   "target": "i:New York University",
+   "kind": "college"
+  },
+  {
    "source": "p:Woody Allen",
    "target": "i:New York University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Andrew Fastow",
+   "target": "i:Northwestern University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Rod Blagojevich",
+   "target": "i:Northwestern University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Les Wexner",
+   "target": "i:Ohio State University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Samuel D. Waksal",
+   "target": "i:Ohio State University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Matt Lauer",
+   "target": "i:Ohio University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Roger Ailes",
+   "target": "i:Ohio University",
+   "kind": "college"
+  },
+  {
+   "source": "p:David Petraeus",
+   "target": "i:Princeton University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Eliot Spitzer",
+   "target": "i:Princeton University",
    "kind": "college"
   },
   {
@@ -1566,7 +2343,32 @@
    "kind": "college"
   },
   {
+   "source": "p:Jeffrey Skilling",
+   "target": "i:Southern Methodist University",
+   "kind": "college"
+  },
+  {
+   "source": "p:John C. Phelan",
+   "target": "i:Southern Methodist University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Caroline Ellison",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Do Kwon",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
    "source": "p:Ehud Barak",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Elizabeth Holmes",
    "target": "i:Stanford University",
    "kind": "college"
   },
@@ -1621,8 +2423,18 @@
    "kind": "college"
   },
   {
+   "source": "p:Bill Cosby",
+   "target": "i:Temple University",
+   "kind": "college"
+  },
+  {
    "source": "p:Sultan Ahmed bin Sulayem",
    "target": "i:Temple University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Andrew Fastow",
+   "target": "i:Tufts University",
    "kind": "college"
   },
   {
@@ -1632,6 +2444,11 @@
   },
   {
    "source": "p:Joi Ito",
+   "target": "i:Tufts University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Peter Navarro",
    "target": "i:Tufts University",
    "kind": "college"
   },
@@ -1661,6 +2478,16 @@
    "kind": "college"
   },
   {
+   "source": "p:Michael Milken",
+   "target": "i:University of California, Berkeley",
+   "kind": "college"
+  },
+  {
+   "source": "p:Sunny Balwani",
+   "target": "i:University of California, Berkeley",
+   "kind": "college"
+  },
+  {
    "source": "p:Joi Ito",
    "target": "i:University of Chicago",
    "kind": "college"
@@ -1676,8 +2503,23 @@
    "kind": "college"
   },
   {
+   "source": "p:Paul Wolfowitz",
+   "target": "i:University of Chicago",
+   "kind": "college"
+  },
+  {
    "source": "p:Thomas Pritzker",
    "target": "i:University of Chicago",
+   "kind": "college"
+  },
+  {
+   "source": "p:Bobby Kotick",
+   "target": "i:University of Michigan",
+   "kind": "college"
+  },
+  {
+   "source": "p:Larry Nassar",
+   "target": "i:University of Michigan",
    "kind": "college"
   },
   {
@@ -1736,6 +2578,11 @@
    "kind": "college"
   },
   {
+   "source": "p:Charlie Javice",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
    "source": "p:Donald Trump",
    "target": "i:University of Pennsylvania",
    "kind": "college"
@@ -1756,6 +2603,11 @@
    "kind": "college"
   },
   {
+   "source": "p:Michael Milken",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
    "source": "p:Mortimer Zuckerman",
    "target": "i:University of Pennsylvania",
    "kind": "college"
@@ -1766,8 +2618,38 @@
    "kind": "college"
   },
   {
+   "source": "p:Raj Rajaratnam",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
    "source": "p:Ronald Lauder",
    "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Steve Wynn",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Mossimo Giannulli",
+   "target": "i:University of Southern California",
+   "kind": "college"
+  },
+  {
+   "source": "p:Tom Barrack",
+   "target": "i:University of Southern California",
+   "kind": "college"
+  },
+  {
+   "source": "p:Roger Schank",
+   "target": "i:University of Texas at Austin",
+   "kind": "college"
+  },
+  {
+   "source": "p:Sunny Balwani",
+   "target": "i:University of Texas at Austin",
    "kind": "college"
   },
   {
@@ -1792,6 +2674,16 @@
   },
   {
    "source": "p:David Gelernter",
+   "target": "i:Yale University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Hunter Biden",
+   "target": "i:Yale University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Scooter Libby",
    "target": "i:Yale University",
    "kind": "college"
   },
@@ -1847,9 +2739,9 @@
   }
  ],
  "counts": {
-  "people_linked": 91,
-  "people_unlinked": 61,
-  "colleges": 29,
+  "people_linked": 132,
+  "people_unlinked": 78,
+  "colleges": 43,
   "frats": 10
  }
 }

@@ -1,6 +1,10 @@
 {
  "excluded": [
   {
+   "name": "2019 college admissions bribery scandal",
+   "reason": "not a person (Wikidata)"
+  },
+  {
    "name": "Estate of Jeffrey Epstein",
    "reason": "not a person (Wikidata)"
   },
@@ -25,5 +29,7 @@
    "reason": "described in reporting as a model Epstein paid; possible victim"
   }
  ],
- "unresolved": []
+ "unresolved": [
+  "Gordon Ernst"
+ ]
 }

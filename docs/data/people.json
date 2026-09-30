@@ -1,25 +1,28 @@
 {
  "meta": {
-  "generated": "2026-09-30T16:49:30+00:00",
+  "generated": "2026-09-30T17:04:57+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "counts": {
-   "people": 152,
-   "excluded": 6,
-   "unresolved": 0,
-   "ivy_yes": 48,
-   "ivy_possible": 0,
+   "people": 210,
+   "epstein": 152,
+   "scandal": 58,
+   "cornell": 3,
+   "excluded": 7,
+   "unresolved": 1,
+   "ivy_yes": 62,
+   "ivy_possible": 3,
    "by_school": {
     "Brown": {
      "yes": 1,
      "possible": 0
     },
     "Columbia": {
-     "yes": 11,
+     "yes": 13,
      "possible": 0
     },
     "Cornell": {
-     "yes": 2,
+     "yes": 3,
      "possible": 0
     },
     "Dartmouth": {
@@ -27,24 +30,24 @@
      "possible": 0
     },
     "Harvard": {
-     "yes": 27,
-     "possible": 0
+     "yes": 32,
+     "possible": 1
     },
     "Penn": {
-     "yes": 8,
-     "possible": 0
+     "yes": 12,
+     "possible": 2
     },
     "Princeton": {
-     "yes": 2,
+     "yes": 4,
      "possible": 0
     },
     "Yale": {
-     "yes": 3,
-     "possible": 0
+     "yes": 5,
+     "possible": 2
     }
    },
    "frat_yes": 8,
-   "frat_possible": 0
+   "frat_possible": 10
   }
  },
  "people": [
@@ -56,6 +59,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -66,7 +71,10 @@
    "education": [
     "University of Exeter"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Exeter"
+   ]
   },
   {
    "name": "Al Seckel",
@@ -74,6 +82,8 @@
    "qid": "Q2023240",
    "description": "American collector and skeptic (1958–2015)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Cornell": {
      "status": "yes",
@@ -103,7 +113,10 @@
     "Cornell University"
    ],
    "verified": true,
-   "note": "Attended Cornell 1976–78, left without a degree (Wikipedia)."
+   "note": "Attended Cornell 1976–78, left without a degree (Wikipedia).",
+   "colleges": [
+    "Cornell University"
+   ]
   },
   {
    "name": "Alan Dershowitz",
@@ -113,6 +126,8 @@
    "documents": [
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -178,7 +193,11 @@
     "Yale Law School",
     "Brooklyn College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Yale University",
+    "Brooklyn College"
+   ]
   },
   {
    "name": "Albert Bryan Jr.",
@@ -188,6 +207,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -200,7 +221,11 @@
     "University of the Virgin Islands",
     "St. Dunstan's Episcopal High School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Wittenberg University",
+    "University of the Virgin Islands"
+   ]
   },
   {
    "name": "Alberto Pinto (interior designer)",
@@ -210,6 +235,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -218,7 +245,65 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
+  },
+  {
+   "name": "Allen Stanford",
+   "url": "https://en.wikipedia.org/wiki/Allen_Stanford",
+   "qid": "Q786517",
+   "description": "American-Antiguan financial fraudster",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Stanford Financial Ponzi scheme",
+     "outcome": "Convicted of fraud (2012)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Eastern Hills High School",
+    "Baylor University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Baylor University"
+   ]
+  },
+  {
+   "name": "Allison Mack",
+   "url": "https://en.wikipedia.org/wiki/Allison_Mack",
+   "qid": "Q195687",
+   "description": "American actress (born 1982)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "NXIVM",
+     "outcome": "Pleaded guilty to racketeering (2019)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Orange County School of the Arts"
+   ],
+   "verified": false,
+   "colleges": [
+    "Orange County School of the Arts"
+   ]
   },
   {
    "name": "Amanda Thirsk",
@@ -226,6 +311,8 @@
    "qid": "Q107156748",
    "description": "Former private secretary of Prince Andrew",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -234,7 +321,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Andres Serrano",
@@ -244,6 +332,8 @@
    "documents": [
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -252,7 +342,41 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
+  },
+  {
+   "name": "Andrew Cuomo",
+   "url": "https://en.wikipedia.org/wiki/Andrew_Cuomo",
+   "qid": "Q11673",
+   "description": "American lawyer and politician (born 1957)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Cuomo harassment report",
+     "outcome": "Resigned as New York governor after the attorney general's report (2021)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Archbishop Molloy High School",
+    "Albany Law School",
+    "Robert F. Wagner Graduate School of Public Service",
+    "Fordham University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Albany Law School",
+    "Robert F. Wagner Graduate School of Public Service",
+    "Fordham University"
+   ]
   },
   {
    "name": "Andrew Farkas (businessman)",
@@ -262,6 +386,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -287,7 +413,43 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University"
+   ]
+  },
+  {
+   "name": "Andrew Fastow",
+   "url": "https://en.wikipedia.org/wiki/Andrew_Fastow",
+   "qid": "Q504625",
+   "description": "American convicted felon and financier",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Enron",
+     "outcome": "Pleaded guilty to conspiracy (2004)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "New Providence High School",
+    "Kellogg School of Management",
+    "National Taiwan Normal University",
+    "Tufts University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Northwestern University",
+    "National Taiwan Normal University",
+    "Tufts University"
+   ]
   },
   {
    "name": "Andrew Mountbatten-Windsor",
@@ -299,6 +461,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -312,7 +476,10 @@
     "Britannia Royal Naval College",
     "Gordonstoun"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Britannia Royal Naval College"
+   ]
   },
   {
    "name": "Andrés Pastrana Arango",
@@ -324,6 +491,8 @@
     "DOJ / Congressional release",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -358,7 +527,11 @@
     "Our Lady of the Rosary University",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Our Lady of the Rosary University"
+   ]
   },
   {
    "name": "Anil Ambani",
@@ -366,6 +539,8 @@
    "qid": "Q381748",
    "description": "Indian businessman (born 1959)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Penn": {
      "status": "yes",
@@ -412,7 +587,13 @@
     "The Wharton School",
     "University of Mumbai"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania",
+    "Kishinchand Chellaram College",
+    "Warwick Business School",
+    "University of Mumbai"
+   ]
   },
   {
    "name": "Annabelle Neilson",
@@ -420,6 +601,8 @@
    "qid": "Q22957824",
    "description": "British socialite, fashion model, author, and television personality (1969–2018)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -430,7 +613,37 @@
    "education": [
     "Cobham Hall School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": []
+  },
+  {
+   "name": "Anthony Weiner",
+   "url": "https://en.wikipedia.org/wiki/Anthony_Weiner",
+   "qid": "Q557810",
+   "description": "American politician and sex offender (born 1964)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Weiner sexting scandal",
+     "outcome": "Pleaded guilty to transferring obscene material to a minor (2017)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "State University of New York at Plattsburgh",
+    "Brooklyn Technical High School"
+   ],
+   "verified": false,
+   "colleges": [
+    "State University of New York at Plattsburgh"
+   ]
   },
   {
    "name": "Ariane de Rothschild",
@@ -438,6 +651,8 @@
    "qid": "Q2861214",
    "description": "French banker",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -449,7 +664,11 @@
     "Paris Institute of Political Studies",
     "Pace University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Sciences Po",
+    "Pace University"
+   ]
   },
   {
    "name": "Ben Goertzel",
@@ -457,6 +676,8 @@
    "qid": "Q4027185",
    "description": "American computer scientist and AI researcher",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -469,7 +690,96 @@
     "Temple University",
     "New York University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Simon's Rock at Bard College",
+    "Temple University",
+    "New York University"
+   ]
+  },
+  {
+   "name": "Bernard Ebbers",
+   "url": "https://en.wikipedia.org/wiki/Bernard_Ebbers",
+   "qid": "Q706548",
+   "description": "Canadian-American businessman and fraudster (1941–2020)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "WorldCom",
+     "outcome": "Convicted of fraud (2005)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Mississippi Christian University",
+    "Calvin University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Mississippi Christian University",
+    "Calvin University"
+   ]
+  },
+  {
+   "name": "Bernie Madoff",
+   "url": "https://en.wikipedia.org/wiki/Bernie_Madoff",
+   "qid": "Q14043",
+   "description": "American financier and con artist (1938–2021)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Madoff Ponzi scheme",
+     "outcome": "Pleaded guilty to securities fraud (2009)"
+    }
+   ],
+   "schools": {
+    "Penn": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Bernard and Ruth Madoff had two sons: Mark (1964–2010), a 1986 graduate of the University of Michigan, and Andrew (1966–2014), a 1988 graduate of University of Pennsylvania's Wharton Business School.",
+       "url": "https://en.wikipedia.org/wiki/Bernie_Madoff"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Sigma Alpha Mu"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Madoff attended the University of Alabama for one year, where he became a brother of the Tau chapter of the Sigma Alpha Mu fraternity, then transferred to and graduated from Hofstra University in 1960 with a Bachelor of Arts in political science.",
+      "url": "https://en.wikipedia.org/wiki/Bernie_Madoff"
+     }
+    ]
+   },
+   "education": [
+    "Far Rockaway High School",
+    "Brooklyn Law School",
+    "Hofstra University",
+    "University of Alabama"
+   ],
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania",
+    "Brooklyn Law School",
+    "Hofstra University",
+    "University of Alabama"
+   ]
   },
   {
    "name": "Bill Clinton",
@@ -479,6 +789,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Yale": {
      "status": "yes",
@@ -542,7 +854,57 @@
     "University College, Oxford"
    ],
    "verified": true,
-   "note": "Alpha Phi Omega is a service fraternity (joined at Georgetown); Kappa Kappa Psi is an honorary band fraternity. Phi Beta Kappa (honor society) not counted."
+   "note": "Alpha Phi Omega is a service fraternity (joined at Georgetown); Kappa Kappa Psi is an honorary band fraternity. Phi Beta Kappa (honor society) not counted.",
+   "colleges": [
+    "Yale University",
+    "Georgetown University",
+    "University of Oxford"
+   ]
+  },
+  {
+   "name": "Bill Cosby",
+   "url": "https://en.wikipedia.org/wiki/Bill_Cosby",
+   "qid": "Q213512",
+   "description": "American entertainer (born 1937)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Cosby sexual assault case",
+     "outcome": "Convicted of sexual assault (2018); overturned 2021"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Omega Psi Phi",
+     "Beta Alpha Alpha"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "He is also a member of the Omega Psi Phi fraternity; he was initiated in the fraternity's Beta Alpha Alpha graduate chapter in White Plains, New York, in 1988, and served briefly on the board of directors for the CDC Foundation.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Cosby"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "List of Omega Psi Phi members",
+      "url": "https://en.wikipedia.org/wiki/Bill_Cosby"
+     }
+    ]
+   },
+   "education": [
+    "Germantown High School",
+    "Temple University",
+    "University of Massachusetts Amherst"
+   ],
+   "verified": false,
+   "colleges": [
+    "Temple University",
+    "University of Massachusetts Amherst"
+   ]
   },
   {
    "name": "Bill Gates",
@@ -552,6 +914,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -595,7 +959,77 @@
     "Lakeside School",
     "Harvard College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University"
+   ]
+  },
+  {
+   "name": "Bill O'Reilly (political commentator)",
+   "url": "https://en.wikipedia.org/wiki/Bill_O%27Reilly_(political_commentator)",
+   "qid": "Q310953",
+   "description": "American television host and writer (born 1949)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Fox News harassment scandal",
+     "outcome": "Dismissed by Fox News after harassment settlements were reported (2017)"
+    }
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q310953"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Kennedy School alumni",
+       "url": "https://en.wikipedia.org/wiki/Bill_O%27Reilly_(political_commentator)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "While attending Boston University, he was a reporter and columnist for various local newspapers and alternative news weeklies, including the Boston Phoenix, and did an internship in the newsroom of WBZ-TV. In 1995, he attended the John F. Kennedy School of Government at Harvard University and received a master of public administration degree in 1996.",
+       "url": "https://en.wikipedia.org/wiki/Bill_O%27Reilly_(political_commentator)"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He earned a Master of the Arts degree in broadcast journalism in 1973 from Boston University and a master's degree in public administration from the John F. Kennedy School of Government at Harvard University in 1995.",
+       "url": "https://en.wikipedia.org/wiki/Bill_O%27Reilly_(political_commentator)"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Westminster Christian Academy",
+    "Marist University",
+    "Chaminade High School",
+    "Boston University College of Communication",
+    "Queen Mary University of London",
+    "John F. Kennedy School of Government",
+    "Boston University",
+    "Harvard University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Marist University",
+    "Boston University College of Communication",
+    "Queen Mary University of London",
+    "John F. Kennedy School of Government",
+    "Boston University"
+   ]
   },
   {
    "name": "Bill Richardson",
@@ -603,6 +1037,8 @@
    "qid": "Q311782",
    "description": "American politician (1947–2023)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -646,7 +1082,53 @@
     "Tufts University"
    ],
    "verified": true,
-   "note": "Member and president of Delta Tau Delta at Tufts."
+   "note": "Member and president of Delta Tau Delta at Tufts.",
+   "colleges": [
+    "Tufts University"
+   ]
+  },
+  {
+   "name": "Bob Menendez",
+   "url": "https://en.wikipedia.org/wiki/Bob_Menendez",
+   "qid": "Q888132",
+   "description": "American politician (born 1954)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Menendez bribery case",
+     "outcome": "Convicted of bribery and acting as a foreign agent (2024)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Lambda Theta Phi"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Menendez became the first in his family to go to college, attending Saint Peter's College in Jersey City, where he was a member of the Lambda Theta Phi fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Bob_Menendez"
+     }
+    ]
+   },
+   "education": [
+    "Rutgers Law School",
+    "Union Hill High School",
+    "Rutgers School of Law–Newark",
+    "Saint Peter's University",
+    "Rutgers University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Rutgers Law School",
+    "Rutgers School of Law–Newark",
+    "Saint Peter's University",
+    "Rutgers University"
+   ]
   },
   {
    "name": "Bobby Kotick",
@@ -654,6 +1136,8 @@
    "qid": "Q4117176",
    "description": "American businessman and former CEO of Activision Blizzard",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -665,7 +1149,10 @@
     "Roslyn High School",
     "University of Michigan"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Michigan"
+   ]
   },
   {
    "name": "Brad S. Karp",
@@ -675,6 +1162,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -708,7 +1197,11 @@
     "Union College",
     "Harvard Law School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Union College"
+   ]
   },
   {
    "name": "Brett Ratner",
@@ -718,6 +1211,8 @@
    "documents": [
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -729,7 +1224,10 @@
     "Miami Beach Senior High School",
     "New York University Tisch School of the Arts"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "New York University"
+   ]
   },
   {
    "name": "Brian Vickers",
@@ -739,6 +1237,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -749,7 +1249,8 @@
    "education": [
     "Trinity High School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Brock Pierce",
@@ -759,6 +1260,8 @@
    "documents": [
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -767,7 +1270,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Børge Brende",
@@ -778,6 +1282,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -788,7 +1294,10 @@
    "education": [
     "Norwegian University of Science and Technology"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Norwegian University of Science and Technology"
+   ]
   },
   {
    "name": "Carol Montgomery",
@@ -798,6 +1307,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -806,7 +1317,37 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
+  },
+  {
+   "name": "Caroline Ellison",
+   "url": "https://en.wikipedia.org/wiki/Caroline_Ellison",
+   "qid": "Q115168879",
+   "description": "American business executive and convicted fraudster (born 1994)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "FTX collapse",
+     "outcome": "Pleaded guilty to fraud (2022)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Newton North High School",
+    "Stanford University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Stanford University"
+   ]
   },
   {
    "name": "Casey Wasserman",
@@ -817,6 +1358,8 @@
     "Flight logs",
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -828,7 +1371,106 @@
     "Brentwood School",
     "University of California, Los Angeles"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "UCLA"
+   ]
+  },
+  {
+   "name": "Charles Kushner",
+   "url": "https://en.wikipedia.org/wiki/Charles_Kushner",
+   "qid": "Q5079897",
+   "description": "American real-estate developer and diplomat (born 1954)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Kushner tax and tampering case",
+     "outcome": "Pleaded guilty to tax evasion, witness tampering and illegal campaign donations (2004); pardoned 2020"
+    }
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Jared was admitted to the Harvard freshman class of 1999.",
+       "url": "https://en.wikipedia.org/wiki/Charles_Kushner"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Maurice A. Deane School of Law",
+    "Hofstra University",
+    "Stern School of Business",
+    "New York University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Maurice A. Deane School of Law",
+    "Hofstra University",
+    "New York University"
+   ]
+  },
+  {
+   "name": "Charlie Javice",
+   "url": "https://en.wikipedia.org/wiki/Charlie_Javice",
+   "qid": "Q116269706",
+   "description": "French and American businesswoman and convicted felon (born 1993)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Frank / JPMorgan fraud",
+     "outcome": "Convicted of defrauding JPMorgan (2025)"
+    }
+   ],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q116269706"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Charlie_Javice"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In 2013, Javice graduated from the Wharton School of the University of Pennsylvania after three years with a bachelor's degree in finance and legal studies.",
+       "url": "https://en.wikipedia.org/wiki/Charlie_Javice"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "The Wharton School"
+   ],
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania"
+   ]
   },
   {
    "name": "Christopher Poole",
@@ -836,6 +1478,8 @@
    "qid": "Q3135308",
    "description": "American internet entrepreneur (born 1980s)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -846,7 +1490,34 @@
    "education": [
     "Virginia Commonwealth University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Virginia Commonwealth University"
+   ]
+  },
+  {
+   "name": "Clare Bronfman",
+   "url": "https://en.wikipedia.org/wiki/Clare_Bronfman",
+   "qid": "Q5126130",
+   "description": "American heiress and convicted felon",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "NXIVM",
+     "outcome": "Pleaded guilty to immigration and identity fraud charges (2019)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Corina Tarnita",
@@ -857,6 +1528,8 @@
     "Emails",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -920,7 +1593,10 @@
    "education": [
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University"
+   ]
   },
   {
    "name": "Dan Ariely",
@@ -930,6 +1606,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -942,7 +1620,12 @@
     "University of North Carolina at Chapel Hill",
     "Duke University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Tel Aviv University",
+    "University of North Carolina at Chapel Hill",
+    "Duke University"
+   ]
   },
   {
    "name": "Daniel Siad",
@@ -952,6 +1635,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -960,7 +1645,37 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
+  },
+  {
+   "name": "Danny Masterson",
+   "url": "https://en.wikipedia.org/wiki/Danny_Masterson",
+   "qid": "Q374220",
+   "description": "American actor (born 1976)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Masterson rape case",
+     "outcome": "Convicted of rape (2023)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Young Actors Space",
+    "Garden City High School"
+   ],
+   "verified": false,
+   "colleges": [
+    "Young Actors Space"
+   ]
   },
   {
    "name": "David Blaine",
@@ -970,6 +1685,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -980,7 +1697,8 @@
    "education": [
     "Passaic Valley Regional High School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "David Copperfield (illusionist)",
@@ -991,6 +1709,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1002,7 +1722,10 @@
     "Metuchen High School",
     "Fordham University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Fordham University"
+   ]
   },
   {
    "name": "David Gelernter",
@@ -1010,6 +1733,8 @@
    "qid": "Q92680",
    "description": "American computer scientist (born 1955)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Yale": {
      "status": "yes",
@@ -1053,7 +1778,100 @@
     "Stony Brook University",
     "Yale University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Yale University",
+    "Stony Brook University"
+   ]
+  },
+  {
+   "name": "David Petraeus",
+   "url": "https://en.wikipedia.org/wiki/David_Petraeus",
+   "qid": "Q28591",
+   "description": "American U.S. Army general (born 1952)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Petraeus classified-information case",
+     "outcome": "Pleaded guilty to mishandling classified information (2015)"
+    }
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In October 2013, Petraeus joined Harvard's John F. Kennedy School of Government as a non-resident senior fellow at the Belfer Center for Science and International Affairs.",
+       "url": "https://en.wikipedia.org/wiki/David_Petraeus"
+      }
+     ]
+    },
+    "Princeton": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Princeton School of Public and International Affairs",
+       "url": "https://www.wikidata.org/wiki/Q28591"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Princeton University",
+       "url": "https://www.wikidata.org/wiki/Q28591"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Princeton School of Public and International Affairs alumni",
+       "url": "https://en.wikipedia.org/wiki/David_Petraeus"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He subsequently earned an M.P.A. degree in 1985 and a Ph.D. in international relations and economics in 1987 from Princeton University's Woodrow Wilson School of Public and International Affairs, where he was mentored by Richard H. Ullman, an international relations scholar and progressive commentator.",
+       "url": "https://en.wikipedia.org/wiki/David_Petraeus"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Since 2022, he has taught courses in international relations at Yale University as a Kissinger Senior Fellow of the university's Jackson Institute for Global Affairs.",
+       "url": "https://en.wikipedia.org/wiki/David_Petraeus"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "2023: Kissinger Senior Fellow, Yale Jackson School of Global Affairs",
+       "url": "https://en.wikipedia.org/wiki/David_Petraeus"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Cornwall Central High School",
+    "Princeton School of Public and International Affairs",
+    "United States Army Command and General Staff College",
+    "Walsh School of Foreign Service",
+    "Princeton University",
+    "United States Military Academy"
+   ],
+   "verified": false,
+   "colleges": [
+    "Princeton University",
+    "United States Army Command and General Staff College",
+    "Georgetown University"
+   ]
   },
   {
    "name": "David Schoen",
@@ -1061,6 +1879,8 @@
    "qid": "Q105416185",
    "description": "American attorney",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -1086,7 +1906,10 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Columbia University"
+   ]
   },
   {
    "name": "David Stern (German businessman)",
@@ -1096,6 +1919,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1104,7 +1929,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Dean Kamen",
@@ -1115,6 +1941,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -1139,7 +1967,11 @@
     "Georgia Tech",
     "Worcester Polytechnic Institute"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Georgia Tech",
+    "Worcester Polytechnic Institute"
+   ]
   },
   {
    "name": "Deepak Chopra",
@@ -1147,6 +1979,8 @@
    "qid": "Q318506",
    "description": "American alternative medicine advocate (born 1946)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "no",
@@ -1190,7 +2024,98 @@
    "education": [
     "All India Institutes of Medical Sciences"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "All India Institutes of Medical Sciences"
+   ]
+  },
+  {
+   "name": "Dennis Hastert",
+   "url": "https://en.wikipedia.org/wiki/Dennis_Hastert",
+   "qid": "Q553626",
+   "description": "American politician and criminal (born 1942)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Hastert hush-money case",
+     "outcome": "Pleaded guilty to structuring withdrawals to pay hush money over past abuse (2015)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Oswego High School",
+    "Northern Illinois University",
+    "Wheaton College"
+   ],
+   "verified": false,
+   "colleges": [
+    "Northern Illinois University",
+    "Wheaton College"
+   ]
+  },
+  {
+   "name": "Dennis Kozlowski",
+   "url": "https://en.wikipedia.org/wiki/Dennis_Kozlowski",
+   "qid": "Q5258612",
+   "description": "American businessman and convict",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Tyco",
+     "outcome": "Convicted of grand larceny and fraud (2005)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Seton Hall University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Seton Hall University"
+   ]
+  },
+  {
+   "name": "Do Kwon",
+   "url": "https://en.wikipedia.org/wiki/Do_Kwon",
+   "qid": "Q111966466",
+   "description": "South Korean convicted felon (born 1991)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Terra-Luna collapse",
+     "outcome": "Pleaded guilty to fraud (2025)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Daewon Foreign Language High School",
+    "Stanford University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Stanford University"
+   ]
   },
   {
    "name": "Donald Trump",
@@ -1201,6 +2126,8 @@
     "DOJ / Congressional release",
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Penn": {
      "status": "yes",
@@ -1242,7 +2169,11 @@
     "Fordham University",
     "University of Pennsylvania"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania",
+    "Fordham University"
+   ]
   },
   {
    "name": "Doug Band",
@@ -1253,6 +2184,8 @@
     "Flight logs",
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "yes",
@@ -1273,7 +2206,11 @@
     "University of Florida",
     "Walsh School of Foreign Service"
    ],
-   "verified": true
+   "verified": true,
+   "colleges": [
+    "Georgetown University",
+    "University of Florida"
+   ]
   },
   {
    "name": "Edward Boyden",
@@ -1283,6 +2220,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1294,7 +2233,10 @@
     "Texas Academy of Mathematics and Science",
     "Massachusetts Institute of Technology"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Massachusetts Institute of Technology"
+   ]
   },
   {
    "name": "Edward Jay Epstein",
@@ -1302,6 +2244,8 @@
    "qid": "Q3048569",
    "description": "American investigative journalist (1935–2024)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Cornell": {
      "status": "yes",
@@ -1377,7 +2321,11 @@
     "Harvard University"
    ],
    "verified": true,
-   "note": "B.A. and M.A. in government from Cornell; Ph.D. from Harvard. No relation to Jeffrey Epstein."
+   "note": "B.A. and M.A. in government from Cornell; Ph.D. from Harvard. No relation to Jeffrey Epstein.",
+   "colleges": [
+    "Cornell University",
+    "Harvard University"
+   ]
   },
   {
    "name": "Ehud Barak",
@@ -1387,6 +2335,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1398,7 +2348,96 @@
     "Hebrew University of Jerusalem",
     "Stanford University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Hebrew University of Jerusalem",
+    "Stanford University"
+   ]
+  },
+  {
+   "name": "Eliot Spitzer",
+   "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer",
+   "qid": "Q11675",
+   "description": "Governor of New York from 2007 to 2008",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Spitzer prostitution scandal",
+     "outcome": "Resigned as New York governor (2008)"
+    }
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Law School",
+       "url": "https://www.wikidata.org/wiki/Q11675"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Born in the Bronx, Spitzer attended Princeton University and earned his Juris Doctor degree from Harvard Law School.",
+       "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer"
+      }
+     ]
+    },
+    "Princeton": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Princeton School of Public and International Affairs",
+       "url": "https://www.wikidata.org/wiki/Q11675"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Princeton University",
+       "url": "https://www.wikidata.org/wiki/Q11675"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Princeton School of Public and International Affairs alumni",
+       "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Born in the Bronx, Spitzer attended Princeton University and earned his Juris Doctor degree from Harvard Law School.",
+       "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After scoring 1590 out of 1600 on the Scholastic Aptitude Test (SAT), he attended Princeton University and graduated with a B.A. from the Woodrow Wilson School of Public and International Affairs in 1981, completing a 151-page-long senior thesis titled \"Revolutions in Post-Stalin Eastern Europe: A Study of Soviet Reactions\". At Princeton, he was elected chairman of the undergraduate student govern",
+       "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Horace Mann School",
+    "Princeton School of Public and International Affairs",
+    "Harvard Law School",
+    "Princeton University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Princeton University"
+   ]
   },
   {
    "name": "Elisa New",
@@ -1408,6 +2447,8 @@
    "documents": [
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -1479,7 +2520,54 @@
     "Brandeis University",
     "Columbia University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Columbia University",
+    "Brandeis University"
+   ]
+  },
+  {
+   "name": "Elizabeth Holmes",
+   "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+   "qid": "Q17503525",
+   "description": "American fraudulent businesswoman (born 1984)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Theranos",
+     "outcome": "Convicted of defrauding investors (2022)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Kappa Alpha Theta",
+     "Sigma Chi"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "She was a member of Kappa Alpha Theta at Stanford.",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "The report, written by the deputies who responded to the call, was withheld from release, and the partial information obtained by NPR does not identify an alleged perpetrator or other details about the incident but identifies the street address of the Sigma Chi fraternity house as the location.",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+     }
+    ]
+   },
+   "education": [
+    "St. John's School",
+    "Stanford University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Stanford University"
+   ]
   },
   {
    "name": "Elon Musk",
@@ -1489,6 +2577,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Penn": {
      "status": "yes",
@@ -1539,7 +2629,14 @@
     "University of Pennsylvania",
     "Stanford University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania",
+    "Smith School of Business",
+    "Queen's University",
+    "University of Pretoria",
+    "Stanford University"
+   ]
   },
   {
    "name": "Eva Andersson-Dubin",
@@ -1550,6 +2647,8 @@
     "Flight logs",
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1560,7 +2659,57 @@
    "education": [
     "Karolinska Institutet"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Karolinska Institutet"
+   ]
+  },
+  {
+   "name": "Felicity Huffman",
+   "url": "https://en.wikipedia.org/wiki/Felicity_Huffman",
+   "qid": "Q190519",
+   "description": "American actress (born 1962)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Varsity Blues admissions scandal",
+     "outcome": "Pleaded guilty (2019)"
+    }
+   ],
+   "schools": {
+    "Yale": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Another great-grandfather, Frederick Berthold Ewing, graduated from Yale University and became a St. Louis businessman.",
+       "url": "https://en.wikipedia.org/wiki/Felicity_Huffman"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "The Putney School",
+    "Interlochen Center for the Arts",
+    "Circle in the Square Theatre School",
+    "New York University Tisch School of the Arts",
+    "Royal Academy of Dramatic Art",
+    "New York University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Yale University",
+    "Interlochen Center for the Arts",
+    "New York University"
+   ]
   },
   {
    "name": "Flavio Briatore",
@@ -1570,6 +2719,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1578,7 +2729,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Gary King (politician)",
@@ -1589,6 +2741,8 @@
     "Flight logs",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1601,7 +2755,44 @@
     "New Mexico State University",
     "University of Colorado Boulder"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of New Mexico School of Law",
+    "New Mexico State University",
+    "University of Colorado Boulder"
+   ]
+  },
+  {
+   "name": "Gary Wang (American businessman)",
+   "url": "https://en.wikipedia.org/wiki/Gary_Wang_(American_businessman)",
+   "qid": "Q115683969",
+   "description": "Co-founder of FTX",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "FTX collapse",
+     "outcome": "Pleaded guilty to fraud (2022)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Epsilon Theta"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "At MIT, he was the roommate of Sam Bankman-Fried for three years, and he was a member of Epsilon Theta, a coed fraternity that also included Bankman-Fried.",
+      "url": "https://en.wikipedia.org/wiki/Gary_Wang_(American_businessman)"
+     }
+    ]
+   },
+   "education": [],
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "George Church (geneticist)",
@@ -1609,6 +2800,8 @@
    "qid": "Q3298995",
    "description": "American geneticist (born 1954)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -1653,7 +2846,11 @@
     "Duke University",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Duke University"
+   ]
   },
   {
    "name": "George J. Mitchell",
@@ -1665,6 +2862,8 @@
     "Emails",
     "Birthday book"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "no",
@@ -1688,7 +2887,35 @@
     "Bowdoin College",
     "Georgetown University Law Center"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Bowdoin College",
+    "Georgetown University"
+   ]
+  },
+  {
+   "name": "George Santos",
+   "url": "https://en.wikipedia.org/wiki/George_Santos",
+   "qid": "Q115170395",
+   "description": "American politician and convicted fraudster (born 1988)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Santos fraud case",
+     "outcome": "Pleaded guilty to wire fraud and aggravated identity theft (2024)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Ghislaine Maxwell",
@@ -1698,6 +2925,8 @@
    "documents": [
     "DOJ / Congressional release"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1712,7 +2941,13 @@
     "Marlborough College",
     "Balliol College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Millfield",
+    "University of Oxford",
+    "Marlborough College",
+    "Balliol College"
+   ]
   },
   {
    "name": "Glenn Dubin",
@@ -1723,6 +2958,8 @@
     "Court documents",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -1745,7 +2982,10 @@
    "education": [
     "Stony Brook University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Stony Brook University"
+   ]
   },
   {
    "name": "Gordon Getty",
@@ -1753,6 +2993,8 @@
    "qid": "Q3110901",
    "description": "American heir and composer (born 1933)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1765,7 +3007,11 @@
     "San Francisco Conservatory of Music",
     "University of San Francisco"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "San Francisco Conservatory of Music",
+    "University of San Francisco"
+   ]
   },
   {
    "name": "Grady Judd",
@@ -1775,6 +3021,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1787,7 +3035,11 @@
     "Lakeland Senior High School",
     "Rollins College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Polk State College",
+    "Rollins College"
+   ]
   },
   {
    "name": "Hardeep Singh Puri",
@@ -1797,6 +3049,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1807,7 +3061,41 @@
    "education": [
     "Hindu College, University of Delhi"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Hindu College, University of Delhi"
+   ]
+  },
+  {
+   "name": "Harvey Weinstein",
+   "url": "https://en.wikipedia.org/wiki/Harvey_Weinstein",
+   "qid": "Q531599",
+   "description": "American film producer and sex offender (born 1952)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Weinstein sexual abuse cases",
+     "outcome": "Convicted of rape (California, 2022)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "State University of New York at Buffalo School of Management",
+    "John Bowne High School",
+    "University at Buffalo"
+   ],
+   "verified": false,
+   "colleges": [
+    "State University of New York at Buffalo School of Management",
+    "University at Buffalo"
+   ]
   },
   {
    "name": "Howard Lutnick",
@@ -1815,6 +3103,8 @@
    "qid": "Q16194176",
    "description": "American businessman and government official (born 1961)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1826,7 +3116,99 @@
     "Jericho High School",
     "Haverford College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Haverford College"
+   ]
+  },
+  {
+   "name": "Hunter Biden",
+   "url": "https://en.wikipedia.org/wiki/Hunter_Biden",
+   "qid": "Q5944264",
+   "description": "American businessman and lobbyist (born 1970)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Hunter Biden gun and tax cases",
+     "outcome": "Convicted on gun charges and pleaded guilty to tax charges (2024); pardoned 2024"
+    }
+   ],
+   "schools": {
+    "Yale": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Yale Law School",
+       "url": "https://www.wikidata.org/wiki/Q5944264"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Yale Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Hunter_Biden"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After attending the Georgetown University Law Center for one year, he transferred to Yale Law School and graduated in 1996.",
+       "url": "https://en.wikipedia.org/wiki/Hunter_Biden"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In December 2025, Waterbury, Connecticut based Judge Trial Referee Patrick L. Carroll III disbarred Biden from the Connecticut bar, which Biden entered in 1997 a year after he graduated from Yale Law School, after finding that Biden violated state's attorney conduct rules.",
+       "url": "https://en.wikipedia.org/wiki/Hunter_Biden"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Archmere Academy",
+    "Yale Law School",
+    "Georgetown University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Yale University",
+    "Georgetown University"
+   ]
+  },
+  {
+   "name": "Jack Abramoff",
+   "url": "https://en.wikipedia.org/wiki/Jack_Abramoff",
+   "qid": "Q471854",
+   "description": "American lobbyist (born 1959)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Abramoff lobbying scandal",
+     "outcome": "Pleaded guilty to fraud, tax evasion and conspiracy to bribe officials (2006)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Beverly Hills High School",
+    "Georgetown University Law Center",
+    "Brandeis University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Georgetown University",
+    "Brandeis University"
+   ]
   },
   {
    "name": "Jack Horner (paleontologist)",
@@ -1836,6 +3218,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1846,7 +3230,10 @@
    "education": [
     "University of Montana"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Montana"
+   ]
   },
   {
    "name": "Jack Lang (French politician)",
@@ -1854,6 +3241,8 @@
    "qid": "Q379229",
    "description": "French politician (born 1939)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1865,7 +3254,11 @@
     "Palais de l'Université de Nancy",
     "Paris Institute of Political Studies"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Palais de l'Université de Nancy",
+    "Sciences Po"
+   ]
   },
   {
    "name": "Jean Pigozzi",
@@ -1875,6 +3268,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -1907,7 +3302,10 @@
    "education": [
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University"
+   ]
   },
   {
    "name": "Jean Todt",
@@ -1915,6 +3313,8 @@
    "qid": "Q171998",
    "description": "French motor racing executive (born 1946)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1925,7 +3325,10 @@
    "education": [
     "EDC Paris Business School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "EDC Paris Business School"
+   ]
   },
   {
    "name": "Jean-Luc Brunel",
@@ -1935,6 +3338,8 @@
    "documents": [
     "Flight logs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1943,7 +3348,110 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
+  },
+  {
+   "name": "Jeffrey Skilling",
+   "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling",
+   "qid": "Q1353736",
+   "description": "American businessman and felon (born 1953)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Enron",
+     "outcome": "Convicted of fraud and conspiracy (2006)"
+    }
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Business School",
+       "url": "https://www.wikidata.org/wiki/Q1353736"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q1353736"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He quit by 1977 to attend Harvard Business School.",
+       "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He earned his MBA from Harvard Business School in 1979, graduating in the top 5% of his class as a Baker Scholar.",
+       "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Beta Theta Pi"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "He graduated from West Aurora High School and received a full scholarship to Southern Methodist University in Dallas, Texas, where he was a member of the Beta Theta Pi fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling"
+     }
+    ]
+   },
+   "education": [
+    "West Aurora High School",
+    "Cox School of Business",
+    "Southern Methodist University",
+    "Harvard Business School",
+    "Harvard University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Cox School of Business",
+    "Southern Methodist University"
+   ]
+  },
+  {
+   "name": "Jerry Sandusky",
+   "url": "https://en.wikipedia.org/wiki/Jerry_Sandusky",
+   "qid": "Q6184378",
+   "description": "American college football coach and convicted child sex offender (born 1944)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Penn State abuse scandal",
+     "outcome": "Convicted of child sexual abuse (2012)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Pennsylvania State University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Pennsylvania State University"
+   ]
   },
   {
    "name": "Jes Staley",
@@ -1953,6 +3461,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -1963,7 +3473,10 @@
    "education": [
     "Bowdoin College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Bowdoin College"
+   ]
   },
   {
    "name": "John Brockman (literary agent)",
@@ -1971,6 +3484,8 @@
    "qid": "Q1314332",
    "description": "American literary agent and author",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -1996,7 +3511,10 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Columbia University"
+   ]
   },
   {
    "name": "John C. Phelan",
@@ -2006,6 +3524,8 @@
    "documents": [
     "Flight logs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -2046,7 +3566,12 @@
     "Harvard Business School",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Southern Methodist University",
+    "London School of Economics"
+   ]
   },
   {
    "name": "John de Jongh Jr.",
@@ -2057,6 +3582,8 @@
     "Emails",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -2068,7 +3595,11 @@
     "Antioch University",
     "Antioch College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Antioch University",
+    "Antioch College"
+   ]
   },
   {
    "name": "Joi Ito",
@@ -2079,6 +3610,8 @@
     "Emails",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -2119,7 +3652,41 @@
     "University of Chicago",
     "Tufts University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Keio University",
+    "University of Chicago",
+    "Tufts University"
+   ]
+  },
+  {
+   "name": "Jordan Belfort",
+   "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+   "qid": "Q3183674",
+   "description": "American stockbroker (born 1962)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Stratton Oakmont fraud",
+     "outcome": "Pleaded guilty to securities fraud and money laundering (1999)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Bayside High School",
+    "American University"
+   ],
+   "verified": false,
+   "colleges": [
+    "American University"
+   ]
   },
   {
    "name": "Joscha Bach",
@@ -2127,6 +3694,8 @@
    "qid": "Q56605600",
    "description": "German cognitive scientist (born 1973)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -2139,7 +3708,46 @@
     "University of Waikato",
     "Humboldt-Universität zu Berlin"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Osnabrück University",
+    "University of Waikato",
+    "Humboldt-Universität zu Berlin"
+   ]
+  },
+  {
+   "name": "Joseph Nacchio",
+   "url": "https://en.wikipedia.org/wiki/Joseph_Nacchio",
+   "qid": "Q6285737",
+   "description": "American executive (born 1949)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Qwest",
+     "outcome": "Convicted of insider trading (2007)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Stuyvesant High School",
+    "Stern School of Business",
+    "MIT Sloan School of Management",
+    "New York University Tandon School of Engineering",
+    "New York University",
+    "Massachusetts Institute of Technology"
+   ],
+   "verified": false,
+   "colleges": [
+    "New York University",
+    "Massachusetts Institute of Technology"
+   ]
   },
   {
    "name": "Josh Harris (businessman)",
@@ -2149,6 +3757,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -2246,7 +3856,11 @@
     "Harvard Business School"
    ],
    "verified": false,
-   "note": "Wikipedia article text names Sigma Alpha Epsilon; Wikidata also lists Phi Delta Theta. Kappa Beta Phi is a Wall Street honor society, not counted."
+   "note": "Wikipedia article text names Sigma Alpha Epsilon; Wikidata also lists Phi Delta Theta. Kappa Beta Phi is a Wall Street honor society, not counted.",
+   "colleges": [
+    "Harvard University",
+    "University of Pennsylvania"
+   ]
   },
   {
    "name": "Joshua Cooper Ramo",
@@ -2254,6 +3868,8 @@
    "qid": "Q6289742",
    "description": "American foreign policy consultant and writer",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -2277,7 +3893,10 @@
     "Albuquerque Academy",
     "University of Chicago"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Chicago"
+   ]
   },
   {
    "name": "Karim Wade",
@@ -2287,6 +3906,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -2298,7 +3919,11 @@
     "University of Paris 1 Pantheon-Sorbonne",
     "University of Paris"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Paris 1 Pantheon-Sorbonne",
+    "University of Paris"
+   ]
   },
   {
    "name": "Kathryn Ruemmler",
@@ -2306,6 +3931,8 @@
    "qid": "Q6377116",
    "description": "American lawyer (born 1971)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -2318,7 +3945,40 @@
     "Georgetown University Law Center",
     "Q219563"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Georgetown University",
+    "Q219563"
+   ]
+  },
+  {
+   "name": "Keith Raniere",
+   "url": "https://en.wikipedia.org/wiki/Keith_Raniere",
+   "qid": "Q6384925",
+   "description": "American cult founder and convicted felon (born 1960)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "NXIVM",
+     "outcome": "Convicted of sex trafficking and racketeering (2019)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Rockland Country Day School",
+    "Rensselaer Polytechnic Institute"
+   ],
+   "verified": false,
+   "colleges": [
+    "Rensselaer Polytechnic Institute"
+   ]
   },
   {
    "name": "Ken Starr",
@@ -2328,6 +3988,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Brown": {
      "status": "yes",
@@ -2383,7 +4045,57 @@
     "Brown University"
    ],
    "verified": true,
-   "note": "Delta Phi Epsilon is a professional foreign-service fraternity, joined at George Washington University."
+   "note": "Delta Phi Epsilon is a professional foreign-service fraternity, joined at George Washington University.",
+   "colleges": [
+    "Brown University",
+    "Harding University",
+    "George Washington University",
+    "Duke University"
+   ]
+  },
+  {
+   "name": "Kenneth Lay",
+   "url": "https://en.wikipedia.org/wiki/Kenneth_Lay",
+   "qid": "Q445701",
+   "description": "Founder of Enron Corporation (1942–2006)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Enron",
+     "outcome": "Convicted of fraud (2006); vacated after his death"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Zeta Phi",
+     "Beta Theta Pi"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "He served as president of the Zeta Phi chapter of the Beta Theta Pi fraternity at the University of Missouri.",
+      "url": "https://en.wikipedia.org/wiki/Kenneth_Lay"
+     }
+    ]
+   },
+   "education": [
+    "David H. Hickman High School",
+    "University of Houston C.T. Bauer College of Business",
+    "University of Houston",
+    "Trulaske College of Business",
+    "University of Missouri"
+   ],
+   "verified": false,
+   "colleges": [
+    "University of Houston C.T. Bauer College of Business",
+    "University of Houston",
+    "Trulaske College of Business",
+    "University of Missouri"
+   ]
   },
   {
    "name": "Kenneth Mapp",
@@ -2393,6 +4105,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -2433,7 +4147,12 @@
     "John F. Kennedy School of Government"
    ],
    "verified": true,
-   "note": "Harvard Kennedy School: executive programs and fellowships, not a degree program."
+   "note": "Harvard Kennedy School: executive programs and fellowships, not a degree program.",
+   "colleges": [
+    "Harvard University",
+    "University of the Virgin Islands",
+    "John F. Kennedy School of Government"
+   ]
   },
   {
    "name": "Kevin Rudd",
@@ -2441,6 +4160,8 @@
    "qid": "Q43135",
    "description": "Prime Minister of Australia (2007–2010; 2013)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -2464,7 +4185,11 @@
     "Yale-China Chinese Language Center",
     "National Taiwan Normal University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Yale-China Chinese Language Center",
+    "National Taiwan Normal University"
+   ]
   },
   {
    "name": "Kevin Spacey",
@@ -2474,6 +4199,8 @@
    "documents": [
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -2487,7 +4214,11 @@
     "Canoga Park High School",
     "Juilliard School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Los Angeles Valley College",
+    "Juilliard School"
+   ]
   },
   {
    "name": "Kimbal Musk",
@@ -2497,6 +4228,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -2508,7 +4241,40 @@
     "International Culinary Center",
     "Queen's University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "International Culinary Center",
+    "Queen's University"
+   ]
+  },
+  {
+   "name": "Larry Nassar",
+   "url": "https://en.wikipedia.org/wiki/Larry_Nassar",
+   "qid": "Q47467705",
+   "description": "American sex offender (born 1963)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "USA Gymnastics abuse scandal",
+     "outcome": "Pleaded guilty to sexual abuse and child pornography charges (2017)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "North Farmington High School",
+    "University of Michigan"
+   ],
+   "verified": false,
+   "colleges": [
+    "University of Michigan"
+   ]
   },
   {
    "name": "Larry Summers",
@@ -2516,6 +4282,8 @@
    "qid": "Q317953",
    "description": "American economist (born 1954)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -2593,7 +4361,11 @@
     "Massachusetts Institute of Technology",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Massachusetts Institute of Technology"
+   ]
   },
   {
    "name": "Lawrence Krauss",
@@ -2601,6 +4373,8 @@
    "qid": "Q470468",
    "description": "American particle physicist and cosmologist (born 1954)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -2660,7 +4434,11 @@
     "Carleton University",
     "Massachusetts Institute of Technology"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Carleton University",
+    "Massachusetts Institute of Technology"
+   ]
   },
   {
    "name": "Len Blavatnik",
@@ -2668,6 +4446,8 @@
    "qid": "Q164997",
    "description": "Businessman and philanthropist (born 1957)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -2724,7 +4504,13 @@
     "Russian University of Transport",
     "Harvard Business School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Columbia University",
+    "Harvard University",
+    "Fu Foundation School of Engineering and Applied Science",
+    "Russian University of Transport"
+   ]
   },
   {
    "name": "Leon Black",
@@ -2736,6 +4522,8 @@
     "Emails",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Dartmouth": {
      "status": "yes",
@@ -2808,7 +4596,11 @@
     "Dartmouth College",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Dartmouth College",
+    "Harvard University"
+   ]
   },
   {
    "name": "Leon Botstein",
@@ -2819,6 +4611,8 @@
     "Emails",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -2858,7 +4652,44 @@
     "University of Chicago",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "University of Chicago"
+   ]
+  },
+  {
+   "name": "Les Moonves",
+   "url": "https://en.wikipedia.org/wiki/Les_Moonves",
+   "qid": "Q6531032",
+   "description": "American actor and television executive (born 1949)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Moonves misconduct allegations",
+     "outcome": "Ousted as CBS CEO (2018)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Valley Stream Central High School",
+    "The Center for Early Education",
+    "Bucknell University",
+    "Neighborhood Playhouse School of the Theatre"
+   ],
+   "verified": false,
+   "colleges": [
+    "The Center for Early Education",
+    "Bucknell University",
+    "Neighborhood Playhouse School of the Theatre"
+   ]
   },
   {
    "name": "Les Wexner",
@@ -2870,6 +4701,8 @@
     "DOJ / Congressional release",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -2908,7 +4741,11 @@
     "Ohio State University"
    ],
    "verified": true,
-   "note": "Joined at Ohio State University."
+   "note": "Joined at Ohio State University.",
+   "colleges": [
+    "Moritz College of Law",
+    "Ohio State University"
+   ]
   },
   {
    "name": "Lisa Randall",
@@ -2916,6 +4753,8 @@
    "qid": "Q450404",
    "description": "American theoretical physicist (b. 1962)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -2975,7 +4814,36 @@
     "Stuyvesant High School",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University"
+   ]
+  },
+  {
+   "name": "Lori Loughlin",
+   "url": "https://en.wikipedia.org/wiki/Lori_Loughlin",
+   "qid": "Q234712",
+   "description": "American actress (born 1964)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Varsity Blues admissions scandal",
+     "outcome": "Pleaded guilty (2020)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Hauppauge High School"
+   ],
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Lynn Forester de Rothschild",
@@ -2983,6 +4851,8 @@
    "qid": "Q6709020",
    "description": "American-British businesswoman (born 1954)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -3017,7 +4887,12 @@
     "Columbia Law School",
     "Geneva Graduate Institute"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Columbia University",
+    "Pomona College",
+    "Geneva Graduate Institute"
+   ]
   },
   {
    "name": "Marc Rowan",
@@ -3025,6 +4900,8 @@
    "qid": "Q16194777",
    "description": "American businessman (born 1962)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Penn": {
      "status": "yes",
@@ -3063,7 +4940,10 @@
     "John F. Kennedy High School",
     "The Wharton School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania"
+   ]
   },
   {
    "name": "Maria Drokova",
@@ -3073,6 +4953,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3083,7 +4965,10 @@
    "education": [
     "Faculty of Public Administration"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Faculty of Public Administration"
+   ]
   },
   {
    "name": "Mariya Prusakova (snowboarder)",
@@ -3093,6 +4978,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3101,7 +4988,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Mark Landon",
@@ -3113,6 +5001,8 @@
     "Emails",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3121,7 +5011,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Mark Zuckerberg",
@@ -3131,6 +5022,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -3187,7 +5080,75 @@
     "Harvard University"
    ],
    "verified": true,
-   "note": "Member of Alpha Epsilon Pi at Harvard."
+   "note": "Member of Alpha Epsilon Pi at Harvard.",
+   "colleges": [
+    "Harvard University",
+    "Mercy University",
+    "New York Medical College"
+   ]
+  },
+  {
+   "name": "Martha Stewart",
+   "url": "https://en.wikipedia.org/wiki/Martha_Stewart",
+   "qid": "Q234606",
+   "description": "American businesswoman, writer, TV personality (born 1941)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "ImClone insider trading",
+     "outcome": "Convicted of obstruction and false statements (2004)"
+    }
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Barnard College",
+       "url": "https://www.wikidata.org/wiki/Q234606"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Barnard College alumni",
+       "url": "https://en.wikipedia.org/wiki/Martha_Stewart"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "She attended Barnard College of Columbia University, originally planning to major in chemistry, but switching to art, history, and later architectural history.",
+       "url": "https://en.wikipedia.org/wiki/Martha_Stewart"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "During this time, she met Andrew Stewart, who finished his law degree at Yale Law School.",
+       "url": "https://en.wikipedia.org/wiki/Martha_Stewart"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Nutley High School",
+    "Barnard College"
+   ],
+   "verified": false,
+   "colleges": [
+    "Columbia University",
+    "Yale University"
+   ]
   },
   {
    "name": "Martin Nowak",
@@ -3195,6 +5156,8 @@
    "qid": "Q87451",
    "description": "Austrian-born scientist (born 1965)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -3237,7 +5200,41 @@
    "education": [
     "University of Vienna"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Vienna"
+   ]
+  },
+  {
+   "name": "Martin Shkreli",
+   "url": "https://en.wikipedia.org/wiki/Martin_Shkreli",
+   "qid": "Q6776585",
+   "description": "American financial investor and businessman (born 1983)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Shkreli securities fraud",
+     "outcome": "Convicted of securities fraud (2017)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Zicklin School of Business",
+    "Hunter College High School",
+    "Baruch College"
+   ],
+   "verified": false,
+   "colleges": [
+    "Zicklin School of Business",
+    "Baruch College"
+   ]
   },
   {
    "name": "Marvin Minsky",
@@ -3247,6 +5244,8 @@
    "documents": [
     "Court documents"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -3315,7 +5314,148 @@
     "Princeton University",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Princeton University"
+   ]
+  },
+  {
+   "name": "Matt Lauer",
+   "url": "https://en.wikipedia.org/wiki/Matt_Lauer",
+   "qid": "Q1100609",
+   "description": "American TV journalist (born 1957)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "NBC misconduct allegation",
+     "outcome": "Fired by NBC (2017)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Greenwich High School",
+    "Ohio University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Ohio University"
+   ]
+  },
+  {
+   "name": "Michael Cohen (lawyer)",
+   "url": "https://en.wikipedia.org/wiki/Michael_Cohen_(lawyer)",
+   "qid": "Q22277395",
+   "description": "Attorney for Donald Trump from 2006 to 2018",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Mueller investigation",
+     "outcome": "Pleaded guilty to campaign finance violations, tax evasion and lying to Congress (2018)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Cooley Law School",
+    "Lawrence Woodmere Academy",
+    "Western Michigan University",
+    "American University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Cooley Law School",
+    "Western Michigan University",
+    "American University"
+   ]
+  },
+  {
+   "name": "Michael Milken",
+   "url": "https://en.wikipedia.org/wiki/Michael_Milken",
+   "qid": "Q918376",
+   "description": "American financier, racketeer and securities fraudster (born 1946)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Drexel junk-bond scandal",
+     "outcome": "Pleaded guilty to securities violations (1990); pardoned 2020"
+    }
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "\"I am troubled by – and other scholars are troubled by – the notion of putting relatives on the bargaining table,\" said Vivian Berger, a professor at Columbia University Law School, in a 1990 interview with The New York Times.",
+       "url": "https://en.wikipedia.org/wiki/Michael_Milken"
+      }
+     ]
+    },
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q918376"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Michael_Milken"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He then received his MBA from the Wharton School of the University of Pennsylvania.",
+       "url": "https://en.wikipedia.org/wiki/Michael_Milken"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Sigma Alpha Mu"
+    ],
+    "honor_societies": [
+     "Phi Beta Kappa Society",
+     "Phi Beta Kappa"
+    ],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "He was elected to Phi Beta Kappa and was a member of the Sigma Alpha Mu fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Michael_Milken"
+     }
+    ]
+   },
+   "education": [
+    "Birmingham High School",
+    "The Wharton School",
+    "University of California, Berkeley"
+   ],
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania",
+    "University of California, Berkeley"
+   ]
   },
   {
    "name": "Michael Wolff (journalist)",
@@ -3325,6 +5465,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -3359,7 +5501,11 @@
     "Vassar College",
     "Columbia University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Columbia University",
+    "Vassar College"
+   ]
   },
   {
    "name": "Miroslav Lajčák",
@@ -3371,6 +5517,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3382,7 +5530,11 @@
     "Faculty of Law at Comenius University in Bratislava",
     "Moscow State Institute of International Relations"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Faculty of Law at Comenius University in Bratislava",
+    "Moscow State Institute of International Relations"
+   ]
   },
   {
    "name": "Mohammed bin Salman",
@@ -3393,6 +5545,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3403,7 +5557,10 @@
    "education": [
     "King Saud University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "King Saud University"
+   ]
   },
   {
    "name": "Mona Juul",
@@ -3411,6 +5568,8 @@
    "qid": "Q2370975",
    "description": "Norwegian diplomat",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3421,7 +5580,10 @@
    "education": [
     "Faculty of social sciences"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Faculty of social sciences"
+   ]
   },
   {
    "name": "Mortimer Zuckerman",
@@ -3431,6 +5593,8 @@
    "documents": [
     "Birthday book"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -3507,7 +5671,40 @@
     "The Wharton School",
     "Harvard Law School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "University of Pennsylvania",
+    "McGill Faculty of Law"
+   ]
+  },
+  {
+   "name": "Mossimo Giannulli",
+   "url": "https://en.wikipedia.org/wiki/Mossimo_Giannulli",
+   "qid": "Q62070301",
+   "description": "American fashion designer",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Varsity Blues admissions scandal",
+     "outcome": "Pleaded guilty (2020)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of Southern California"
+   ],
+   "verified": false,
+   "colleges": [
+    "University of Southern California"
+   ]
   },
   {
    "name": "Naomi Campbell",
@@ -3517,6 +5714,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3529,7 +5728,8 @@
     "Dunraven School",
     "Italia Conti Academy of Theatre Arts"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Nathan Myhrvold",
@@ -3540,6 +5740,8 @@
     "Emails",
     "Birthday book"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Princeton": {
      "status": "yes",
@@ -3579,7 +5781,11 @@
     "University of California, Los Angeles",
     "Princeton University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Princeton University",
+    "UCLA"
+   ]
   },
   {
    "name": "Nathan Wolfe",
@@ -3589,6 +5795,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -3617,7 +5825,11 @@
     "Stanford University",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Stanford University"
+   ]
   },
   {
    "name": "Nick Candy",
@@ -3625,6 +5837,8 @@
    "qid": "Q41453559",
    "description": "British luxury property developer and politician (born 1973)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3633,7 +5847,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Nicole Junkermann",
@@ -3643,6 +5858,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -3676,7 +5893,11 @@
     "International University of Monaco",
     "Harvard Business School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "International University of Monaco"
+   ]
   },
   {
    "name": "Noam Chomsky",
@@ -3688,6 +5909,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "no",
@@ -3772,7 +5995,12 @@
     "Harvard University"
    ],
    "verified": true,
-   "note": "Degrees (B.A., M.A., Ph.D.) from Penn. At Harvard he was a Junior Fellow in the Society of Fellows (1951–55), not a degree student."
+   "note": "Degrees (B.A., M.A., Ph.D.) from Penn. At Harvard he was a Junior Fellow in the Society of Fellows (1951–55), not a degree student.",
+   "colleges": [
+    "Harvard University",
+    "University of Pennsylvania",
+    "Massachusetts Institute of Technology"
+   ]
   },
   {
    "name": "Nouriel Roubini",
@@ -3782,6 +6010,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -3837,7 +6067,42 @@
     "Hebrew University of Jerusalem",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Bocconi University",
+    "Hebrew University of Jerusalem"
+   ]
+  },
+  {
+   "name": "Paul Manafort",
+   "url": "https://en.wikipedia.org/wiki/Paul_Manafort",
+   "qid": "Q3371760",
+   "description": "American political consultant (born 1949)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Mueller investigation",
+     "outcome": "Convicted of tax and bank fraud (2018); pardoned 2020"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "St. Thomas Aquinas High School",
+    "Georgetown University Law Center",
+    "Georgetown University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Georgetown University"
+   ]
   },
   {
    "name": "Paul Tweed",
@@ -3845,6 +6110,8 @@
    "qid": "Q20687446",
    "description": "Northern Irish lawyer",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3855,7 +6122,69 @@
    "education": [
     "Queen's University Belfast"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Queen's University Belfast"
+   ]
+  },
+  {
+   "name": "Paul Wolfowitz",
+   "url": "https://en.wikipedia.org/wiki/Paul_Wolfowitz",
+   "qid": "Q219861",
+   "description": "American politician and diplomat (born 1943)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "World Bank pay controversy",
+     "outcome": "Resigned as World Bank president (2007)"
+    }
+   ],
+   "schools": {
+    "Cornell": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Cornell University",
+       "url": "https://www.wikidata.org/wiki/Q219861"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Cornell University alumni",
+       "url": "https://en.wikipedia.org/wiki/Paul_Wolfowitz"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "While finishing his dissertation, Wolfowitz taught in the department of political science at Yale University from 1970 to 1972; one of his students was future colleague Scooter Libby.",
+       "url": "https://en.wikipedia.org/wiki/Paul_Wolfowitz"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Ithaca High School",
+    "University of Chicago",
+    "Cornell University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Cornell University",
+    "University of Chicago"
+   ]
   },
   {
    "name": "Peggy Siegal",
@@ -3866,6 +6195,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3874,7 +6205,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Peter Attia",
@@ -3884,6 +6216,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3896,7 +6230,11 @@
     "Queen's University",
     "Stanford University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Stanford University",
+    "Queen's University"
+   ]
   },
   {
    "name": "Peter Mandelson",
@@ -3907,6 +6245,8 @@
     "Emails",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3918,7 +6258,75 @@
     "Hendon School",
     "St Catherine's College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "St Catherine's College"
+   ]
+  },
+  {
+   "name": "Peter Navarro",
+   "url": "https://en.wikipedia.org/wiki/Peter_Navarro",
+   "qid": "Q7176052",
+   "description": "American economist and author (born 1949)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "January 6 committee subpoena",
+     "outcome": "Convicted of contempt of Congress (2023)"
+    }
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q7176052"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Graduate School of Arts and Sciences alumni",
+       "url": "https://en.wikipedia.org/wiki/Peter_Navarro"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Kennedy School alumni",
+       "url": "https://en.wikipedia.org/wiki/Peter_Navarro"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "According to The San Diego Union-Tribune, Navarro recalled listening to Voice of America and hearing Jimmy Carter's presidential campaign on a \"message of hope\". He received a Master of Public Administration from Harvard University's John F. Kennedy School of Government in 1979, and a PhD in economics from Harvard in 1986 under the supervision of Richard E. Caves.",
+       "url": "https://en.wikipedia.org/wiki/Peter_Navarro"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Navarro's political affiliations and policy positions are \"hotly disputed and across the spectrum.\" While he lived in Massachusetts studying for his PhD at Harvard, he was a registered Democrat.",
+       "url": "https://en.wikipedia.org/wiki/Peter_Navarro"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Bethesda-Chevy Chase High School",
+    "John F. Kennedy School of Government",
+    "Tufts University",
+    "Harvard University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "John F. Kennedy School of Government",
+    "Tufts University"
+   ]
   },
   {
    "name": "Peter Thiel",
@@ -3928,6 +6336,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -3952,7 +6362,10 @@
     "San Mateo High School",
     "Stanford University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Stanford University"
+   ]
   },
   {
    "name": "Princess Sofia, Duchess of Värmland",
@@ -3963,6 +6376,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3971,7 +6386,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Queen Mette-Marit of Norway",
@@ -3982,6 +6398,8 @@
     "DOJ / Congressional release",
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -3998,7 +6416,168 @@
     "University of Oslo",
     "SOAS, University of London"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Agder",
+    "BI Norwegian Business School",
+    "University of Oslo",
+    "SOAS, University of London"
+   ]
+  },
+  {
+   "name": "R. Kelly",
+   "url": "https://en.wikipedia.org/wiki/R._Kelly",
+   "qid": "Q273055",
+   "description": "American former singer (born 1967)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "R. Kelly abuse cases",
+     "outcome": "Convicted of racketeering and sex trafficking (2021)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Kenwood Academy"
+   ],
+   "verified": false,
+   "colleges": []
+  },
+  {
+   "name": "Raj Rajaratnam",
+   "url": "https://en.wikipedia.org/wiki/Raj_Rajaratnam",
+   "qid": "Q2068029",
+   "description": "American investments manager",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Galleon insider trading",
+     "outcome": "Convicted of insider trading (2011)"
+    }
+   ],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q2068029"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Raj_Rajaratnam"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He attended Dulwich College in London and later studied engineering at the University of Sussex, and then earned an M.B.A. from the Wharton School of the University of Pennsylvania in 1983.",
+       "url": "https://en.wikipedia.org/wiki/Raj_Rajaratnam"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "The Wharton School",
+    "Dulwich College",
+    "University of Sussex"
+   ],
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania",
+    "Dulwich College",
+    "University of Sussex"
+   ]
+  },
+  {
+   "name": "Rajat Gupta",
+   "url": "https://en.wikipedia.org/wiki/Rajat_Gupta",
+   "qid": "Q3139642",
+   "description": "Indian-American business executive (born 1948)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Galleon insider trading",
+     "outcome": "Convicted of insider trading (2012)"
+    }
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Business School",
+       "url": "https://www.wikidata.org/wiki/Q3139642"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q3139642"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/Rajat_Gupta"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "His economics professor at IIT Delhi was Subramanian Swamy, who wrote his recommendation letter when he applied for Harvard Business School.",
+       "url": "https://en.wikipedia.org/wiki/Rajat_Gupta"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Declining a job from the prestigious domestic firm ITC Limited, he received an MBA from Harvard Business School in 1973.",
+       "url": "https://en.wikipedia.org/wiki/Rajat_Gupta"
+      }
+     ]
+    },
+    "Penn": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Gupta served as chairman of the board of associates of the Harvard Business School, and was a member of the board of governors for the Lauder Institute of Management & International Studies at The Wharton School, University of Pennsylvania.",
+       "url": "https://en.wikipedia.org/wiki/Rajat_Gupta"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Indian Institute of Technology Delhi",
+    "Harvard Business School",
+    "Harvard University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "University of Pennsylvania",
+    "Indian Institute of Technology Delhi"
+   ]
   },
   {
    "name": "Reid Hoffman",
@@ -4006,6 +6585,8 @@
    "qid": "Q211098",
    "description": "American internet entrepreneur (born 1967)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "no",
@@ -4030,7 +6611,11 @@
     "Wolfson College",
     "Stanford University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Wolfson College",
+    "Stanford University"
+   ]
   },
   {
    "name": "Richard Axel",
@@ -4038,6 +6623,8 @@
    "qid": "Q211940",
    "description": "American molecular biologist (born 1946)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -4082,7 +6669,11 @@
     "Johns Hopkins School of Medicine",
     "Columbia University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Columbia University",
+    "Johns Hopkins School of Medicine"
+   ]
   },
   {
    "name": "Robert F. Kennedy Jr.",
@@ -4093,6 +6684,8 @@
     "Flight logs",
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -4126,7 +6719,14 @@
     "London School of Economics and Political Science",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "University of Virginia School of Law",
+    "Elisabeth Haub School of Law at Pace University",
+    "Georgetown University",
+    "London School of Economics"
+   ]
   },
   {
    "name": "Robert Lawrence Kuhn",
@@ -4134,6 +6734,8 @@
    "qid": "Q10489406",
    "description": "American investment banker",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4150,7 +6752,13 @@
     "University of California, Los Angeles",
     "MIT Sloan School of Management"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Sloan Fellows Program",
+    "Johns Hopkins University",
+    "UCLA",
+    "Massachusetts Institute of Technology"
+   ]
   },
   {
    "name": "Robert Maxwell",
@@ -4160,6 +6768,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4168,7 +6778,8 @@
     "evidence": []
    },
    "education": [],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Robert Mugabe",
@@ -4178,6 +6789,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4193,7 +6806,14 @@
     "University of South Africa",
     "University of Oxford"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of London Worldwide",
+    "Kutama College",
+    "University of Fort Hare",
+    "University of South Africa",
+    "University of Oxford"
+   ]
   },
   {
    "name": "Robert Trivers",
@@ -4201,6 +6821,8 @@
    "qid": "Q918334",
    "description": "American biologist (1943–2026)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -4243,7 +6865,73 @@
    "education": [
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University"
+   ]
+  },
+  {
+   "name": "Rod Blagojevich",
+   "url": "https://en.wikipedia.org/wiki/Rod_Blagojevich",
+   "qid": "Q151891",
+   "description": "Governor of Illinois from 2003 to 2009",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Blagojevich corruption case",
+     "outcome": "Convicted of corruption (2011); commuted 2020, pardoned 2025"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Pepperdine University School of Law",
+    "Lane Technical College Prep High School",
+    "Foreman High School",
+    "Northwestern University",
+    "Pepperdine University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Pepperdine University School of Law",
+    "Northwestern University",
+    "Pepperdine University"
+   ]
+  },
+  {
+   "name": "Roger Ailes",
+   "url": "https://en.wikipedia.org/wiki/Roger_Ailes",
+   "qid": "Q983981",
+   "description": "American TV executive and consultant (1940–2017)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Fox News harassment scandal",
+     "outcome": "Resigned as Fox News chairman (2016)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Warren G. Harding High School",
+    "Ohio University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Ohio University"
+   ]
   },
   {
    "name": "Roger Schank",
@@ -4251,6 +6939,8 @@
    "qid": "Q611080",
    "description": "American scientist (1946–2023)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Yale": {
      "status": "no",
@@ -4285,7 +6975,40 @@
     "Carnegie Mellon University",
     "University of Texas at Austin"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Carnegie Mellon University",
+    "University of Texas at Austin"
+   ]
+  },
+  {
+   "name": "Roger Stone",
+   "url": "https://en.wikipedia.org/wiki/Roger_Stone",
+   "qid": "Q7358961",
+   "description": "American political consultant and lobbyist (born 1952)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Mueller investigation",
+     "outcome": "Convicted of lying to Congress and witness tampering (2019); pardoned 2020"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "John Jay High School",
+    "George Washington University"
+   ],
+   "verified": false,
+   "colleges": [
+    "George Washington University"
+   ]
   },
   {
    "name": "Ronald Lauder",
@@ -4295,6 +7018,8 @@
    "documents": [
     "DOJ / Congressional release"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Penn": {
      "status": "yes",
@@ -4330,7 +7055,89 @@
     "Bronx High School of Science",
     "University of Paris"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania",
+    "Free University of Brussels",
+    "University of Paris"
+   ]
+  },
+  {
+   "name": "Sam Bankman-Fried",
+   "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+   "qid": "Q106543540",
+   "description": "American cryptocurrency entrepreneur and criminal (born 1992)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "FTX collapse",
+     "outcome": "Convicted of fraud and conspiracy (2023)"
+    }
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "His aunt Linda P. Fried was the dean of Columbia University Mailman School of Public Health.",
+       "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Epsilon Theta"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "As an MIT student, he lived in a coeducational group house called Epsilon Theta.",
+      "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+     }
+    ]
+   },
+   "education": [
+    "Crystal Springs Uplands School",
+    "Massachusetts Institute of Technology"
+   ],
+   "verified": false,
+   "colleges": [
+    "Massachusetts Institute of Technology"
+   ]
+  },
+  {
+   "name": "Samuel D. Waksal",
+   "url": "https://en.wikipedia.org/wiki/Samuel_D._Waksal",
+   "qid": "Q7411220",
+   "description": "American immunologist, businessman and convicted insider trader",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "ImClone insider trading",
+     "outcome": "Pleaded guilty to securities fraud (2002)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Ohio State University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Ohio State University"
+   ]
   },
   {
    "name": "Sarah Ferguson",
@@ -4340,6 +7147,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4351,7 +7160,140 @@
     "Hurst Lodge School",
     "Daneshill School"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": []
+  },
+  {
+   "name": "Scooter Libby",
+   "url": "https://en.wikipedia.org/wiki/Scooter_Libby",
+   "qid": "Q380441",
+   "description": "American lawyer and political advisor (born 1950)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Plame affair",
+     "outcome": "Convicted of perjury and obstruction (2007); pardoned 2018"
+    }
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Columbia Law School",
+       "url": "https://www.wikidata.org/wiki/Q380441"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia University alumni",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In 1975, as a Harlan Fiske Stone Scholar, Libby received his Juris Doctor (J.D.) degree from Columbia Law School.",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      }
+     ]
+    },
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In their highly controversial and widely contested \"Working Paper\" entitled \"The Israel Lobby and U.S. Foreign Policy\", University of Chicago political science professor John J. Mearsheimer and academic dean of the John F. Kennedy School of Government at Harvard University Stephen M. Walt argue that Libby was among the Bush administration's most \"fervently pro-Israel ... officials\" (20).",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Yale University",
+       "url": "https://www.wikidata.org/wiki/Q380441"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Yale University alumni",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Libby attended Yale University in New Haven, graduating magna cum laude in 1972.",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Libby practiced law at Schnader for six years before joining the U.S. State Department policy planning staff, at the invitation of his former Yale professor, Paul Wolfowitz, in 1981.",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 1985, returning to private practice, he joined the firm then known as Dickstein, Shapiro & Morin (now Dickstein Shapiro LLP), becoming a partner in 1986 and working there until 1989, when he left to work in the U.S. Defense Department, again under his former Yale professor Paul Wolfowitz, until January 1993.",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [
+     "Phi Beta Kappa"
+    ],
+    "evidence": []
+   },
+   "education": [
+    "Eaglebrook School",
+    "Phillips Academy",
+    "Columbia Law School",
+    "Yale University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Columbia University",
+    "Yale University"
+   ]
+  },
+  {
+   "name": "Sean Combs",
+   "url": "https://en.wikipedia.org/wiki/Sean_Combs",
+   "qid": "Q216936",
+   "description": "American rapper and producer (born 1969)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Sean Combs trafficking case",
+     "outcome": "Convicted on two Mann Act prostitution counts (2025); acquitted of sex trafficking and racketeering"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Mount Saint Michael Academy",
+    "Howard University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Howard University"
+   ]
   },
   {
    "name": "Sergei Belyakov",
@@ -4359,6 +7301,8 @@
    "qid": "Q4083560",
    "description": "Russian government official and manager",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4369,7 +7313,8 @@
    "education": [
     "Academy of the Federal Security Service of the Russian Federation"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": []
   },
   {
    "name": "Sergey Brin",
@@ -4377,6 +7322,8 @@
    "qid": "Q92764",
    "description": "American computer scientist (born 1973)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4390,7 +7337,11 @@
     "University of Maryland",
     "Stanford University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Maryland",
+    "Stanford University"
+   ]
   },
   {
    "name": "Soon-Yi Previn",
@@ -4400,6 +7351,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -4440,7 +7393,12 @@
     "Drew University",
     "Columbia University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Columbia University",
+    "Rider University",
+    "Drew University"
+   ]
   },
   {
    "name": "Stacey Plaskett",
@@ -4450,6 +7408,8 @@
    "documents": [
     "DOJ / Congressional release"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "yes",
@@ -4472,7 +7432,12 @@
     "Washington College of Law"
    ],
    "verified": true,
-   "note": "Sorority. Initiated through the St. Croix Alumnae Chapter in 2019, not as a student."
+   "note": "Sorority. Initiated through the St. Croix Alumnae Chapter in 2019, not as a student.",
+   "colleges": [
+    "Choate Rosemary Hall",
+    "Georgetown University",
+    "Washington College of Law"
+   ]
   },
   {
    "name": "Stephen Hawking",
@@ -4482,6 +7447,8 @@
    "documents": [
     "Court documents"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4497,7 +7464,12 @@
     "University College, Oxford",
     "University of Cambridge"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Trinity Hall",
+    "University of Oxford",
+    "University of Cambridge"
+   ]
   },
   {
    "name": "Stephen Kosslyn",
@@ -4508,6 +7480,8 @@
     "Emails",
     "Financial records"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -4546,7 +7520,11 @@
     "University of California, Los Angeles",
     "Stanford University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "UCLA",
+    "Stanford University"
+   ]
   },
   {
    "name": "Steve Bannon",
@@ -4554,6 +7532,8 @@
    "qid": "Q16146870",
    "description": "American media executive and political strategist (born 1953)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -4596,7 +7576,13 @@
     "Harvard Business School",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Virginia Tech College of Architecture and Urban Studies",
+    "Georgetown University",
+    "Virginia Tech"
+   ]
   },
   {
    "name": "Steve Tisch",
@@ -4606,6 +7592,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4617,7 +7605,70 @@
     "The Gunnery",
     "Tufts University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "The Gunnery",
+    "Tufts University"
+   ]
+  },
+  {
+   "name": "Steve Wynn",
+   "url": "https://en.wikipedia.org/wiki/Steve_Wynn",
+   "qid": "Q524369",
+   "description": "American casino mogul and art collector",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Wynn misconduct allegations",
+     "outcome": "Resigned as Wynn Resorts CEO (2018)"
+    }
+   ],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "University of Pennsylvania",
+       "url": "https://www.wikidata.org/wiki/Q524369"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "University of Pennsylvania School of Arts and Sciences alumni",
+       "url": "https://en.wikipedia.org/wiki/Steve_Wynn"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After high school, Wynn studied English literature at the University of Pennsylvania, where he was a member of the Sigma Alpha Mu fraternity.",
+       "url": "https://en.wikipedia.org/wiki/Steve_Wynn"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Sigma Alpha Mu"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "After high school, Wynn studied English literature at the University of Pennsylvania, where he was a member of the Sigma Alpha Mu fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Steve_Wynn"
+     }
+    ]
+   },
+   "education": [
+    "Manlius Pebble Hill School",
+    "University of Pennsylvania"
+   ],
+   "verified": false,
+   "colleges": [
+    "University of Pennsylvania"
+   ]
   },
   {
    "name": "Steven Pinker",
@@ -4625,6 +7676,8 @@
    "qid": "Q212730",
    "description": "Canadian-American psycholinguist (born 1954)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "yes",
@@ -4670,7 +7723,12 @@
     "McGill University",
     "Harvard University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Harvard University",
+    "Dawson College",
+    "McGill University"
+   ]
   },
   {
    "name": "Steven Victor",
@@ -4680,6 +7738,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4690,7 +7750,10 @@
    "education": [
     "Morehouse College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Morehouse College"
+   ]
   },
   {
    "name": "Sultan Ahmed bin Sulayem",
@@ -4700,6 +7763,8 @@
    "documents": [
     "DOJ / Congressional release"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4710,7 +7775,42 @@
    "education": [
     "Temple University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Temple University"
+   ]
+  },
+  {
+   "name": "Sunny Balwani",
+   "url": "https://en.wikipedia.org/wiki/Sunny_Balwani",
+   "qid": "Q50825723",
+   "description": "Former president and COO of Theranos",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Theranos",
+     "outcome": "Convicted of fraud (2022)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Aitchison College",
+    "University of California, Berkeley",
+    "University of Texas at Austin"
+   ],
+   "verified": false,
+   "colleges": [
+    "Aitchison College",
+    "University of California, Berkeley",
+    "University of Texas at Austin"
+   ]
   },
   {
    "name": "Terje Rød-Larsen",
@@ -4720,6 +7820,8 @@
    "documents": [
     "DOJ / Congressional release"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4730,7 +7832,10 @@
    "education": [
     "University of Oslo"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Oslo"
+   ]
   },
   {
    "name": "Thomas Pritzker",
@@ -4741,6 +7846,8 @@
     "DOJ / Congressional release",
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4754,7 +7861,11 @@
     "University of Chicago Law School",
     "University of Chicago"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Claremont McKenna College",
+    "University of Chicago"
+   ]
   },
   {
    "name": "Thorbjørn Jagland",
@@ -4764,6 +7875,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4774,7 +7887,10 @@
    "education": [
     "University of Oslo"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Oslo"
+   ]
   },
   {
    "name": "Todd Boehly",
@@ -4784,6 +7900,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4796,7 +7914,11 @@
     "College of William & Mary",
     "London School of Economics and Political Science"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "College of William & Mary",
+    "London School of Economics"
+   ]
   },
   {
    "name": "Tom Barrack",
@@ -4804,6 +7926,8 @@
    "qid": "Q7791016",
    "description": "American investor and diplomat (born 1947)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4816,7 +7940,40 @@
     "USC Gould School of Law",
     "University of Southern California"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of San Diego School of Law",
+    "USC Gould School of Law",
+    "University of Southern California"
+   ]
+  },
+  {
+   "name": "Trevor Milton",
+   "url": "https://en.wikipedia.org/wiki/Trevor_Milton",
+   "qid": "Q67146947",
+   "description": "American businessman, convicted fraudster (born 1982)",
+   "documents": [],
+   "epstein": false,
+   "cases": [
+    {
+     "case": "Nikola fraud",
+     "outcome": "Convicted of securities and wire fraud (2022); pardoned 2025"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Utah Valley University"
+   ],
+   "verified": false,
+   "colleges": [
+    "Utah Valley University"
+   ]
   },
   {
    "name": "V. S. Ramachandran",
@@ -4824,6 +7981,8 @@
    "qid": "Q380221",
    "description": "Indian-American neuroscientist (born 1951)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "no",
@@ -4858,7 +8017,11 @@
     "University of Madras",
     "Trinity College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "University of Madras",
+    "Trinity College"
+   ]
   },
   {
    "name": "Vitaly Churkin",
@@ -4866,6 +8029,8 @@
    "qid": "Q1394102",
    "description": "Russian diplomat (1952–2017)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4877,7 +8042,10 @@
     "Diplomatic Academy of the Ministry of Foreign Affairs of the Russian Federation",
     "Moscow State Institute of International Relations"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "Moscow State Institute of International Relations"
+   ]
   },
   {
    "name": "William J. Burns (diplomat)",
@@ -4885,6 +8053,8 @@
    "qid": "Q1276563",
    "description": "American diplomat (born 1956)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4896,7 +8066,11 @@
     "La Salle University",
     "St John's College"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "La Salle University",
+    "St John's College"
+   ]
   },
   {
    "name": "Woody Allen",
@@ -4907,6 +8081,8 @@
     "Emails",
     "Photographs"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -4919,7 +8095,10 @@
     "New York University Tisch School of the Arts",
     "New York University"
    ],
-   "verified": false
+   "verified": false,
+   "colleges": [
+    "New York University"
+   ]
   },
   {
    "name": "Thomas Magnani",
@@ -4927,6 +8106,8 @@
    "qid": null,
    "description": "New York dentist; former volunteer professor at Columbia's College of Dental Medicine",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -4957,7 +8138,10 @@
    "education_sources": [],
    "note": "",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": [
+    "Columbia University"
+   ]
   },
   {
    "name": "Jess Ting",
@@ -4967,6 +8151,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -4993,7 +8179,11 @@
    "education_sources": [],
    "note": "",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": [
+    "Columbia University",
+    "Juilliard"
+   ]
   },
   {
    "name": "Lawrence Delson",
@@ -5001,6 +8191,8 @@
    "qid": null,
    "description": "Adjunct professor (FIT, NYU School of Professional Studies)",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "yes",
@@ -5027,7 +8219,11 @@
    "education_sources": [],
    "note": "",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": [
+    "Columbia University",
+    "Clark University"
+   ]
   },
   {
    "name": "Letty Moss-Salentijn",
@@ -5035,6 +8231,8 @@
    "qid": null,
    "description": "Former vice dean, Columbia University College of Dental Medicine",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Columbia": {
      "status": "no",
@@ -5060,7 +8258,10 @@
    "education_sources": [],
    "note": "",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": [
+    "University of Utrecht"
+   ]
   },
   {
    "name": "Matthew Menchel",
@@ -5071,6 +8272,8 @@
     "DOJ / Congressional release",
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "unknown",
@@ -5090,7 +8293,11 @@
    ],
    "note": "",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": [
+    "SUNY Binghamton",
+    "CUNY School of Law"
+   ]
   },
   {
    "name": "Rony Shimony",
@@ -5098,6 +8305,8 @@
    "qid": null,
    "description": "Cardiologist, Mount Sinai",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "unknown",
@@ -5118,7 +8327,12 @@
    ],
    "note": "",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": [
+    "SUNY Albany",
+    "SUNY Buffalo School of Medicine",
+    "Lenox Hill Hospital"
+   ]
   },
   {
    "name": "David A. Ross",
@@ -5126,6 +8340,8 @@
    "qid": null,
    "description": "Former director of the Whitney Museum and SFMOMA; former chair, SVA MFA Art Practice",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "unknown",
@@ -5144,7 +8360,10 @@
    ],
    "note": "",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": [
+    "Syracuse University"
+   ]
   },
   {
    "name": "Mark Tramo",
@@ -5154,6 +8373,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {
     "Harvard": {
      "status": "no",
@@ -5177,7 +8398,8 @@
    "education_sources": [],
    "note": "No public source found for where he earned his degrees.",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": []
   },
   {
    "name": "Nick Leese",
@@ -5187,6 +8409,8 @@
    "documents": [
     "Birthday book"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "no",
@@ -5205,7 +8429,10 @@
    ],
    "note": "Linked to Oxford's Bullingdon Club, a dining society, not a fraternity.",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": [
+    "University of Oxford"
+   ]
   },
   {
    "name": "Stephen Alexander",
@@ -5213,6 +8440,8 @@
    "qid": null,
    "description": "Retired clinical and forensic psychologist, West Palm Beach",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "unknown",
@@ -5229,7 +8458,8 @@
    ],
    "note": "No public source found for his education.",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": []
   },
   {
    "name": "Francisco D'Agostino",
@@ -5237,6 +8467,8 @@
    "qid": null,
    "description": "Venezuelan-Spanish businessman; advised Epstein on PDVSA bonds",
    "documents": [],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "unknown",
@@ -5253,7 +8485,8 @@
    ],
    "note": "No public source found for his education.",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": []
   },
   {
    "name": "Caroline Lang",
@@ -5263,6 +8496,8 @@
    "documents": [
     "DOJ / Congressional release"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "unknown",
@@ -5279,7 +8514,8 @@
    ],
    "note": "No public source found for her education.",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": []
   },
   {
    "name": "Julian Leese",
@@ -5289,6 +8525,8 @@
    "documents": [
     "Emails"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "unknown",
@@ -5300,7 +8538,8 @@
    "education_sources": [],
    "note": "No public source found for his education.",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": []
   },
   {
    "name": "Linda Pinto",
@@ -5310,6 +8549,8 @@
    "documents": [
     "Court documents"
    ],
+   "epstein": true,
+   "cases": [],
    "schools": {},
    "frat": {
     "status": "unknown",
@@ -5326,7 +8567,8 @@
    ],
    "note": "No public source found for her education.",
    "verified": true,
-   "manual": true
+   "manual": true,
+   "colleges": []
   }
  ]
 }
