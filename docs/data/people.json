@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-09-30T18:49:05+00:00",
+  "generated": "2026-09-30T18:53:13+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "member_list_error": null,
@@ -47,9 +47,9 @@
      "possible": 0
     }
    },
-   "frat_yes": 23,
+   "frat_yes": 21,
    "frat_possible": 0,
-   "orgs_yes": 7,
+   "orgs_yes": 5,
    "orgs_possible": 10
   }
  },
@@ -882,11 +882,6 @@
       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
      },
      {
-      "source": "Wikipedia: List of Alpha Delta Pi members",
-      "text": "Carol Rasco (Delta Delta) – Director of the Domestic Policy Council under President Bill Clinton from 1993 to 1996",
-      "url": "https://en.wikipedia.org/wiki/List_of_Alpha_Delta_Pi_members"
-     },
-     {
       "source": "Wikipedia: List of Alpha Phi Omega members",
       "text": "{{Mem/f|name=Bill Clinton |chapter=Mu Alpha |nota=Forty-second president of the United States (1993–2001)|ref=",
       "url": "https://en.wikipedia.org/wiki/List_of_Alpha_Phi_Omega_members"
@@ -902,24 +897,9 @@
       "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Kappa_Psi_members"
      },
      {
-      "source": "Wikipedia: List of Kappa Sigma members",
-      "text": "David E. Kendall (Alpha-Pi), Attorney to President Bill Clinton",
-      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Sigma_members"
-     },
-     {
       "source": "Wikipedia: List of Phi Beta Sigma members",
       "text": "name=Bill Clinton",
       "url": "https://en.wikipedia.org/wiki/List_of_Phi_Beta_Sigma_members"
-     },
-     {
-      "source": "Wikipedia: List of Pi Lambda Phi members",
-      "text": "IL Omicron || 1927 || U.S. Representative (D), 9th District, Illinois, from 1949 to 1963 and 1965 to 1999. Presented with the Presidential Citizens Medal by President Bill Clinton in 1993. Died 2000.",
-      "url": "https://en.wikipedia.org/wiki/List_of_Pi_Lambda_Phi_members"
-     },
-     {
-      "source": "Wikipedia: List of Sigma Chi members",
-      "text": "",
-      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Chi_members"
      }
     ]
    },
@@ -944,32 +924,6 @@
        "source": "Wikipedia article text",
        "text": "While in college, he became a brother of service fraternity Alpha Phi Omega and was elected to Phi Beta Kappa.",
        "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
-      }
-     ]
-    },
-    {
-     "name": "Sphinx Senior Society",
-     "kind": "society",
-     "school": "Penn",
-     "status": "yes",
-     "evidence": [
-      {
-       "source": "Wikipedia: Sphinx Senior Society",
-       "text": "Richard Clarke - National Counterterrorism Center Director under Presidents Bill Clinton and George W. Bush - 1972",
-       "url": "https://en.wikipedia.org/wiki/Sphinx_Senior_Society"
-      }
-     ]
-    },
-    {
-     "name": "The Harvard Crimson",
-     "kind": "publication",
-     "school": "Harvard",
-     "status": "yes",
-     "evidence": [
-      {
-       "source": "Wikipedia: List of The Harvard Crimson people",
-       "text": "Nicole Seligman, attorney for Bill Clinton during his impeachment trial and director for OpenAI",
-       "url": "https://en.wikipedia.org/wiki/List_of_The_Harvard_Crimson_people"
       }
      ]
     }
@@ -1078,30 +1032,10 @@
     }
    },
    "frat": {
-    "status": "yes",
-    "orgs": [
-     "Chi Psi",
-     "Kappa Alpha Theta",
-     "Kappa Kappa Gamma"
-    ],
+    "status": "no",
+    "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia: List of Chi Psi members",
-      "text": "William Henry Gates Sr., attorney, philanthropist, and father of Microsoft founder Bill Gates",
-      "url": "https://en.wikipedia.org/wiki/List_of_Chi_Psi_members"
-     },
-     {
-      "source": "Wikipedia: List of Kappa Alpha Theta members",
-      "text": "Melinda Gates (Beta Rho, Duke) – former wife of Bill Gates; co-founder of Bill & Melinda Gates Foundation",
-      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Alpha_Theta_members"
-     },
-     {
-      "source": "Wikipedia: List of Kappa Kappa Gamma members",
-      "text": "Banker, civic activist, non-profit executive, and mother of Bill Gates",
-      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Kappa_Gamma_members"
-     }
-    ]
+    "evidence": []
    },
    "orgs": [
     {
@@ -2266,65 +2200,12 @@
     }
    },
    "frat": {
-    "status": "yes",
-    "orgs": [
-     "Kappa Alpha Theta",
-     "Sigma Chi",
-     "Sigma Nu",
-     "Zeta Psi"
-    ],
+    "status": "no",
+    "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia: List of Kappa Alpha Theta members",
-      "text": "Tiffany Trump (Beta Eta, University of Pennsylvania) – socialite, law school graduate, daughter of Donald Trump",
-      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Alpha_Theta_members"
-     },
-     {
-      "source": "Wikipedia: List of Sigma Chi members",
-      "text": "",
-      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Chi_members"
-     },
-     {
-      "source": "Wikipedia: List of Sigma Nu members",
-      "text": "nota=United States district judge appointed by President Donald Trump in 2020.",
-      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Nu_members"
-     },
-     {
-      "source": "Wikipedia: List of Zeta Psi members",
-      "text": "nota=National Security Council Coordinator for the Middle East and North Africa, served in senior national security positions in Bush, Obama, and Trump administrations.",
-      "url": "https://en.wikipedia.org/wiki/List_of_Zeta_Psi_members"
-     }
-    ]
+    "evidence": []
    },
-   "orgs": [
-    {
-     "name": "The Stanford Review",
-     "kind": "publication",
-     "school": "Stanford",
-     "status": "yes",
-     "evidence": [
-      {
-       "source": "Wikipedia: The Stanford Review",
-       "text": "Kevin Warsh (graduated 1992, former writer), former member of the Federal Reserve Board of Governors (2006–2011), nominated by President Donald Trump in January 2026 to serve as Chair of the Federal Reserve.",
-       "url": "https://en.wikipedia.org/wiki/The_Stanford_Review"
-      }
-     ]
-    },
-    {
-     "name": "The Harvard Crimson",
-     "kind": "publication",
-     "school": "Harvard",
-     "status": "yes",
-     "evidence": [
-      {
-       "source": "Wikipedia: List of The Harvard Crimson people",
-       "text": "Harry Hurt III, writer, professional golfer, and biographer of Donald Trump",
-       "url": "https://en.wikipedia.org/wiki/List_of_The_Harvard_Crimson_people"
-      }
-     ]
-    }
-   ],
+   "orgs": [],
    "education": [
     "The Kew-Forest School",
     "New York Military Academy",
@@ -5661,9 +5542,9 @@
     }
    ],
    "education": [
-    "University of California, Berkeley",
     "Birmingham High School",
-    "The Wharton School"
+    "The Wharton School",
+    "University of California, Berkeley"
    ],
    "verified": true,
    "note": "Member at UC Berkeley.",
@@ -6994,17 +6875,17 @@
     }
    ],
    "education": [
+    "Sloan Fellows Program",
     "Johns Hopkins University",
     "University of California, Los Angeles",
-    "MIT Sloan School of Management",
-    "Sloan Fellows Program"
+    "MIT Sloan School of Management"
    ],
    "verified": false,
    "colleges": [
+    "Sloan Fellows Program",
     "Johns Hopkins University",
     "UCLA",
-    "Massachusetts Institute of Technology",
-    "Sloan Fellows Program"
+    "Massachusetts Institute of Technology"
    ]
   },
   {
@@ -7719,10 +7600,10 @@
    "education": [
     "Byron House School",
     "St Albans School",
+    "St Albans High School for Girls",
     "Trinity Hall",
     "University College, Oxford",
-    "University of Cambridge",
-    "St Albans High School for Girls"
+    "University of Cambridge"
    ],
    "verified": false,
    "colleges": [
