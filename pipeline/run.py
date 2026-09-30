@@ -10,6 +10,7 @@ from enrich import (  # noqa: E402
     IVY, detect_frat, detect_ivy, exclusion_reason, fetch_page, resolve_titles, wikidata_facts,
 )
 from graph import build_graph, person_colleges  # noqa: E402
+from orgs import detect_orgs  # noqa: E402
 from scrape_names import SOURCE_PAGE, classify, get_entries  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -27,6 +28,19 @@ def read_list(path):
                 name, _, note = line.partition("|")
                 out[name.strip()] = note.strip()
     return out
+
+
+def apply_org_overrides(rec, ov):
+    """Override format: "orgs": [{name, kind, school, status, evidence}] adds/updates; "orgs_remove": [names]."""
+    drop = set(ov.get("orgs_remove", []))
+    orgs = [o for o in rec["orgs"] if o["name"] not in drop]
+    for o in ov.get("orgs", []):
+        cur = next((x for x in orgs if x["name"] == o["name"]), None)
+        if cur:
+            cur.update(o)
+        else:
+            orgs.append({"evidence": [], "school": None, **o})
+    rec["orgs"] = orgs
 
 
 def main():
@@ -96,6 +110,7 @@ def main():
             "cases": by_title[t]["cases"],
             "schools": detect_ivy(page, wd),
             "frat": detect_frat(page, wd),
+            "orgs": detect_orgs(page, wd),
             "education": [e["label"] for e in wd.get("educated_at", [])],
             "verified": False,
         }
@@ -105,6 +120,7 @@ def main():
                 rec["schools"].setdefault(school, {"status": "no", "faculty": False, "evidence": []}).update(sov)
             if "frat" in ov:
                 rec["frat"].update(ov["frat"])
+            apply_org_overrides(rec, ov)
             if "note" in ov:
                 rec["note"] = ov["note"]
             rec["verified"] = ov.get("verified", True)
@@ -135,6 +151,7 @@ def main():
             "cases": [],
             "schools": {k: v for k, v in schools.items() if v["status"] != "no" or v["faculty"]},
             "frat": frat,
+            "orgs": m.get("orgs", []),
             "education": m.get("education", []),
             "education_sources": src,
             "note": m.get("note", ""),
@@ -175,6 +192,8 @@ def main():
             },
             "frat_yes": sum(p["frat"]["status"] == "yes" for p in people),
             "frat_possible": sum(p["frat"]["status"] == "possible" for p in people),
+            "orgs_yes": sum(any(o["status"] == "yes" and o["kind"] != "honor" for o in p["orgs"]) for p in people),
+            "orgs_possible": sum(any(o["status"] == "possible" for o in p["orgs"]) for p in people),
         },
     }
     (OUT / "people.json").write_text(json.dumps({"meta": meta, "people": people}, indent=1, ensure_ascii=False))

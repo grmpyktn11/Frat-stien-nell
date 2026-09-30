@@ -84,12 +84,15 @@ def person_colleges(p):
 
 
 def build_graph(people):
-    person_nodes, inst_members, frat_members = [], {}, {}
+    person_nodes, inst_members, frat_members, club_members = [], {}, {}, {}
     ivy_inst = set(IVY_NAMES.values())
     for p in people:
         insts = {i for i in person_colleges(p)
                  if not any(IVY_NAMES[s] == i and v.get("status") != "yes" for s, v in p.get("schools", {}).items())}
         frats = set(p["frat"].get("orgs", [])) if p["frat"].get("status") == "yes" else set()
+        for o in p.get("orgs", []):
+            if o.get("status") == "yes":
+                club_members.setdefault(o["name"], {"kind": o["kind"], "school": o.get("school"), "m": set()})["m"].add(p["name"])
         for i in insts:
             inst_members.setdefault(i, set()).add(p["name"])
         for f in frats:
@@ -106,6 +109,10 @@ def build_graph(people):
     for f, m in sorted(frat_members.items()):
         nodes.append({"id": "f:" + f, "type": "frat", "label": f, "count": len(m)})
         links += [{"source": "p:" + n, "target": "f:" + f, "kind": "frat"} for n in sorted(m)]
+    for c, info in sorted(club_members.items()):
+        nodes.append({"id": "o:" + c, "type": "club", "kind": info["kind"], "school": info["school"],
+                      "label": c, "count": len(info["m"])})
+        links += [{"source": "p:" + n, "target": "o:" + c, "kind": "club"} for n in sorted(info["m"])]
     linked = {l["source"] for l in links}
     nodes = [n for n in person_nodes if n["id"] in linked] + nodes
     return {
@@ -116,6 +123,7 @@ def build_graph(people):
             "people_unlinked": len(person_nodes) - len(linked),
             "colleges": len(kept_inst),
             "frats": len(frat_members),
+            "clubs": len(club_members),
         },
     }
 

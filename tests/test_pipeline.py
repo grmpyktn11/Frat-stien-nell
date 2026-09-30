@@ -5,6 +5,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "pipelin
 
 from enrich import detect_ivy, detect_school, detect_frat, exclusion_reason  # noqa: E402
 from graph import build_graph, canonical_institution  # noqa: E402
+from orgs import detect_orgs  # noqa: E402
 from scrape_names import parse_wikitext  # noqa: E402
 
 HEADING_STYLE = """Intro text.
@@ -197,3 +198,15 @@ def test_relatives_and_chapters():
     assert r["orgs"] == ["Beta Theta Pi"]
     r = detect_frat(page("NPR identifies the street address of the Sigma Chi fraternity house as the location."), {})
     assert r["status"] == "no"
+
+
+def test_detect_orgs():
+    txt = ("At Yale he was tapped for Skull and Bones. He later spoke at the Oxford Union. "
+           "He played for the Harvard Crimson football team as a member. "
+           "He was a member of the Tower Club in Dallas. "
+           "He was editor-in-chief of the Yale Law Journal.")
+    names = {o["name"]: o for o in detect_orgs(page(txt), {"educated_at": [{"id": "Q1", "label": "Yale University"}]})}
+    assert set(names) == {"Skull and Bones", "Yale Law Journal"}
+    assert names["Skull and Bones"]["kind"] == "society" and names["Skull and Bones"]["status"] == "possible"
+    r = detect_orgs(page(cats=["Members of Skull and Bones"]), {})
+    assert r[0]["status"] == "yes"
