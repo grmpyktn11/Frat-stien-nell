@@ -348,9 +348,9 @@ function select(id,fromHash){
       <div class="links">${n.url?`<a href="${safeUrl(n.url)}" target="_blank" rel="noopener">${p.manual?"Profile":"Wikipedia"}</a>`:""}<a href="list.html#${encodeURIComponent(n.name)}">Full record</a></div>`;
   }else{
     const m=members(id);
-    const total=m.length+cs.length;
+    const cs=casesAt(id);
     sub=`${n.type==="frat"?"Fraternity / sorority":n.type==="club"?esc(KIND[n.kind]||"Club")+(n.school?" · "+esc(n.school):""):n.ivy?"Ivy League":"College"} · ${m.length} ${m.length===1?"person":"people"}${cs.length?` · ${cs.length} case`:""}${n.type==="frat"&&greek(n.label)!==n.label?" · "+esc(greek(n.label)):""}`;
-    const ep=m.filter(x=>byId[x].epstein),sc=m.filter(x=>!byId[x].epstein),cs=casesAt(id);
+    const ep=m.filter(x=>byId[x].epstein),sc=m.filter(x=>!byId[x].epstein);
     h=(cs.length?`<h3>Cases</h3><ul class="chips">${cs.map(x=>chip(x)).join("")}</ul>`:"")+(ep.length?`<h3>Epstein files · ${ep.length}</h3><ul class="chips">${ep.map(x=>chip(x)).join("")}</ul>`:"")+(sc.length?`<h3>Other scandals · ${sc.length}</h3><ul class="chips">${sc.map(x=>chip(x)).join("")}</ul>`:"")+
       (n.type==="college"?`<div class="links"><button class="btn" id="focusSchool">${state.school===id?"Show everything":"Show only this network"}</button></div>`:"");
   }
