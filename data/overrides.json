@@ -258,5 +258,55 @@
   },
   "note": "Harvard Business School MBA. The Wharton mention is a board seat.",
   "verified": true
+ },
+ "Les Moonves": {
+  "frat": {
+   "status": "yes",
+   "orgs": [
+    "Sigma Alpha Mu"
+   ],
+   "evidence": [
+    {
+     "source": "Her Campus Bucknell",
+     "text": "He was a member of Sigma Alpha Mu fraternity.",
+     "url": "https://www.hercampus.com/school/bucknell/les-moonves-cap-and-dagger-cbs-0/"
+    }
+   ]
+  },
+  "orgs": [
+   {
+    "name": "Cap and Dagger",
+    "kind": "club",
+    "school": "Bucknell",
+    "status": "yes",
+    "evidence": [
+     {
+      "source": "Her Campus Bucknell",
+      "text": "Performed with Cap and Dagger, Bucknell's theatre society.",
+      "url": "https://www.hercampus.com/school/bucknell/les-moonves-cap-and-dagger-cbs-0/"
+     }
+    ]
+   }
+  ],
+  "note": "Sigma Alpha Mu and Cap and Dagger (theatre society) at Bucknell.",
+  "verified": true
+ },
+ "Eliot Spitzer": {
+  "orgs": [
+   {
+    "name": "Princeton Undergraduate Student Government",
+    "kind": "political",
+    "school": "Princeton",
+    "status": "yes",
+    "evidence": [
+     {
+      "source": "The Daily Princetonian",
+      "text": "An activist USG chairman who led a student campaign for divestment from South Africa.",
+      "url": "https://www.dailyprincetonian.com/article/2011/05/after-scandal-spitzer-81-rebounds"
+     }
+    ]
+   }
+  ],
+  "verified": true
  }
 }

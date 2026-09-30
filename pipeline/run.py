@@ -11,6 +11,7 @@ from enrich import (  # noqa: E402
 )
 from graph import build_graph, person_colleges  # noqa: E402
 from orgs import detect_orgs  # noqa: E402
+from member_lists import existing, lookup  # noqa: E402
 from scrape_names import SOURCE_PAGE, classify, get_entries  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -28,6 +29,24 @@ def read_list(path):
                 name, _, note = line.partition("|")
                 out[name.strip()] = note.strip()
     return out
+
+
+def merge_listed(rec, found):
+    """Merge memberships found on Wikipedia member lists into frat/orgs."""
+    for o in found:
+        if o["kind"] == "fraternity":
+            f = rec["frat"]
+            if o["name"] not in f["orgs"]:
+                f["orgs"].append(o["name"])
+            f["status"] = "yes"
+            f["evidence"] = (f.get("evidence") or []) + o["evidence"]
+        else:
+            cur = next((x for x in rec["orgs"] if x["name"] == o["name"]), None)
+            if cur:
+                cur["status"] = "yes"
+                cur["evidence"] = o["evidence"] + cur["evidence"]
+            else:
+                rec["orgs"].append(o)
 
 
 def apply_org_overrides(rec, ov):
@@ -86,6 +105,8 @@ def main():
             print(f"  fetched {i}/{len(by_title)}")
 
     facts = wikidata_facts(sorted({p["qid"] for p in pages.values() if p["qid"]}))
+    listed = lookup(set(pages), existing)
+    print(f"member lists matched {len(listed)} people")
 
     people, excluded = [], []
     for t, page in sorted(pages.items()):
@@ -114,6 +135,7 @@ def main():
             "education": [e["label"] for e in wd.get("educated_at", [])],
             "verified": False,
         }
+        merge_listed(rec, listed.get(t, []))
         ov = overrides.get(t)
         if ov:
             for school, sov in ov.get("schools", {}).items():
