@@ -284,7 +284,7 @@ function draw(){
   sim.alpha(1).restart();
   const settle=()=>{if(state.sel&&nodes.includes(byId[state.sel]))focus(state.sel);else fit()};
   clearTimeout(draw.t);draw.t=setTimeout(settle,700);
-  sim.on("end.fit",()=>{sim.on("end.fit",null);if(!state.sel)fit()});
+  sim.on("end.fit",()=>{sim.on("end.fit",null);if(state.sel&&sim.nodes().includes(byId[state.sel]))focus(state.sel);else fit()});
   if(state.sel&&!nodes.find(n=>n.id===state.sel))select(null);else{highlight();labels()}
   const n=activeFilters();$("fcount").hidden=!n;$("fcount").textContent=n;
   const people=nodes.filter(n=>n.type==="person").length,cols=nodes.filter(n=>n.type==="college").length,fr=nodes.filter(n=>n.type==="frat").length;
@@ -379,7 +379,9 @@ function dragSheet(sheet,grab,onTap,onDown,onUp){
   let y0=null,moved=false;
   grab.addEventListener("pointerdown",e=>{y0=e.clientY;moved=false;grab.setPointerCapture(e.pointerId)});
   grab.addEventListener("pointermove",e=>{if(y0!==null&&Math.abs(e.clientY-y0)>6){moved=true;sheet.style.transition="none";sheet.style.transform=`translateY(${Math.max(0,e.clientY-y0)}px)`}});
-  grab.addEventListener("pointerup",e=>{const dy=e.clientY-y0;y0=null;sheet.style.transition="";sheet.style.transform="";if(!moved)onTap();else if(dy>60)onDown();else if(dy<-40)onUp()});
+  grab.addEventListener("pointerup",e=>{const dy=e.clientY-y0;y0=null;sheet.style.transition="";sheet.style.transform="";if(moved){if(dy>60)onDown();else if(dy<-40)onUp()}});
+  /* taps use the click event so the expanding sheet can't receive a ghost click */
+  grab.addEventListener("click",e=>{e.stopPropagation();if(!moved)onTap()});
 }
 
 /* ---------- search ---------- */
