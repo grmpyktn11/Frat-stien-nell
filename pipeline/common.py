@@ -3,7 +3,7 @@ import time
 
 import requests
 
-UA = "Frat-stien-nell/1.0 (https://github.com/grmpyktn11/Frat-stien-nell) python-requests"
+UA = "BigRedFlags/1.0 (https://github.com/grmpyktn11/Frat-stien-nell) python-requests"
 WP_API = "https://en.wikipedia.org/w/api.php"
 WD_SPARQL = "https://query.wikidata.org/sparql"
 
