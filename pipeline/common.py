@@ -11,10 +11,11 @@ _session = requests.Session()
 _session.headers.update({"User-Agent": UA})
 
 
-def get_json(url, params, retries=4, pause=0.1):
+def get_json(url, params, retries=4, pause=0.1, post=False):
     for attempt in range(retries):
         try:
-            r = _session.get(url, params=params, timeout=60)
+            r = (_session.post(url, data=params, timeout=60) if post
+                 else _session.get(url, params=params, timeout=60))
             if r.status_code == 429 or r.status_code >= 500:
                 raise requests.HTTPError(f"HTTP {r.status_code}")
             r.raise_for_status()
@@ -29,7 +30,8 @@ def get_json(url, params, retries=4, pause=0.1):
 def wp(params):
     base = {"format": "json", "formatversion": "2"}
     base.update(params)
-    return get_json(WP_API, base)
+    # Long title batches exceed URL limits; queries are read-only so POST is safe.
+    return get_json(WP_API, base, post=len(str(params.get("titles", ""))) > 1500)
 
 
 def sparql(query):

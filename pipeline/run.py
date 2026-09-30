@@ -105,7 +105,14 @@ def main():
             print(f"  fetched {i}/{len(by_title)}")
 
     facts = wikidata_facts(sorted({p["qid"] for p in pages.values() if p["qid"]}))
-    listed = lookup(set(pages), existing)
+    member_list_error = None
+    try:
+        listed = lookup(set(pages), existing)
+    except Exception as exc:  # keep the run going; report in meta
+        import traceback
+        member_list_error = traceback.format_exc()[-2000:]
+        print(member_list_error)
+        listed = {}
     print(f"member lists matched {len(listed)} people")
 
     people, excluded = [], []
@@ -195,6 +202,7 @@ def main():
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "source": f"https://en.wikipedia.org/wiki/{SOURCE_PAGE}",
         "source_revision": revid,
+        "member_list_error": member_list_error,
         "counts": {
             "people": len(people),
             "epstein": sum(p["epstein"] for p in people),

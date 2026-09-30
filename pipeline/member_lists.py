@@ -73,10 +73,13 @@ def existing(titles):
     """Return {requested: resolved} for titles that exist (following redirects)."""
     out = {}
     for batch in chunks(sorted(set(titles)), 50):
-        q = wp({"action": "query", "titles": "|".join(batch), "redirects": 1})["query"]
+        batch = [t for t in batch if t and len(t) < 250 and not re.search(r"[\[\]{}<>|#]", t) and ":" not in t[:1]]
+        if not batch:
+            continue
+        q = wp({"action": "query", "titles": "|".join(batch), "redirects": 1}).get("query", {})
         norm = {n["from"]: n["to"] for n in q.get("normalized", [])}
         redir = {r["from"]: r["to"] for r in q.get("redirects", [])}
-        present = {p["title"] for p in q["pages"] if not p.get("missing") and not p.get("invalid")}
+        present = {p["title"] for p in q.get("pages", []) if not p.get("missing") and not p.get("invalid")}
         for t in batch:
             r = redir.get(norm.get(t, t), norm.get(t, t))
             if r in present:
