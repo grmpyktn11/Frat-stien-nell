@@ -1820,6 +1820,22 @@
    "type": "frat",
    "label": "Sigma Phi Epsilon",
    "count": 1
+  },
+  {
+   "id": "o:Harvard Society of Fellows",
+   "type": "club",
+   "kind": "honor",
+   "school": "Harvard",
+   "label": "Harvard Society of Fellows",
+   "count": 1
+  },
+  {
+   "id": "o:Phi Beta Kappa",
+   "type": "club",
+   "kind": "honor",
+   "school": null,
+   "label": "Phi Beta Kappa",
+   "count": 3
   }
  ],
  "links": [
@@ -2852,12 +2868,33 @@
    "source": "p:Doug Band",
    "target": "f:Sigma Phi Epsilon",
    "kind": "frat"
+  },
+  {
+   "source": "p:Marvin Minsky",
+   "target": "o:Harvard Society of Fellows",
+   "kind": "club"
+  },
+  {
+   "source": "p:Bill Clinton",
+   "target": "o:Phi Beta Kappa",
+   "kind": "club"
+  },
+  {
+   "source": "p:Michael Milken",
+   "target": "o:Phi Beta Kappa",
+   "kind": "club"
+  },
+  {
+   "source": "p:Robert Lawrence Kuhn",
+   "target": "o:Phi Beta Kappa",
+   "kind": "club"
   }
  ],
  "counts": {
   "people_linked": 135,
   "people_unlinked": 75,
   "colleges": 43,
-  "frats": 15
+  "frats": 15,
+  "clubs": 2
  }
 }

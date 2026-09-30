@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-09-30T17:08:17+00:00",
+  "generated": "2026-09-30T18:32:20+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "counts": {
@@ -47,7 +47,9 @@
     }
    },
    "frat_yes": 18,
-   "frat_possible": 0
+   "frat_possible": 0,
+   "orgs_yes": 0,
+   "orgs_possible": 11
   }
  },
  "people": [
@@ -68,6 +70,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Exeter"
    ],
@@ -108,6 +111,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "New Rochelle High School",
     "Cornell University"
@@ -173,6 +177,21 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Yale Law Journal",
+     "kind": "publication",
+     "school": "Yale",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "He then attended Yale Law School, where he became the editor-in-chief of The Yale Law Journal.",
+       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      }
+     ]
+    }
+   ],
    "education": [
     "Marsha Stern Talmudical Academy",
     "Yale Law School",
@@ -201,6 +220,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Wittenberg University",
     "University of the Virgin Islands",
@@ -229,6 +249,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -253,6 +274,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Eastern Hills High School",
     "Baylor University"
@@ -282,6 +304,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Orange County School of the Arts"
    ],
@@ -303,6 +326,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -324,6 +348,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -348,6 +373,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Archbishop Molloy High School",
     "Albany Law School",
@@ -395,6 +421,21 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Hasty Pudding Club",
+     "kind": "club",
+     "school": "Harvard",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "During his time at Harvard, he served as president of the Hasty Pudding Club.",
+       "url": "https://en.wikipedia.org/wiki/Andrew_Farkas_(businessman)"
+      }
+     ]
+    }
+   ],
    "education": [],
    "verified": false,
    "colleges": [
@@ -421,6 +462,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "New Providence High School",
     "Kellogg School of Management",
@@ -453,6 +495,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Lakefield College School",
     "Heatherdown Preparatory School",
@@ -505,6 +548,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Colegio inediluz",
     "Our Lady of the Rosary University",
@@ -563,6 +607,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Kishinchand Chellaram College",
     "Warwick Business School",
@@ -593,6 +638,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Cobham Hall School"
    ],
@@ -619,6 +665,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "State University of New York at Plattsburgh",
     "Brooklyn Technical High School"
@@ -643,6 +690,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Paris Institute of Political Studies",
     "Pace University"
@@ -668,6 +716,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Simon's Rock at Bard College",
     "Temple University",
@@ -700,6 +749,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Mississippi Christian University",
     "Calvin University"
@@ -738,6 +788,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Far Rockaway High School",
     "Brooklyn Law School",
@@ -818,6 +869,26 @@
      }
     ]
    },
+   "orgs": [
+    {
+     "name": "Phi Beta Kappa",
+     "kind": "honor",
+     "school": null,
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikidata (member of)",
+       "text": "Phi Beta Kappa Society",
+       "url": "https://www.wikidata.org/wiki/Q1124"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "While in college, he became a brother of service fraternity Alpha Phi Omega and was elected to Phi Beta Kappa.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      }
+     ]
+    }
+   ],
    "education": [
     "Hot Springs High School",
     "Yale Law School",
@@ -860,6 +931,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Germantown High School",
     "Temple University",
@@ -921,6 +993,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Lakeside School",
     "Harvard College"
@@ -977,6 +1050,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Westminster Christian Academy",
     "Marist University",
@@ -1042,6 +1116,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Middlesex School",
     "The Fletcher School of Law and Diplomacy",
@@ -1081,6 +1156,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Rutgers Law School",
     "Union Hill High School",
@@ -1112,6 +1188,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Roslyn High School",
     "University of Michigan"
@@ -1160,6 +1237,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Union College",
     "Harvard Law School"
@@ -1187,6 +1265,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Miami Beach Senior High School",
     "New York University Tisch School of the Arts"
@@ -1213,6 +1292,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Trinity High School"
    ],
@@ -1236,6 +1316,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -1258,6 +1339,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Norwegian University of Science and Technology"
    ],
@@ -1283,6 +1365,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -1307,6 +1390,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Newton North High School",
     "Stanford University"
@@ -1334,6 +1418,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Brentwood School",
     "University of California, Los Angeles"
@@ -1363,6 +1448,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Maurice A. Deane School of Law",
     "Hofstra University",
@@ -1419,6 +1505,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "The Wharton School"
    ],
@@ -1442,6 +1529,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Virginia Commonwealth University"
    ],
@@ -1470,6 +1558,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -1540,6 +1629,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Harvard University"
    ],
@@ -1565,6 +1655,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Tel Aviv University",
     "University of North Carolina at Chapel Hill",
@@ -1594,6 +1685,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -1618,6 +1710,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Young Actors Space",
     "Garden City High School"
@@ -1642,6 +1735,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Passaic Valley Regional High School"
    ],
@@ -1666,6 +1760,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Metuchen High School",
     "Fordham University"
@@ -1722,6 +1817,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Stony Brook University",
     "Yale University"
@@ -1779,6 +1875,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Cornwall Central High School",
     "Princeton School of Public and International Affairs",
@@ -1826,6 +1923,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": [
@@ -1849,6 +1947,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -1871,6 +1970,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "South Side High School",
     "Georgia Tech",
@@ -1897,6 +1997,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "All India Institutes of Medical Sciences"
    ],
@@ -1925,6 +2026,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Oswego High School",
     "Northern Illinois University",
@@ -1956,6 +2058,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Seton Hall University"
    ],
@@ -1984,6 +2087,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Daewon Foreign Language High School",
     "Stanford University"
@@ -2038,6 +2142,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "The Kew-Forest School",
     "New York Military Academy",
@@ -2077,15 +2182,16 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
-    "Georgetown University Law Center",
     "University of Florida",
-    "Walsh School of Foreign Service"
+    "Walsh School of Foreign Service",
+    "Georgetown University Law Center"
    ],
    "verified": true,
    "colleges": [
-    "Georgetown University",
-    "University of Florida"
+    "University of Florida",
+    "Georgetown University"
    ]
   },
   {
@@ -2105,6 +2211,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Texas Academy of Mathematics and Science",
     "Massachusetts Institute of Technology"
@@ -2177,6 +2284,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Cornell University",
     "Harvard University"
@@ -2205,6 +2313,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Hebrew University of Jerusalem",
     "Stanford University"
@@ -2288,6 +2397,21 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Harvard Law Review",
+     "kind": "publication",
+     "school": "Harvard",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Spitzer was an editor of the Harvard Law Review.",
+       "url": "https://en.wikipedia.org/wiki/Eliot_Spitzer"
+      }
+     ]
+    }
+   ],
    "education": [
     "Horace Mann School",
     "Princeton School of Public and International Affairs",
@@ -2376,6 +2500,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Winston Churchill High School",
     "Brandeis University",
@@ -2415,6 +2540,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "St. John's School",
     "Stanford University"
@@ -2474,6 +2600,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Smith School of Business",
     "Bryanston High School",
@@ -2512,6 +2639,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Karolinska Institutet"
    ],
@@ -2540,6 +2668,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "The Putney School",
     "Interlochen Center for the Arts",
@@ -2570,6 +2699,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -2592,6 +2722,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of New Mexico School of Law",
     "New Mexico State University",
@@ -2632,6 +2763,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [],
    "verified": true,
    "note": "Epsilon Theta is a coed fraternity/living group at MIT.",
@@ -2672,7 +2804,7 @@
       },
       {
        "source": "Wikidata (employer)",
-       "text": "Harvard Medical School",
+       "text": "Harvard University",
        "url": "https://www.wikidata.org/wiki/Q3298995"
       }
      ]
@@ -2684,10 +2816,11 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
+    "Phillips Academy",
     "Duke University",
-    "Harvard University",
-    "Phillips Academy"
+    "Harvard University"
    ],
    "verified": false,
    "colleges": [
@@ -2714,6 +2847,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Bowdoin College",
     "Georgetown University Law Center"
@@ -2744,6 +2878,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -2765,6 +2900,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Millfield",
     "Oxford High School",
@@ -2798,6 +2934,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Stony Brook University"
    ],
@@ -2821,6 +2958,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "St. Ignatius College Preparatory",
     "San Francisco Conservatory of Music",
@@ -2849,6 +2987,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Polk State College",
     "Lakeland Senior High School",
@@ -2877,6 +3016,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Hindu College, University of Delhi"
    ],
@@ -2905,6 +3045,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "State University of New York at Buffalo School of Management",
     "John Bowne High School",
@@ -2931,6 +3072,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Jericho High School",
     "Haverford College"
@@ -2987,6 +3129,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Archmere Academy",
     "Yale Law School",
@@ -3018,6 +3161,31 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "College Republicans",
+     "kind": "political",
+     "school": null,
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Abramoff was national chairman of the College Republican National Committee from 1981 to 1985; a founding member of the International Freedom Foundation, allegedly financed by the apartheid-era government of South Africa; and served on the board of directors of National Center for Public Policy Research, a conservative think tank.",
+       "url": "https://en.wikipedia.org/wiki/Jack_Abramoff"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Abramoff attended Brandeis University, where he was elected treasurer of the Brandeis College Republicans.",
+       "url": "https://en.wikipedia.org/wiki/Jack_Abramoff"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In April 1980, Abramoff was elected chairman of the Massachusetts Alliance of College Republicans, a student volunteer organization then working for Ronald Reagan's 1980 presidential campaign.",
+       "url": "https://en.wikipedia.org/wiki/Jack_Abramoff"
+      }
+     ]
+    }
+   ],
    "education": [
     "Beverly Hills High School",
     "Georgetown University Law Center",
@@ -3046,6 +3214,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Montana"
    ],
@@ -3069,6 +3238,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Palais de l'Université de Nancy",
     "Paris Institute of Political Studies"
@@ -3118,6 +3288,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Harvard University"
    ],
@@ -3141,6 +3312,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "EDC Paris Business School"
    ],
@@ -3166,6 +3338,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -3230,6 +3403,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "West Aurora High School",
     "Cox School of Business",
@@ -3265,6 +3439,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Pennsylvania State University"
    ],
@@ -3290,6 +3465,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Bowdoin College"
    ],
@@ -3330,6 +3506,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": [
@@ -3380,6 +3557,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Southern Methodist University",
     "London School of Economics and Political Science",
@@ -3411,6 +3589,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Antioch University",
     "Antioch College"
@@ -3439,6 +3618,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Nishimachi International School",
     "Keio University",
@@ -3472,6 +3652,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Bayside High School",
     "American University"
@@ -3496,6 +3677,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Osnabrück University",
     "University of Waikato",
@@ -3528,6 +3710,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Stuyvesant High School",
     "Stern School of Business",
@@ -3638,6 +3821,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "The Field School",
     "The Wharton School",
@@ -3665,6 +3849,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Albuquerque Academy",
     "University of Chicago"
@@ -3691,6 +3876,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Paris 1 Pantheon-Sorbonne",
     "University of Paris"
@@ -3716,6 +3902,21 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Georgetown Law Journal",
+     "kind": "publication",
+     "school": "Georgetown",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "She was editor-in-chief of the Georgetown Law Journal.",
+       "url": "https://en.wikipedia.org/wiki/Kathryn_Ruemmler"
+      }
+     ]
+    }
+   ],
    "education": [
     "Richland High School",
     "Georgetown University Law Center",
@@ -3747,6 +3948,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Rockland Country Day School",
     "Rensselaer Polytechnic Institute"
@@ -3803,6 +4005,21 @@
      }
     ]
    },
+   "orgs": [
+    {
+     "name": "Duke Law Journal",
+     "kind": "publication",
+     "school": "Duke",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Starr then attended the Duke University School of Law, where he was an editor of the Duke Law Journal and graduated with a Juris Doctor in 1973.",
+       "url": "https://en.wikipedia.org/wiki/Ken_Starr"
+      }
+     ]
+    }
+   ],
    "education": [
     "Harding University",
     "George Washington University",
@@ -3846,6 +4063,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "David H. Hickman High School",
     "University of Houston C.T. Bauer College of Business",
@@ -3901,6 +4119,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of the Virgin Islands",
     "St. Croix Central High School",
@@ -3929,6 +4148,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Yale-China Chinese Language Center",
     "National Taiwan Normal University"
@@ -3956,6 +4176,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Los Angeles Valley College",
     "Chatsworth High School",
@@ -3985,6 +4206,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "International Culinary Center",
     "Queen's University"
@@ -4015,6 +4237,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "North Farmington High School",
     "University of Michigan"
@@ -4071,6 +4294,21 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "The Harvard Crimson",
+     "kind": "publication",
+     "school": "Harvard",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "An article in The Harvard Crimson in 2003, during Summers's tenure as president, detailed a reportedly \"special connection\" between Summers and Jeffrey Epstein.",
+       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+      }
+     ]
+    }
+   ],
    "education": [
     "Massachusetts Institute of Technology",
     "Harvard University",
@@ -4125,6 +4363,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Carleton University",
     "Massachusetts Institute of Technology"
@@ -4188,6 +4427,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "North Broward Preparatory School",
     "Fu Foundation School of Engineering and Applied Science",
@@ -4269,6 +4509,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Van High School",
     "Ethical Culture Fieldston School",
@@ -4327,6 +4568,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "High School of Music & Art",
     "University of Chicago",
@@ -4358,6 +4600,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Valley Stream Central High School",
     "The Center for Early Education",
@@ -4401,6 +4644,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Moritz College of Law",
     "Bexley High School",
@@ -4476,6 +4720,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Stuyvesant High School",
     "Harvard University"
@@ -4505,6 +4750,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Hauppauge High School"
    ],
@@ -4548,6 +4794,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Pomona College",
     "Columbia Law School",
@@ -4597,6 +4844,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "John F. Kennedy High School",
     "The Wharton School"
@@ -4623,6 +4871,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Faculty of Public Administration"
    ],
@@ -4648,6 +4897,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -4671,6 +4921,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -4732,6 +4983,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Mercy University",
     "Johns Hopkins Center for Talented Youth",
@@ -4790,6 +5042,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Nutley High School",
     "Barnard College"
@@ -4832,6 +5085,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Vienna"
    ],
@@ -4860,6 +5114,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Zicklin School of Business",
     "Hunter College High School",
@@ -4941,6 +5196,26 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Harvard Society of Fellows",
+     "kind": "honor",
+     "school": "Harvard",
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikidata (member of)",
+       "text": "Harvard Society of Fellows",
+       "url": "https://www.wikidata.org/wiki/Q204815"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Marvin Lee Minsky (August 9, 1927 – January 24, 2016) was an American mathematician who conducted research in the cognitive and computer science aspects of artificial intelligence (AI). After three years as a Junior Fellow of the Harvard Society of Fellows, Minsky joined the faculty at the Massachusetts Institute of Technology (MIT) in 1958 and spent the rest of his career at that institution.",
+       "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+      }
+     ]
+    }
+   ],
    "education": [
     "Ethical Culture Fieldston School",
     "Phillips Academy",
@@ -4975,6 +5250,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Greenwich High School",
     "Ohio University"
@@ -5004,6 +5280,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Cooley Law School",
     "Lawrence Woodmere Academy",
@@ -5070,6 +5347,26 @@
      }
     ]
    },
+   "orgs": [
+    {
+     "name": "Phi Beta Kappa",
+     "kind": "honor",
+     "school": null,
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikidata (member of)",
+       "text": "Phi Beta Kappa Society",
+       "url": "https://www.wikidata.org/wiki/Q918376"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He was elected to Phi Beta Kappa and was a member of the Sigma Alpha Mu fraternity.",
+       "url": "https://en.wikipedia.org/wiki/Michael_Milken"
+      }
+     ]
+    }
+   ],
    "education": [
     "Birmingham High School",
     "The Wharton School",
@@ -5121,6 +5418,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Montclair Kimberley Academy",
     "Vassar College",
@@ -5151,6 +5449,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Faculty of Law at Comenius University in Bratislava",
     "Moscow State Institute of International Relations"
@@ -5179,6 +5478,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "King Saud University"
    ],
@@ -5202,6 +5502,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Faculty of social sciences"
    ],
@@ -5291,6 +5592,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "McGill Faculty of Law",
     "The Wharton School",
@@ -5323,6 +5625,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Southern California"
    ],
@@ -5348,6 +5651,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Barbara Speake Stage School",
     "Dunraven School",
@@ -5391,6 +5695,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "The Mirman School",
     "University of California, Los Angeles",
@@ -5436,6 +5741,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Stanford University",
     "Harvard University"
@@ -5461,6 +5767,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -5504,6 +5811,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "International University of Monaco",
     "Harvard Business School"
@@ -5582,6 +5890,21 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Harvard Society of Fellows",
+     "kind": "honor",
+     "school": "Harvard",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "From 1951 to 1955, Chomsky was a member of the Society of Fellows at Harvard University, where he undertook research on what became his doctoral dissertation.",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      }
+     ]
+    }
+   ],
    "education": [
     "Oak Lane Day School",
     "Central High School",
@@ -5657,6 +5980,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Bocconi University",
     "Hebrew University of Jerusalem",
@@ -5689,6 +6013,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "St. Thomas Aquinas High School",
     "Georgetown University Law Center",
@@ -5714,6 +6039,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Queen's University Belfast"
    ],
@@ -5759,6 +6085,34 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Telluride House",
+     "kind": "club",
+     "school": "Cornell",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "He lived in the Telluride House in 1962 and 1963, while philosophy professor Allan Bloom served as a faculty mentor living in the house.",
+       "url": "https://en.wikipedia.org/wiki/Paul_Wolfowitz"
+      }
+     ]
+    },
+    {
+     "name": "Quill and Dagger",
+     "kind": "society",
+     "school": "Cornell",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Wolfowitz was a member of the Quill and Dagger society.",
+       "url": "https://en.wikipedia.org/wiki/Paul_Wolfowitz"
+      }
+     ]
+    }
+   ],
    "education": [
     "Ithaca High School",
     "University of Chicago",
@@ -5788,6 +6142,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -5809,6 +6164,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Stanford University School of Medicine",
     "Queen's University",
@@ -5838,6 +6194,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Hendon School",
     "St Catherine's College"
@@ -5899,6 +6256,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Bethesda-Chevy Chase High School",
     "John F. Kennedy School of Government",
@@ -5929,6 +6287,21 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "The Stanford Review",
+     "kind": "publication",
+     "school": "Stanford",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Thiel was The Stanford Review's first editor-in-chief until he graduated in 1989.",
+       "url": "https://en.wikipedia.org/wiki/Peter_Thiel"
+      }
+     ]
+    }
+   ],
    "education": [
     "Stanford Law School",
     "San Mateo High School",
@@ -5957,6 +6330,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -5979,6 +6353,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Bjørknes Private School",
     "Wangaratta High School",
@@ -6016,6 +6391,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Kenwood Academy"
    ],
@@ -6064,6 +6440,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "The Wharton School",
     "Dulwich College",
@@ -6127,6 +6504,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Indian Institute of Technology Delhi",
     "Harvard Business School",
@@ -6154,6 +6532,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "The Putney School",
     "Wolfson College",
@@ -6212,6 +6591,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Stuyvesant High School",
     "Johns Hopkins School of Medicine",
@@ -6258,6 +6638,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Millbrook School",
     "University of Virginia School of Law",
@@ -6294,6 +6675,21 @@
     ],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Phi Beta Kappa",
+     "kind": "honor",
+     "school": null,
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikidata (member of)",
+       "text": "Phi Beta Kappa Society",
+       "url": "https://www.wikidata.org/wiki/Q10489406"
+      }
+     ]
+    }
+   ],
    "education": [
     "Sloan Fellows Program",
     "Johns Hopkins University",
@@ -6325,6 +6721,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "verified": false,
    "colleges": []
@@ -6346,6 +6743,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of London Worldwide",
     "Kutama College",
@@ -6410,6 +6808,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Harvard University"
    ],
@@ -6438,6 +6837,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Pepperdine University School of Law",
     "Lane Technical College Prep High School",
@@ -6472,6 +6872,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Warren G. Harding High School",
     "Ohio University"
@@ -6513,6 +6914,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Stuyvesant High School",
     "Carnegie Mellon University",
@@ -6544,6 +6946,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "John Jay High School",
     "George Washington University"
@@ -6592,6 +6995,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Free University of Brussels",
     "The Wharton School",
@@ -6633,6 +7037,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Crystal Springs Uplands School",
     "Massachusetts Institute of Technology"
@@ -6663,6 +7068,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Ohio State University"
    ],
@@ -6688,6 +7094,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Hurst Lodge School",
     "Daneshill School"
@@ -6765,6 +7172,39 @@
     ],
     "evidence": []
    },
+   "orgs": [
+    {
+     "name": "Skull and Bones",
+     "kind": "society",
+     "school": "Yale",
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "He joined the Skull and Bones secret society in his senior year at Yale.",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "List of Skull and Bones members",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      }
+     ]
+    },
+    {
+     "name": "College Democrats",
+     "kind": "political",
+     "school": null,
+     "status": "possible",
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "He served as vice president of the Yale College Democrats and later campaigned for Michael Dukakis when he was running for governor of Massachusetts.\" According to Mirkinson: \"Two particular Yale courses helped guide Libby's future endeavors.",
+       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
+      }
+     ]
+    }
+   ],
    "education": [
     "Eaglebrook School",
     "Phillips Academy",
@@ -6797,6 +7237,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Mount Saint Michael Academy",
     "Howard University"
@@ -6821,6 +7262,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Academy of the Federal Security Service of the Russian Federation"
    ],
@@ -6842,6 +7284,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Eleanor Roosevelt High School",
     "Johns Hopkins Center for Talented Youth",
@@ -6898,6 +7341,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Teachers College",
     "Rider University",
@@ -6936,6 +7380,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Choate Rosemary Hall",
     "Brooklyn Friends School",
@@ -6967,6 +7412,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Byron House School",
     "St Albans School",
@@ -7017,6 +7463,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of California, Los Angeles",
     "Stanford University"
@@ -7069,6 +7516,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Virginia Tech College of Architecture and Urban Studies",
     "Benedictine High School",
@@ -7102,6 +7550,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "The Gunnery",
     "Tufts University"
@@ -7162,6 +7611,7 @@
      }
     ]
    },
+   "orgs": [],
    "education": [
     "Manlius Pebble Hill School",
     "University of Pennsylvania"
@@ -7219,6 +7669,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Wagar High School",
     "Dawson College",
@@ -7249,6 +7700,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Morehouse College"
    ],
@@ -7274,6 +7726,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Temple University"
    ],
@@ -7302,6 +7755,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Aitchison College",
     "University of California, Berkeley",
@@ -7330,6 +7784,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Oslo"
    ],
@@ -7356,6 +7811,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Claremont McKenna College",
     "Booth School of Business",
@@ -7385,6 +7841,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Oslo"
    ],
@@ -7410,6 +7867,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Landon School",
     "College of William & Mary",
@@ -7436,6 +7894,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of San Diego School of Law",
     "USC Gould School of Law",
@@ -7468,6 +7927,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Utah Valley University"
    ],
@@ -7519,6 +7979,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Madras",
     "Trinity College"
@@ -7544,6 +8005,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Diplomatic Academy of the Ministry of Foreign Affairs of the Russian Federation",
     "Moscow State Institute of International Relations"
@@ -7568,6 +8030,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "La Salle University",
     "St John's College"
@@ -7596,6 +8059,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Midwood High School",
     "New York University Tisch School of the Arts",
@@ -7638,6 +8102,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Columbia University College of Dental Medicine (DDS, 1980)"
    ],
@@ -7678,6 +8143,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Juilliard (BM 1988, MM 1990)",
     "Columbia University College of Physicians and Surgeons (MD)"
@@ -7718,6 +8184,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Clark University (BA)",
     "Columbia University (MA)"
@@ -7758,6 +8225,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Utrecht (DDS, PhD)"
    ],
@@ -7787,6 +8255,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "SUNY Binghamton (BA)",
     "CUNY School of Law (JD)"
@@ -7820,6 +8289,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "SUNY Albany (BS)",
     "SUNY Buffalo School of Medicine (MD)",
@@ -7855,6 +8325,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "Syracuse University (BA, graduate study in fine arts)"
    ],
@@ -7900,6 +8371,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "education_sources": [],
    "note": "No public source found for where he earned his degrees.",
@@ -7924,6 +8396,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [
     "University of Oxford"
    ],
@@ -7955,6 +8428,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "education_sources": [
     {
@@ -7982,6 +8456,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "education_sources": [
     {
@@ -8011,6 +8486,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "education_sources": [
     {
@@ -8040,6 +8516,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "education_sources": [],
    "note": "No public source found for his education.",
@@ -8064,6 +8541,7 @@
     "honor_societies": [],
     "evidence": []
    },
+   "orgs": [],
    "education": [],
    "education_sources": [
     {
