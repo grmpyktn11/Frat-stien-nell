@@ -104,10 +104,10 @@ def pick_body_link(name, body):
     """For a plain-text heading, find the article link that refers to the same person
     (e.g. heading 'David Copperfield' -> [[David Copperfield (illusionist)]])."""
     name_l = name.lower()
-    surname = name_l.split()[-1] if name_l.split() else name_l
-    m = MAIN_TPL_RE.search(body)
-    if m and surname in m.group(1).lower():
-        return m.group(1).strip()
+    for m in MAIN_TPL_RE.finditer(body):
+        target = m.group(1).strip()
+        if re.sub(r"\s*\(.*\)$", "", target).lower() == name_l:
+            return target
     for lm in re.finditer(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|([^\]]*))?\]\]", body):
         target, label = lm.group(1).strip(), (lm.group(2) or "").strip()
         base = re.sub(r"\s*\(.*\)$", "", target).lower()

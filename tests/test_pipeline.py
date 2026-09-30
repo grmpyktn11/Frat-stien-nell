@@ -121,7 +121,10 @@ def test_heading_uses_body_link_for_disambiguated_name():
 === David Copperfield ===
 {{Main|David Copperfield (illusionist)}}
 Named in testimony.
+=== Bill Clinton ===
+{{Main|Relationship of Bill Clinton and Jeffrey Epstein}}
+Flight logs.
 === George Church ===
 [[George Church (geneticist)|George Church]], a Harvard professor, attended dinners.
 """
-    assert titles(wt) == ["David Copperfield (illusionist)", "George Church (geneticist)"]
+    assert titles(wt) == ["David Copperfield (illusionist)", "Bill Clinton", "George Church (geneticist)"]
