@@ -44,6 +44,7 @@ td a{color:inherit}
 .desc{color:var(--muted);font-size:13px}
 .pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap}
 .yes{background:var(--yes-bg);color:var(--yes)}.possible{background:var(--maybe-bg);color:var(--maybe)}.no{color:var(--no)}
+.unknown{color:var(--muted);font-weight:500}
 .fac{background:var(--chip);color:var(--muted);font-weight:500}
 .schools{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
 .sch{background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:5px 10px;font:inherit;font-size:13px;cursor:pointer}
@@ -86,13 +87,13 @@ tr.detail td{background:var(--bg);font-size:13px}
   <p class="note" id="meta"></p>
 </div>
 <script>
-const RANK={yes:0,possible:1,no:2};
+const RANK={yes:0,possible:1,unknown:2,no:3};
 const IVY=["Brown","Columbia","Cornell","Dartmouth","Harvard","Penn","Princeton","Yale"];
 let DATA=[],sortK="ivy",sortDir="asc",open=new Set();
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safeUrl=u=>/^https:\/\//.test(u||"")?u:"#";
-const pill=s=>`<span class="pill ${s}">${s==="possible"?"possible":s==="yes"?"yes":"—"}</span>`;
+const pill=s=>`<span class="pill ${s}">${s==="possible"?"possible":s==="yes"?"yes":s==="unknown"?"unknown":"—"}</span>`;
 
 fetch("data/people.json").then(r=>r.json()).then(d=>{
   DATA=d.people;const m=d.meta,c=m.counts;
@@ -105,7 +106,7 @@ fetch("data/people.json").then(r=>r.json()).then(d=>{
   document.querySelectorAll(".sch").forEach(b=>b.addEventListener("click",()=>{$("fs").value=$("fs").value===b.dataset.s?"":b.dataset.s;$("fc").value=$("fs").value?"hit":"";render();}));
   const docs=[...new Set(DATA.flatMap(p=>p.documents))].sort();
   $("fd").innerHTML+=docs.map(x=>`<option>${esc(x)}</option>`).join("");
-  $("meta").innerHTML=`Names from <a href="${safeUrl(m.source)}">${esc(m.source.split("/wiki/")[1].replace(/_/g," "))}</a> (revision ${esc(m.source_revision)}), filtered to people with a Wikipedia article; victims, survivors and Epstein's staff are excluded. Education and memberships come from Wikidata, Wikipedia categories and article text. <b>Yes</b> = structured data or a manually verified source. <b>Possible (?)</b> = a text match that has not yet been verified. <b>(fac)</b> = faculty/staff/trustee only, not a student. Ivy schools include their graduate and professional schools (e.g. Wharton, Harvard Law). Honor societies such as Phi Beta Kappa are not counted as fraternities. Generated ${esc(m.generated)}.`;
+  $("meta").innerHTML=`Names from <a href="${safeUrl(m.source)}">${esc(m.source.split("/wiki/")[1].replace(/_/g," "))}</a> (revision ${esc(m.source_revision)}), filtered to public figures; names without a Wikipedia article were researched by hand from professional bios and news (✓ researched). Victims, survivors and Epstein's staff are excluded. Education and memberships come from Wikidata, Wikipedia categories and article text. <b>Yes</b> = structured data or a manually verified source. <b>Possible (?)</b> = a text match that has not yet been verified. <b>(fac)</b> = faculty/staff/trustee only, not a student. Ivy schools include their graduate and professional schools (e.g. Wharton, Harvard Law). Honor societies such as Phi Beta Kappa are not counted as fraternities. Generated ${esc(m.generated)}.`;
   document.querySelector(`th[data-k="${sortK}"]`).dataset.dir=sortDir;
   render();
 }).catch(e=>{$("tb").innerHTML=`<tr><td colspan="4" class="empty">Could not load data: ${esc(e.message)}</td></tr>`});
@@ -145,13 +146,13 @@ function render(){
   $("tb").innerHTML=rows.length?rows.map(p=>{
     const id=esc(p.name);
     let h=`<tr class="row" data-id="${id}">
-      <td><a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>${p.verified?' <span class="ver">✓ verified</span>':""}<div class="desc">${esc(p.description)}</div></td>
+      <td>${p.manual?esc(p.name):`<a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`}${p.manual?' <span class="ver">✓ researched</span>':p.verified?' <span class="ver">✓ verified</span>':""}<div class="desc">${esc(p.description)}</div></td>
       <td>${p.documents.map(d=>`<span class="chip">${esc(d)}</span>`).join("")||'<span class="desc">—</span>'}</td>
       <td>${ivyCell(p)}</td>
       <td>${pill(p.frat.status)}${p.frat.orgs.length?`<span class="org">${esc(p.frat.orgs.join(", "))}</span>`:""}</td></tr>`;
     if(open.has(p.name))h+=`<tr class="detail"><td colspan="4">
       ${p.note?`<p><b>Note:</b> ${esc(p.note)}</p>`:""}
-      <b>Education (Wikidata):</b> ${esc(p.education.join(", ")||"none listed")}<br>
+      <b>Education${p.manual?"":" (Wikidata)"}:</b> ${esc(p.education.join(", ")||"none found")}${(p.education_sources||[]).map(e=>` <a href="${safeUrl(e.url)}" target="_blank" rel="noopener">${esc(e.source)}</a>`).join("")}<br>
       ${Object.entries(p.schools).map(([s,x])=>`<b>${esc(s)} evidence</b> ${pill(x.status)}${x.faculty?' <span class="chip">faculty/staff</span>':""}${evList(x.evidence)}`).join("")||"<p class='desc'>No Ivy League evidence found.</p>"}
       <b>Fraternity evidence</b>${evList(p.frat.evidence)}
       ${p.frat.honor_societies.length?`<b>Honor societies (not counted):</b> ${esc(p.frat.honor_societies.join(", "))}`:""}
