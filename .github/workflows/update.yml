@@ -25,12 +25,27 @@ jobs:
           python-version: "3.11"
       - run: pip install -r requirements.txt
       - run: python -m pytest -q tests
-      - run: python pipeline/run.py
-      - name: Commit updated data
+      - name: Run pipeline
+        id: run
+        run: |
+          set +e
+          python pipeline/run.py > run.log 2>&1
+          status=$?
+          tail -n 80 run.log
+          mkdir -p docs/data
+          tail -n 80 run.log > docs/data/last_run.log
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+      - name: Commit updated data (or just the log if the run failed)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data
-          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
-          git commit -m "Update data [skip ci]"
-          git push
+          if [ "${{ steps.run.outputs.status }}" = "0" ]; then
+            git add docs/data
+          else
+            git add docs/data/last_run.log
+          fi
+          if git diff --cached --quiet; then echo "No changes"; else
+            git commit -m "Update data [skip ci]"
+            git push
+          fi
+          test "${{ steps.run.outputs.status }}" = "0"
