@@ -40,7 +40,8 @@ PARENTS = [
 
 SECONDARY_RE = re.compile(
     r"High School|Preparatory|Academy|Gordonstoun|Talented Youth|Colegio|Lycée|Gymnasium|"
-    r"Hall School|Grammar School|Day School|Middle School|Elementary",
+    r"Hall School|Grammar School|Day School|Middle School|Elementary|School of the Arts|Center for Early|"
+    r"Young Actors|Interlochen|Playhouse|Dulwich College|Aitchison College|Eton College|Harrow School|Winchester College",
     re.I,
 )
 HIGHER_SCHOOL_RE = re.compile(

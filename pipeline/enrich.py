@@ -53,11 +53,11 @@ ATTEND_AFTER = r"[^;]{0,20}?\b(?:graduate|alumn\w*|dropout|class of|degree)\b"
 HONORARY_RE = re.compile(r"\bhonorary\b|honoris causa|\bfalse(?:ly)?\b|fabricat\w*|claimed to have|fake degree", re.I)
 RELATIVE_RE = re.compile(
     r"\b(?:his|her|their|\w+'s)\s+(?:father|mother|wife|husband|son|daughter|brother|sister|"
-    r"parents|children|child|spouse|partner|grandfather|grandmother)\b"
-    r"|\bmarried to\b",
+    r"parents|children|child|spouse|partner|grandfather|grandmother|aunt|uncle|cousin|nephew|niece)\b"
+    r"|\bmarried to\b|\b(?:sons|daughters|great-grand\w+|grandsons?|granddaughters?|stepsons?|stepdaughters?)\b",
     re.I,
 )
-FACULTY_RE = re.compile(r"(professor|faculty|taught|lecturer|trustee|chair of|dean|fellow)", re.I)
+FACULTY_RE = re.compile(r"(professor|faculty|taught|lecturer|trustee|chair of|dean|fellow|board)", re.I)
 
 EXCLUDE_DESC_RE = re.compile(r"\b(victim|survivor|accuser|abuse advocate)\b", re.I)
 STAFF_CTX_RE = re.compile(
@@ -140,15 +140,16 @@ def fetch_page(title):
 
 
 def wikidata_facts(qids):
-    facts = {q: {"human": False, "educated_at": [], "member_of": []} for q in qids}
+    facts = {q: {"human": False, "educated_at": [], "member_of": [], "employer": []} for q in qids}
     for batch in chunks(qids, 80):
         values = " ".join(f"wd:{q}" for q in batch)
         query = f"""
-        SELECT ?item ?isHuman ?edu ?eduLabel ?mem ?memLabel ?memTypeLabel WHERE {{
+        SELECT ?item ?isHuman ?edu ?eduLabel ?mem ?memLabel ?memTypeLabel ?emp ?empLabel WHERE {{
           VALUES ?item {{ {values} }}
           BIND(EXISTS {{ ?item wdt:P31 wd:Q5 }} AS ?isHuman)
           OPTIONAL {{ ?item wdt:P69 ?edu. }}
           OPTIONAL {{ ?item wdt:P463 ?mem. OPTIONAL {{ ?mem wdt:P31 ?memType. }} }}
+          OPTIONAL {{ ?item wdt:P108 ?emp. }}
           SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
         }}"""
         for row in sparql(query)["results"]["bindings"]:
@@ -159,6 +160,10 @@ def wikidata_facts(qids):
                 e = {"id": row["edu"]["value"].rsplit("/", 1)[-1], "label": row["eduLabel"]["value"]}
                 if e not in f["educated_at"]:
                     f["educated_at"].append(e)
+            if "emp" in row:
+                e = {"id": row["emp"]["value"].rsplit("/", 1)[-1], "label": row["empLabel"]["value"]}
+                if e not in f["employer"]:
+                    f["employer"].append(e)
             if "mem" in row:
                 mid = row["mem"]["value"].rsplit("/", 1)[-1]
                 existing = next((m for m in f["member_of"] if m["id"] == mid), None)
@@ -198,15 +203,16 @@ def detect_school(page, wd, school):
                 kind = kind or "faculty"
             elif before_rx.search(s[max(0, m.start() - 90):m.start()]) or after_rx.match(s[m.end():m.end() + 25]):
                 kind = "attend"
-        if kind is None and FACULTY_RE.search(s):
-            kind = "faculty"
+        # Faculty is taken only from categories and Wikidata employer data: article text
+        # often mentions other people's posts ("his aunt was dean at ...").
         if kind == "attend":
             if status == "no":
                 status = "possible"
             evidence.append({"source": "Wikipedia article text", "text": s[:400], "url": page["url"]})
-        elif kind == "faculty":
+    for e in wd.get("employer", []):
+        if rx.search(e["label"]):
             faculty = True
-            evidence.append({"source": "Wikipedia article text (faculty/other)", "text": s[:400], "url": page["url"]})
+            evidence.append({"source": "Wikidata (employer)", "text": e["label"], "url": wd_url})
     return {"status": status, "faculty": faculty, "evidence": evidence[:5]}
 
 
@@ -241,10 +247,11 @@ def detect_frat(page, wd):
                 orgs.append(canonical_org(match.group(0)))
             evidence.append({"source": "Wikipedia category", "text": c, "url": page["url"]})
     for s in sentences_with(page["text"], rf"{FRAT_WORD_RE.pattern}|{GREEK_ORG_RE.pattern}"):
-        found = [canonical_org(x) for x in GREEK_ORG_RE.findall(s)]
+        found = [canonical_org(m.group(0)) for m in GREEK_ORG_RE.finditer(s)
+                 if not re.match(r"\s*(?:graduate\s+|alumni\s+|alumnae\s+)?chapter\b", s[m.end():], re.I)]
         social = [o for o in found if not is_honor(o)]
         honors += [o for o in found if is_honor(o)]
-        if social or (FRAT_WORD_RE.search(s) and FRAT_MEMBER_RE.search(s)):
+        if FRAT_MEMBER_RE.search(s) and (social or FRAT_WORD_RE.search(s)):
             if status == "no":
                 status = "possible"
             orgs += social

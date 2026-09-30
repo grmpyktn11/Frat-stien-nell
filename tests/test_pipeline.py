@@ -66,11 +66,15 @@ def test_school_wikidata_yes():
 
 def test_school_text_possible_and_faculty():
     r = detect_school(page("He graduated from Cornell in 1970. Later he taught as a professor at Cornell."), {}, "Cornell")
-    assert r["status"] == "possible" and r["faculty"]
+    assert r["status"] == "possible" and not r["faculty"]
+    r = detect_school(page(), {"employer": [{"id": "Q1", "label": "Cornell University"}]}, "Cornell")
+    assert r["faculty"] and r["status"] == "no"
 
 
 def test_harvard_professor_is_faculty_not_alumnus():
     r = detect_ivy(page("He received his PhD from Stanford University. He is a professor of genetics at Harvard Medical School."), {})
+    assert "Harvard" not in r
+    r = detect_ivy(page(cats=["Harvard Medical School faculty"]), {})
     assert r["Harvard"]["status"] == "no" and r["Harvard"]["faculty"]
 
 
@@ -139,7 +143,7 @@ def test_ivy_false_positive_patterns():
     assert detect_ivy(page(txt), {}) == {}
     r = detect_ivy(page("After her graduate work at Harvard, Randall held professorships at MIT and Princeton University."), {})
     assert r["Harvard"]["status"] == "possible"
-    assert r["Princeton"]["status"] == "no" and r["Princeton"]["faculty"]
+    assert "Princeton" not in r
     assert detect_ivy(page(), {"educated_at": [{"id": "Q1", "label": "Yale-China Chinese Language Center"}]}) == {}
 
 
@@ -183,3 +187,13 @@ def test_build_graph_links_shared_colleges_and_frats():
 def test_false_claims_ignored():
     txt = "Oppenheimer reported that Seckel cultivated a false image of himself as a graduate from Cornell."
     assert detect_ivy(page(txt), {}) == {}
+
+
+def test_relatives_and_chapters():
+    txt = ("Madoff had two sons: Mark, a graduate of Michigan, and Andrew, a 1988 graduate of the Wharton School. "
+           "Another great-grandfather graduated from Yale University. His aunt was dean of Columbia University Mailman School.")
+    assert detect_ivy(page(txt), {}) == {}
+    r = detect_frat(page("He served as president of the Zeta Phi chapter of the Beta Theta Pi fraternity."), {})
+    assert r["orgs"] == ["Beta Theta Pi"]
+    r = detect_frat(page("NPR identifies the street address of the Sigma Chi fraternity house as the location."), {})
+    assert r["status"] == "no"
