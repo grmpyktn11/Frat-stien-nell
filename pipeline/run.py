@@ -42,10 +42,12 @@ def main():
     resolved = resolve_titles(sorted({e["title"] for e in entries}))
     by_title = {}
     unresolved = []
+    unresolved_docs = {}
     for e in entries:
         t = resolved.get(e["title"])
         if not t:
             unresolved.append(e["title"])
+            unresolved_docs[e["title"]] = e["documents"]
             continue
         m = by_title.setdefault(t, {"context": "", "documents": []})
         m["context"] += " " + e["context"]
@@ -94,6 +96,41 @@ def main():
             rec["verified"] = ov.get("verified", True)
         rec["schools"] = {k: v for k, v in rec["schools"].items() if v["status"] != "no" or v.get("faculty")}
         people.append(rec)
+
+    # Hand-researched records for names without a Wikipedia article.
+    manual_path = DATA / "manual_people.json"
+    manual = json.loads(manual_path.read_text())["people"] if manual_path.exists() else []
+    have = {p["name"] for p in people}
+    for m in manual:
+        if m["name"] in have or m["name"] in exclude:
+            continue
+        schools = {k: {"status": v.get("status", "no"), "faculty": v.get("faculty", False), "evidence": v.get("evidence", [])}
+                   for k, v in m.get("schools", {}).items()}
+        frat = {"status": "no", "orgs": [], "honor_societies": [], "evidence": []}
+        frat.update(m.get("frat", {}))
+        src = m.get("school_sources", [])
+        docs = next((d for k, d in unresolved_docs.items() if k == m["name"] or m["name"] in k.split(" and ")
+                     or f'{m["name"].split()[0]} ' in k and m["name"].split()[-1] in k), [])
+        people.append({
+            "name": m["name"],
+            "url": (src[0]["url"] if src else None),
+            "qid": None,
+            "description": m.get("description", ""),
+            "documents": docs,
+            "schools": {k: v for k, v in schools.items() if v["status"] != "no" or v["faculty"]},
+            "frat": frat,
+            "education": m.get("education", []),
+            "education_sources": src,
+            "note": m.get("note", ""),
+            "verified": True,
+            "manual": True,
+        })
+    for u in unresolved:
+        if u in exclude:
+            excluded.append({"name": u, "reason": exclude[u] or "manual exclude list"})
+    covered = {p["name"] for p in people}
+    unresolved = [u for u in unresolved if u not in covered and u not in exclude
+                  and not any(n in u for n in covered)]
 
     OUT.mkdir(parents=True, exist_ok=True)
     meta = {

@@ -1,0 +1,124 @@
+{
+ "_comment": "Hand-researched records for people named in the Epstein files who have no English Wikipedia article. Sources are public professional bios and news coverage. Education is listed only when a source states it.",
+ "people": [
+  {
+   "name": "Thomas Magnani",
+   "description": "New York dentist; former volunteer professor at Columbia's College of Dental Medicine",
+   "education": ["Columbia University College of Dental Medicine (DDS, 1980)"],
+   "schools": {"Columbia": {"status": "yes", "faculty": true, "evidence": [
+     {"source": "Columbia alumni medal", "text": "2018 Alumni Medalist Thomas J. Magnani '80DM", "url": "https://www.youtube.com/watch?v=ePHF3e61LtE"},
+     {"source": "Dr. Bicuspid", "text": "A volunteer professor at the dental school and president of its donor association.", "url": "https://www.drbicuspid.com/dental-business/dental-education/article/15824603/columbia-dental-school-administrator-linked-to-irregular-admissions-for-epsteins-girlfriend"}]}},
+   "frat": {"status": "unknown"}
+  },
+  {
+   "name": "Jess Ting",
+   "description": "Plastic surgeon, Mount Sinai; former Juilliard double bassist",
+   "education": ["Juilliard (BM 1988, MM 1990)", "Columbia University College of Physicians and Surgeons (MD)"],
+   "schools": {"Columbia": {"status": "yes", "evidence": [
+     {"source": "Juilliard alumni spotlight", "text": "Juilliard BM '88, MM '90 (double bass); medical school at Columbia University College of Physicians and Surgeons; general surgery training at Columbia-Presbyterian.", "url": "https://www.juilliard.edu/news/143731/alumni-spotlight-jess-ting"}]}},
+   "frat": {"status": "unknown"}
+  },
+  {
+   "name": "Lawrence Delson",
+   "description": "Adjunct professor (FIT, NYU School of Professional Studies)",
+   "education": ["Clark University (BA)", "Columbia University (MA)"],
+   "schools": {"Columbia": {"status": "yes", "evidence": [
+     {"source": "FIT faculty directory", "text": "Bachelor of Arts from Clark University; Master of Arts from Columbia University.", "url": "https://www.fitnyc.edu/creative-nexus/faculty/directory/delson-lawrence.php"}]}},
+   "frat": {"status": "unknown"}
+  },
+  {
+   "name": "Letty Moss-Salentijn",
+   "description": "Former vice dean, Columbia University College of Dental Medicine",
+   "education": ["University of Utrecht (DDS, PhD)"],
+   "schools": {"Columbia": {"status": "no", "faculty": true, "evidence": [
+     {"source": "Columbia RCSS profile", "text": "DDS and PhD from the University of Utrecht; Columbia faculty since 1968, later Vice Dean.", "url": "https://rcss.scienceandsociety.columbia.edu/people/letty-moss-salentijn-dds-phd"}]}},
+   "frat": {"status": "unknown"}
+  },
+  {
+   "name": "Matthew Menchel",
+   "description": "Lawyer (Kobre & Kim); former federal prosecutor, Southern District of Florida",
+   "education": ["SUNY Binghamton (BA)", "CUNY School of Law (JD)"],
+   "schools": {},
+   "school_sources": [{"source": "Kobre & Kim bio", "url": "https://kobrekim.com/people/matthew-i-menchel"}],
+   "frat": {"status": "unknown"}
+  },
+  {
+   "name": "Rony Shimony",
+   "description": "Cardiologist, Mount Sinai",
+   "education": ["SUNY Albany (BS)", "SUNY Buffalo School of Medicine (MD)", "Lenox Hill Hospital (residency, fellowships)"],
+   "schools": {},
+   "school_sources": [{"source": "Mount Sinai profile", "url": "https://profiles.mountsinai.org/rony-shimony"}],
+   "frat": {"status": "unknown"}
+  },
+  {
+   "name": "David A. Ross",
+   "description": "Former director of the Whitney Museum and SFMOMA; former chair, SVA MFA Art Practice",
+   "education": ["Syracuse University (BA, graduate study in fine arts)"],
+   "schools": {},
+   "school_sources": [{"source": "Prabook", "url": "https://prabook.com/web/david_a.ross/531698"}],
+   "frat": {"status": "unknown"}
+  },
+  {
+   "name": "Mark Tramo",
+   "description": "Neurologist; former Harvard Medical School faculty, later UCLA adjunct",
+   "education": [],
+   "schools": {"Harvard": {"status": "no", "faculty": true, "evidence": [
+     {"source": "Daily Bruin", "text": "Taught at Harvard until 2010; later associate adjunct professor of neurology at UCLA.", "url": "https://dailybruin.com/2026/03/15/just-trying-to-advance-your-work-mark-tramos-connection-to-jeffrey-epstein"}]}},
+   "frat": {"status": "unknown"},
+   "note": "No public source found for where he earned his degrees."
+  },
+  {
+   "name": "Nick Leese",
+   "description": "British film producer; son of arms dealer Sir Douglas Leese",
+   "education": ["University of Oxford"],
+   "schools": {},
+   "school_sources": [{"source": "The Times", "url": "https://x.com/thetimes/status/1967250380817138169"}],
+   "frat": {"status": "no"},
+   "note": "Linked to Oxford's Bullingdon Club, a dining society, not a fraternity."
+  },
+  {
+   "name": "Stephen Alexander",
+   "description": "Retired clinical and forensic psychologist, West Palm Beach",
+   "education": [],
+   "schools": {},
+   "school_sources": [{"source": "Tuscaloosa Thread", "url": "https://tuscaloosathread.com/university-alabama-epstein-connection/"}],
+   "frat": {"status": "unknown"},
+   "note": "No public source found for his education."
+  },
+  {
+   "name": "Francisco D'Agostino",
+   "description": "Venezuelan-Spanish businessman; advised Epstein on PDVSA bonds",
+   "education": [],
+   "schools": {},
+   "school_sources": [{"source": "OCCRP", "url": "https://www.occrp.org/en/scoop/epstein-bought-venezuelan-oil-bonds-on-advice-from-chavez-era-insider"}],
+   "frat": {"status": "unknown"},
+   "note": "No public source found for his education."
+  },
+  {
+   "name": "Caroline Lang",
+   "description": "French producer; Warner Bros. International Television executive; daughter of Jack Lang",
+   "education": [],
+   "schools": {},
+   "school_sources": [{"source": "French Wikipedia", "url": "https://fr.wikipedia.org/wiki/Caroline_Lang"}],
+   "frat": {"status": "unknown"},
+   "note": "No public source found for her education."
+  },
+  {
+   "name": "Julian Leese",
+   "description": "Son of Sir Douglas Leese",
+   "education": [],
+   "schools": {},
+   "frat": {"status": "unknown"},
+   "note": "No public source found for his education."
+  },
+  {
+   "name": "Linda Pinto",
+   "description": "Interior designer, Alberto Pinto studio (Paris)",
+   "education": [],
+   "schools": {},
+   "school_sources": [{"source": "Sotheby's", "url": "https://www.sothebys.com/en/articles/interior-designer-linda-pintos-parisian-style"}],
+   "frat": {"status": "unknown"},
+   "note": "No public source found for her education."
+  }
+ ]
+}
