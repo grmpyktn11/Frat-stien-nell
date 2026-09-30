@@ -171,6 +171,18 @@
    "cases": []
   },
   {
+   "id": "p:Bob Menendez",
+   "type": "person",
+   "label": "Bob Menendez",
+   "name": "Bob Menendez",
+   "description": "American politician (born 1954)",
+   "url": "https://en.wikipedia.org/wiki/Bob_Menendez",
+   "epstein": false,
+   "cases": [
+    "Menendez bribery case"
+   ]
+  },
+  {
    "id": "p:Bobby Kotick",
    "type": "person",
    "label": "Bobby Kotick",
@@ -427,6 +439,18 @@
    ]
   },
   {
+   "id": "p:Gary Wang (American businessman)",
+   "type": "person",
+   "label": "Gary Wang",
+   "name": "Gary Wang (American businessman)",
+   "description": "Co-founder of FTX",
+   "url": "https://en.wikipedia.org/wiki/Gary_Wang_(American_businessman)",
+   "epstein": false,
+   "cases": [
+    "FTX collapse"
+   ]
+  },
+  {
    "id": "p:George Church (geneticist)",
    "type": "person",
    "label": "George Church",
@@ -635,6 +659,18 @@
    "url": "https://en.wikipedia.org/wiki/Ken_Starr",
    "epstein": true,
    "cases": []
+  },
+  {
+   "id": "p:Kenneth Lay",
+   "type": "person",
+   "label": "Kenneth Lay",
+   "name": "Kenneth Lay",
+   "description": "Founder of Enron Corporation (1942–2006)",
+   "url": "https://en.wikipedia.org/wiki/Kenneth_Lay",
+   "epstein": false,
+   "cases": [
+    "Enron"
+   ]
   },
   {
    "id": "p:Kenneth Mapp",
@@ -1708,6 +1744,12 @@
    "count": 1
   },
   {
+   "id": "f:Beta Theta Pi",
+   "type": "frat",
+   "label": "Beta Theta Pi",
+   "count": 2
+  },
+  {
    "id": "f:Delta Phi Epsilon",
    "type": "frat",
    "label": "Delta Phi Epsilon",
@@ -1726,9 +1768,33 @@
    "count": 1
   },
   {
+   "id": "f:Epsilon Theta",
+   "type": "frat",
+   "label": "Epsilon Theta",
+   "count": 2
+  },
+  {
+   "id": "f:Kappa Alpha Theta",
+   "type": "frat",
+   "label": "Kappa Alpha Theta",
+   "count": 1
+  },
+  {
    "id": "f:Kappa Kappa Psi",
    "type": "frat",
    "label": "Kappa Kappa Psi",
+   "count": 1
+  },
+  {
+   "id": "f:Lambda Theta Phi",
+   "type": "frat",
+   "label": "Lambda Theta Phi",
+   "count": 1
+  },
+  {
+   "id": "f:Omega Psi Phi",
+   "type": "frat",
+   "label": "Omega Psi Phi",
    "count": 1
   },
   {
@@ -1747,7 +1813,7 @@
    "id": "f:Sigma Alpha Mu",
    "type": "frat",
    "label": "Sigma Alpha Mu",
-   "count": 1
+   "count": 4
   },
   {
    "id": "f:Sigma Phi Epsilon",
@@ -2698,6 +2764,16 @@
    "kind": "frat"
   },
   {
+   "source": "p:Jeffrey Skilling",
+   "target": "f:Beta Theta Pi",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Kenneth Lay",
+   "target": "f:Beta Theta Pi",
+   "kind": "frat"
+  },
+  {
    "source": "p:Ken Starr",
    "target": "f:Delta Phi Epsilon",
    "kind": "frat"
@@ -2713,8 +2789,33 @@
    "kind": "frat"
   },
   {
+   "source": "p:Gary Wang (American businessman)",
+   "target": "f:Epsilon Theta",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Sam Bankman-Fried",
+   "target": "f:Epsilon Theta",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Elizabeth Holmes",
+   "target": "f:Kappa Alpha Theta",
+   "kind": "frat"
+  },
+  {
    "source": "p:Bill Clinton",
    "target": "f:Kappa Kappa Psi",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Bob Menendez",
+   "target": "f:Lambda Theta Phi",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Bill Cosby",
+   "target": "f:Omega Psi Phi",
    "kind": "frat"
   },
   {
@@ -2728,7 +2829,22 @@
    "kind": "frat"
   },
   {
+   "source": "p:Bernie Madoff",
+   "target": "f:Sigma Alpha Mu",
+   "kind": "frat"
+  },
+  {
    "source": "p:Les Wexner",
+   "target": "f:Sigma Alpha Mu",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Michael Milken",
+   "target": "f:Sigma Alpha Mu",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Steve Wynn",
    "target": "f:Sigma Alpha Mu",
    "kind": "frat"
   },
@@ -2739,9 +2855,9 @@
   }
  ],
  "counts": {
-  "people_linked": 132,
-  "people_unlinked": 78,
+  "people_linked": 135,
+  "people_unlinked": 75,
   "colleges": 43,
-  "frats": 10
+  "frats": 15
  }
 }

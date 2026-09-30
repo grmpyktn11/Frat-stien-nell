@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-09-30T17:04:57+00:00",
+  "generated": "2026-09-30T17:08:17+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "counts": {
@@ -11,7 +11,7 @@
    "excluded": 7,
    "unresolved": 1,
    "ivy_yes": 62,
-   "ivy_possible": 3,
+   "ivy_possible": 0,
    "by_school": {
     "Brown": {
      "yes": 1,
@@ -31,11 +31,11 @@
     },
     "Harvard": {
      "yes": 32,
-     "possible": 1
+     "possible": 0
     },
     "Penn": {
      "yes": 12,
-     "possible": 2
+     "possible": 0
     },
     "Princeton": {
      "yes": 4,
@@ -43,11 +43,11 @@
     },
     "Yale": {
      "yes": 5,
-     "possible": 2
+     "possible": 0
     }
    },
-   "frat_yes": 8,
-   "frat_possible": 10
+   "frat_yes": 18,
+   "frat_possible": 0
   }
  },
  "people": [
@@ -139,24 +139,9 @@
        "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "From 1964 to 2013, he taught at Harvard Law School, where he was appointed as the Felix Frankfurter Professor of Law in 1993.",
-       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He joined the Harvard Law School faculty as an assistant professor in 1964, and was made a full professor in 1967 at age 28, at that time the youngest full professor of law in the school's history.",
-       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Randall Adams of The Harvard Crimson wrote that, in the spring of 2002, a petition calling for Harvard and MIT to divest from Israeli and American companies that sell arms to Israel gathered over 600 signatures, including 74 from Harvard faculty and 56 from MIT faculty.",
-       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "The university's Liberal Arts and Sciences faculty voted to send a letter of complaint to Harvard University.",
-       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+       "source": "Wikidata (employer)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q183058"
       }
      ]
     },
@@ -301,9 +286,7 @@
     "Orange County School of the Arts"
    ],
    "verified": false,
-   "colleges": [
-    "Orange County School of the Arts"
-   ]
+   "colleges": []
   },
   {
    "name": "Amanda Thirsk",
@@ -740,21 +723,9 @@
      "outcome": "Pleaded guilty to securities fraud (2009)"
     }
    ],
-   "schools": {
-    "Penn": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "Bernard and Ruth Madoff had two sons: Mark (1964–2010), a 1986 graduate of the University of Michigan, and Andrew (1966–2014), a 1988 graduate of University of Pennsylvania's Wharton Business School.",
-       "url": "https://en.wikipedia.org/wiki/Bernie_Madoff"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Sigma Alpha Mu"
     ],
@@ -773,9 +744,9 @@
     "Hofstra University",
     "University of Alabama"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Joined Sigma Alpha Mu at the University of Alabama, then transferred to Hofstra.",
    "colleges": [
-    "University of Pennsylvania",
     "Brooklyn Law School",
     "Hofstra University",
     "University of Alabama"
@@ -876,21 +847,15 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
-     "Omega Psi Phi",
-     "Beta Alpha Alpha"
+     "Omega Psi Phi"
     ],
     "honor_societies": [],
     "evidence": [
      {
       "source": "Wikipedia article text",
       "text": "He is also a member of the Omega Psi Phi fraternity; he was initiated in the fraternity's Beta Alpha Alpha graduate chapter in White Plains, New York, in 1988, and served briefly on the board of directors for the CDC Foundation.",
-      "url": "https://en.wikipedia.org/wiki/Bill_Cosby"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "List of Omega Psi Phi members",
       "url": "https://en.wikipedia.org/wiki/Bill_Cosby"
      }
     ]
@@ -900,7 +865,8 @@
     "Temple University",
     "University of Massachusetts Amherst"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Initiated through Omega Psi Phi's Beta Alpha Alpha graduate chapter in 1988, not as a student.",
    "colleges": [
     "Temple University",
     "University of Massachusetts Amherst"
@@ -919,7 +885,7 @@
    "schools": {
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -942,8 +908,8 @@
        "url": "https://en.wikipedia.org/wiki/Bill_Gates"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "While at Harvard, he met fellow student and future Microsoft CEO Steve Ballmer.",
+       "source": "Wikipedia article text",
+       "text": "Gates dropped out of Harvard that same year.",
        "url": "https://en.wikipedia.org/wiki/Bill_Gates"
       }
      ]
@@ -1050,9 +1016,9 @@
        "url": "https://en.wikipedia.org/wiki/Bill_Richardson"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He was an adjunct professor at Harvard Kennedy School and a lecturer at the United World College of the American West (UWC-USA), and also taught at the University of New Mexico, and New Mexico State University.",
-       "url": "https://en.wikipedia.org/wiki/Bill_Richardson"
+       "source": "Wikidata (employer)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q311782"
       }
      ]
     }
@@ -1102,7 +1068,7 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Lambda Theta Phi"
     ],
@@ -1122,7 +1088,8 @@
     "Saint Peter's University",
     "Rutgers University"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Member at Saint Peter's College.",
    "colleges": [
     "Rutgers Law School",
     "Rutgers School of Law–Newark",
@@ -1389,19 +1356,7 @@
      "outcome": "Pleaded guilty to tax evasion, witness tampering and illegal campaign donations (2004); pardoned 2020"
     }
    ],
-   "schools": {
-    "Harvard": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "Jared was admitted to the Harvard freshman class of 1999.",
-       "url": "https://en.wikipedia.org/wiki/Charles_Kushner"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -1414,9 +1369,9 @@
     "Stern School of Business",
     "New York University"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "The Harvard mention in his article is about his son Jared.",
    "colleges": [
-    "Harvard University",
     "Maurice A. Deane School of Law",
     "Hofstra University",
     "New York University"
@@ -1533,7 +1488,7 @@
    "schools": {
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -1556,8 +1511,8 @@
        "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "She was a Junior Fellow in the Harvard Society of Fellows before joining the Princeton University faculty in 2013.",
+       "source": "Wikipedia article text",
+       "text": "Tarnita met convicted sex offender Jeffrey Epstein while she was a graduate student working under Nowak at Harvard in 2008.",
        "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
       }
      ]
@@ -1572,14 +1527,9 @@
        "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "She is currently the Frederick D. Petrie Professor of Ecology and Evolutionary Biology at Princeton University.",
-       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "She was a Junior Fellow in the Harvard Society of Fellows before joining the Princeton University faculty in 2013.",
-       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+       "source": "Wikidata (employer)",
+       "text": "Princeton University",
+       "url": "https://www.wikidata.org/wiki/Q89456789"
       }
      ]
     }
@@ -1673,9 +1623,7 @@
     "Garden City High School"
    ],
    "verified": false,
-   "colleges": [
-    "Young Actors Space"
-   ]
+   "colleges": []
   },
   {
    "name": "David Blaine",
@@ -1756,14 +1704,14 @@
        "url": "https://en.wikipedia.org/wiki/David_Gelernter"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "David Hillel Gelernter (born March 5, 1955) is an American computer scientist and writer, and a professor of computer science at Yale University.",
-       "url": "https://en.wikipedia.org/wiki/David_Gelernter"
-      },
-      {
        "source": "Wikipedia article text",
        "text": "After high school, Gelernter graduated cum laude from Yale University with a Bachelor of Arts in computer science and a Master of Arts in Classical Hebrew literature in 1976.",
        "url": "https://en.wikipedia.org/wiki/David_Gelernter"
+      },
+      {
+       "source": "Wikidata (employer)",
+       "text": "Yale University",
+       "url": "https://www.wikidata.org/wiki/Q92680"
       }
      ]
     }
@@ -1798,17 +1746,6 @@
     }
    ],
    "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In October 2013, Petraeus joined Harvard's John F. Kennedy School of Government as a non-resident senior fellow at the Belfer Center for Science and International Affairs.",
-       "url": "https://en.wikipedia.org/wiki/David_Petraeus"
-      }
-     ]
-    },
     "Princeton": {
      "status": "yes",
      "faculty": false,
@@ -1831,22 +1768,6 @@
       {
        "source": "Wikipedia article text",
        "text": "He subsequently earned an M.P.A. degree in 1985 and a Ph.D. in international relations and economics in 1987 from Princeton University's Woodrow Wilson School of Public and International Affairs, where he was mentored by Richard H. Ullman, an international relations scholar and progressive commentator.",
-       "url": "https://en.wikipedia.org/wiki/David_Petraeus"
-      }
-     ]
-    },
-    "Yale": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Since 2022, he has taught courses in international relations at Yale University as a Kissinger Senior Fellow of the university's Jackson Institute for Global Affairs.",
-       "url": "https://en.wikipedia.org/wiki/David_Petraeus"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "2023: Kissinger Senior Fellow, Yale Jackson School of Global Affairs",
        "url": "https://en.wikipedia.org/wiki/David_Petraeus"
       }
      ]
@@ -1943,19 +1864,7 @@
    ],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He is the main subject of Code Name Ginger: the Story Behind Segway and Dean Kamen's Quest to Invent a New World, a nonfiction narrative book by journalist Steve Kemper published by Harvard Business School Press in 2003 (released in paperback as Reinventing the Wheel).",
-       "url": "https://en.wikipedia.org/wiki/Dean_Kamen"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -1981,40 +1890,7 @@
    "documents": [],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Columbia": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Chopra serves as an adjunct professor in the marketing division at Columbia Business School.",
-       "url": "https://en.wikipedia.org/wiki/Deepak_Chopra"
-      }
-     ]
-    },
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "As of 2014, Chopra's younger brother, Sanjiv Chopra, was a professor of medicine at Harvard Medical School and on staff at Beth Israel Deaconess Medical Center.",
-       "url": "https://en.wikipedia.org/wiki/Deepak_Chopra"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Chopra taught at the medical schools of Tufts University, Boston University, and Harvard University, and became Chief of Staff at the New England Memorial Hospital (NEMH) (later known as the Boston Regional Medical Center) in Stoneham, Massachusetts before establishing a private practice in Boston in endocrinology.",
-       "url": "https://en.wikipedia.org/wiki/Deepak_Chopra"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He participates annually as a lecturer at the Update in Internal Medicine event sponsored by Harvard Medical School and the Beth Israel Deaconess Medical Center.",
-       "url": "https://en.wikipedia.org/wiki/Deepak_Chopra"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -2249,7 +2125,7 @@
    "schools": {
     "Cornell": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -2267,11 +2143,6 @@
        "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "One of his professors at Cornell was Vladimir Nabokov.",
-       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
-      },
-      {
        "source": "Wikipedia article text",
        "text": "While a graduate student at Cornell University in 1966, he published the book Inquest: The Warren Commission and the Establishment of Truth, an influential critique of the Warren Commission probe into the John F. Kennedy assassination.",
        "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
@@ -2280,7 +2151,7 @@
     },
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -2293,18 +2164,8 @@
        "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Edward Jay Epstein (December 6, 1935 – January 9, 2024) was an American investigative journalist and a political science professor at Harvard University, the University of California, Los Angeles, and the Massachusetts Institute of Technology.",
-       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
-      },
-      {
        "source": "Wikipedia article text",
        "text": "In 1973, he received his PhD in government from Harvard University.",
-       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Epstein taught courses at Harvard University, the University of California, Los Angeles, and the Massachusetts Institute of Technology for three years.",
        "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
       }
      ]
@@ -2486,14 +2347,9 @@
        "url": "https://en.wikipedia.org/wiki/Elisa_New"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "She was a professor of Harvard University from 1999 to 2019, and founded  Poetry in America, a nonprofit PBS series that has received considerable controversy for its ties to child sex offender Jeffrey Epstein.",
-       "url": "https://en.wikipedia.org/wiki/Elisa_New"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 1999, New moved to Harvard University, eventually becoming the Powell M. Cabot Professor of American Literature.",
-       "url": "https://en.wikipedia.org/wiki/Elisa_New"
+       "source": "Wikidata (employer)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q5361374"
       }
      ]
     },
@@ -2505,6 +2361,11 @@
        "source": "Wikipedia category",
        "text": "University of Pennsylvania faculty",
        "url": "https://en.wikipedia.org/wiki/Elisa_New"
+      },
+      {
+       "source": "Wikidata (employer)",
+       "text": "University of Pennsylvania",
+       "url": "https://www.wikidata.org/wiki/Q5361374"
       }
      ]
     }
@@ -2541,21 +2402,15 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
-     "Kappa Alpha Theta",
-     "Sigma Chi"
+     "Kappa Alpha Theta"
     ],
     "honor_societies": [],
     "evidence": [
      {
       "source": "Wikipedia article text",
       "text": "She was a member of Kappa Alpha Theta at Stanford.",
-      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "The report, written by the deputies who responded to the call, was withheld from release, and the partial information obtained by NPR does not identify an alleged perpetrator or other details about the incident but identifies the street address of the Sigma Chi fraternity house as the location.",
       "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
      }
     ]
@@ -2564,7 +2419,8 @@
     "St. John's School",
     "Stanford University"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Sorority, at Stanford.",
    "colleges": [
     "Stanford University"
    ]
@@ -2677,19 +2533,7 @@
      "outcome": "Pleaded guilty (2019)"
     }
    ],
-   "schools": {
-    "Yale": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "Another great-grandfather, Frederick Berthold Ewing, graduated from Yale University and became a St. Louis businessman.",
-       "url": "https://en.wikipedia.org/wiki/Felicity_Huffman"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -2706,8 +2550,6 @@
    ],
    "verified": false,
    "colleges": [
-    "Yale University",
-    "Interlochen Center for the Arts",
     "New York University"
    ]
   },
@@ -2777,7 +2619,7 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Epsilon Theta"
     ],
@@ -2791,7 +2633,8 @@
     ]
    },
    "education": [],
-   "verified": false,
+   "verified": true,
+   "note": "Epsilon Theta is a coed fraternity/living group at MIT.",
    "colleges": []
   },
   {
@@ -2823,14 +2666,14 @@
        "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He is the Robert Winthrop Professor of Genetics at Harvard Medical School, Professor of Health Sciences and Technology at Harvard University and Massachusetts Institute of Technology, and a founding member of the Wyss Institute for Biologically Inspired Engineering at Harvard University.",
-       "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)"
-      },
-      {
        "source": "Wikipedia article text",
        "text": "Church returned to graduate work at Harvard University in 1977 under Walter Gilbert, and completed a Ph.D in biochemistry and molecular biology working on mobile genetic elements within introns of yeast mitochondrial and mouse immunoglobulin genes (1984).",
        "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)"
+      },
+      {
+       "source": "Wikidata (employer)",
+       "text": "Harvard Medical School",
+       "url": "https://www.wikidata.org/wiki/Q3298995"
       }
      ]
     }
@@ -2842,9 +2685,9 @@
     "evidence": []
    },
    "education": [
-    "Phillips Academy",
     "Duke University",
-    "Harvard University"
+    "Harvard University",
+    "Phillips Academy"
    ],
    "verified": false,
    "colleges": [
@@ -2864,19 +2707,7 @@
    ],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Columbia": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Since 2002, Mitchell has been a senior fellow and senior research scholar at Columbia University's Center for International Conflict Resolution, where he works to help end or avert conflicts between nations.",
-       "url": "https://en.wikipedia.org/wiki/George_J._Mitchell"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -2960,19 +2791,7 @@
    ],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 2010, Dubin established the Dubin Fellowship for Emerging Leaders at the Center for Public Leadership at Harvard's Kennedy School with a $5 million gift.",
-       "url": "https://en.wikipedia.org/wiki/Glenn_Dubin"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -3398,7 +3217,7 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Beta Theta Pi"
     ],
@@ -3418,7 +3237,8 @@
     "Harvard Business School",
     "Harvard University"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Member at Southern Methodist University.",
    "colleges": [
     "Harvard University",
     "Cox School of Business",
@@ -3612,34 +3432,7 @@
    ],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He is on the board of directors for the Gelephu Mindfulness City in Bhutan where he is also chairman of the Gelephu Investment Development Corporation (GIDC). He is a former director of the MIT Media Lab, former professor of the practice of media arts and sciences at MIT, and a former visiting professor of practice at Harvard Law School.",
-       "url": "https://en.wikipedia.org/wiki/Joi_Ito"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 2018, Ito and Jonathan Zittrain co-taught a collaborative Harvard-M.I.T. digital ethics course titled, \"The Ethics and Governance of Artificial Intelligence\". Ito wrote about the limits of explainability in Wired magazine related to the research of MIT Media Lab researcher Josh Tenenbaum.",
-       "url": "https://en.wikipedia.org/wiki/Joi_Ito"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "According to Harvard Law School professor Lawrence Lessig the anonymity of the Jeffrey Epstein donations was to avoid \"whitewashing\" Epstein's reputation and not to conceal the relationship between Ito and Epstein.",
-       "url": "https://en.wikipedia.org/wiki/Joi_Ito"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He also resigned from his visiting professorship at Harvard University. in addition he relinquished a number of other roles on September 7 amid the controversy:",
-       "url": "https://en.wikipedia.org/wiki/Joi_Ito"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -3762,7 +3555,7 @@
    "schools": {
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -3785,8 +3578,8 @@
        "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Harris is on the board of trustees of Mount Sinai Health System, Wharton, and Harvard Business School, and is a member of the Council on Foreign Relations think tank.",
+       "source": "Wikipedia article text",
+       "text": "Harris and businessman Mark Ein have been close friends since elementary school; they later attended Wharton and Harvard together and shared beach houses on Long Island during their time on Wall Street.",
        "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
       }
      ]
@@ -3842,11 +3635,6 @@
       "source": "Wikipedia article text",
       "text": "During summer vacations in 1983 and 1984, Harris managed operations of a lemonade stand business with locations at the National Zoo and Farragut North station in Washington, D.C. He is a member of the Sigma Alpha Epsilon fraternity.",
       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "Harris was inducted into Kappa Beta Phi, a Wall Street fraternity, in 2011.",
-      "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
      }
     ]
    },
@@ -3870,19 +3658,7 @@
    "documents": [],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In response to a Reuters inquiry, Ramo stated that he met with Epstein in New York, along with various business figures and scientists, about 14 times between 2013 and 2016 and visited Epstein's ranch once for a 2014 lunch on behalf of professors from the Massachusetts Institute of Technology and Harvard University, who were present.",
-       "url": "https://en.wikipedia.org/wiki/Joshua_Cooper_Ramo"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -4011,17 +3787,6 @@
        "url": "https://en.wikipedia.org/wiki/Ken_Starr"
       }
      ]
-    },
-    "Yale": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He also invoked a 1999 Hofstra Law Review article by Yale law professor Akhil Amar, who argued that the Clinton impeachment proved just how impeachment and removal causes \"grave disruption\" to a national election.",
-       "url": "https://en.wikipedia.org/wiki/Ken_Starr"
-      }
-     ]
     }
    },
    "frat": {
@@ -4068,9 +3833,8 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
-     "Zeta Phi",
      "Beta Theta Pi"
     ],
     "honor_societies": [],
@@ -4089,7 +3853,8 @@
     "Trulaske College of Business",
     "University of Missouri"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "President of the Zeta Phi chapter at the University of Missouri.",
    "colleges": [
     "University of Houston C.T. Bauer College of Business",
     "University of Houston",
@@ -4110,7 +3875,7 @@
    "schools": {
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikipedia category",
@@ -4120,11 +3885,6 @@
       {
        "source": "Wikipedia article text",
        "text": "After leaving office as lieutenant governor in 1999, however, he completed the six-week Advanced Management Program at Harvard Business School (which has no formal educational requirements) and received a master's degree in public administration from the John F. Kennedy School of Government at Harvard University.",
-       "url": "https://en.wikipedia.org/wiki/Kenneth_Mapp"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Mapp also completed other fellowships at Harvard University and Carnegie Mellon University in Pittsburgh.",
        "url": "https://en.wikipedia.org/wiki/Kenneth_Mapp"
       },
       {
@@ -4162,19 +3922,7 @@
    "documents": [],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In early 2014, Rudd left Australia to work in the United States, where he was appointed a Senior Fellow at the Harvard Kennedy School's Belfer Center for Science and International Affairs in Cambridge, Massachusetts, where he completed a major research effort on the future of US-China relations.",
-       "url": "https://en.wikipedia.org/wiki/Kevin_Rudd"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -4310,41 +4058,8 @@
        "url": "https://en.wikipedia.org/wiki/Larry_Summers"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He was the Charles W. Eliot University Professor at Harvard Kennedy School until his resignation in February 2026.",
-       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
-      }
-     ]
-    },
-    "Penn": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He was the son of two economists, Robert Summers (who changed the family surname from Samuelson) and Anita Summers (of Romanian-Jewish ancestry), who were both professors at the University of Pennsylvania.",
-       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
-      }
-     ]
-    },
-    "Princeton": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "West, who later called Summers both \"uninformed\" and \"an unprincipled power player\" in describing this encounter in his book Democracy Matters (2004), subsequently returned to Princeton University, where he had taught prior to Harvard University.",
-       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
-      }
-     ]
-    },
-    "Yale": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "On November 17, 2025, Summers agreed to step back from his public commitments such as his role in the advisory group of The Yale Budget Lab, his role in the advisory group of the Hamilton Project (an economics policy arm of the Brookings Institution), his fellowship with the Center for American Progress, and his role as chair of the Center for Global Development.",
+       "source": "Wikipedia article text",
+       "text": "He attended Harvard University as a graduate student, receiving his Ph.D. in 1982.",
        "url": "https://en.wikipedia.org/wiki/Larry_Summers"
       }
      ]
@@ -4357,9 +4072,9 @@
     "evidence": []
    },
    "education": [
-    "Harriton High School",
     "Massachusetts Institute of Technology",
-    "Harvard University"
+    "Harvard University",
+    "Harriton High School"
    ],
    "verified": false,
    "colleges": [
@@ -4384,16 +4099,6 @@
        "source": "Wikipedia category",
        "text": "Harvard Fellows",
        "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "After some time in the Harvard Society of Fellows, Krauss became an assistant professor at Yale University in 1985 and associate professor in 1988.",
-       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Harvard Professor Steven Pinker said that Krauss was one of several colleagues who invited him to \"salons and coffee klatsches\" that included Epstein.",
-       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
       }
      ]
     },
@@ -4407,19 +4112,9 @@
        "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Lawrence Maxwell Krauss (born May 27, 1954) is a Canadian-American  theoretical physicist and cosmologist who taught at Arizona State University (ASU), Yale University, and Case Western Reserve University.",
-       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "After some time in the Harvard Society of Fellows, Krauss became an assistant professor at Yale University in 1985 and associate professor in 1988.",
-       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He left Yale for Case Western Reserve University in 1993 when he was named the Ambrose Swasey Professor of Physics, professor of astronomy, and chairman of the physics department until 2005.",
-       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+       "source": "Wikidata (employer)",
+       "text": "Yale University",
+       "url": "https://www.wikidata.org/wiki/Q470468"
       }
      ]
     }
@@ -4467,7 +4162,7 @@
     },
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -4482,11 +4177,6 @@
       {
        "source": "Wikipedia article text",
        "text": "Blavatnik's family emigrated from the Soviet Union to the United States of America in 1978 and, in 1981, he received a master's degree in computer science from the School of Engineering and Applied Science at Columbia University, and an MBA from Harvard Business School in 1989.",
-       "url": "https://en.wikipedia.org/wiki/Len_Blavatnik"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He is also a member of the Harvard Medical School Board of Fellows, a member of the Council on Foreign Relations and a member of the Board of Governors at Tel Aviv University.",
        "url": "https://en.wikipedia.org/wiki/Len_Blavatnik"
       }
      ]
@@ -4527,7 +4217,7 @@
    "schools": {
     "Dartmouth": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -4543,17 +4233,12 @@
        "source": "Wikipedia article text",
        "text": "Black received an AB in philosophy and history from Dartmouth College in 1973 and an MBA from Harvard Business School in 1975.",
        "url": "https://en.wikipedia.org/wiki/Leon_Black"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Black was on the Board of Trustees of Dartmouth College from 2002 to 2011.",
-       "url": "https://en.wikipedia.org/wiki/Leon_Black"
       }
      ]
     },
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -4573,11 +4258,6 @@
       {
        "source": "Wikipedia article text",
        "text": "Black received an AB in philosophy and history from Dartmouth College in 1973 and an MBA from Harvard Business School in 1975.",
-       "url": "https://en.wikipedia.org/wiki/Leon_Black"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Through the Debra and Leon Black Family Foundation, he provided $7.5 million to establish a fellowship program for U.S. military personnel and veterans at Harvard Kennedy School.",
        "url": "https://en.wikipedia.org/wiki/Leon_Black"
       }
      ]
@@ -4686,9 +4366,7 @@
    ],
    "verified": false,
    "colleges": [
-    "The Center for Early Education",
-    "Bucknell University",
-    "Neighborhood Playhouse School of the Theatre"
+    "Bucknell University"
    ]
   },
   {
@@ -4703,19 +4381,7 @@
    ],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 1993, Wexner hired Len Schlesinger, a Harvard Business School professor, whom he later appointed as a company director, to advise him.",
-       "url": "https://en.wikipedia.org/wiki/Les_Wexner"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "yes",
     "orgs": [
@@ -4776,13 +4442,13 @@
        "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Lisa Joy Randall (born June 18, 1962) is an American theoretical physicist and Frank B. Baird, Jr. Professor of Science at Harvard University.",
+       "source": "Wikipedia article text",
+       "text": "She attended Harvard University, where she took Math 55, earned a BA in physics in 1983 and a PhD in theoretical particle physics in 1987 under Howard Georgi.",
        "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
       },
       {
        "source": "Wikipedia article text",
-       "text": "She attended Harvard University, where she took Math 55, earned a BA in physics in 1983 and a PhD in theoretical particle physics in 1987 under Howard Georgi.",
+       "text": "After her graduate work at Harvard, Randall held professorships at MIT and Princeton University before returning to Harvard in 2001.",
        "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
       }
      ]
@@ -4797,9 +4463,9 @@
        "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "After her graduate work at Harvard, Randall held professorships at MIT and Princeton University before returning to Harvard in 2001.",
-       "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
+       "source": "Wikidata (employer)",
+       "text": "Princeton University",
+       "url": "https://www.wikidata.org/wiki/Q450404"
       }
      ]
     }
@@ -4905,7 +4571,7 @@
    "schools": {
     "Penn": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -4920,11 +4586,6 @@
       {
        "source": "Wikipedia article text",
        "text": "He graduated summa cum laude from the Wharton School with a B.S. and an M.B.A.",
-       "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In December 2023, Rowan led a group of University of Pennsylvania donors in calling for the removal of university president Liz Magill and board of trustees chair Scott Bok, citing concerns about the university's response to antisemitism following the Hamas-led attack from Gaza on Israel in October 2023.",
        "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
       }
      ]
@@ -5027,7 +4688,7 @@
    "schools": {
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -5121,17 +4782,6 @@
        "url": "https://en.wikipedia.org/wiki/Martha_Stewart"
       }
      ]
-    },
-    "Yale": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "During this time, she met Andrew Stewart, who finished his law degree at Yale Law School.",
-       "url": "https://en.wikipedia.org/wiki/Martha_Stewart"
-      }
-     ]
     }
    },
    "frat": {
@@ -5144,10 +4794,10 @@
     "Nutley High School",
     "Barnard College"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "B.A. from Barnard College (Columbia). The Yale mention is her husband's law degree.",
    "colleges": [
-    "Columbia University",
-    "Yale University"
+    "Columbia University"
    ]
   },
   {
@@ -5169,24 +4819,9 @@
        "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Martin Andreas Nowak (born April 7, 1965) is an Austrian-born professor of mathematics and biology at Harvard University.",
-       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Nowak held faculty positions at Oxford University and the Institute for Advanced Study in Princeton, before beginning a post at Harvard in July 2003.",
-       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Nowak was one of the primary recipients of funding from child sex offender Jeffrey Epstein to Harvard faculty, and Epstein left Nowak US$5,000,000 in his trust.",
-       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 2003, he became a professor of mathematics and biology at Harvard University.",
-       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
+       "source": "Wikidata (employer)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q87451"
       }
      ]
     }
@@ -5272,8 +4907,8 @@
        "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Marvin Lee Minsky (August 9, 1927 – January 24, 2016) was an American mathematician who conducted research in the cognitive and computer science aspects of artificial intelligence (AI). After three years as a Junior Fellow of the Harvard Society of Fellows, Minsky joined the faculty at the Massachusetts Institute of Technology (MIT) in 1958 and spent the rest of his career at that institution.",
+       "source": "Wikipedia article text",
+       "text": "He served in the U.S. Navy from 1944 to 1945 before returning to his education and earning a A.B. in mathematics from Harvard University (1950) and a Ph.D. in mathematics from Princeton University (1954).",
        "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
       }
      ]
@@ -5396,17 +5031,6 @@
     }
    ],
    "schools": {
-    "Columbia": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "\"I am troubled by – and other scholars are troubled by – the notion of putting relatives on the bargaining table,\" said Vivian Berger, a professor at Columbia University Law School, in a 1990 interview with The New York Times.",
-       "url": "https://en.wikipedia.org/wiki/Michael_Milken"
-      }
-     ]
-    },
     "Penn": {
      "status": "yes",
      "faculty": false,
@@ -5430,7 +5054,7 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Sigma Alpha Mu"
     ],
@@ -5451,7 +5075,8 @@
     "The Wharton School",
     "University of California, Berkeley"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Member at UC Berkeley.",
    "colleges": [
     "University of Pennsylvania",
     "University of California, Berkeley"
@@ -5653,9 +5278,9 @@
        "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He also taught at Yale University.",
-       "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+       "source": "Wikidata (employer)",
+       "text": "Yale University",
+       "url": "https://www.wikidata.org/wiki/Q11693671"
       }
      ]
     }
@@ -5745,7 +5370,7 @@
    "schools": {
     "Princeton": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -5755,16 +5380,6 @@
       {
        "source": "Wikipedia category",
        "text": "Princeton University alumni",
-       "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Transferring from Santa Monica College, he studied mathematics (B.Sc.), and geophysics and space physics (Master's) at UCLA. He was awarded a Hertz Foundation Fellowship for graduate study and studied at Princeton University, where he earned a master's degree in mathematical economics and completed a Ph.D. in applied mathematics after completing a doctoral dissertation titled \"Vistas in curved spa",
-       "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Cameron heads a lab researching CRISPR-based technologies for studying RNA as an assistant professor of molecular biology at Princeton University.",
        "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
       }
      ]
@@ -5920,11 +5535,6 @@
        "source": "Wikipedia category",
        "text": "Columbia University faculty",
        "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "MIT promoted him to the position of associate professor in 1957, and over the next year he was also a visiting professor at Columbia University.",
-       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
       }
      ]
     },
@@ -5940,21 +5550,6 @@
       {
        "source": "Wikipedia category",
        "text": "Harvard Fellows",
-       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "During his postgraduate work in the Harvard Society of Fellows, Chomsky developed the theory of transformational grammar for which he earned his doctorate in 1955.",
-       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "From 1951 to 1955, Chomsky was a member of the Society of Fellows at Harvard University, where he undertook research on what became his doctoral dissertation.",
-       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Harvard professor George Armitage Miller was impressed by Chomsky's thesis and collaborated with him on several technical papers in mathematical linguistics.",
        "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
       }
      ]
@@ -6049,9 +5644,9 @@
        "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "For much of the 1990s, Roubini taught at Yale and then in New York, while also working for stints at the International Monetary Fund (briefly as a summer intern and visiting scholar), and World Bank (briefly as a consultant).",
-       "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini"
+       "source": "Wikidata (employer)",
+       "text": "Yale University",
+       "url": "https://www.wikidata.org/wiki/Q313923"
       }
      ]
     }
@@ -6153,17 +5748,6 @@
       {
        "source": "Wikipedia category",
        "text": "Cornell University alumni",
-       "url": "https://en.wikipedia.org/wiki/Paul_Wolfowitz"
-      }
-     ]
-    },
-    "Yale": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "While finishing his dissertation, Wolfowitz taught in the department of political science at Yale University from 1970 to 1972; one of his students was future colleague Scooter Libby.",
        "url": "https://en.wikipedia.org/wiki/Paul_Wolfowitz"
       }
      ]
@@ -6279,7 +5863,7 @@
    "schools": {
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -6338,19 +5922,7 @@
    ],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "According to Geoff Shullenberger (managing director of Compact) and Moira Weigel (Assistant Professor of Comparative Literature, Harvard), Peter Thiel and Alex Karp built Palantir on the basis of their understanding of Leo Strauss and the Frankfurt School.",
-       "url": "https://en.wikipedia.org/wiki/Peter_Thiel"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -6500,7 +6072,6 @@
    "verified": false,
    "colleges": [
     "University of Pennsylvania",
-    "Dulwich College",
     "University of Sussex"
    ]
   },
@@ -6520,7 +6091,7 @@
    "schools": {
     "Harvard": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -6538,24 +6109,13 @@
        "url": "https://en.wikipedia.org/wiki/Rajat_Gupta"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "His economics professor at IIT Delhi was Subramanian Swamy, who wrote his recommendation letter when he applied for Harvard Business School.",
+       "source": "Wikipedia article text",
+       "text": "Declining a job from the prestigious domestic firm ITC Limited, he received an MBA from Harvard Business School in 1973.",
        "url": "https://en.wikipedia.org/wiki/Rajat_Gupta"
       },
       {
        "source": "Wikipedia article text",
-       "text": "Declining a job from the prestigious domestic firm ITC Limited, he received an MBA from Harvard Business School in 1973.",
-       "url": "https://en.wikipedia.org/wiki/Rajat_Gupta"
-      }
-     ]
-    },
-    "Penn": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "Gupta served as chairman of the board of associates of the Harvard Business School, and was a member of the board of governors for the Lauder Institute of Management & International Studies at The Wharton School, University of Pennsylvania.",
+       "text": "Gupta remarked that the first time he saw an airplane was when he flew to ITC at their request to inform them he would be attending Harvard.",
        "url": "https://en.wikipedia.org/wiki/Rajat_Gupta"
       }
      ]
@@ -6572,10 +6132,10 @@
     "Harvard Business School",
     "Harvard University"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Harvard Business School MBA. The Wharton mention is a board seat.",
    "colleges": [
     "Harvard University",
-    "University of Pennsylvania",
     "Indian Institute of Technology Delhi"
    ]
   },
@@ -6587,19 +6147,7 @@
    "documents": [],
    "epstein": true,
    "cases": [],
-   "schools": {
-    "Columbia": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 2024, Hoffman was appointed a Distinguished Fellow at the Columbia University Institute of Global Politics",
-       "url": "https://en.wikipedia.org/wiki/Reid_Hoffman"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -6646,14 +6194,14 @@
        "url": "https://en.wikipedia.org/wiki/Richard_Axel"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Richard Axel (born July 2, 1946) is an American molecular biologist and university professor in the Department of Neuroscience at Columbia University and investigator at the Howard Hughes Medical Institute.",
-       "url": "https://en.wikipedia.org/wiki/Richard_Axel"
-      },
-      {
        "source": "Wikipedia article text",
        "text": "He graduated from Stuyvesant High School in 1963, (along with Bruce Bueno de Mesquita, Allan Lichtman, Ron Silver, and Alexander Rosenberg), received his B.A. in 1967 from Columbia University, and his M.D. in 1971 from Johns Hopkins University.",
        "url": "https://en.wikipedia.org/wiki/Richard_Axel"
+      },
+      {
+       "source": "Wikidata (employer)",
+       "text": "Columbia University",
+       "url": "https://www.wikidata.org/wiki/Q211940"
       }
      ]
     }
@@ -6952,14 +6500,9 @@
        "url": "https://en.wikipedia.org/wiki/Roger_Schank"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "For his undergraduate degree, Schank studied mathematics at Carnegie Mellon University in Pittsburgh PA, and later was awarded a PhD in linguistics at the University of Texas in Austin and went on to work in faculty positions at Stanford University and then at Yale University.",
-       "url": "https://en.wikipedia.org/wiki/Roger_Schank"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 1974, he became professor of computer science and psychology at Yale University.",
-       "url": "https://en.wikipedia.org/wiki/Roger_Schank"
+       "source": "Wikidata (employer)",
+       "text": "Yale University",
+       "url": "https://www.wikidata.org/wiki/Q611080"
       }
      ]
     }
@@ -7075,30 +6618,18 @@
      "outcome": "Convicted of fraud and conspiracy (2023)"
     }
    ],
-   "schools": {
-    "Columbia": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "His aunt Linda P. Fried was the dean of Columbia University Mailman School of Public Health.",
-       "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Epsilon Theta"
     ],
     "honor_societies": [],
     "evidence": [
      {
-      "source": "Wikipedia article text",
-      "text": "As an MIT student, he lived in a coeducational group house called Epsilon Theta.",
-      "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+      "source": "Wikipedia (Gary Wang)",
+      "text": "At MIT, he was the roommate of Sam Bankman-Fried for three years, and he was a member of Epsilon Theta, a coed fraternity that also included Bankman-Fried.",
+      "url": "https://en.wikipedia.org/wiki/Gary_Wang_(American_businessman)"
      }
     ]
    },
@@ -7106,7 +6637,8 @@
     "Crystal Springs Uplands School",
     "Massachusetts Institute of Technology"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Epsilon Theta is a coed fraternity/living group at MIT.",
    "colleges": [
     "Massachusetts Institute of Technology"
    ]
@@ -7203,20 +6735,9 @@
       }
      ]
     },
-    "Harvard": {
-     "status": "no",
-     "faculty": true,
-     "evidence": [
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In their highly controversial and widely contested \"Working Paper\" entitled \"The Israel Lobby and U.S. Foreign Policy\", University of Chicago political science professor John J. Mearsheimer and academic dean of the John F. Kennedy School of Government at Harvard University Stephen M. Walt argue that Libby was among the Bush administration's most \"fervently pro-Israel ... officials\" (20).",
-       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
-      }
-     ]
-    },
     "Yale": {
      "status": "yes",
-     "faculty": true,
+     "faculty": false,
      "evidence": [
       {
        "source": "Wikidata (educated at)",
@@ -7231,16 +6752,6 @@
       {
        "source": "Wikipedia article text",
        "text": "Libby attended Yale University in New Haven, graduating magna cum laude in 1972.",
-       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Libby practiced law at Schnader for six years before joining the U.S. State Department policy planning staff, at the invitation of his former Yale professor, Paul Wolfowitz, in 1981.",
-       "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "In 1985, returning to private practice, he joined the firm then known as Dickstein, Shapiro & Morin (now Dickstein Shapiro LLP), becoming a partner in 1986 and working there until 1989, when he left to work in the U.S. Defense Department, again under his former Yale professor Paul Wolfowitz, until January 1993.",
        "url": "https://en.wikipedia.org/wiki/Scooter_Libby"
       }
      ]
@@ -7493,19 +7004,9 @@
        "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "He is a former chair of the psychology department and dean of social sciences at Harvard University, where he is a professor emeritus.",
-       "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "After an appointment as assistant professor of psychology at Johns Hopkins, he joined the faculty at Harvard in 1977, where he later served as the departmental chair, Dean of Social Sciences, and the John Lindsley Professor.",
-       "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
-      },
-      {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "A report from Harvard University shows that Kosslyn had known Epstein for about nine years and supported his application as a visiting fellow in the department of psychology in September 2005.",
-       "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
+       "source": "Wikidata (employer)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q2795008"
       }
      ]
     }
@@ -7648,7 +7149,7 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Sigma Alpha Mu"
     ],
@@ -7665,7 +7166,8 @@
     "Manlius Pebble Hill School",
     "University of Pennsylvania"
    ],
-   "verified": false,
+   "verified": true,
+   "note": "Member at the University of Pennsylvania.",
    "colleges": [
     "University of Pennsylvania"
    ]
@@ -7699,13 +7201,13 @@
        "url": "https://en.wikipedia.org/wiki/Steven_Pinker"
       },
       {
-       "source": "Wikipedia article text (faculty/other)",
-       "text": "Pinker is the Johnstone Family professor of psychology at Harvard University.",
+       "source": "Wikipedia article text",
+       "text": "He graduated from McGill University in 1976 with a Bachelor of Arts in psychology, then did doctoral studies in experimental psychology at Harvard University under Stephen Kosslyn, receiving a PhD in 1979.",
        "url": "https://en.wikipedia.org/wiki/Steven_Pinker"
       },
       {
        "source": "Wikipedia article text",
-       "text": "He graduated from McGill University in 1976 with a Bachelor of Arts in psychology, then did doctoral studies in experimental psychology at Harvard University under Stephen Kosslyn, receiving a PhD in 1979.",
+       "text": "On May 23, 2025, in the wake of the Trump administration's announcement that it would halt Harvard University's ability to enroll international students, Pinker wrote a guest essay for The New York Times titled \"Harvard Derangement Syndrome\", which elicited many responses from readers that were published under the title \"Harvard as Symbol and Target\".",
        "url": "https://en.wikipedia.org/wiki/Steven_Pinker"
       }
      ]
@@ -7807,7 +7309,6 @@
    ],
    "verified": false,
    "colleges": [
-    "Aitchison College",
     "University of California, Berkeley",
     "University of Texas at Austin"
    ]
@@ -8003,6 +7504,11 @@
        "source": "Wikipedia category",
        "text": "Harvard University staff",
        "url": "https://en.wikipedia.org/wiki/V._S._Ramachandran"
+      },
+      {
+       "source": "Wikidata (employer)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q380221"
       }
      ]
     }
