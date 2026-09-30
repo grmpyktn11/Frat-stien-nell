@@ -2,205 +2,447 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15130f" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Frat-stien-nell">
 <title>Frat-stien-nell</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 <style>
-.controls{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:12px}
-.controls>.field{grid-column:1/-1}
-.filtbtn{display:none}
-.tablewrap{border:1px solid var(--line);background:var(--surface)}
-table{width:100%;border-collapse:collapse}
-th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
-th button{all:unset;cursor:pointer;min-height:32px;display:inline-flex;align-items:center}
-th[aria-sort="ascending"] button::after{content:" ▲"}th[aria-sort="descending"] button::after{content:" ▼"}
-tr.open>td{background:var(--hl)}
-.toggle{all:unset;cursor:pointer;font-family:var(--serif);font-size:17px}
-.toggle:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
-.desc{color:var(--muted);font-size:13px}
-.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap;margin:1px 2px 1px 0}
-.pill.greek{background:var(--greek-bg);color:var(--greek)}
-.chip{display:inline-block;border:1px solid var(--line);padding:0 6px;margin:1px 2px 1px 0;font-size:12px}
-.case{font-size:13px}.case b{font-weight:600}
-.cols{font-size:14px;line-height:1.45}
-.cols .ivy{font-weight:600;color:var(--ink)}
-.cols .oth{color:var(--muted)}
-.cols .fac{color:var(--muted);font-style:italic}
-.ver{font-size:11px;color:var(--yes);font-weight:600;margin-left:4px}
-.detail{font-size:13px;line-height:1.5}
-.detail h3{font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.08em;color:var(--muted);margin:10px 0 2px;text-transform:uppercase}
-.detail ul{margin:2px 0;padding-left:18px}.detail li{margin:2px 0}
-.empty{padding:30px;text-align:center;color:var(--muted)}
-.ledger{display:none}
-.lrow{display:flex;align-items:flex-start;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line)}
-.lrow.open{background:var(--hl)}
-.lname{flex:1;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:2px}
-.lname .toggle{font-size:17px;text-align:left}
-.lname .cols{font-size:13px}
-.lname .tag{font-family:var(--mono);font-size:10px;letter-spacing:.04em;color:var(--muted);text-transform:uppercase}
-.lgreek{flex-shrink:0;max-width:92px;text-align:right;font-family:var(--serif);font-size:16px;padding-top:1px}
-.lgreek.none{color:var(--muted);font-size:13px}
-.ldetail{padding:4px 16px 14px;background:var(--hl);border-bottom:1px solid var(--line)}
-@media (max-width:719px){
-  .wrap{padding:16px 0 32px}
-  .top,.stats{padding-left:16px;padding-right:16px}
-  .top h1{font-size:30px}
-  .controls{grid-template-columns:minmax(0,1fr) auto;padding:0 16px}
-  .controls>.field{grid-column:auto}
-  .controls .opt{display:none}
-  .controls.show select.opt{display:block;width:100%;grid-column:1/-1}
-  .filtbtn{display:inline-flex;align-items:center;justify-content:center}
-  .tablewrap{display:none}
-  .ledger{display:block;border-top:2px solid var(--ink)}
+html,body{height:100%;overflow:hidden;overscroll-behavior:none}
+body{position:fixed;inset:0;-webkit-tap-highlight-color:transparent}
+#stage{position:absolute;inset:0;touch-action:none;background:var(--bg)}
+#svg{display:block;width:100%;height:100%}
+text{font-family:var(--sans);paint-order:stroke;stroke:var(--bg);stroke-width:3.5px;stroke-linejoin:round;pointer-events:none}
+
+/* floating chrome */
+.bar{position:absolute;left:0;right:0;top:0;padding:calc(env(safe-area-inset-top) + 10px) calc(env(safe-area-inset-right) + 12px) 0 calc(env(safe-area-inset-left) + 12px);display:flex;gap:8px;align-items:flex-start;pointer-events:none;z-index:5}
+.bar>*{pointer-events:auto}
+.brand{display:none}
+.find{position:relative;flex:1;min-width:0}
+.find .field{box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.results{position:absolute;left:0;right:0;top:calc(100% + 4px);list-style:none;margin:0;padding:0;border:1px solid var(--ink);background:var(--surface);max-height:42dvh;overflow:auto;box-shadow:0 6px 20px rgba(0,0,0,.12)}
+.results button{all:unset;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;min-height:48px;padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--line)}
+.results li:last-child button{border-bottom:0}
+.results button:hover,.results button:focus-visible{background:var(--hl)}
+.results .t{font-family:var(--mono);font-size:11px;color:var(--muted);flex-shrink:0}
+.results .none{padding:12px;color:var(--muted)}
+.ib{position:relative;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--ink);background:var(--surface);color:var(--ink);cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.08);flex-shrink:0}
+.ib:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.badge{position:absolute;top:-6px;right:-6px;min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--frat);color:#fff;font:600 11px/18px var(--sans);text-align:center}
+.badge[hidden]{display:none}
+.zoom{position:absolute;right:calc(env(safe-area-inset-right) + 12px);bottom:calc(env(safe-area-inset-bottom) + var(--sheet-h,0px) + 12px);display:flex;flex-direction:column;gap:6px;z-index:4;transition:bottom .25s}
+.menu{position:absolute;top:calc(100% + 6px);right:0;min-width:180px;background:var(--surface);border:1px solid var(--ink);box-shadow:0 6px 20px rgba(0,0,0,.12);display:flex;flex-direction:column}
+.menu a,.menu button{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:10px;min-height:48px;padding:0 14px;cursor:pointer;border-bottom:1px solid var(--line);font-size:15px}
+.menu>:last-child{border-bottom:0}
+.menu a:hover,.menu button:hover{background:var(--hl)}
+.menu[hidden]{display:none}
+.wrapm{position:relative}
+
+/* key chip */
+.key{position:absolute;left:calc(env(safe-area-inset-left) + 12px);bottom:calc(env(safe-area-inset-bottom) + var(--sheet-h,0px) + 12px);display:flex;flex-wrap:wrap;gap:4px 12px;max-width:calc(100% - 90px);padding:6px 10px;background:color-mix(in srgb,var(--surface) 88%,transparent);border:1px solid var(--line);font-size:11px;color:var(--muted);z-index:4;transition:bottom .25s}
+.key span{display:inline-flex;align-items:center;gap:5px}
+
+/* sheets */
+.sheet{position:absolute;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:2px solid var(--ink);box-shadow:0 -8px 30px rgba(0,0,0,.15);display:flex;flex-direction:column;max-height:78dvh;transform:translateY(100%);transition:transform .25s ease;padding-bottom:env(safe-area-inset-bottom)}
+.sheet.open{transform:none}
+.sheet:not(.open){visibility:hidden;transition:transform .25s ease,visibility 0s .25s}
+.grab{all:unset;display:flex;justify-content:center;align-items:center;height:28px;cursor:grab;flex-shrink:0;touch-action:none}
+.grab::before{content:"";width:40px;height:5px;border-radius:3px;background:var(--dot)}
+.sh-head{display:flex;align-items:flex-start;gap:10px;padding:0 16px 10px;flex-shrink:0}
+.sh-head h2{margin:0;font-family:var(--serif);font-weight:600;font-size:24px;line-height:1.15;flex:1;min-width:0}
+.sh-body{overflow:auto;padding:0 16px 16px;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.sheet.peek .sh-body{display:none}
+.sh-title{flex:1;min-width:0}
+body.sheetfull .key,body.sheetfull .zoom{opacity:0;pointer-events:none}
+.key,.zoom{transition:bottom .25s,opacity .2s}
+.sub{color:var(--muted);font-size:14px;margin:2px 0 0}
+.sh-body h3{font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.chips button{min-height:40px;padding:0 12px;border:1px solid var(--line);background:var(--bg);cursor:pointer;font-size:14px}
+.chips button:hover{border-color:var(--ink)}
+.chips button.ivy{font-weight:600}
+.chips button.frat{color:var(--frat);border-color:color-mix(in srgb,var(--frat) 40%,var(--line))}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.fact{background:var(--bg);border:1px solid var(--line);padding:10px}
+.fact .l{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.fact .v{font-size:15px;font-weight:600;margin-top:2px}
+.case{font-size:14px;margin:4px 0}
+.links{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px;font-size:14px}
+
+/* filter sheet */
+.seg{display:flex;border:1px solid var(--ink)}
+.seg button{flex:1;min-height:44px;border:0;border-right:1px solid var(--ink);background:var(--surface);cursor:pointer;font-size:14px}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.row{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;border-bottom:1px solid var(--line)}
+.row label{flex:1;font-size:15px}
+.switch{appearance:none;width:46px;height:28px;border-radius:14px;background:var(--dot);position:relative;cursor:pointer;flex-shrink:0;margin:0}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:var(--surface);transition:left .15s}
+.switch:checked{background:var(--ink)}
+.switch:checked::after{left:21px}
+.switch:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.schools button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.stats2{display:flex;flex-wrap:wrap;gap:4px 16px;font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:14px}
+.stats2 b{font-family:var(--serif);font-size:18px;color:var(--ink);font-weight:600;margin-right:3px}
+.sh-foot{display:flex;gap:8px;padding:10px 16px 12px;border-top:1px solid var(--line);flex-shrink:0}
+.sh-foot .btn{flex:1}
+
+.immersive .bar,.immersive .key{opacity:0;pointer-events:none}
+.immersive .bar .exit{opacity:1}
+.bar,.key{transition:opacity .2s}
+.exitfs{position:absolute;top:calc(env(safe-area-inset-top) + 10px);right:calc(env(safe-area-inset-right) + 12px);z-index:7}
+.exitfs[hidden]{display:none}
+.load{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--muted);font-family:var(--mono);font-size:13px}
+
+@media (min-width:760px){
+  .bar{padding-left:20px;padding-right:20px;padding-top:16px}
+  .brand{display:flex;align-items:center;height:44px;padding:0 14px;background:var(--surface);border:1px solid var(--ink);font-family:var(--serif);font-weight:600;font-size:22px;box-shadow:0 2px 10px rgba(0,0,0,.08);text-decoration:none;flex-shrink:0}
+  .find{max-width:420px}
+  .sheet{left:auto;right:20px;bottom:20px;top:80px;width:400px;max-height:none;border:2px solid var(--ink);transform:translateX(calc(100% + 40px))}
+  .sheet.open{transform:none}
+  .sheet.peek .sh-body{display:block}
+  .grab{display:none}
+  .sh-head{padding-top:16px}
+  .zoom{bottom:20px;right:calc(var(--sheet-w,0px) + 20px);transition:right .25s}
+  .key{bottom:20px;left:20px}
 }
+@media (prefers-reduced-motion:reduce){.sheet,.zoom,.key{transition:none}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
-    <h1><a href="index.html">Frat-stien-nell</a></h1>
-    <nav class="tabs" aria-label="Pages"><a href="index.html" aria-current="page">Ledger</a><a href="web.html">Web</a><a href="sources.html">Sources</a></nav>
-  </header>
-  <div class="stats" id="stats"></div>
-  <div class="controls" id="controls">
-    <label class="field"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="sr">Search</span><input id="q" type="search" placeholder="Search" enterkeyhint="search" autocomplete="off"></label>
-    <button class="btn filtbtn" id="filtbtn" aria-expanded="false" aria-controls="controls" aria-label="Filters"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg></button>
-    <label class="sr" for="fg">Case</label><select id="fg" class="opt"><option value="">All cases</option><option value="epstein">Epstein files</option><option value="scandal">Other scandals</option></select>
-    <label class="sr" for="fs">School</label><select id="fs" class="opt"><option value="">Any school</option></select>
-    <label class="sr" for="fc">Ivy status</label><select id="fc" class="opt"><option value="">Any Ivy</option><option value="hit">Attended an Ivy</option><option value="faculty">Ivy faculty</option><option value="none">No Ivy</option></select>
-    <label class="sr" for="ff">Fraternity</label><select id="ff" class="opt"><option value="">Any frat</option><option value="yes">In a frat</option><option value="unknown">Frat unknown</option><option value="no">No frat found</option></select>
-    <label class="sr" for="fd">Document</label><select id="fd" class="opt"><option value="">Any document</option></select>
-  </div>
-
-  <div class="tablewrap">
-    <table>
-      <thead><tr>
-        <th aria-sort="ascending" data-k="name"><button>Name</button></th>
-        <th data-k="case"><button>Case</button></th>
-        <th data-k="ivy"><button>Colleges</button></th>
-        <th data-k="frat"><button>Fraternity</button></th>
-      </tr></thead>
-      <tbody id="tb"></tbody>
-    </table>
-  </div>
-  <section class="ledger" aria-label="People"><div id="lb"></div></section>
+<div id="stage">
+  <svg id="svg" role="img" aria-label="Network of people linked by the colleges and fraternities they share"></svg>
+  <div class="load" id="load">Loading…</div>
 </div>
+
+<div class="bar" id="bar">
+  <a class="brand" href="index.html">Frat-stien-nell</a>
+  <div class="find">
+    <label class="field"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="sr">Search people, colleges, fraternities</span><input id="q" type="search" placeholder="Search" autocomplete="off" enterkeyhint="search" aria-controls="results" aria-autocomplete="list"></label>
+    <ul id="results" class="results" hidden></ul>
+  </div>
+  <button class="ib" id="fbtn" aria-label="Filters" aria-controls="fsheet" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg><span class="badge" id="fcount" hidden></span></button>
+  <div class="wrapm">
+    <button class="ib" id="mbtn" aria-label="Menu" aria-haspopup="true" aria-expanded="false" aria-controls="menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="5" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="12" cy="19" r="1.2"/></svg></button>
+    <div class="menu" id="menu" hidden>
+      <button id="fsbtn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>Full screen</button>
+      <a href="list.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>List</a>
+      <a href="sources.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14z"/></svg>Sources</a>
+    </div>
+  </div>
+</div>
+<button class="ib exitfs" id="exitfs" aria-label="Exit full screen" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg></button>
+
+<div class="key" id="key">
+  <span><svg width="11" height="11" aria-hidden="true"><rect width="11" height="11" fill="var(--college)"/></svg>Ivy</span>
+  <span><svg width="11" height="11" aria-hidden="true"><rect x="1" y="1" width="9" height="9" fill="none" stroke="var(--college)" stroke-width="2"/></svg>College</span>
+  <span><svg width="11" height="11" aria-hidden="true"><rect x="2" y="2" width="7" height="7" transform="rotate(45 5.5 5.5)" fill="var(--frat)"/></svg>Fraternity</span>
+  <span><svg width="11" height="11" aria-hidden="true"><circle cx="5.5" cy="5.5" r="4" fill="var(--ink)"/></svg>Epstein files</span>
+  <span><svg width="11" height="11" aria-hidden="true"><circle cx="5.5" cy="5.5" r="3.5" fill="none" stroke="var(--ink)" stroke-width="1.6"/></svg>Other scandal</span>
+</div>
+
+<div class="zoom" id="zoomc">
+  <button class="ib" id="zin" aria-label="Zoom in"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+  <button class="ib" id="zout" aria-label="Zoom out"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+  <button class="ib" id="zfit" aria-label="Fit to screen"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+</div>
+
+<section class="sheet" id="dsheet" aria-label="Details" aria-live="polite">
+  <button class="grab" id="dgrab" aria-label="Expand details"></button>
+  <div class="sh-head"><div class="sh-title"><h2 id="dtitle"></h2><p class="sub" id="dsub"></p></div><button class="ib" id="dclose" aria-label="Close details" style="box-shadow:none"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div class="sh-body" id="dbody"></div>
+</section>
+
+<section class="sheet" id="fsheet" aria-label="Filters">
+  <button class="grab" id="fgrab" aria-label="Close filters"></button>
+  <div class="sh-head"><h2>Filters</h2><button class="ib" id="fclose" aria-label="Close filters" style="box-shadow:none"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div class="sh-body">
+    <h3>People</h3>
+    <div class="seg" id="grp"><button data-v="" aria-pressed="true">All</button><button data-v="epstein" aria-pressed="false">Epstein files</button><button data-v="scandal" aria-pressed="false">Other scandals</button></div>
+    <h3>Show</h3>
+    <div class="row"><label for="tCol">Colleges</label><input class="switch" type="checkbox" id="tCol" checked></div>
+    <div class="row"><label for="tFrat">Fraternities &amp; sororities</label><input class="switch" type="checkbox" id="tFrat" checked></div>
+    <div class="row"><label for="tIvy">Ivy League only</label><input class="switch" type="checkbox" id="tIvy"></div>
+    <div class="row"><label for="tShared">Only shared links (2+ people)</label><input class="switch" type="checkbox" id="tShared"></div>
+    <h3>Focus on a school</h3>
+    <ul class="chips schools" id="schools"></ul>
+    <div class="stats2" id="stats"></div>
+  </div>
+  <div class="sh-foot"><button class="btn" id="freset">Reset</button><button class="btn" id="fdone" style="background:var(--ink);color:var(--bg)">Done</button></div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
-const IVY=["Brown","Columbia","Cornell","Dartmouth","Harvard","Penn","Princeton","Yale"];
-const IVY_FULL={"Brown University":"Brown","Columbia University":"Columbia","Cornell University":"Cornell","Dartmouth College":"Dartmouth","Harvard University":"Harvard","University of Pennsylvania":"Penn","Princeton University":"Princeton","Yale University":"Yale"};
-const SHORT={...IVY_FULL,"Massachusetts Institute of Technology":"MIT","Stanford University":"Stanford","New York University":"NYU","Georgetown University":"Georgetown","University of Oxford":"Oxford","University of Cambridge":"Cambridge","London School of Economics":"LSE","University of Chicago":"UChicago","Duke University":"Duke","Tufts University":"Tufts","Northwestern University":"Northwestern"};
-const GREEK={Alpha:"Α",Beta:"Β",Gamma:"Γ",Delta:"Δ",Epsilon:"Ε",Zeta:"Ζ",Eta:"Η",Theta:"Θ",Iota:"Ι",Kappa:"Κ",Lambda:"Λ",Mu:"Μ",Nu:"Ν",Xi:"Ξ",Omicron:"Ο",Pi:"Π",Rho:"Ρ",Sigma:"Σ",Tau:"Τ",Upsilon:"Υ",Phi:"Φ",Chi:"Χ",Psi:"Ψ",Omega:"Ω"};
-const RANK={yes:0,possible:1,unknown:2,no:3};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safeUrl=u=>/^https:\/\//.test(u||"")?u:"#";
-const clean=n=>n.replace(/\s*\(.*\)$/,"");
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const GREEK={Alpha:"Α",Beta:"Β",Gamma:"Γ",Delta:"Δ",Epsilon:"Ε",Zeta:"Ζ",Eta:"Η",Theta:"Θ",Iota:"Ι",Kappa:"Κ",Lambda:"Λ",Mu:"Μ",Nu:"Ν",Xi:"Ξ",Omicron:"Ο",Pi:"Π",Rho:"Ρ",Sigma:"Σ",Tau:"Τ",Upsilon:"Υ",Phi:"Φ",Chi:"Χ",Psi:"Ψ",Omega:"Ω"};
 const greek=o=>{const w=o.split(/\s+/);return w.every(x=>GREEK[x])?w.map(x=>GREEK[x]).join(""):o};
-const mq=matchMedia("(max-width:719px)");
-let DATA=[],sortK="name",sortDir="asc",open=new Set();
+const SHORT={"Brown University":"Brown","Columbia University":"Columbia","Cornell University":"Cornell","Dartmouth College":"Dartmouth","Harvard University":"Harvard","University of Pennsylvania":"Penn","Princeton University":"Princeton","Yale University":"Yale","Massachusetts Institute of Technology":"MIT","Stanford University":"Stanford","New York University":"NYU","London School of Economics":"LSE"};
+const IVYS=["Brown University","Columbia University","Cornell University","Dartmouth College","Harvard University","University of Pennsylvania","Princeton University","Yale University"];
+const DEF={grp:"",colleges:true,frats:true,ivy:false,shared:false,school:""};
+const state={...DEF,sel:null};
+const mqWide=matchMedia("(min-width:760px)");
+let G,P={},byId={},adj={},sim,zoom,svg,gRoot,gLinks,gNodes,nodeSel,linkSel,k=1,firstFit=true;
 
-fetch("data/people.json").then(r=>r.json()).then(d=>{
-  DATA=d.people;const c=d.meta.counts;
-  $("stats").innerHTML=`<span><b>${c.people}</b>people</span><span><b>${c.epstein}</b>Epstein files</span><span><b>${c.scandal}</b>other scandals</span><span><b>${c.ivy_yes}</b>Ivy</span><span><b>${c.cornell}</b>Cornell</span><span><b>${c.frat_yes}</b>Greek</span>`;
-  $("fs").innerHTML+=IVY.map(s=>`<option value="${s}">${s} (${c.by_school[s].yes})</option>`).join("");
-  $("fd").innerHTML+=[...new Set(DATA.flatMap(p=>p.documents))].sort().map(x=>`<option>${esc(x)}</option>`).join("");
-  render();
-}).catch(e=>{$("tb").innerHTML=$("lb").innerHTML=`<p class="empty">Could not load data: ${esc(e.message)}</p>`});
+Promise.all([fetch("data/graph.json").then(r=>r.json()),fetch("data/people.json").then(r=>r.json())]).then(([g,p])=>{
+  G=g;p.people.forEach(x=>P[x.name]=x);
+  G.nodes.forEach(n=>byId[n.id]=n);
+  G.links.forEach(l=>{(adj[l.source]=adj[l.source]||[]).push(l.target);(adj[l.target]=adj[l.target]||[]).push(l.source)});
+  $("load").remove();
+  $("schools").innerHTML=IVYS.filter(s=>byId["i:"+s]).map(s=>`<li><button data-id="i:${esc(s)}" aria-pressed="false">${esc(SHORT[s])} <span class="muted">${byId["i:"+s].count}</span></button></li>`).join("");
+  init();readHash();draw();
+}).catch(e=>{$("load").textContent="Could not load data: "+e.message});
 
-function ivyRank(p){const v=Object.values(p.schools).filter(x=>x.status!=="no");return v.length?Math.min(...v.map(x=>RANK[x.status])):(p.colleges.length?5:9)}
-function val(p,k){
-  if(k==="ivy")return ivyRank(p);
-  if(k==="frat")return RANK[p.frat.status]??3;
-  if(k==="case")return (p.cases[0]?.case||"~Epstein files").toLowerCase();
-  return clean(p.name).toLowerCase();
+/* ---------- filtering ---------- */
+function hubOk(n){
+  if(n.type==="college")return state.colleges&&(!state.ivy||n.ivy)&&(!state.shared||n.count>=2);
+  if(n.type==="frat")return state.frats&&(!state.shared||n.count>=2);
+  return false;
 }
-function match(p){
-  const q=$("q").value.trim().toLowerCase(),fg=$("fg").value,fs=$("fs").value,fc=$("fc").value,ff=$("ff").value,fd=$("fd").value;
-  if(q&&!(p.name+" "+p.description+" "+p.frat.orgs.join(" ")+" "+p.colleges.join(" ")+" "+p.cases.map(c=>c.case).join(" ")).toLowerCase().includes(q))return false;
-  if(fg==="epstein"&&!p.epstein)return false;
-  if(fg==="scandal"&&!p.cases.length)return false;
-  const sch=fs?(p.schools[fs]?[p.schools[fs]]:[]):Object.values(p.schools);
-  if(fs&&!sch.length)return false;
-  if(fc==="hit"&&!sch.some(x=>x.status==="yes"||x.status==="possible"))return false;
-  if(fc==="faculty"&&!sch.some(x=>x.faculty))return false;
-  if(fc==="none"&&Object.values(p.schools).some(x=>x.status!=="no"))return false;
-  if(ff&&p.frat.status!==ff)return false;
-  if(fd&&!p.documents.includes(fd))return false;
-  return true;
+function personOk(n){return !state.grp||(state.grp==="epstein"?n.epstein:n.cases.length)}
+function visible(){
+  let links=G.links.filter(l=>{const s=byId[l.source.id||l.source],t=byId[l.target.id||l.target];return personOk(s)&&(hubOk(t)||state.school===t.id)});
+  if(state.school){
+    const members=new Set(links.filter(l=>(l.target.id||l.target)===state.school).map(l=>l.source.id||l.source));
+    links=links.filter(l=>members.has(l.source.id||l.source));
+  }
+  const ids=new Set();links.forEach(l=>{ids.add(l.source.id||l.source);ids.add(l.target.id||l.target)});
+  return {nodes:G.nodes.filter(n=>ids.has(n.id)),links};
 }
-function colleges(p,short){
-  const fac=Object.entries(p.schools).filter(([s,x])=>x.status==="no"&&x.faculty).map(([s])=>s);
-  const parts=p.colleges.map(c=>{const ivy=IVY_FULL[c],poss=ivy&&p.schools[ivy]?.status==="possible";return `<span class="${ivy?"ivy":"oth"}">${esc(short&&SHORT[c]||c)}${poss?"?":""}</span>`});
-  fac.forEach(s=>parts.push(`<span class="fac">${esc(s)} faculty</span>`));
-  return parts.length?`<span class="cols">${parts.join('<span class="oth"> · </span>')}</span>`:'<span class="cols oth">—</span>';
+function activeFilters(){return Object.keys(DEF).filter(k=>state[k]!==DEF[k]).length}
+
+/* ---------- drawing ---------- */
+function size(n){return n.type==="person"?4.5:n.type==="frat"?7:5+Math.sqrt(n.count)*3.4}
+function init(){
+  svg=d3.select("#svg");gRoot=svg.append("g");gLinks=gRoot.append("g");gNodes=gRoot.append("g");
+  zoom=d3.zoom().scaleExtent([.15,8]).on("zoom",e=>{gRoot.attr("transform",e.transform);k=e.transform.k;labels()});
+  svg.call(zoom).on("dblclick.zoom",null);
+  svg.on("click",e=>{if(e.target===svg.node()){select(null);closeFilters();hideResults()}});
+  sim=d3.forceSimulation()
+    .force("link",d3.forceLink().id(d=>d.id).distance(l=>l.kind==="frat"?36:54).strength(.7))
+    .force("charge",d3.forceManyBody().strength(d=>d.type==="person"?-40:-240).distanceMax(420))
+    .force("collide",d3.forceCollide(d=>size(d)+3))
+    .force("x",d3.forceX().strength(.05)).force("y",d3.forceY().strength(.06));
+  new ResizeObserver(sizeSvg).observe($("stage"));
+  bindUI();
 }
-function caseCell(p){
-  const out=[];
-  if(p.epstein)out.push(`<div class="case"><b>Epstein files</b>${p.documents.length?` <span class="muted">· ${esc(p.documents.join(", "))}</span>`:""}</div>`);
-  p.cases.forEach(c=>out.push(`<div class="case"><b>${esc(c.case)}</b> <span class="muted">· ${esc(c.outcome)}</span></div>`));
-  return out.join("");
+function sizeSvg(){
+  const r=$("stage").getBoundingClientRect();svg.attr("viewBox",[-r.width/2,-r.height/2,r.width,r.height]);
+  /* shape the layout to the screen: tall phones get a tall graph */
+  const a=Math.max(.4,Math.min(2.5,r.height/r.width));
+  sim.force("x").strength(.06*Math.sqrt(a));sim.force("y").strength(.06/Math.sqrt(a));
 }
-function evList(ev){
-  if(!ev||!ev.length)return "<p class='muted' style='margin:2px 0'>No evidence found.</p>";
-  return `<ul>${ev.map(e=>`<li><span class="muted">${esc(e.source)}:</span> ${esc(e.text)}${e.url?` <a href="${safeUrl(e.url)}" target="_blank" rel="noopener">source</a>`:""}</li>`).join("")}</ul>`;
+function draw(){
+  sizeSvg();
+  const {nodes,links}=visible();
+  const cCol=css("--college"),cFrat=css("--frat"),cInk=css("--ink"),cLine=css("--line"),cSurf=css("--surface");
+  linkSel=gLinks.selectAll("line").data(links,d=>(d.source.id||d.source)+"|"+(d.target.id||d.target))
+    .join("line").attr("stroke",d=>d.kind==="frat"?cFrat:cLine).attr("stroke-width",d=>d.kind==="frat"?1.6:1.1);
+  nodeSel=gNodes.selectAll("g.n").data(nodes,d=>d.id).join(enter=>{
+    const g=enter.append("g").attr("class","n").style("cursor","pointer");
+    g.each(function(d){
+      const s=d3.select(this),r=size(d);
+      if(d.type==="college"){
+        if(d.ivy)s.append("rect").attr("x",-r).attr("y",-r).attr("width",r*2).attr("height",r*2).attr("fill",cCol);
+        else s.append("rect").attr("x",-r+1).attr("y",-r+1).attr("width",r*2-2).attr("height",r*2-2).attr("fill",cSurf).attr("stroke",cCol).attr("stroke-width",2);
+      }else if(d.type==="frat")s.append("rect").attr("x",-r*.75).attr("y",-r*.75).attr("width",r*1.5).attr("height",r*1.5).attr("transform","rotate(45)").attr("fill",cFrat);
+      else if(d.epstein)s.append("circle").attr("r",r).attr("fill",cInk);
+      else s.append("circle").attr("r",r-.6).attr("fill",cSurf).attr("stroke",cInk).attr("stroke-width",1.7);
+      s.append("circle").attr("r",Math.max(r+8,16)).attr("fill","transparent");/* touch target */
+      s.append("text").attr("text-anchor","middle").attr("font-weight",d.type==="person"?400:600)
+        .attr("fill",d.type==="college"?cCol:d.type==="frat"?cFrat:cInk)
+        .text(d.type==="frat"?greek(d.label):d.type==="college"?(SHORT[d.label]||d.label):d.label);
+    });
+    g.on("click",(e,d)=>{e.stopPropagation();hideResults();closeFilters();select(d.id)});
+    g.call(d3.drag().on("start",(e,d)=>{if(!e.active)sim.alphaTarget(.2).restart();d.fx=d.x;d.fy=d.y})
+      .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y}).on("end",(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null}));
+    return g;
+  });
+  sim.nodes(nodes);sim.force("link").links(links);
+  sim.on("tick",()=>{
+    linkSel.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`);
+  });
+  sim.alpha(1).restart();
+  const settle=()=>{if(state.sel&&nodes.includes(byId[state.sel]))focus(state.sel);else fit()};
+  clearTimeout(draw.t);draw.t=setTimeout(settle,700);
+  sim.on("end.fit",()=>{sim.on("end.fit",null);if(!state.sel)fit()});
+  if(state.sel&&!nodes.find(n=>n.id===state.sel))select(null);else{highlight();labels()}
+  const n=activeFilters();$("fcount").hidden=!n;$("fcount").textContent=n;
+  const people=nodes.filter(n=>n.type==="person").length,cols=nodes.filter(n=>n.type==="college").length,fr=nodes.filter(n=>n.type==="frat").length;
+  $("stats").innerHTML=`<span><b>${people}</b>people</span><span><b>${cols}</b>colleges</span><span><b>${fr}</b>fraternities</span>`;
+  $("svg").setAttribute("aria-label",`Network: ${people} people, ${cols} colleges, ${fr} fraternities`);
 }
-function detail(p,mobile){
-  const link=p.url?`<a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${p.manual?"Profile":"Wikipedia"}</a>`:"";
-  const srcs=(p.education_sources||[]).map(e=>`<a href="${safeUrl(e.url)}" target="_blank" rel="noopener">${esc(e.source)}</a>`).join(" · ");
-  return `<div class="detail">
-    ${mobile?`<p class="desc" style="margin:6px 0 0">${esc(p.description)}</p><h3>Case</h3>${caseCell(p)}`:""}
-    ${p.note?`<p style="margin:6px 0">${esc(p.note)}</p>`:""}
-    <h3>Education</h3>${esc(p.education.join(" · ")||"None found")}${srcs?` <span class="muted">(${srcs})</span>`:""}
-    ${Object.entries(p.schools).map(([s,x])=>`<h3>${esc(s)} — ${x.status==="no"?"faculty":esc(x.status)}</h3>${evList(x.evidence)}`).join("")}
-    <h3>Fraternity${p.frat.orgs.length?" — "+esc(p.frat.orgs.join(", ")):""}</h3>${p.frat.status==="unknown"?"<p class='muted' style='margin:2px 0'>Unknown.</p>":evList(p.frat.evidence)}
-    ${p.frat.honor_societies&&p.frat.honor_societies.length?`<h3>Honor societies (not counted)</h3>${esc(p.frat.honor_societies.join(", "))}`:""}
-    <p style="margin:8px 0 0">${link}${p.verified?`<span class="ver">✓ ${p.manual?"researched":"verified"}</span>`:""}</p>
-  </div>`;
-}
-function fratCell(p){
-  if(p.frat.status==="unknown")return '<span class="muted">unknown</span>';
-  if(!p.frat.orgs.length)return '<span class="muted">—</span>';
-  return p.frat.orgs.map(o=>`<span class="pill greek">${esc(o)}</span>`).join("");
-}
-function rows(){
-  return DATA.filter(match).sort((a,b)=>{
-    const x=val(a,sortK),y=val(b,sortK);
-    const r=x<y?-1:x>y?1:clean(a.name).localeCompare(clean(b.name));
-    return sortDir==="asc"?r:-r;
+function neighbors(id){return new Set([id,...(adj[id]||[])])}
+function labels(){
+  if(!nodeSel)return;
+  const nb=state.sel?neighbors(state.sel):null,small=!mqWide.matches;
+  nodeSel.select("text").each(function(d){
+    const r=size(d),fs=(d.type==="person"?10.5:d.type==="frat"?12.5:11.5)/Math.pow(k,.75);
+    let show;
+    if(nb)show=nb.has(d.id);
+    else if(d.type==="person")show=k>(small?2.2:1.7);
+    else if(d.type==="college")show=d.ivy||d.count>=(small?4:3)||k>1.3;
+    else show=d.count>=2||k>1.1;
+    d3.select(this).attr("display",show?null:"none").attr("font-size",fs).attr("dy",-(r+4));
   });
 }
-function toggleHandler(rs){return e=>{const b=e.target.closest("button.toggle");if(!b)return;const n=rs[+b.dataset.n].name;open.has(n)?open.delete(n):open.add(n);render()}}
-function render(){
-  const rs=rows();
-  if(mq.matches){
-    $("lb").innerHTML=rs.length?rs.map((p,i)=>{
-      const o=open.has(p.name);
-      const g=p.frat.status==="unknown"?'<span class="lgreek none">unk.</span>':p.frat.orgs.length?`<span class="lgreek">${esc(p.frat.orgs.map(greek).join(" "))}</span>`:'<span class="lgreek none">—</span>';
-      const tag=p.cases.length?`<span class="tag">${esc(p.cases.map(c=>c.case).join(" · "))}</span>`:"";
-      return `<div class="lrow${o?" open":""}"><div class="lname"><button class="toggle" data-n="${i}" aria-expanded="${o}">${esc(clean(p.name))}</button>${colleges(p,true)}${tag}</div>${g}</div>${o?`<div class="ldetail">${detail(p,true)}</div>`:""}`;
-    }).join(""):`<p class="empty">No matches.</p>`;
-    $("lb").onclick=toggleHandler(rs);
-  }else{
-    $("tb").innerHTML=rs.length?rs.map((p,i)=>{
-      const o=open.has(p.name);
-      return `<tr class="${o?"open":""}"><td><button class="toggle" data-n="${i}" aria-expanded="${o}">${esc(clean(p.name))}</button>${p.verified?`<span class="ver">✓</span>`:""}<div class="desc">${esc(p.description)}</div></td>
-        <td>${caseCell(p)}</td><td>${colleges(p,false)}</td><td>${fratCell(p)}</td></tr>${o?`<tr class="open"><td colspan="4">${detail(p,false)}</td></tr>`:""}`;
-    }).join(""):`<tr><td colspan="4" class="empty">No matches.</td></tr>`;
-    $("tb").onclick=toggleHandler(rs);
-  }
+function highlight(){
+  if(!nodeSel)return;
+  const nb=state.sel?neighbors(state.sel):null;
+  nodeSel.attr("opacity",d=>!nb||nb.has(d.id)?1:.1);
+  linkSel.attr("opacity",d=>!nb||(d.source.id===state.sel||d.target.id===state.sel)?1:.04);
 }
-document.querySelectorAll("th[data-k] button").forEach(b=>b.addEventListener("click",()=>{
-  const th=b.parentElement,k=th.dataset.k;sortDir=sortK===k&&sortDir==="asc"?"desc":"asc";sortK=k;
-  document.querySelectorAll("th").forEach(t=>t.removeAttribute("aria-sort"));th.setAttribute("aria-sort",sortDir==="asc"?"ascending":"descending");render();
-}));
-$("filtbtn").addEventListener("click",()=>{const c=$("controls"),s=!c.classList.contains("show");c.classList.toggle("show",s);$("filtbtn").setAttribute("aria-expanded",s)});
-$("q").addEventListener("keydown",e=>{if(e.key==="Enter")e.target.blur()});
-["q","fg","fs","fc","ff","fd"].forEach(i=>$(i).addEventListener("input",render));
-mq.addEventListener("change",render);
+
+/* ---------- selection & detail sheet ---------- */
+function members(hub){return (adj[hub]||[]).filter(id=>byId[id].type==="person")}
+function chip(id,cls=""){const n=byId[id];return `<li><button class="${cls}" data-id="${esc(id)}">${esc(n.type==="college"?(SHORT[n.label]||n.label):n.label)}</button></li>`}
+function select(id,fromHash){
+  state.sel=id;highlight();labels();
+  if(!fromHash)history.replaceState(null,"",id?"#"+encodeURIComponent(id):location.pathname+location.search);
+  if(!id){closeSheet($("dsheet"));return}
+  const n=byId[id];let h="",sub="";
+  if(n.type==="person"){
+    const p=P[n.name]||{};
+    const hubs=(adj[id]||[]);
+    const cases=[p.epstein?`<div class="case"><b>Epstein files</b>${p.documents&&p.documents.length?` <span class="muted">· ${esc(p.documents.join(", "))}</span>`:""}</div>`:"",...(p.cases||[]).map(c=>`<div class="case"><b>${esc(c.case)}</b> <span class="muted">· ${esc(c.outcome)}</span></div>`)].join("");
+    sub=esc(n.description);
+    const ivy=Object.entries(p.schools||{}).filter(([s,x])=>x.status==="yes").map(([s])=>s);
+    h=`${cases}
+      <div class="facts"><div class="fact"><div class="l">Ivy League</div><div class="v">${esc(ivy.join(", ")||"—")}</div></div><div class="fact"><div class="l">Fraternity</div><div class="v">${p.frat?.status==="unknown"?"Unknown":esc((p.frat?.orgs||[]).join(", ")||"—")}</div></div></div>
+      ${(p.colleges||[]).length?`<h3>Colleges</h3><p style="margin:0;font-size:14px">${esc(p.colleges.join(" · "))}</p>`:""}
+      ${hubs.map(hid=>{const hub=byId[hid],others=members(hid).filter(x=>x!==id);
+        return `<h3>${esc(hub.type==="frat"?hub.label:(SHORT[hub.label]||hub.label))} · ${others.length?`shared with ${others.length}`:"no one else"}</h3>${others.length?`<ul class="chips">${others.map(o=>chip(o)).join("")}</ul>`:""}`}).join("")}
+      ${p.note?`<p class="sub" style="margin-top:12px">${esc(p.note)}</p>`:""}
+      <div class="links">${n.url?`<a href="${safeUrl(n.url)}" target="_blank" rel="noopener">${p.manual?"Profile":"Wikipedia"}</a>`:""}<a href="list.html#${encodeURIComponent(n.name)}">Full record</a></div>`;
+  }else{
+    const m=members(id);
+    sub=`${n.type==="frat"?"Fraternity / sorority":n.ivy?"Ivy League":"College"} · ${m.length} ${m.length===1?"person":"people"}${n.type==="frat"&&greek(n.label)!==n.label?" · "+esc(greek(n.label)):""}`;
+    const ep=m.filter(x=>byId[x].epstein),sc=m.filter(x=>!byId[x].epstein);
+    h=(ep.length?`<h3>Epstein files · ${ep.length}</h3><ul class="chips">${ep.map(x=>chip(x)).join("")}</ul>`:"")+(sc.length?`<h3>Other scandals · ${sc.length}</h3><ul class="chips">${sc.map(x=>chip(x)).join("")}</ul>`:"")+
+      (n.type==="college"?`<div class="links"><button class="btn" id="focusSchool">${state.school===id?"Show everything":"Show only this network"}</button></div>`:"");
+  }
+  $("dtitle").textContent=n.label;$("dsub").innerHTML=sub;
+  $("dbody").innerHTML=h;
+  $("dbody").querySelectorAll("button[data-id]").forEach(b=>b.onclick=()=>{select(b.dataset.id);focus(b.dataset.id)});
+  const fs=$("focusSchool");if(fs)fs.onclick=()=>{state.school=state.school===id?"":id;syncFilterUI();draw()};
+  closeFilters();openSheet($("dsheet"),mqWide.matches?"full":"peek");
+}
+function focus(id){
+  const n=sim.nodes().find(x=>x.id===id);if(!n)return;
+  const r=$("stage").getBoundingClientRect(),sheetH=mqWide.matches?0:Math.min(r.height*.35,260),sheetW=mqWide.matches&&$("dsheet").classList.contains("open")?420:0;
+  const s=Math.max(k,1.8);
+  svg.transition().duration(450).call(zoom.transform,d3.zoomIdentity.translate(-sheetW/2,-sheetH/2).scale(s).translate(-n.x,-n.y));
+}
+function fit(){
+  const ns=sim.nodes();if(!ns.length)return;
+  const r=$("stage").getBoundingClientRect(),top=70,bottom=mqWide.matches?20:70;
+  const x0=d3.min(ns,d=>d.x)-24,x1=d3.max(ns,d=>d.x)+24,y0=d3.min(ns,d=>d.y)-24,y1=d3.max(ns,d=>d.y)+24;
+  const s=Math.min(2.5,Math.min(r.width/(x1-x0),(r.height-top-bottom)/(y1-y0)));
+  svg.transition().duration(firstFit?0:450).call(zoom.transform,d3.zoomIdentity.translate(0,(top-bottom)/2).scale(s).translate(-(x0+x1)/2,-(y0+y1)/2));
+  firstFit=false;
+}
+
+/* ---------- sheets ---------- */
+function setSheetVars(){
+  const d=$("dsheet"),f=$("fsheet");
+  const open=[d,f].find(s=>s.classList.contains("open"));
+  const h=open&&!mqWide.matches?open.getBoundingClientRect().height:0;
+  document.documentElement.style.setProperty("--sheet-h",h+"px");
+  document.documentElement.style.setProperty("--sheet-w",open&&mqWide.matches?"420px":"0px");
+}
+function openSheet(s,mode){s.classList.add("open");s.classList.toggle("peek",mode==="peek");document.body.classList.toggle("sheetfull",mode!=="peek"&&!mqWide.matches);s.querySelector(".grab").setAttribute("aria-label",mode==="peek"?"Expand":"Collapse");requestAnimationFrame(setSheetVars)}
+function closeSheet(s){s.classList.remove("open","peek");if(![$("dsheet"),$("fsheet")].some(x=>x.classList.contains("open")&&!x.classList.contains("peek")))document.body.classList.remove("sheetfull");requestAnimationFrame(setSheetVars)}
+function openFilters(){closeSheet($("dsheet"));openSheet($("fsheet"),"full");$("fbtn").setAttribute("aria-expanded","true")}
+function closeFilters(){if(!$("fsheet").classList.contains("open"))return;closeSheet($("fsheet"));$("fbtn").setAttribute("aria-expanded","false");if(state.sel)openSheet($("dsheet"),"peek")}
+function dragSheet(sheet,grab,onTap,onDown,onUp){
+  let y0=null,moved=false;
+  grab.addEventListener("pointerdown",e=>{y0=e.clientY;moved=false;grab.setPointerCapture(e.pointerId)});
+  grab.addEventListener("pointermove",e=>{if(y0!==null&&Math.abs(e.clientY-y0)>6){moved=true;sheet.style.transition="none";sheet.style.transform=`translateY(${Math.max(0,e.clientY-y0)}px)`}});
+  grab.addEventListener("pointerup",e=>{const dy=e.clientY-y0;y0=null;sheet.style.transition="";sheet.style.transform="";if(!moved)onTap();else if(dy>60)onDown();else if(dy<-40)onUp()});
+}
+
+/* ---------- search ---------- */
+function hideResults(){$("results").hidden=true}
+function resetScroll(){if(scrollX||scrollY)scrollTo(0,0)}
+function pick(id){hideResults();const inp=$("q");inp.value="";inp.blur();
+  if(!visible().nodes.find(n=>n.id===id)){Object.assign(state,DEF);syncFilterUI();draw()}
+  select(id);setTimeout(()=>focus(id),state.sel?60:950)}
+
+/* ---------- UI bindings ---------- */
+function syncFilterUI(){
+  $("grp").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===state.grp));
+  $("tCol").checked=state.colleges;$("tFrat").checked=state.frats;$("tIvy").checked=state.ivy;$("tShared").checked=state.shared;
+  $("schools").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.id===state.school));
+}
+function bindUI(){
+  $("zin").onclick=()=>svg.transition().call(zoom.scaleBy,1.5);
+  $("zout").onclick=()=>svg.transition().call(zoom.scaleBy,1/1.5);
+  $("zfit").onclick=fit;
+  $("fbtn").onclick=()=>$("fsheet").classList.contains("open")?closeFilters():openFilters();
+  $("fclose").onclick=$("fdone").onclick=closeFilters;
+  $("freset").onclick=()=>{Object.assign(state,DEF);syncFilterUI();draw()};
+  $("grp").onclick=e=>{const b=e.target.closest("button");if(!b)return;state.grp=b.dataset.v;syncFilterUI();draw()};
+  [["tCol","colleges"],["tFrat","frats"],["tIvy","ivy"],["tShared","shared"]].forEach(([id,key])=>$(id).onchange=()=>{state[key]=$(id).checked;draw()});
+  $("schools").onclick=e=>{const b=e.target.closest("button");if(!b)return;state.school=state.school===b.dataset.id?"":b.dataset.id;syncFilterUI();draw();if(state.school)select(state.school)};
+  $("dclose").onclick=()=>select(null);
+  dragSheet($("dsheet"),$("dgrab"),()=>{const d=$("dsheet");openSheet(d,d.classList.contains("peek")?"full":"peek")},()=>{const d=$("dsheet");d.classList.contains("peek")?select(null):openSheet(d,"peek")},()=>openSheet($("dsheet"),"full"));
+  dragSheet($("fsheet"),$("fgrab"),closeFilters,closeFilters,()=>{});
+  const res=$("results");
+  $("q").addEventListener("input",()=>{
+    const v=$("q").value.trim().toLowerCase();
+    if(!v){hideResults();res.innerHTML="";return}
+    const hits=G.nodes.filter(n=>n.label.toLowerCase().includes(v)||(SHORT[n.label]||"").toLowerCase().includes(v)||(n.type==="frat"&&greek(n.label).toLowerCase().includes(v)))
+      .sort((a,b)=>a.label.toLowerCase().indexOf(v)-b.label.toLowerCase().indexOf(v)||(b.count||0)-(a.count||0)).slice(0,8);
+    res.innerHTML=hits.map(n=>`<li><button data-id="${esc(n.id)}"><span>${esc(n.label)}</span><span class="t">${n.type==="person"?(n.epstein?"Epstein files":"scandal"):n.type==="frat"?"fraternity":n.ivy?"Ivy":"college"}</span></button></li>`).join("")||'<li class="none">No matches</li>';
+    res.hidden=false;
+  });
+  $("q").addEventListener("focus",()=>{closeFilters();if($("q").value.trim())res.hidden=false});
+  $("q").addEventListener("blur",()=>setTimeout(resetScroll,50));
+  addEventListener("scroll",resetScroll,{passive:true});
+  if(window.visualViewport)visualViewport.addEventListener("resize",()=>setTimeout(resetScroll,50));
+  $("q").addEventListener("keydown",e=>{
+    if(e.key==="Enter"){const b=res.querySelector("button");b?pick(b.dataset.id):$("q").blur()}
+    else if(e.key==="Escape"){hideResults();$("q").blur()}
+    else if(e.key==="ArrowDown"){const b=res.querySelector("button");if(b){e.preventDefault();b.focus()}}
+  });
+  res.addEventListener("keydown",e=>{const b=e.target.closest("button");if(!b)return;const li=b.parentElement;
+    if(e.key==="ArrowDown"){e.preventDefault();li.nextElementSibling?.querySelector("button")?.focus()}
+    if(e.key==="ArrowUp"){e.preventDefault();(li.previousElementSibling?.querySelector("button")||$("q")).focus()}
+    if(e.key==="Escape"){hideResults();$("q").focus()}});
+  res.addEventListener("click",e=>{const b=e.target.closest("button[data-id]");if(b)pick(b.dataset.id)});
+  const menu=$("menu");
+  $("mbtn").onclick=e=>{e.stopPropagation();menu.hidden=!menu.hidden;$("mbtn").setAttribute("aria-expanded",!menu.hidden)};
+  document.addEventListener("click",e=>{if(!menu.hidden&&!e.target.closest(".wrapm")){menu.hidden=true;$("mbtn").setAttribute("aria-expanded","false")}});
+  $("fsbtn").onclick=()=>{menu.hidden=true;enterFS()};
+  $("exitfs").onclick=exitFS;
+  document.addEventListener("fullscreenchange",()=>{if(!document.fullscreenElement)document.body.classList.remove("immersive"),$("exitfs").hidden=true});
+  addEventListener("hashchange",readHash);
+  mqWide.addEventListener("change",()=>{setSheetVars();labels()});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!e.target.closest("input")){if($("fsheet").classList.contains("open"))closeFilters();else select(null)}});
+}
+function enterFS(){
+  document.body.classList.add("immersive");$("exitfs").hidden=false;
+  const el=document.documentElement;
+  if(el.requestFullscreen)el.requestFullscreen().catch(()=>{});else if(el.webkitRequestFullscreen)el.webkitRequestFullscreen();
+}
+function exitFS(){
+  document.body.classList.remove("immersive");$("exitfs").hidden=true;
+  if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});else if(document.webkitFullscreenElement)document.webkitExitFullscreen();
+}
+function readHash(){
+  const id=decodeURIComponent(location.hash.slice(1));
+  if(id&&byId[id]&&id!==state.sel){select(id,true);if(sim)setTimeout(()=>focus(id),1000)}
+}
 </script>
 </body>
 </html>

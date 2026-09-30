@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frat-stien-nell List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.controls{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:12px}
+.controls>.field{grid-column:1/-1}
+.filtbtn{display:none}
+.tablewrap{border:1px solid var(--line);background:var(--surface)}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+th button{all:unset;cursor:pointer;min-height:32px;display:inline-flex;align-items:center}
+th[aria-sort="ascending"] button::after{content:" ▲"}th[aria-sort="descending"] button::after{content:" ▼"}
+tr.open>td{background:var(--hl)}
+.toggle{all:unset;cursor:pointer;font-family:var(--serif);font-size:17px}
+.toggle:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.desc{color:var(--muted);font-size:13px}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap;margin:1px 2px 1px 0}
+.pill.greek{background:var(--greek-bg);color:var(--greek)}
+.chip{display:inline-block;border:1px solid var(--line);padding:0 6px;margin:1px 2px 1px 0;font-size:12px}
+.case{font-size:13px}.case b{font-weight:600}
+.cols{font-size:14px;line-height:1.45}
+.cols .ivy{font-weight:600;color:var(--ink)}
+.cols .oth{color:var(--muted)}
+.cols .fac{color:var(--muted);font-style:italic}
+.ver{font-size:11px;color:var(--yes);font-weight:600;margin-left:4px}
+.detail{font-size:13px;line-height:1.5}
+.detail h3{font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.08em;color:var(--muted);margin:10px 0 2px;text-transform:uppercase}
+.detail ul{margin:2px 0;padding-left:18px}.detail li{margin:2px 0}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+.ledger{display:none}
+.lrow{display:flex;align-items:flex-start;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line)}
+.lrow.open{background:var(--hl)}
+.lname{flex:1;min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+.lname .toggle{font-size:17px;text-align:left}
+.lname .cols{font-size:13px}
+.lname .tag{font-family:var(--mono);font-size:10px;letter-spacing:.04em;color:var(--muted);text-transform:uppercase}
+.lgreek{flex-shrink:0;max-width:92px;text-align:right;font-family:var(--serif);font-size:16px;padding-top:1px}
+.lgreek.none{color:var(--muted);font-size:13px}
+.ldetail{padding:4px 16px 14px;background:var(--hl);border-bottom:1px solid var(--line)}
+@media (max-width:719px){
+  .wrap{padding:16px 0 32px}
+  .top,.stats{padding-left:16px;padding-right:16px}
+  .top h1{font-size:30px}
+  .controls{grid-template-columns:minmax(0,1fr) auto;padding:0 16px}
+  .controls>.field{grid-column:auto}
+  .controls .opt{display:none}
+  .controls.show select.opt{display:block;width:100%;grid-column:1/-1}
+  .filtbtn{display:inline-flex;align-items:center;justify-content:center}
+  .tablewrap{display:none}
+  .ledger{display:block;border-top:2px solid var(--ink)}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1><a href="index.html">Frat-stien-nell</a></h1>
+    <nav class="tabs" aria-label="Pages"><a href="index.html">Web</a><a href="list.html" aria-current="page">List</a><a href="sources.html">Sources</a></nav>
+  </header>
+  <div class="stats" id="stats"></div>
+  <div class="controls" id="controls">
+    <label class="field"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="sr">Search</span><input id="q" type="search" placeholder="Search" enterkeyhint="search" autocomplete="off"></label>
+    <button class="btn filtbtn" id="filtbtn" aria-expanded="false" aria-controls="controls" aria-label="Filters"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg></button>
+    <label class="sr" for="fg">Case</label><select id="fg" class="opt"><option value="">All cases</option><option value="epstein">Epstein files</option><option value="scandal">Other scandals</option></select>
+    <label class="sr" for="fs">School</label><select id="fs" class="opt"><option value="">Any school</option></select>
+    <label class="sr" for="fc">Ivy status</label><select id="fc" class="opt"><option value="">Any Ivy</option><option value="hit">Attended an Ivy</option><option value="faculty">Ivy faculty</option><option value="none">No Ivy</option></select>
+    <label class="sr" for="ff">Fraternity</label><select id="ff" class="opt"><option value="">Any frat</option><option value="yes">In a frat</option><option value="unknown">Frat unknown</option><option value="no">No frat found</option></select>
+    <label class="sr" for="fd">Document</label><select id="fd" class="opt"><option value="">Any document</option></select>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th aria-sort="ascending" data-k="name"><button>Name</button></th>
+        <th data-k="case"><button>Case</button></th>
+        <th data-k="ivy"><button>Colleges</button></th>
+        <th data-k="frat"><button>Fraternity</button></th>
+      </tr></thead>
+      <tbody id="tb"></tbody>
+    </table>
+  </div>
+  <section class="ledger" aria-label="People"><div id="lb"></div></section>
+</div>
+<script>
+const IVY=["Brown","Columbia","Cornell","Dartmouth","Harvard","Penn","Princeton","Yale"];
+const IVY_FULL={"Brown University":"Brown","Columbia University":"Columbia","Cornell University":"Cornell","Dartmouth College":"Dartmouth","Harvard University":"Harvard","University of Pennsylvania":"Penn","Princeton University":"Princeton","Yale University":"Yale"};
+const SHORT={...IVY_FULL,"Massachusetts Institute of Technology":"MIT","Stanford University":"Stanford","New York University":"NYU","Georgetown University":"Georgetown","University of Oxford":"Oxford","University of Cambridge":"Cambridge","London School of Economics":"LSE","University of Chicago":"UChicago","Duke University":"Duke","Tufts University":"Tufts","Northwestern University":"Northwestern"};
+const GREEK={Alpha:"Α",Beta:"Β",Gamma:"Γ",Delta:"Δ",Epsilon:"Ε",Zeta:"Ζ",Eta:"Η",Theta:"Θ",Iota:"Ι",Kappa:"Κ",Lambda:"Λ",Mu:"Μ",Nu:"Ν",Xi:"Ξ",Omicron:"Ο",Pi:"Π",Rho:"Ρ",Sigma:"Σ",Tau:"Τ",Upsilon:"Υ",Phi:"Φ",Chi:"Χ",Psi:"Ψ",Omega:"Ω"};
+const RANK={yes:0,possible:1,unknown:2,no:3};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl=u=>/^https:\/\//.test(u||"")?u:"#";
+const clean=n=>n.replace(/\s*\(.*\)$/,"");
+const greek=o=>{const w=o.split(/\s+/);return w.every(x=>GREEK[x])?w.map(x=>GREEK[x]).join(""):o};
+const mq=matchMedia("(max-width:719px)");
+let DATA=[],sortK="name",sortDir="asc",open=new Set();
+
+fetch("data/people.json").then(r=>r.json()).then(d=>{
+  DATA=d.people;const c=d.meta.counts;
+  $("stats").innerHTML=`<span><b>${c.people}</b>people</span><span><b>${c.epstein}</b>Epstein files</span><span><b>${c.scandal}</b>other scandals</span><span><b>${c.ivy_yes}</b>Ivy</span><span><b>${c.cornell}</b>Cornell</span><span><b>${c.frat_yes}</b>Greek</span>`;
+  $("fs").innerHTML+=IVY.map(s=>`<option value="${s}">${s} (${c.by_school[s].yes})</option>`).join("");
+  $("fd").innerHTML+=[...new Set(DATA.flatMap(p=>p.documents))].sort().map(x=>`<option>${esc(x)}</option>`).join("");
+  const h=decodeURIComponent(location.hash.slice(1));
+  if(h&&DATA.find(p=>p.name===h)){open.add(h);$("q").value=clean(h)}
+  render();
+}).catch(e=>{$("tb").innerHTML=$("lb").innerHTML=`<p class="empty">Could not load data: ${esc(e.message)}</p>`});
+
+function ivyRank(p){const v=Object.values(p.schools).filter(x=>x.status!=="no");return v.length?Math.min(...v.map(x=>RANK[x.status])):(p.colleges.length?5:9)}
+function val(p,k){
+  if(k==="ivy")return ivyRank(p);
+  if(k==="frat")return RANK[p.frat.status]??3;
+  if(k==="case")return (p.cases[0]?.case||"~Epstein files").toLowerCase();
+  return clean(p.name).toLowerCase();
+}
+function match(p){
+  const q=$("q").value.trim().toLowerCase(),fg=$("fg").value,fs=$("fs").value,fc=$("fc").value,ff=$("ff").value,fd=$("fd").value;
+  if(q&&!(p.name+" "+p.description+" "+p.frat.orgs.join(" ")+" "+p.colleges.join(" ")+" "+p.cases.map(c=>c.case).join(" ")).toLowerCase().includes(q))return false;
+  if(fg==="epstein"&&!p.epstein)return false;
+  if(fg==="scandal"&&!p.cases.length)return false;
+  const sch=fs?(p.schools[fs]?[p.schools[fs]]:[]):Object.values(p.schools);
+  if(fs&&!sch.length)return false;
+  if(fc==="hit"&&!sch.some(x=>x.status==="yes"||x.status==="possible"))return false;
+  if(fc==="faculty"&&!sch.some(x=>x.faculty))return false;
+  if(fc==="none"&&Object.values(p.schools).some(x=>x.status!=="no"))return false;
+  if(ff&&p.frat.status!==ff)return false;
+  if(fd&&!p.documents.includes(fd))return false;
+  return true;
+}
+function colleges(p,short){
+  const fac=Object.entries(p.schools).filter(([s,x])=>x.status==="no"&&x.faculty).map(([s])=>s);
+  const parts=p.colleges.map(c=>{const ivy=IVY_FULL[c],poss=ivy&&p.schools[ivy]?.status==="possible";return `<span class="${ivy?"ivy":"oth"}">${esc(short&&SHORT[c]||c)}${poss?"?":""}</span>`});
+  fac.forEach(s=>parts.push(`<span class="fac">${esc(s)} faculty</span>`));
+  return parts.length?`<span class="cols">${parts.join('<span class="oth"> · </span>')}</span>`:'<span class="cols oth">—</span>';
+}
+function caseCell(p){
+  const out=[];
+  if(p.epstein)out.push(`<div class="case"><b>Epstein files</b>${p.documents.length?` <span class="muted">· ${esc(p.documents.join(", "))}</span>`:""}</div>`);
+  p.cases.forEach(c=>out.push(`<div class="case"><b>${esc(c.case)}</b> <span class="muted">· ${esc(c.outcome)}</span></div>`));
+  return out.join("");
+}
+function evList(ev){
+  if(!ev||!ev.length)return "<p class='muted' style='margin:2px 0'>No evidence found.</p>";
+  return `<ul>${ev.map(e=>`<li><span class="muted">${esc(e.source)}:</span> ${esc(e.text)}${e.url?` <a href="${safeUrl(e.url)}" target="_blank" rel="noopener">source</a>`:""}</li>`).join("")}</ul>`;
+}
+function detail(p,mobile){
+  const link=p.url?`<a href="${safeUrl(p.url)}" target="_blank" rel="noopener">${p.manual?"Profile":"Wikipedia"}</a>`:"";
+  const srcs=(p.education_sources||[]).map(e=>`<a href="${safeUrl(e.url)}" target="_blank" rel="noopener">${esc(e.source)}</a>`).join(" · ");
+  return `<div class="detail">
+    ${mobile?`<p class="desc" style="margin:6px 0 0">${esc(p.description)}</p><h3>Case</h3>${caseCell(p)}`:""}
+    ${p.note?`<p style="margin:6px 0">${esc(p.note)}</p>`:""}
+    <h3>Education</h3>${esc(p.education.join(" · ")||"None found")}${srcs?` <span class="muted">(${srcs})</span>`:""}
+    ${Object.entries(p.schools).map(([s,x])=>`<h3>${esc(s)} — ${x.status==="no"?"faculty":esc(x.status)}</h3>${evList(x.evidence)}`).join("")}
+    <h3>Fraternity${p.frat.orgs.length?" — "+esc(p.frat.orgs.join(", ")):""}</h3>${p.frat.status==="unknown"?"<p class='muted' style='margin:2px 0'>Unknown.</p>":evList(p.frat.evidence)}
+    ${p.frat.honor_societies&&p.frat.honor_societies.length?`<h3>Honor societies (not counted)</h3>${esc(p.frat.honor_societies.join(", "))}`:""}
+    <p style="margin:8px 0 0">${link}${p.verified?`<span class="ver">✓ ${p.manual?"researched":"verified"}</span>`:""}</p>
+  </div>`;
+}
+function fratCell(p){
+  if(p.frat.status==="unknown")return '<span class="muted">unknown</span>';
+  if(!p.frat.orgs.length)return '<span class="muted">—</span>';
+  return p.frat.orgs.map(o=>`<span class="pill greek">${esc(o)}</span>`).join("");
+}
+function rows(){
+  return DATA.filter(match).sort((a,b)=>{
+    const x=val(a,sortK),y=val(b,sortK);
+    const r=x<y?-1:x>y?1:clean(a.name).localeCompare(clean(b.name));
+    return sortDir==="asc"?r:-r;
+  });
+}
+function toggleHandler(rs){return e=>{const b=e.target.closest("button.toggle");if(!b)return;const n=rs[+b.dataset.n].name;open.has(n)?open.delete(n):open.add(n);render()}}
+function render(){
+  const rs=rows();
+  if(mq.matches){
+    $("lb").innerHTML=rs.length?rs.map((p,i)=>{
+      const o=open.has(p.name);
+      const g=p.frat.status==="unknown"?'<span class="lgreek none">unk.</span>':p.frat.orgs.length?`<span class="lgreek">${esc(p.frat.orgs.map(greek).join(" "))}</span>`:'<span class="lgreek none">—</span>';
+      const tag=p.cases.length?`<span class="tag">${esc(p.cases.map(c=>c.case).join(" · "))}</span>`:"";
+      return `<div class="lrow${o?" open":""}"><div class="lname"><button class="toggle" data-n="${i}" aria-expanded="${o}">${esc(clean(p.name))}</button>${colleges(p,true)}${tag}</div>${g}</div>${o?`<div class="ldetail">${detail(p,true)}</div>`:""}`;
+    }).join(""):`<p class="empty">No matches.</p>`;
+    $("lb").onclick=toggleHandler(rs);
+  }else{
+    $("tb").innerHTML=rs.length?rs.map((p,i)=>{
+      const o=open.has(p.name);
+      return `<tr class="${o?"open":""}"><td><button class="toggle" data-n="${i}" aria-expanded="${o}">${esc(clean(p.name))}</button>${p.verified?`<span class="ver">✓</span>`:""}<div class="desc">${esc(p.description)}</div></td>
+        <td>${caseCell(p)}</td><td>${colleges(p,false)}</td><td>${fratCell(p)}</td></tr>${o?`<tr class="open"><td colspan="4">${detail(p,false)}</td></tr>`:""}`;
+    }).join(""):`<tr><td colspan="4" class="empty">No matches.</td></tr>`;
+    $("tb").onclick=toggleHandler(rs);
+  }
+}
+document.querySelectorAll("th[data-k] button").forEach(b=>b.addEventListener("click",()=>{
+  const th=b.parentElement,k=th.dataset.k;sortDir=sortK===k&&sortDir==="asc"?"desc":"asc";sortK=k;
+  document.querySelectorAll("th").forEach(t=>t.removeAttribute("aria-sort"));th.setAttribute("aria-sort",sortDir==="asc"?"ascending":"descending");render();
+}));
+$("filtbtn").addEventListener("click",()=>{const c=$("controls"),s=!c.classList.contains("show");c.classList.toggle("show",s);$("filtbtn").setAttribute("aria-expanded",s)});
+$("q").addEventListener("keydown",e=>{if(e.key==="Enter")e.target.blur()});
+["q","fg","fs","fc","ff","fd"].forEach(i=>$(i).addEventListener("input",render));
+mq.addEventListener("change",render);
+</script>
+</body>
+</html>

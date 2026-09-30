@@ -1,6 +1,6 @@
 # Frat-stien-nell
 
-Public figures named in the Epstein documents, checked for Ivy League education (Brown, Columbia, Cornell, Dartmouth, Harvard, Penn, Princeton, Yale) and fraternity membership. Results are shown on a static site in `docs/`: **Ledger** (`index.html`, the people table), **Web** (`web.html`, a network of people linked by shared colleges and fraternities, from `docs/data/graph.json`), and **Sources** (`sources.html`, the method plus source links for each person).
+Public figures named in the Epstein documents, checked for Ivy League education (Brown, Columbia, Cornell, Dartmouth, Harvard, Penn, Princeton, Yale) and fraternity membership. Results are shown on a static site in `docs/`: **Web** (`index.html`, the home page: a full-screen network of people linked by shared colleges and fraternities, with filters and search), **List** (`list.html`, the people table) and **Sources** (`sources.html`, the method plus source links for each person).
 
 Being named in these documents does not imply wrongdoing.
 
