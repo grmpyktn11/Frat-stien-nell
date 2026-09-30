@@ -1,0 +1,87 @@
+{
+ "excluded": [
+  {
+   "name": "Bill Gates",
+   "reason": "described as Epstein staff"
+  },
+  {
+   "name": "David Copperfield",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Delson",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Gary King",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "George Church",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Jack Horner",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Jack Lang",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "John Brockman",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "John Phelan",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Josh Harris",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Mar-a-Lago Crowd",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Mariya Prusakova",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Michael Wolff",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Nadia Marcinko",
+   "reason": "alleged victim / Epstein employee (pilot)"
+  },
+  {
+   "name": "Personal life of Jeffrey Epstein",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Stephen Alexander",
+   "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "William Burns",
+   "reason": "not a person (Wikidata)"
+  }
+ ],
+ "unresolved": [
+  "Francisco D'Agostino",
+  "Caroline Lang",
+  "Julian Leese",
+  "Nick Leese",
+  "Shelley Anne Lewis",
+  "Thomas Magnani",
+  "Matthew Menchel",
+  "Letty Moss-Salentijn",
+  "Alberto Pinto and Linda Pinto",
+  "Rony Shimony",
+  "Anastasiya Siroochenko",
+  "Jess Ting",
+  "Mark Tramo"
+ ]
+}

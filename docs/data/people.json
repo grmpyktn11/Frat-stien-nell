@@ -1,0 +1,4725 @@
+{
+ "meta": {
+  "generated": "2026-09-30T16:19:44+00:00",
+  "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
+  "source_revision": 1376910601,
+  "counts": {
+   "people": 127,
+   "excluded": 17,
+   "unresolved": 13,
+   "ivy_yes": 40,
+   "ivy_possible": 3,
+   "by_school": {
+    "Brown": {
+     "yes": 1,
+     "possible": 0
+    },
+    "Columbia": {
+     "yes": 7,
+     "possible": 3
+    },
+    "Cornell": {
+     "yes": 2,
+     "possible": 0
+    },
+    "Dartmouth": {
+     "yes": 1,
+     "possible": 0
+    },
+    "Harvard": {
+     "yes": 22,
+     "possible": 0
+    },
+    "Penn": {
+     "yes": 7,
+     "possible": 0
+    },
+    "Princeton": {
+     "yes": 2,
+     "possible": 1
+    },
+    "Yale": {
+     "yes": 4,
+     "possible": 2
+    }
+   },
+   "frat_yes": 4,
+   "frat_possible": 19
+  }
+ },
+ "people": [
+  {
+   "name": "Adam Back",
+   "url": "https://en.wikipedia.org/wiki/Adam_Back",
+   "qid": "Q348671",
+   "description": "British cryptographer and cypherpunk (born 1970)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of Exeter"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Al Seckel",
+   "url": "https://en.wikipedia.org/wiki/Al_Seckel",
+   "qid": "Q2023240",
+   "description": "American collector and skeptic (1958–2015)",
+   "documents": [],
+   "schools": {
+    "Cornell": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Cornell University",
+       "url": "https://www.wikidata.org/wiki/Q2023240"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He attended Cornell University from 1976 to 1978 but left without receiving a degree.",
+       "url": "https://en.wikipedia.org/wiki/Al_Seckel"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Oppenheimer reported that Seckel cultivated a false image, both with personal contacts and within the media, of himself as a graduate from Cornell with degrees in physics and math, as an affiliate of and candidate for doctoral degrees at Caltech, and as a scientist conducting research in conjunction with colleagues at Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Al_Seckel"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "New Rochelle High School",
+    "Cornell University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Alan Dershowitz",
+   "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz",
+   "qid": "Q183058",
+   "description": "American lawyer and author (born 1938)",
+   "documents": [
+    "Financial records"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Law School faculty",
+       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "From 1964 to 2013, he taught at Harvard Law School, where he was appointed as the Felix Frankfurter Professor of Law in 1993.",
+       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He joined the Harvard Law School faculty as an assistant professor in 1964, and was made a full professor in 1967 at age 28, at that time the youngest full professor of law in the school's history.",
+       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Randall Adams of The Harvard Crimson wrote that, in the spring of 2002, a petition calling for Harvard and MIT to divest from Israeli and American companies that sell arms to Israel gathered over 600 signatures, including 74 from Harvard faculty and 56 from MIT faculty.",
+       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "The university's Liberal Arts and Sciences faculty voted to send a letter of complaint to Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Yale Law School",
+       "url": "https://www.wikidata.org/wiki/Q183058"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Yale Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He then attended Yale Law School, where he became the editor-in-chief of The Yale Law Journal.",
+       "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Marsha Stern Talmudical Academy",
+    "Yale Law School",
+    "Brooklyn College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Albert Bryan Jr.",
+   "url": "https://en.wikipedia.org/wiki/Albert_Bryan_Jr.",
+   "qid": "Q59302363",
+   "description": "Governor of the United States Virgin Islands since 2019",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Upon assuming office, Bryan announced his senior staff and pledged to fill his cabinet within 90 days.",
+      "url": "https://en.wikipedia.org/wiki/Albert_Bryan_Jr."
+     }
+    ]
+   },
+   "education": [
+    "Wittenberg University",
+    "University of the Virgin Islands",
+    "St. Dunstan's Episcopal High School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Amanda Thirsk",
+   "url": "https://en.wikipedia.org/wiki/Amanda_Thirsk",
+   "qid": "Q107156748",
+   "description": "Former private secretary of Prince Andrew",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Andres Serrano",
+   "url": "https://en.wikipedia.org/wiki/Andres_Serrano",
+   "qid": "Q503335",
+   "description": "American photographer and artist (born 1950)",
+   "documents": [
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Andrew Farkas",
+   "url": "https://en.wikipedia.org/wiki/Andrew_Farkas",
+   "qid": "Q4756931",
+   "description": "American writer (born 1978)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Andrew Mountbatten-Windsor",
+   "url": "https://en.wikipedia.org/wiki/Andrew_Mountbatten-Windsor",
+   "qid": "Q153330",
+   "description": "Former British prince (born 1960)",
+   "documents": [
+    "Court documents",
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Lakefield College School",
+    "Heatherdown Preparatory School",
+    "Britannia Royal Naval College",
+    "Gordonstoun"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Andrés Pastrana Arango",
+   "url": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Pastrana_Arango",
+   "qid": "Q315975",
+   "description": "President of Colombia from 1998 to 2002",
+   "documents": [
+    "Flight logs",
+    "DOJ / Congressional release",
+    "Photographs"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q315975"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Pastrana_Arango"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He later acquired a degree in law at the Our Lady of the Rosary University in 1977, and attended Harvard University as a 1978 Weatherhead Center for International Affairs Fellow.",
+       "url": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Pastrana_Arango"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Colegio inediluz",
+    "Our Lady of the Rosary University",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Anil Ambani",
+   "url": "https://en.wikipedia.org/wiki/Anil_Ambani",
+   "qid": "Q381748",
+   "description": "Indian businessman (born 1959)",
+   "documents": [],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q381748"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Anil_Ambani"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He earned his Bachelor of Science degree from Kishinchand Chellaram College and received a Master in Business Administration at the Wharton School of the University of Pennsylvania in 1983.",
+       "url": "https://en.wikipedia.org/wiki/Anil_Ambani"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Ambani was featured as an empire builder in the Wharton school alumni magazine in 2006.",
+       "url": "https://en.wikipedia.org/wiki/Anil_Ambani"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Awarded the First Wharton Indian Alumni Award by the Wharton India Economic Forum (WIEF) in recognition of his contribution to the establishment of Reliance as a global leader in many of its business areas, December 2001.",
+       "url": "https://en.wikipedia.org/wiki/Anil_Ambani"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "In aftermath, FT India didn't sell the pledged securities and wound 6 debt funds affecting 300,000 investors.",
+      "url": "https://en.wikipedia.org/wiki/Anil_Ambani"
+     }
+    ]
+   },
+   "education": [
+    "Kishinchand Chellaram College",
+    "Warwick Business School",
+    "Hill Grange High School",
+    "The Wharton School",
+    "University of Mumbai"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Annabelle Neilson",
+   "url": "https://en.wikipedia.org/wiki/Annabelle_Neilson",
+   "qid": "Q22957824",
+   "description": "British socialite, fashion model, author, and television personality (1969–2018)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Cobham Hall School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Ariane de Rothschild",
+   "url": "https://en.wikipedia.org/wiki/Ariane_de_Rothschild",
+   "qid": "Q2861214",
+   "description": "French banker",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Paris Institute of Political Studies",
+    "Pace University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Ben Goertzel",
+   "url": "https://en.wikipedia.org/wiki/Ben_Goertzel",
+   "qid": "Q4027185",
+   "description": "American computer scientist and AI researcher",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Simon's Rock at Bard College",
+    "Temple University",
+    "New York University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Bill Clinton",
+   "url": "https://en.wikipedia.org/wiki/Bill_Clinton",
+   "qid": "Q1124",
+   "description": "President of the United States from 1993 to 2001",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Yale": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Yale Law School",
+       "url": "https://www.wikidata.org/wiki/Q1124"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Yale Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Born and raised in Arkansas, Clinton graduated from Georgetown University in 1968, and later from Yale Law School, where he met his future wife, Hillary Rodham.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After Oxford, Clinton attended Yale Law School and earned a Juris Doctor (J.D.) degree in 1973.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After graduating from Yale Law School, Clinton returned to Arkansas and became a law professor at the University of Arkansas.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "yes",
+    "orgs": [
+     "Phi Beta Kappa Society",
+     "Alpha Phi Omega",
+     "Kappa Kappa Psi"
+    ],
+    "honor_societies": [
+     "Phi Beta Kappa"
+    ],
+    "evidence": [
+     {
+      "source": "Wikidata (member of)",
+      "text": "Phi Beta Kappa Society (organization, learned society, honor society, academic publisher)",
+      "url": "https://www.wikidata.org/wiki/Q1124"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "While in college, he became a brother of service fraternity Alpha Phi Omega and was elected to Phi Beta Kappa.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "He is a member of Kappa Kappa Psi honorary band fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+     }
+    ]
+   },
+   "education": [
+    "Hot Springs High School",
+    "Yale Law School",
+    "Walsh School of Foreign Service",
+    "University College, Oxford"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Bill Richardson",
+   "url": "https://en.wikipedia.org/wiki/Bill_Richardson",
+   "qid": "Q311782",
+   "description": "American politician (1947–2023)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Kennedy School faculty",
+       "url": "https://en.wikipedia.org/wiki/Bill_Richardson"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He was an adjunct professor at Harvard Kennedy School and a lecturer at the United World College of the American West (UWC-USA), and also taught at the University of New Mexico, and New Mexico State University.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Richardson"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "yes",
+    "orgs": [
+     "Delta Tau Delta"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikidata (member of)",
+      "text": "Delta Tau Delta (fraternity)",
+      "url": "https://www.wikidata.org/wiki/Q311782"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "Richardson earned a Bachelor's degree at Tufts University in 1970, majoring in French and political science, and was a member and president of Delta Tau Delta fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Richardson"
+     }
+    ]
+   },
+   "education": [
+    "Middlesex School",
+    "The Fletcher School of Law and Diplomacy",
+    "Tufts University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Bobby Kotick",
+   "url": "https://en.wikipedia.org/wiki/Bobby_Kotick",
+   "qid": "Q4117176",
+   "description": "American businessman and former CEO of Activision Blizzard",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Roslyn High School",
+    "University of Michigan"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Boris Nikolić",
+   "url": "https://en.wikipedia.org/wiki/Boris_Nikoli%C4%87",
+   "qid": "Q16088106",
+   "description": "Serbian fashion designer (1974–2008)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Brad S. Karp",
+   "url": "https://en.wikipedia.org/wiki/Brad_S._Karp",
+   "qid": "Q4954228",
+   "description": "American lawyer (born 1959)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Law School",
+       "url": "https://www.wikidata.org/wiki/Q4954228"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Brad_S._Karp"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He graduated with a B.A. in political science from Union College and a J.D. from Harvard Law School in 1984.",
+       "url": "https://en.wikipedia.org/wiki/Brad_S._Karp"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Union College",
+    "Harvard Law School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Brett Ratner",
+   "url": "https://en.wikipedia.org/wiki/Brett_Ratner",
+   "qid": "Q319204",
+   "description": "American filmmaker (born 1969)",
+   "documents": [
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Miami Beach Senior High School",
+    "New York University Tisch School of the Arts"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Brian Vickers",
+   "url": "https://en.wikipedia.org/wiki/Brian_Vickers",
+   "qid": "Q2112545",
+   "description": "American racing driver (born 1983)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Trinity High School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Brock Pierce",
+   "url": "https://en.wikipedia.org/wiki/Brock_Pierce",
+   "qid": "Q2925904",
+   "description": "American entrepreneur and child actor (born 1980)",
+   "documents": [
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Børge Brende",
+   "url": "https://en.wikipedia.org/wiki/B%C3%B8rge_Brende",
+   "qid": "Q706631",
+   "description": "Norwegian politician and diplomat (born 1965)",
+   "documents": [
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Norwegian University of Science and Technology"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Carol Montgomery",
+   "url": "https://en.wikipedia.org/wiki/Carol_Montgomery",
+   "qid": "Q437106",
+   "description": "Canadian triathlete",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Casey Wasserman",
+   "url": "https://en.wikipedia.org/wiki/Casey_Wasserman",
+   "qid": "Q5048600",
+   "description": "American businessman (born 1974)",
+   "documents": [
+    "Flight logs",
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Brentwood School",
+    "University of California, Los Angeles"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Christopher Poole",
+   "url": "https://en.wikipedia.org/wiki/Christopher_Poole",
+   "qid": "Q3135308",
+   "description": "American internet entrepreneur (born 1980s)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Virginia Commonwealth University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Corina Tarnita",
+   "url": "https://en.wikipedia.org/wiki/Corina_Tarnita",
+   "qid": "Q89456789",
+   "description": "Mathematical biologist",
+   "documents": [
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q89456789"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard College alumni",
+       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Graduate School of Arts and Sciences alumni",
+       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Tarnita moved to the United States to pursue higher education, obtaining her B.A. (2006), M.A. (2008), and Ph.D. (2009) in Mathematics from Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "She was a Junior Fellow in the Harvard Society of Fellows before joining the Princeton University faculty in 2013.",
+       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+      }
+     ]
+    },
+    "Princeton": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Princeton University faculty",
+       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "She is currently the Frederick D. Petrie Professor of Ecology and Evolutionary Biology at Princeton University.",
+       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "She was a Junior Fellow in the Harvard Society of Fellows before joining the Princeton University faculty in 2013.",
+       "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Dan Ariely",
+   "url": "https://en.wikipedia.org/wiki/Dan_Ariely",
+   "qid": "Q731905",
+   "description": "Israeli-American professor of psychology and behavioral economics (born 1967)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Dan Ariely was born to Yoram and Dafna Ariely in New York City while his father was studying for an MBA at Columbia University.",
+       "url": "https://en.wikipedia.org/wiki/Dan_Ariely"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Tel Aviv University",
+    "University of North Carolina at Chapel Hill",
+    "Duke University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Daniel Siad",
+   "url": "https://en.wikipedia.org/wiki/Daniel_Siad",
+   "qid": "Q138031415",
+   "description": "Swedish modeling scout (1957–2026)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "David Blaine",
+   "url": "https://en.wikipedia.org/wiki/David_Blaine",
+   "qid": "Q353983",
+   "description": "American illusionist and extreme performer",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Passaic Valley Regional High School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "David Gelernter",
+   "url": "https://en.wikipedia.org/wiki/David_Gelernter",
+   "qid": "Q92680",
+   "description": "American computer scientist (born 1955)",
+   "documents": [],
+   "schools": {
+    "Yale": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Yale University",
+       "url": "https://www.wikidata.org/wiki/Q92680"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Yale University alumni",
+       "url": "https://en.wikipedia.org/wiki/David_Gelernter"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Yale University faculty",
+       "url": "https://en.wikipedia.org/wiki/David_Gelernter"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "David Hillel Gelernter (born March 5, 1955) is an American computer scientist and writer, and a professor of computer science at Yale University.",
+       "url": "https://en.wikipedia.org/wiki/David_Gelernter"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After high school, Gelernter graduated cum laude from Yale University with a Bachelor of Arts in computer science and a Master of Arts in Classical Hebrew literature in 1976.",
+       "url": "https://en.wikipedia.org/wiki/David_Gelernter"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Stony Brook University",
+    "Yale University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "David Ross (baseball)",
+   "url": "https://en.wikipedia.org/wiki/David_Ross_(baseball)",
+   "qid": "Q3018729",
+   "description": "American baseball player (born 1977)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Florida State University School",
+    "Florida State University",
+    "Auburn University",
+    "University of Florida"
+   ],
+   "verified": false
+  },
+  {
+   "name": "David Schoen",
+   "url": "https://en.wikipedia.org/wiki/David_Schoen",
+   "qid": "Q105416185",
+   "description": "American attorney",
+   "documents": [],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/David_Schoen"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He has received degrees from George Washington University (Bachelor of Arts, 1980), Boston College Law School (Juris Doctor, 1984), and Columbia University Law School (Master of Laws, 1992).",
+       "url": "https://en.wikipedia.org/wiki/David_Schoen"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "David Stern",
+   "url": "https://en.wikipedia.org/wiki/David_Stern",
+   "qid": "Q347958",
+   "description": "American businessman, lawyer, and NBA commissioner (1942–2020)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Columbia Law School",
+       "url": "https://www.wikidata.org/wiki/Q347958"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/David_Stern"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He was on the Rutgers University Board of Overseers, a Director of Jazz at Lincoln Center and chair of JALC's Marketing Committee, and was a Chair Emeritus of the Board of Trustees of Columbia University.",
+       "url": "https://en.wikipedia.org/wiki/David_Stern"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Stern then attended Columbia Law School, receiving a J.D. in 1966.",
+       "url": "https://en.wikipedia.org/wiki/David_Stern"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Sigma Alpha Mu"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "After graduating from Teaneck High School in 1959, Stern went to Rutgers University, where he was a member of the Sigma Alpha Mu fraternity and graduated in 1963 with a B.A. in history.",
+      "url": "https://en.wikipedia.org/wiki/David_Stern"
+     }
+    ]
+   },
+   "education": [
+    "Teaneck High School",
+    "Columbia Law School",
+    "Rutgers University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Dean Kamen",
+   "url": "https://en.wikipedia.org/wiki/Dean_Kamen",
+   "qid": "Q720457",
+   "description": "American businessman (born 1951)",
+   "documents": [
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He is the main subject of Code Name Ginger: the Story Behind Segway and Dean Kamen's Quest to Invent a New World, a nonfiction narrative book by journalist Steve Kemper published by Harvard Business School Press in 2003 (released in paperback as Reinventing the Wheel).",
+       "url": "https://en.wikipedia.org/wiki/Dean_Kamen"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "In 2015, Kamen received an honorary Doctor of Engineering and Technology degree from Yale University.",
+       "url": "https://en.wikipedia.org/wiki/Dean_Kamen"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "BioFabUSA's mission is to \"...make practical the large-scale manufacturing of engineered tissues and tissue-related technologies, to benefit existing industries and grow new ones\". In addition to DoD funding, Kamen brought together a consortium of private sector entities to form a public-private partnership which pledged $214M additional private dollars.",
+      "url": "https://en.wikipedia.org/wiki/Dean_Kamen"
+     }
+    ]
+   },
+   "education": [
+    "South Side High School",
+    "Georgia Tech",
+    "Worcester Polytechnic Institute"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Deepak Chopra",
+   "url": "https://en.wikipedia.org/wiki/Deepak_Chopra",
+   "qid": "Q318506",
+   "description": "American alternative medicine advocate (born 1946)",
+   "documents": [],
+   "schools": {
+    "Columbia": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Chopra serves as an adjunct professor in the marketing division at Columbia Business School.",
+       "url": "https://en.wikipedia.org/wiki/Deepak_Chopra"
+      }
+     ]
+    },
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "As of 2014, Chopra's younger brother, Sanjiv Chopra, was a professor of medicine at Harvard Medical School and on staff at Beth Israel Deaconess Medical Center.",
+       "url": "https://en.wikipedia.org/wiki/Deepak_Chopra"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Chopra taught at the medical schools of Tufts University, Boston University, and Harvard University, and became Chief of Staff at the New England Memorial Hospital (NEMH) (later known as the Boston Regional Medical Center) in Stoneham, Massachusetts before establishing a private practice in Boston in endocrinology.",
+       "url": "https://en.wikipedia.org/wiki/Deepak_Chopra"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He participates annually as a lecturer at the Update in Internal Medicine event sponsored by Harvard Medical School and the Beth Israel Deaconess Medical Center.",
+       "url": "https://en.wikipedia.org/wiki/Deepak_Chopra"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "All India Institutes of Medical Sciences"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Donald Trump",
+   "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+   "qid": "Q22686",
+   "description": "President of the United States (2017–2021; since 2025)",
+   "documents": [
+    "DOJ / Congressional release",
+    "Emails"
+   ],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q22686"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "University of Pennsylvania",
+       "url": "https://www.wikidata.org/wiki/Q22686"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Born into a wealthy New York City family, Trump graduated from the University of Pennsylvania in 1968 with a bachelor's degree in economics.",
+       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In his junior year, he transferred to the Wharton School of the University of Pennsylvania, most often commuting to his father's office on weekends, and graduated in May 1968 with a Bachelor of Science in economics.",
+       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "He pledged to deport millions of illegal immigrants residing in the U.S., and criticized birthright citizenship for incentivizing \"anchor babies\". According to an analysis in Political Science Quarterly, Trump made \"explicitly racist and sexist appeals to win over white voters\" during his 2016 presidential campaign.",
+      "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "In the 2016 campaign, he pledged that Roe v. Wade would be overturned \"automatically\" if he were elected and given the opportunity to appoint two or three anti-abortion justices.",
+      "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+     }
+    ]
+   },
+   "education": [
+    "The Kew-Forest School",
+    "New York Military Academy",
+    "The Wharton School",
+    "Fordham University",
+    "University of Pennsylvania"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Doug Band",
+   "url": "https://en.wikipedia.org/wiki/Doug_Band",
+   "qid": "Q5300269",
+   "description": "American presidential advisor (born 1972)",
+   "documents": [
+    "Flight logs",
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Sigma Phi Epsilon"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "He was a member of  the Sigma Phi Epsilon fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Doug_Band"
+     }
+    ]
+   },
+   "education": [
+    "Georgetown University Law Center",
+    "University of Florida",
+    "Walsh School of Foreign Service"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Edward Boyden",
+   "url": "https://en.wikipedia.org/wiki/Edward_Boyden",
+   "qid": "Q5341974",
+   "description": "American neuroscientist (born 1979)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Texas Academy of Mathematics and Science",
+    "Massachusetts Institute of Technology"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Edward Jay Epstein",
+   "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein",
+   "qid": "Q3048569",
+   "description": "American investigative journalist (1935–2024)",
+   "documents": [],
+   "schools": {
+    "Cornell": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Cornell University",
+       "url": "https://www.wikidata.org/wiki/Q3048569"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Cornell University alumni",
+       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He earned a Bachelor of Arts and Master of Arts in government from Cornell University.",
+       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "One of his professors at Cornell was Vladimir Nabokov.",
+       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "While a graduate student at Cornell University in 1966, he published the book Inquest: The Warren Commission and the Establishment of Truth, an influential critique of the Warren Commission probe into the John F. Kennedy assassination.",
+       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+      }
+     ]
+    },
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q3048569"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Graduate School of Arts and Sciences alumni",
+       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Edward Jay Epstein (December 6, 1935 – January 9, 2024) was an American investigative journalist and a political science professor at Harvard University, the University of California, Los Angeles, and the Massachusetts Institute of Technology.",
+       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In 1973, he received his PhD in government from Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Epstein taught courses at Harvard University, the University of California, Los Angeles, and the Massachusetts Institute of Technology for three years.",
+       "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Cornell University",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Ehud Barak",
+   "url": "https://en.wikipedia.org/wiki/Ehud_Barak",
+   "qid": "Q125731",
+   "description": "Prime Minister of Israel from 1999 to 2001",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Hebrew University of Jerusalem",
+    "Stanford University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Elisa New",
+   "url": "https://en.wikipedia.org/wiki/Elisa_New",
+   "qid": "Q5361374",
+   "description": "American academic",
+   "documents": [
+    "Financial records"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Columbia University",
+       "url": "https://www.wikidata.org/wiki/Q5361374"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia University alumni",
+       "url": "https://en.wikipedia.org/wiki/Elisa_New"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "She earned a Bachelor of Arts degree from Brandeis University in 1980, as well as a Master of Arts and PhD from Columbia University in 1982 and 1988, respectively.",
+       "url": "https://en.wikipedia.org/wiki/Elisa_New"
+      }
+     ]
+    },
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Extension School faculty",
+       "url": "https://en.wikipedia.org/wiki/Elisa_New"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University faculty",
+       "url": "https://en.wikipedia.org/wiki/Elisa_New"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "She was a professor of Harvard University from 1999 to 2019, and founded  Poetry in America, a nonprofit PBS series that has received considerable controversy for its ties to child sex offender Jeffrey Epstein.",
+       "url": "https://en.wikipedia.org/wiki/Elisa_New"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 1999, New moved to Harvard University, eventually becoming the Powell M. Cabot Professor of American Literature.",
+       "url": "https://en.wikipedia.org/wiki/Elisa_New"
+      }
+     ]
+    },
+    "Penn": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "University of Pennsylvania faculty",
+       "url": "https://en.wikipedia.org/wiki/Elisa_New"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Winston Churchill High School",
+    "Brandeis University",
+    "Columbia University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Elon Musk",
+   "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+   "qid": "Q317521",
+   "description": "Businessman and entrepreneur (born 1971)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q317521"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "University of Pennsylvania",
+       "url": "https://www.wikidata.org/wiki/Q317521"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He received bachelor's degrees in 1997 from the University of Pennsylvania before moving to California to pursue business ventures.",
+       "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Two years later, he transferred to the University of Pennsylvania, where he studied until 1995.",
+       "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "In 2015, he received an honorary doctorate in engineering and technology from Yale University and an Institute of Electrical and Electronics Engineers Honorary Membership.",
+       "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Musk pledged $1 billion of funding to the company, but only donated $50 million.",
+      "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "Musk has publicly supported far-right activist Tommy Robinson, and initially pledged financial backing to Reform UK ahead of the next general election.",
+      "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+     }
+    ]
+   },
+   "education": [
+    "Stanford University",
+    "Smith School of Business",
+    "Bryanston High School",
+    "Waterkloof House Preparatory School",
+    "Pretoria Boys High School",
+    "Queen's University",
+    "The Wharton School",
+    "University of Pretoria",
+    "University of Pennsylvania"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Eva Andersson-Dubin",
+   "url": "https://en.wikipedia.org/wiki/Eva_Andersson-Dubin",
+   "qid": "Q67024532",
+   "description": "American physician and model from Sweden",
+   "documents": [
+    "Flight logs",
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Karolinska Institutet"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Flavio Briatore",
+   "url": "https://en.wikipedia.org/wiki/Flavio_Briatore",
+   "qid": "Q173169",
+   "description": "Italian businessman (born 1950)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "George J. Mitchell",
+   "url": "https://en.wikipedia.org/wiki/George_J._Mitchell",
+   "qid": "Q368920",
+   "description": "American politician, diplomat, and judge (born 1933)",
+   "documents": [
+    "Court documents",
+    "Emails",
+    "Birthday book"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Since 2002, Mitchell has been a senior fellow and senior research scholar at Columbia University's Center for International Conflict Resolution, where he works to help end or avert conflicts between nations.",
+       "url": "https://en.wikipedia.org/wiki/George_J._Mitchell"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Bowdoin College",
+    "Georgetown University Law Center"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Ghislaine Maxwell",
+   "url": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell",
+   "qid": "Q5556756",
+   "description": "British socialite and child sex trafficker (born 1961)",
+   "documents": [
+    "DOJ / Congressional release"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Millfield",
+    "Oxford High School",
+    "Headington Rye Oxford",
+    "Marlborough College",
+    "Balliol College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Glenn Dubin",
+   "url": "https://en.wikipedia.org/wiki/Glenn_Dubin",
+   "qid": "Q16189009",
+   "description": "American hedge fund manager (born 1957)",
+   "documents": [
+    "Court documents",
+    "Financial records"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 2010, Dubin established the Dubin Fellowship for Emerging Leaders at the Center for Public Leadership at Harvard's Kennedy School with a $5 million gift.",
+       "url": "https://en.wikipedia.org/wiki/Glenn_Dubin"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Stony Brook University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Gordon Getty",
+   "url": "https://en.wikipedia.org/wiki/Gordon_Getty",
+   "qid": "Q3110901",
+   "description": "American heir and composer (born 1933)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "St. Ignatius College Preparatory",
+    "San Francisco Conservatory of Music",
+    "University of San Francisco"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Grady Judd",
+   "url": "https://en.wikipedia.org/wiki/Grady_Judd",
+   "qid": "Q50345105",
+   "description": "Sheriff of Polk County, Florida",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Polk State College",
+    "Lakeland Senior High School",
+    "Rollins College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Hardeep Singh Puri",
+   "url": "https://en.wikipedia.org/wiki/Hardeep_Singh_Puri",
+   "qid": "Q5655835",
+   "description": "Indian politician and diplomat (born 1952)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Hindu College, University of Delhi"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Howard Lutnick",
+   "url": "https://en.wikipedia.org/wiki/Howard_Lutnick",
+   "qid": "Q16194176",
+   "description": "American businessman and government official (born 1961)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Jericho High School",
+    "Haverford College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Jean Pigozzi",
+   "url": "https://en.wikipedia.org/wiki/Jean_Pigozzi",
+   "qid": "Q6171375",
+   "description": "Italian businessman (born 1952)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q6171375"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Jean_Pigozzi"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Pigozzi studied at Harvard College from 1970 to 1974, where he developed his interest in contemporary art.",
+       "url": "https://en.wikipedia.org/wiki/Jean_Pigozzi"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Jean Todt",
+   "url": "https://en.wikipedia.org/wiki/Jean_Todt",
+   "qid": "Q171998",
+   "description": "French motor racing executive (born 1946)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "EDC Paris Business School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Jean-Luc Brunel",
+   "url": "https://en.wikipedia.org/wiki/Jean-Luc_Brunel",
+   "qid": "Q74631975",
+   "description": "French model scout and sex trafficker (1946–2022)",
+   "documents": [
+    "Flight logs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Jes Staley",
+   "url": "https://en.wikipedia.org/wiki/Jes_Staley",
+   "qid": "Q6185687",
+   "description": "American banker (born 1956)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Emails between the two contained in the Epstein files indicated that Epstein helped Staley's daughter obtain an invitation to a theoretical physics conference, through Lisa Randall, and prepare an application to the PhD program in physics at Columbia University through his personal friendship with Richard Axel.",
+       "url": "https://en.wikipedia.org/wiki/Jes_Staley"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Bowdoin College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "John de Jongh Jr.",
+   "url": "https://en.wikipedia.org/wiki/John_de_Jongh_Jr.",
+   "qid": "Q676489",
+   "description": "American politician",
+   "documents": [
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Antioch University",
+    "Antioch College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Joi Ito",
+   "url": "https://en.wikipedia.org/wiki/Joi_Ito",
+   "qid": "Q934616",
+   "description": "Japanese-American entrepreneur",
+   "documents": [
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He is on the board of directors for the Gelephu Mindfulness City in Bhutan where he is also chairman of the Gelephu Investment Development Corporation (GIDC). He is a former director of the MIT Media Lab, former professor of the practice of media arts and sciences at MIT, and a former visiting professor of practice at Harvard Law School.",
+       "url": "https://en.wikipedia.org/wiki/Joi_Ito"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 2018, Ito and Jonathan Zittrain co-taught a collaborative Harvard-M.I.T. digital ethics course titled, \"The Ethics and Governance of Artificial Intelligence\". Ito wrote about the limits of explainability in Wired magazine related to the research of MIT Media Lab researcher Josh Tenenbaum.",
+       "url": "https://en.wikipedia.org/wiki/Joi_Ito"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "According to Harvard Law School professor Lawrence Lessig the anonymity of the Jeffrey Epstein donations was to avoid \"whitewashing\" Epstein's reputation and not to conceal the relationship between Ito and Epstein.",
+       "url": "https://en.wikipedia.org/wiki/Joi_Ito"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He also resigned from his visiting professorship at Harvard University. in addition he relinquished a number of other roles on September 7 amid the controversy:",
+       "url": "https://en.wikipedia.org/wiki/Joi_Ito"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Nishimachi International School",
+    "Keio University",
+    "University of Chicago",
+    "Tufts University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Joscha Bach",
+   "url": "https://en.wikipedia.org/wiki/Joscha_Bach",
+   "qid": "Q56605600",
+   "description": "German cognitive scientist (born 1973)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Osnabrück University",
+    "University of Waikato",
+    "Humboldt-Universität zu Berlin"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Joshua Cooper Ramo",
+   "url": "https://en.wikipedia.org/wiki/Joshua_Cooper_Ramo",
+   "qid": "Q6289742",
+   "description": "American foreign policy consultant and writer",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In response to a Reuters inquiry, Ramo stated that he met with Epstein in New York, along with various business figures and scientists, about 14 times between 2013 and 2016 and visited Epstein's ranch once for a 2014 lunch on behalf of professors from the Massachusetts Institute of Technology and Harvard University, who were present.",
+       "url": "https://en.wikipedia.org/wiki/Joshua_Cooper_Ramo"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Albuquerque Academy",
+    "University of Chicago"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Karim Wade",
+   "url": "https://en.wikipedia.org/wiki/Karim_Wade",
+   "qid": "Q519068",
+   "description": "Senegalese politician (born 1968)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of Paris 1 Pantheon-Sorbonne",
+    "University of Paris"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Kathryn Ruemmler",
+   "url": "https://en.wikipedia.org/wiki/Kathryn_Ruemmler",
+   "qid": "Q6377116",
+   "description": "American lawyer (born 1971)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Richland High School",
+    "Georgetown University Law Center",
+    "Q219563"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Ken Starr",
+   "url": "https://en.wikipedia.org/wiki/Ken_Starr",
+   "qid": "Q708241",
+   "description": "American lawyer (1946–2022)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Brown": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Brown University",
+       "url": "https://www.wikidata.org/wiki/Q708241"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Brown University alumni",
+       "url": "https://en.wikipedia.org/wiki/Ken_Starr"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He worked in the Southwestern Advantage entrepreneurial program and later attended Brown University, where he earned a Master of Arts degree in 1969.",
+       "url": "https://en.wikipedia.org/wiki/Ken_Starr"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He also invoked a 1999 Hofstra Law Review article by Yale law professor Akhil Amar, who argued that the Clinton impeachment proved just how impeachment and removal causes \"grave disruption\" to a national election.",
+       "url": "https://en.wikipedia.org/wiki/Ken_Starr"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Delta Phi Epsilon"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "While there, he became a member of Delta Phi Epsilon.",
+      "url": "https://en.wikipedia.org/wiki/Ken_Starr"
+     }
+    ]
+   },
+   "education": [
+    "Harding University",
+    "George Washington University",
+    "Duke University",
+    "Brown University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Kenneth Mapp",
+   "url": "https://en.wikipedia.org/wiki/Kenneth_Mapp",
+   "qid": "Q6390443",
+   "description": "American politician (born 1955)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Kennedy School alumni",
+       "url": "https://en.wikipedia.org/wiki/Kenneth_Mapp"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After leaving office as lieutenant governor in 1999, however, he completed the six-week Advanced Management Program at Harvard Business School (which has no formal educational requirements) and received a master's degree in public administration from the John F. Kennedy School of Government at Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Kenneth_Mapp"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Mapp also completed other fellowships at Harvard University and Carnegie Mellon University in Pittsburgh.",
+       "url": "https://en.wikipedia.org/wiki/Kenneth_Mapp"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After leaving office as lieutenant governor, Mapp earned a master's degree in public administration from Harvard University's John F. Kennedy School of Government and completed the Advanced Management Program (AMP 159) at Harvard Business School.",
+       "url": "https://en.wikipedia.org/wiki/Kenneth_Mapp"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of the Virgin Islands",
+    "St. Croix Central High School",
+    "John F. Kennedy School of Government"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Kevin Rudd",
+   "url": "https://en.wikipedia.org/wiki/Kevin_Rudd",
+   "qid": "Q43135",
+   "description": "Prime Minister of Australia (2007–2010; 2013)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In early 2014, Rudd left Australia to work in the United States, where he was appointed a Senior Fellow at the Harvard Kennedy School's Belfer Center for Science and International Affairs in Cambridge, Massachusetts, where he completed a major research effort on the future of US-China relations.",
+       "url": "https://en.wikipedia.org/wiki/Kevin_Rudd"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Yale-China Chinese Language Center",
+       "url": "https://www.wikidata.org/wiki/Q43135"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Rudd pledged the government to bridging the gap between Indigenous and Non-Indigenous Australian health, education and living conditions, and in a way that respects their rights to self-determination.",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Rudd"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "As prime minister, he also pledged support for East Timor, stating that Australian troops would remain in East Timor for as long as East Timor's government wanted them to.",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Rudd"
+     }
+    ]
+   },
+   "education": [
+    "Yale-China Chinese Language Center",
+    "National Taiwan Normal University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Kevin Spacey",
+   "url": "https://en.wikipedia.org/wiki/Kevin_Spacey",
+   "qid": "Q25144",
+   "description": "American actor (born 1959)",
+   "documents": [
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Los Angeles Valley College",
+    "Chatsworth High School",
+    "Canoga Park High School",
+    "Juilliard School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Kimbal Musk",
+   "url": "https://en.wikipedia.org/wiki/Kimbal_Musk",
+   "qid": "Q6409751",
+   "description": "Entrepreneur (born 1972)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "International Culinary Center",
+    "Queen's University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Larry Summers",
+   "url": "https://en.wikipedia.org/wiki/Larry_Summers",
+   "qid": "Q317953",
+   "description": "American economist (born 1954)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q317953"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Kennedy School faculty",
+       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University Department of Economics faculty",
+       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He was the Charles W. Eliot University Professor at Harvard Kennedy School until his resignation in February 2026.",
+       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+      }
+     ]
+    },
+    "Penn": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He was the son of two economists, Robert Summers (who changed the family surname from Samuelson) and Anita Summers (of Romanian-Jewish ancestry), who were both professors at the University of Pennsylvania.",
+       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+      }
+     ]
+    },
+    "Princeton": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "West, who later called Summers both \"uninformed\" and \"an unprincipled power player\" in describing this encounter in his book Democracy Matters (2004), subsequently returned to Princeton University, where he had taught prior to Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "On November 17, 2025, Summers agreed to step back from his public commitments such as his role in the advisory group of The Yale Budget Lab, his role in the advisory group of the Hamilton Project (an economics policy arm of the Brookings Institution), his fellowship with the Center for American Progress, and his role as chair of the Center for Global Development.",
+       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Epstein pledged to donate at least $25 million to Harvard during Summers' tenure to endow Harvard's Program for Evolutionary Dynamics, and Epstein was given an office at Harvard for his personal use.",
+      "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+     }
+    ]
+   },
+   "education": [
+    "Harriton High School",
+    "Massachusetts Institute of Technology",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Lawrence Krauss",
+   "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss",
+   "qid": "Q470468",
+   "description": "American particle physicist and cosmologist (born 1954)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Fellows",
+       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "After some time in the Harvard Society of Fellows, Krauss became an assistant professor at Yale University in 1985 and associate professor in 1988.",
+       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Harvard Professor Steven Pinker said that Krauss was one of several colleagues who invited him to \"salons and coffee klatsches\" that included Epstein.",
+       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Yale University faculty",
+       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Lawrence Maxwell Krauss (born May 27, 1954) is a Canadian-American  theoretical physicist and cosmologist who taught at Arizona State University (ASU), Yale University, and Case Western Reserve University.",
+       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "After some time in the Harvard Society of Fellows, Krauss became an assistant professor at Yale University in 1985 and associate professor in 1988.",
+       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He left Yale for Case Western Reserve University in 1993 when he was named the Ambrose Swasey Professor of Physics, professor of astronomy, and chairman of the physics department until 2005.",
+       "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Carleton University",
+    "Massachusetts Institute of Technology"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Len Blavatnik",
+   "url": "https://en.wikipedia.org/wiki/Len_Blavatnik",
+   "qid": "Q164997",
+   "description": "Businessman and philanthropist (born 1957)",
+   "documents": [],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia School of Engineering and Applied Science alumni",
+       "url": "https://en.wikipedia.org/wiki/Len_Blavatnik"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Blavatnik's family emigrated from the Soviet Union to the United States of America in 1978 and, in 1981, he received a master's degree in computer science from the School of Engineering and Applied Science at Columbia University, and an MBA from Harvard Business School in 1989.",
+       "url": "https://en.wikipedia.org/wiki/Len_Blavatnik"
+      }
+     ]
+    },
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Business School",
+       "url": "https://www.wikidata.org/wiki/Q164997"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/Len_Blavatnik"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Blavatnik's family emigrated from the Soviet Union to the United States of America in 1978 and, in 1981, he received a master's degree in computer science from the School of Engineering and Applied Science at Columbia University, and an MBA from Harvard Business School in 1989.",
+       "url": "https://en.wikipedia.org/wiki/Len_Blavatnik"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He is also a member of the Harvard Medical School Board of Fellows, a member of the Council on Foreign Relations and a member of the Board of Governors at Tel Aviv University.",
+       "url": "https://en.wikipedia.org/wiki/Len_Blavatnik"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "North Broward Preparatory School",
+    "Fu Foundation School of Engineering and Applied Science",
+    "Russian University of Transport",
+    "Harvard Business School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Leon Black",
+   "url": "https://en.wikipedia.org/wiki/Leon_Black",
+   "qid": "Q5578461",
+   "description": "American private equity investor (born 1951)",
+   "documents": [
+    "Court documents",
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "possible",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikipedia article text",
+       "text": "Black is married to Debra Ressler, a 1976 Barnard College graduate and Broadway producer and sister of Ares Management co-founder Antony Ressler.",
+       "url": "https://en.wikipedia.org/wiki/Leon_Black"
+      }
+     ]
+    },
+    "Dartmouth": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Dartmouth College",
+       "url": "https://www.wikidata.org/wiki/Q5578461"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Dartmouth College alumni",
+       "url": "https://en.wikipedia.org/wiki/Leon_Black"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Black received an AB in philosophy and history from Dartmouth College in 1973 and an MBA from Harvard Business School in 1975.",
+       "url": "https://en.wikipedia.org/wiki/Leon_Black"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Black was on the Board of Trustees of Dartmouth College from 2002 to 2011.",
+       "url": "https://en.wikipedia.org/wiki/Leon_Black"
+      }
+     ]
+    },
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Business School",
+       "url": "https://www.wikidata.org/wiki/Q5578461"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q5578461"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/Leon_Black"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Black received an AB in philosophy and history from Dartmouth College in 1973 and an MBA from Harvard Business School in 1975.",
+       "url": "https://en.wikipedia.org/wiki/Leon_Black"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Through the Debra and Leon Black Family Foundation, he provided $7.5 million to establish a fellowship program for U.S. military personnel and veterans at Harvard Kennedy School.",
+       "url": "https://en.wikipedia.org/wiki/Leon_Black"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Black pledged his intention to donate $200 million to women's initiatives.",
+      "url": "https://en.wikipedia.org/wiki/Leon_Black"
+     }
+    ]
+   },
+   "education": [
+    "Van High School",
+    "Ethical Culture Fieldston School",
+    "Harvard Business School",
+    "Dartmouth College",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Leon Botstein",
+   "url": "https://en.wikipedia.org/wiki/Leon_Botstein",
+   "qid": "Q2905309",
+   "description": "American conductor, educator (born 1946)",
+   "documents": [
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q2905309"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Leon_Botstein"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In 1967, after studying at the Boston University Tanglewood Institute, Botstein attended Harvard University, where he studied history under David Landes, writing on musical life of Vienna in the 19th and early 20th centuries, earning an MA in 1968.",
+       "url": "https://en.wikipedia.org/wiki/Leon_Botstein"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In 1985, he completed his Ph.D. in music history at Harvard and began retraining as a conductor with Harold Farberman, eventually leading the Hudson Valley Philharmonic Chamber Orchestra.",
+       "url": "https://en.wikipedia.org/wiki/Leon_Botstein"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "High School of Music & Art",
+    "University of Chicago",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Les Wexner",
+   "url": "https://en.wikipedia.org/wiki/Les_Wexner",
+   "qid": "Q1675849",
+   "description": "American businessman (born 1937)",
+   "documents": [
+    "Court documents",
+    "DOJ / Congressional release",
+    "Financial records"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 1993, Wexner hired Len Schlesinger, a Harvard Business School professor, whom he later appointed as a company director, to advise him.",
+       "url": "https://en.wikipedia.org/wiki/Les_Wexner"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "yes",
+    "orgs": [
+     "Sigma Alpha Mu"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikidata (member of)",
+      "text": "Sigma Alpha Mu (fraternity)",
+      "url": "https://www.wikidata.org/wiki/Q1675849"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "While a student at Ohio State University, he joined the Sigma Alpha Mu fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Les_Wexner"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "The award was presented by the Woodrow Wilson International Center for Scholars of the Smithsonian Institution in Washington, D.C. On February 16, 2011, Wexner pledged a donation of $100 million to Ohio State, to be allocated to the university's academic Medical Center and James Cancer Hospital and Solove Research Institute, with additional gifts to the Wexner Center for the Arts and other areas.",
+      "url": "https://en.wikipedia.org/wiki/Les_Wexner"
+     }
+    ]
+   },
+   "education": [
+    "Moritz College of Law",
+    "Bexley High School",
+    "Ohio State University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Lisa Randall",
+   "url": "https://en.wikipedia.org/wiki/Lisa_Randall",
+   "qid": "Q450404",
+   "description": "American theoretical physicist (b. 1962)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q450404"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University faculty",
+       "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Lisa Joy Randall (born June 18, 1962) is an American theoretical physicist and Frank B. Baird, Jr. Professor of Science at Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "She attended Harvard University, where she took Math 55, earned a BA in physics in 1983 and a PhD in theoretical particle physics in 1987 under Howard Georgi.",
+       "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
+      }
+     ]
+    },
+    "Princeton": {
+     "status": "possible",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Princeton University faculty",
+       "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After her graduate work at Harvard, Randall held professorships at MIT and Princeton University before returning to Harvard in 2001.",
+       "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Stuyvesant High School",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Lynn Forester de Rothschild",
+   "url": "https://en.wikipedia.org/wiki/Lynn_Forester_de_Rothschild",
+   "qid": "Q6709020",
+   "description": "American-British businesswoman (born 1954)",
+   "documents": [],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Columbia Law School",
+       "url": "https://www.wikidata.org/wiki/Q6709020"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Lynn_Forester_de_Rothschild"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "She studied at Pomona College and Columbia Law School, where she volunteered for the United States Senate campaign of Democrat Daniel Patrick Moynihan.",
+       "url": "https://en.wikipedia.org/wiki/Lynn_Forester_de_Rothschild"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Pomona College",
+    "Columbia Law School",
+    "Geneva Graduate Institute"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Marc Rowan",
+   "url": "https://en.wikipedia.org/wiki/Marc_Rowan",
+   "qid": "Q16194777",
+   "description": "American businessman (born 1962)",
+   "documents": [],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q16194777"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Rowan studied at the University of Pennsylvania, where financial hardship following his father's death might have ended his studies; instead, the university allowed him to complete his degree and settle the tuition when he was able.",
+       "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He graduated summa cum laude from the Wharton School with a B.S. and an M.B.A.",
+       "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In December 2023, Rowan led a group of University of Pennsylvania donors in calling for the removal of university president Liz Magill and board of trustees chair Scott Bok, citing concerns about the university's response to antisemitism following the Hamas-led attack from Gaza on Israel in October 2023.",
+       "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "John F. Kennedy High School",
+    "The Wharton School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Maria Drokova",
+   "url": "https://en.wikipedia.org/wiki/Maria_Drokova",
+   "qid": "Q120354266",
+   "description": "Russian investor and venture capitalist",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Faculty of Public Administration"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Mark Landon",
+   "url": "https://en.wikipedia.org/wiki/Mark_Landon",
+   "qid": "Q6768481",
+   "description": "American actor (1948–2009)",
+   "documents": [
+    "DOJ / Congressional release",
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Mark Zuckerberg",
+   "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg",
+   "qid": "Q36215",
+   "description": "American businessman and programmer (born 1984)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q36215"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Zuckerberg briefly attended Harvard College, and launched Facebook there in February 2004 with his roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes.",
+       "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Zuckerberg dropped out of Harvard in his second year in order to complete the project.",
+       "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "On May 25, 2017, at Harvard's 366th commencement day, Zuckerberg, after giving a commencement speech, received an honorary degree from Harvard.",
+       "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Alpha Epsilon Pi"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "The New Yorker noted that by the time Zuckerberg began classes at Harvard in 2002, he had already achieved a \"reputation as a programming prodigy\". He studied psychology and computer science, resided in Kirkland House, and belonged to Alpha Epsilon Pi. In his second year, he wrote a program that he called CourseMatch, which allowed users to make class selection decisions based on the choices of ot",
+      "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "\"On January 1, 2013, Mr. Zuckerberg's annual base salary was reduced to $1.\" In June 2016, Business Insider named Zuckerberg one of the \"Top 10 Business Visionaries Creating Value for the World\" along with Elon Musk and Sal Khan, due to the fact that he and his wife \"pledged to give away 99% of their wealth-then estimated at $55.0 billion\" (equivalent to $7.2240700516×1010 in 2025).",
+      "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "Later in 2020, the San Francisco Board of Supervisors passed a near-unanimous, non-binding measure condemning the renaming, citing concerns that a public hospital should not be named after an individual whose social media platform is accused of \"endangering public health, spreading misinformation, and violating privacy\". On December 1, 2015, the couple pledged to transfer 99% of their Facebook sha",
+      "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+     }
+    ]
+   },
+   "education": [
+    "Mercy University",
+    "Johns Hopkins Center for Talented Youth",
+    "Ardsley High School",
+    "New York Medical College",
+    "Phillips Exeter Academy",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Martin Nowak",
+   "url": "https://en.wikipedia.org/wiki/Martin_Nowak",
+   "qid": "Q87451",
+   "description": "Austrian-born scientist (born 1965)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University faculty",
+       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Martin Andreas Nowak (born April 7, 1965) is an Austrian-born professor of mathematics and biology at Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Nowak held faculty positions at Oxford University and the Institute for Advanced Study in Princeton, before beginning a post at Harvard in July 2003.",
+       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Nowak was one of the primary recipients of funding from child sex offender Jeffrey Epstein to Harvard faculty, and Epstein left Nowak US$5,000,000 in his trust.",
+       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 2003, he became a professor of mathematics and biology at Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Martin_Nowak"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of Vienna"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Marvin Minsky",
+   "url": "https://en.wikipedia.org/wiki/Marvin_Minsky",
+   "qid": "Q204815",
+   "description": "American cognitive scientist (1927–2016)",
+   "documents": [
+    "Court documents"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard College",
+       "url": "https://www.wikidata.org/wiki/Q204815"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q204815"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard College alumni",
+       "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Fellows",
+       "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Marvin Lee Minsky (August 9, 1927 – January 24, 2016) was an American mathematician who conducted research in the cognitive and computer science aspects of artificial intelligence (AI). After three years as a Junior Fellow of the Harvard Society of Fellows, Minsky joined the faculty at the Massachusetts Institute of Technology (MIT) in 1958 and spent the rest of his career at that institution.",
+       "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+      }
+     ]
+    },
+    "Princeton": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Princeton University",
+       "url": "https://www.wikidata.org/wiki/Q204815"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Princeton University alumni",
+       "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He served in the U.S. Navy from 1944 to 1945 before returning to his education and earning a A.B. in mathematics from Harvard University (1950) and a Ph.D. in mathematics from Princeton University (1954).",
+       "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Ethical Culture Fieldston School",
+    "Phillips Academy",
+    "Bronx High School of Science",
+    "Harvard College",
+    "Princeton University",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Miroslav Lajčák",
+   "url": "https://en.wikipedia.org/wiki/Miroslav_Laj%C4%8D%C3%A1k",
+   "qid": "Q467905",
+   "description": "Slovak politician and diplomat (born 1963)",
+   "documents": [
+    "DOJ / Congressional release",
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Faculty of Law at Comenius University in Bratislava",
+    "Moscow State Institute of International Relations"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Mohammed bin Salman",
+   "url": "https://en.wikipedia.org/wiki/Mohammed_bin_Salman",
+   "qid": "Q6892571",
+   "description": "Crown Prince of Saudi Arabia since 2017",
+   "documents": [
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Trump and Mohammed pledged \"close cooperation\" on security and economic issues and discussed the need to cut off support for terrorism, the diplomatic dispute with Qatar, and the push for peace between Israel and the Palestinians.",
+      "url": "https://en.wikipedia.org/wiki/Mohammed_bin_Salman"
+     }
+    ]
+   },
+   "education": [
+    "King Saud University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Mona Juul",
+   "url": "https://en.wikipedia.org/wiki/Mona_Juul",
+   "qid": "Q2370975",
+   "description": "Norwegian diplomat",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Faculty of social sciences"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Mortimer Zuckerman",
+   "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman",
+   "qid": "Q11693671",
+   "description": "Canadian businessman (born 1937)",
+   "documents": [
+    "Birthday book"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Law School",
+       "url": "https://www.wikidata.org/wiki/Q11693671"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School faculty",
+       "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In 1962, he received an LL.M. degree from Harvard Law School.",
+       "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After graduating, Zuckerman remained at Harvard Business School as an associate professor for nine years.",
+       "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+      }
+     ]
+    },
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q11693671"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Yale University faculty",
+       "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He also taught at Yale University.",
+       "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "In May 2004, Zuckerman pledged $10 million to Harvard University to fund a fellowship for students who are pursuing or have earned professional degree in law, business or medicine but are interested in a degree at Harvard’s Harvard Graduate School of Education, Harvard T.H. Chan School of Public Health, or the Harvard Kennedy School.",
+      "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "In May 2006, Zuckerman pledged $100 million from his charitable trust towards Memorial Sloan Kettering's new cancer research facility.",
+      "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "In December 2012, Zuckerman pledged $200 million to endow the Mortimer B. Zuckerman Mind Brain Behavior Institute at Columbia University.",
+      "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+     }
+    ]
+   },
+   "education": [
+    "McGill Faculty of Law",
+    "The Wharton School",
+    "Harvard Law School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Naomi Campbell",
+   "url": "https://en.wikipedia.org/wiki/Naomi_Campbell",
+   "qid": "Q199369",
+   "description": "British model (born 1970)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Barbara Speake Stage School",
+    "Dunraven School",
+    "Italia Conti Academy of Theatre Arts"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Nathan Myhrvold",
+   "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold",
+   "qid": "Q365578",
+   "description": "Chief Technology Officer at Microsoft",
+   "documents": [
+    "Emails",
+    "Birthday book"
+   ],
+   "schools": {
+    "Princeton": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Princeton University",
+       "url": "https://www.wikidata.org/wiki/Q365578"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Princeton University alumni",
+       "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Transferring from Santa Monica College, he studied mathematics (B.Sc.), and geophysics and space physics (Master's) at UCLA. He was awarded a Hertz Foundation Fellowship for graduate study and studied at Princeton University, where he earned a master's degree in mathematical economics and completed a Ph.D. in applied mathematics after completing a doctoral dissertation titled \"Vistas in curved spa",
+       "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Cameron heads a lab researching CRISPR-based technologies for studying RNA as an assistant professor of molecular biology at Princeton University.",
+       "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "The Mirman School",
+    "University of California, Los Angeles",
+    "Princeton University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Nathan Wolfe",
+   "url": "https://en.wikipedia.org/wiki/Nathan_Wolfe",
+   "qid": "Q15438588",
+   "description": "American virologist (born 1970)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q15438588"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Medical School alumni",
+       "url": "https://en.wikipedia.org/wiki/Nathan_Wolfe"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Stanford University",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Nick Candy",
+   "url": "https://en.wikipedia.org/wiki/Nick_Candy",
+   "qid": "Q41453559",
+   "description": "British luxury property developer and politician (born 1973)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Nicole Junkermann",
+   "url": "https://en.wikipedia.org/wiki/Nicole_Junkermann",
+   "qid": "Q131627413",
+   "description": "German businesswoman (born 1975)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Business School",
+       "url": "https://www.wikidata.org/wiki/Q131627413"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/Nicole_Junkermann"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Junkermann grew up in Marbella, Spain and studied business administration and management at the International University of Monaco (receiving a Bachelor's degree in 1998) and at Harvard Business School (studying in its programme for management development in 2002) in the United States.",
+       "url": "https://en.wikipedia.org/wiki/Nicole_Junkermann"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "International University of Monaco",
+    "Harvard Business School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Noam Chomsky",
+   "url": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+   "qid": "Q9049",
+   "description": "American linguist and activist (born 1928)",
+   "documents": [
+    "Court documents",
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia University faculty",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "MIT promoted him to the position of associate professor in 1957, and over the next year he was also a visiting professor at Columbia University.",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      }
+     ]
+    },
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q9049"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Fellows",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "During his postgraduate work in the Harvard Society of Fellows, Chomsky developed the theory of transformational grammar for which he earned his doctorate in 1955.",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "From 1951 to 1955, Chomsky was a member of the Society of Fellows at Harvard University, where he undertook research on what became his doctoral dissertation.",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Harvard professor George Armitage Miller was impressed by Chomsky's thesis and collaborated with him on several technical papers in mathematical linguistics.",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      }
+     ]
+    },
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "University of Pennsylvania",
+       "url": "https://www.wikidata.org/wiki/Q9049"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "University of Pennsylvania alumni",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He studied at the University of Pennsylvania.",
+       "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Central High School",
+    "University of Pennsylvania",
+    "Massachusetts Institute of Technology",
+    "Harvard University",
+    "Oak Lane Day School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Nouriel Roubini",
+   "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini",
+   "qid": "Q313923",
+   "description": "Iranian-American economist (born 1958)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q313923"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Roubini earned a BA in political economics at Bocconi University in Italy and a doctorate in international economics at Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He received a PhD in international economics in 1988 from Harvard University, where his adviser was Jeffrey Sachs.",
+       "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini"
+      }
+     ]
+    },
+    "Yale": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Yale University faculty",
+       "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "For much of the 1990s, Roubini taught at Yale and then in New York, while also working for stints at the International Monetary Fund (briefly as a summer intern and visiting scholar), and World Bank (briefly as a consultant).",
+       "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Bocconi University",
+    "Hebrew University of Jerusalem",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Paul Tweed",
+   "url": "https://en.wikipedia.org/wiki/Paul_Tweed",
+   "qid": "Q20687446",
+   "description": "Northern Irish lawyer",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Queen's University Belfast"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Peggy Siegal",
+   "url": "https://en.wikipedia.org/wiki/Peggy_Siegal",
+   "qid": "Q84323682",
+   "description": "American entertainment publicist (born 1947)",
+   "documents": [
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Peter Attia",
+   "url": "https://en.wikipedia.org/wiki/Peter_Attia",
+   "qid": "Q23712954",
+   "description": "Canadian-American author and licensed physician (born 1973)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Stanford University School of Medicine",
+    "Queen's University",
+    "Stanford University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Peter Mandelson",
+   "url": "https://en.wikipedia.org/wiki/Peter_Mandelson",
+   "qid": "Q310046",
+   "description": "British politician and diplomat (born 1953)",
+   "documents": [
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Hendon School",
+    "St Catherine's College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Peter Thiel",
+   "url": "https://en.wikipedia.org/wiki/Peter_Thiel",
+   "qid": "Q705525",
+   "description": "American entrepreneur and venture capitalist (born 1967)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "According to Geoff Shullenberger (managing director of Compact) and Moira Weigel (Assistant Professor of Comparative Literature, Harvard), Peter Thiel and Alex Karp built Palantir on the basis of their understanding of Leo Strauss and the Frankfurt School.",
+       "url": "https://en.wikipedia.org/wiki/Peter_Thiel"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "On 15 April 2008, Thiel pledged $500,000 to the newly created non-profit Seasteading Institute, directed by Patri Friedman, whose mission is \"to establish permanent, autonomous ocean communities to enable experimentation and innovation with diverse social, political, and legal systems.\" At one of the institute's conferences, he described seasteading as \"one of the few technological frontiers that ",
+      "url": "https://en.wikipedia.org/wiki/Peter_Thiel"
+     }
+    ]
+   },
+   "education": [
+    "Stanford Law School",
+    "San Mateo High School",
+    "Stanford University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Princess Sofia, Duchess of Värmland",
+   "url": "https://en.wikipedia.org/wiki/Princess_Sofia,_Duchess_of_V%C3%A4rmland",
+   "qid": "Q4988701",
+   "description": "Member of the Swedish royal family (born 1984)",
+   "documents": [
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Queen Mette-Marit of Norway",
+   "url": "https://en.wikipedia.org/wiki/Queen_Mette-Marit_of_Norway",
+   "qid": "Q470362",
+   "description": "Queen of Norway since 2026",
+   "documents": [
+    "DOJ / Congressional release",
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Bjørknes Private School",
+    "Wangaratta High School",
+    "Kristiansand Cathedral School",
+    "University of Agder",
+    "BI Norwegian Business School",
+    "University of Oslo",
+    "SOAS, University of London"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Reid Hoffman",
+   "url": "https://en.wikipedia.org/wiki/Reid_Hoffman",
+   "qid": "Q211098",
+   "description": "American internet entrepreneur (born 1967)",
+   "documents": [],
+   "schools": {
+    "Columbia": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 2024, Hoffman was appointed a Distinguished Fellow at the Columbia University Institute of Global Politics",
+       "url": "https://en.wikipedia.org/wiki/Reid_Hoffman"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "The Putney School",
+    "Wolfson College",
+    "Stanford University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Richard Axel",
+   "url": "https://en.wikipedia.org/wiki/Richard_Axel",
+   "qid": "Q211940",
+   "description": "American molecular biologist (born 1946)",
+   "documents": [],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Columbia University",
+       "url": "https://www.wikidata.org/wiki/Q211940"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia College, Columbia University alumni",
+       "url": "https://en.wikipedia.org/wiki/Richard_Axel"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia University alumni",
+       "url": "https://en.wikipedia.org/wiki/Richard_Axel"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Richard Axel (born July 2, 1946) is an American molecular biologist and university professor in the Department of Neuroscience at Columbia University and investigator at the Howard Hughes Medical Institute.",
+       "url": "https://en.wikipedia.org/wiki/Richard_Axel"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He graduated from Stuyvesant High School in 1963, (along with Bruce Bueno de Mesquita, Allan Lichtman, Ron Silver, and Alexander Rosenberg), received his B.A. in 1967 from Columbia University, and his M.D. in 1971 from Johns Hopkins University.",
+       "url": "https://en.wikipedia.org/wiki/Richard_Axel"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Stuyvesant High School",
+    "Johns Hopkins School of Medicine",
+    "Columbia University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Robert F. Kennedy Jr.",
+   "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.",
+   "qid": "Q1352872",
+   "description": "American politician (born 1954)",
+   "documents": [
+    "Flight logs",
+    "Emails"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q1352872"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr."
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Millbrook School",
+    "University of Virginia School of Law",
+    "Elisabeth Haub School of Law at Pace University",
+    "Sidwell Friends School",
+    "Georgetown Preparatory School",
+    "London School of Economics and Political Science",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Robert Lawrence Kuhn",
+   "url": "https://en.wikipedia.org/wiki/Robert_Lawrence_Kuhn",
+   "qid": "Q10489406",
+   "description": "American investment banker",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "yes",
+    "orgs": [
+     "Phi Beta Kappa Society"
+    ],
+    "honor_societies": [
+     "Phi Beta Kappa"
+    ],
+    "evidence": [
+     {
+      "source": "Wikidata (member of)",
+      "text": "Phi Beta Kappa Society (organization, learned society, honor society, academic publisher)",
+      "url": "https://www.wikidata.org/wiki/Q10489406"
+     }
+    ]
+   },
+   "education": [
+    "Sloan Fellows Program",
+    "Johns Hopkins University",
+    "University of California, Los Angeles",
+    "MIT Sloan School of Management"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Robert Maxwell",
+   "url": "https://en.wikipedia.org/wiki/Robert_Maxwell",
+   "qid": "Q333468",
+   "description": "British media proprietor (1923–1991)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [],
+   "verified": false
+  },
+  {
+   "name": "Robert Mugabe",
+   "url": "https://en.wikipedia.org/wiki/Robert_Mugabe",
+   "qid": "Q10707",
+   "description": "Leader of Zimbabwe from 1980 to 2017",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "He gave a speech at Salisbury's Rufaro Stadium announcing that Rhodesia would be renamed \"Zimbabwe\" and pledged racial reconciliation.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Mugabe"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "Mugabe's government had pledged support for the African National Congress and other anti-apartheid forces within South Africa but did not allow them to use Zimbabwe as a base for their military operations.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Mugabe"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "Following the collapse of the Marxist-Leninist regimes in the Soviet Union and the Eastern Bloc, in 1991 ZANU–PF removed references to \"Marxism-Leninism\" and \"scientific socialism\" in its material; Mugabe maintained that \"socialism remains our sworn ideology\". That year, Mugabe pledged himself to free market economics and accepted a structural adjustment programme provided by the International Mon",
+      "url": "https://en.wikipedia.org/wiki/Robert_Mugabe"
+     }
+    ]
+   },
+   "education": [
+    "University of London Worldwide",
+    "Kutama College",
+    "Achimota School",
+    "University of Fort Hare",
+    "University of South Africa",
+    "University of Oxford"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Robert Trivers",
+   "url": "https://en.wikipedia.org/wiki/Robert_Trivers",
+   "qid": "Q918334",
+   "description": "American biologist (1943–2026)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q918334"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University alumni",
+       "url": "https://en.wikipedia.org/wiki/Robert_Trivers"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University faculty",
+       "url": "https://en.wikipedia.org/wiki/Robert_Trivers"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Growing up in a diplomatic household, Robert Trivers attended schools in Berlin, Copenhagen and Washington D.C, before attending Phillips Academy in Massachusetts and going on to study American History at Harvard.",
+       "url": "https://en.wikipedia.org/wiki/Robert_Trivers"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Trivers studied evolutionary theory with Ernst Mayr and William Drury at Harvard from 1968 to 1972, when he earned his PhD in biology.",
+       "url": "https://en.wikipedia.org/wiki/Robert_Trivers"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Roger Schank",
+   "url": "https://en.wikipedia.org/wiki/Roger_Schank",
+   "qid": "Q611080",
+   "description": "American scientist (1946–2023)",
+   "documents": [],
+   "schools": {
+    "Yale": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Yale University faculty",
+       "url": "https://en.wikipedia.org/wiki/Roger_Schank"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "For his undergraduate degree, Schank studied mathematics at Carnegie Mellon University in Pittsburgh PA, and later was awarded a PhD in linguistics at the University of Texas in Austin and went on to work in faculty positions at Stanford University and then at Yale University.",
+       "url": "https://en.wikipedia.org/wiki/Roger_Schank"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 1974, he became professor of computer science and psychology at Yale University.",
+       "url": "https://en.wikipedia.org/wiki/Roger_Schank"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Stuyvesant High School",
+    "Carnegie Mellon University",
+    "University of Texas at Austin"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Ronald Lauder",
+   "url": "https://en.wikipedia.org/wiki/Ronald_Lauder",
+   "qid": "Q699565",
+   "description": "American businessman (born 1944)",
+   "documents": [
+    "DOJ / Congressional release"
+   ],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q699565"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Ronald_Lauder"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He attended the Bronx High School of Science and holds a bachelor's degree in International Business from the Wharton School of Business at the University of Pennsylvania.",
+       "url": "https://en.wikipedia.org/wiki/Ronald_Lauder"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Free University of Brussels",
+    "The Wharton School",
+    "Bronx High School of Science",
+    "University of Paris"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Sarah Ferguson",
+   "url": "https://en.wikipedia.org/wiki/Sarah_Ferguson",
+   "qid": "Q55720",
+   "description": "British former royal and author (born 1959)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Hurst Lodge School",
+    "Daneshill School"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Sergei Belyakov",
+   "url": "https://en.wikipedia.org/wiki/Sergei_Belyakov",
+   "qid": "Q4083560",
+   "description": "Russian government official and manager",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Academy of the Federal Security Service of the Russian Federation"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Sergey Brin",
+   "url": "https://en.wikipedia.org/wiki/Sergey_Brin",
+   "qid": "Q92764",
+   "description": "American computer scientist (born 1973)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Eleanor Roosevelt High School",
+    "Johns Hopkins Center for Talented Youth",
+    "University of Maryland",
+    "Stanford University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Soon-Yi Previn",
+   "url": "https://en.wikipedia.org/wiki/Soon-Yi_Previn",
+   "qid": "Q1140914",
+   "description": "Third wife of Woody Allen (born 1970)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Columbia": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Teachers College",
+       "url": "https://www.wikidata.org/wiki/Q1140914"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Columbia University",
+       "url": "https://www.wikidata.org/wiki/Q1140914"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Teachers College, Columbia University alumni",
+       "url": "https://en.wikipedia.org/wiki/Soon-Yi_Previn"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Previn graduated from Drew in 1995 with a degree in Art and earned a master's degree in special education from Columbia University in 1998.",
+       "url": "https://en.wikipedia.org/wiki/Soon-Yi_Previn"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Teachers College",
+    "Rider University",
+    "Drew University",
+    "Columbia University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Stacey Plaskett",
+   "url": "https://en.wikipedia.org/wiki/Stacey_Plaskett",
+   "qid": "Q18739104",
+   "description": "American politician (born 1966)",
+   "documents": [
+    "DOJ / Congressional release"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [
+     "Delta Sigma Theta"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "She was initiated into the St. Croix Alumnae Chapter of Delta Sigma Theta sorority in 2019.",
+      "url": "https://en.wikipedia.org/wiki/Stacey_Plaskett"
+     }
+    ]
+   },
+   "education": [
+    "Choate Rosemary Hall",
+    "Brooklyn Friends School",
+    "Georgetown University",
+    "Washington College of Law"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Stephen Hawking",
+   "url": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+   "qid": "Q17714",
+   "description": "English theoretical physicist (1942–2018)",
+   "documents": [
+    "Court documents"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Byron House School",
+    "St Albans School",
+    "St Albans High School for Girls",
+    "Trinity Hall",
+    "University College, Oxford",
+    "University of Cambridge"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Stephen Kosslyn",
+   "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn",
+   "qid": "Q2795008",
+   "description": "American psychologist, neuroscientist, and expert on learning (Born: 1948)",
+   "documents": [
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University Department of Psychology faculty",
+       "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "He is a former chair of the psychology department and dean of social sciences at Harvard University, where he is a professor emeritus.",
+       "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "After an appointment as assistant professor of psychology at Johns Hopkins, he joined the faculty at Harvard in 1977, where he later served as the departmental chair, Dean of Social Sciences, and the John Lindsley Professor.",
+       "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "A report from Harvard University shows that Kosslyn had known Epstein for about nine years and supported his application as a visiting fellow in the department of psychology in September 2005.",
+       "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of California, Los Angeles",
+    "Stanford University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Steve Bannon",
+   "url": "https://en.wikipedia.org/wiki/Steve_Bannon",
+   "qid": "Q16146870",
+   "description": "American media executive and political strategist (born 1953)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard Business School",
+       "url": "https://www.wikidata.org/wiki/Q16146870"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q16146870"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Business School alumni",
+       "url": "https://en.wikipedia.org/wiki/Steve_Bannon"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In 1985, Bannon earned a Master of Business Administration degree with honors from Harvard Business School.",
+       "url": "https://en.wikipedia.org/wiki/Steve_Bannon"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "Bannon met with Tino Chrupalla and pledged to support the AfD in their campaign for the 2019 Saxony state election.",
+      "url": "https://en.wikipedia.org/wiki/Steve_Bannon"
+     }
+    ]
+   },
+   "education": [
+    "Virginia Tech College of Architecture and Urban Studies",
+    "Benedictine High School",
+    "Walsh School of Foreign Service",
+    "Virginia Tech",
+    "Harvard Business School",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Steve Tisch",
+   "url": "https://en.wikipedia.org/wiki/Steve_Tisch",
+   "qid": "Q7482626",
+   "description": "American businessman and sports team owner (born 1949)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "The Gunnery",
+    "Tufts University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Steven Pinker",
+   "url": "https://en.wikipedia.org/wiki/Steven_Pinker",
+   "qid": "Q212730",
+   "description": "Canadian-American psycholinguist (born 1954)",
+   "documents": [],
+   "schools": {
+    "Harvard": {
+     "status": "yes",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Harvard University",
+       "url": "https://www.wikidata.org/wiki/Q212730"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard Graduate School of Arts and Sciences alumni",
+       "url": "https://en.wikipedia.org/wiki/Steven_Pinker"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University Department of Psychology faculty",
+       "url": "https://en.wikipedia.org/wiki/Steven_Pinker"
+      },
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "Pinker is the Johnstone Family professor of psychology at Harvard University.",
+       "url": "https://en.wikipedia.org/wiki/Steven_Pinker"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "He graduated from McGill University in 1976 with a Bachelor of Arts in psychology, then did doctoral studies in experimental psychology at Harvard University under Stephen Kosslyn, receiving a PhD in 1979.",
+       "url": "https://en.wikipedia.org/wiki/Steven_Pinker"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Wagar High School",
+    "Dawson College",
+    "McGill University",
+    "Harvard University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Steven Victor",
+   "url": "https://en.wikipedia.org/wiki/Steven_Victor",
+   "qid": "Q96002120",
+   "description": "American record executive",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Morehouse College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Sultan Ahmed bin Sulayem",
+   "url": "https://en.wikipedia.org/wiki/Sultan_Ahmed_bin_Sulayem",
+   "qid": "Q7636620",
+   "description": "Emirati businessman (born 1955)",
+   "documents": [
+    "DOJ / Congressional release"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Temple University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Terje Rød-Larsen",
+   "url": "https://en.wikipedia.org/wiki/Terje_R%C3%B8d-Larsen",
+   "qid": "Q1362257",
+   "description": "Norwegian diplomat, politician (born 1947)",
+   "documents": [
+    "DOJ / Congressional release"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of Oslo"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Thomas Pritzker",
+   "url": "https://en.wikipedia.org/wiki/Thomas_Pritzker",
+   "qid": "Q7793302",
+   "description": "American billionaire and businessman",
+   "documents": [
+    "DOJ / Congressional release",
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Claremont McKenna College",
+    "Booth School of Business",
+    "University of Chicago Law School",
+    "University of Chicago"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Thorbjørn Jagland",
+   "url": "https://en.wikipedia.org/wiki/Thorbj%C3%B8rn_Jagland",
+   "qid": "Q209611",
+   "description": "Norwegian politician (born 1950)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "The whole of my remaining realizable estate shall be dealt with in the following way...the capital, invested in safe securities by my executors, shall constitute a fund, the interest on which shall be annually distributed in the form of prizes to those who, during the preceding year, shall have conferred the greatest benefit to mankind... and one part to the person who shall have done the most or ",
+      "url": "https://en.wikipedia.org/wiki/Thorbj%C3%B8rn_Jagland"
+     }
+    ]
+   },
+   "education": [
+    "University of Oslo"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Todd Boehly",
+   "url": "https://en.wikipedia.org/wiki/Todd_Boehly",
+   "qid": "Q56513174",
+   "description": "American businessman (born 1973)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Landon School",
+    "College of William & Mary",
+    "London School of Economics and Political Science"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Tom Barrack",
+   "url": "https://en.wikipedia.org/wiki/Tom_Barrack",
+   "qid": "Q7791016",
+   "description": "American investor and diplomat (born 1947)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of San Diego School of Law",
+    "USC Gould School of Law",
+    "University of Southern California"
+   ],
+   "verified": false
+  },
+  {
+   "name": "V. S. Ramachandran",
+   "url": "https://en.wikipedia.org/wiki/V._S._Ramachandran",
+   "qid": "Q380221",
+   "description": "Indian-American neuroscientist (born 1951)",
+   "documents": [],
+   "schools": {
+    "Columbia": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Columbia University staff",
+       "url": "https://en.wikipedia.org/wiki/V._S._Ramachandran"
+      }
+     ]
+    },
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia category",
+       "text": "Harvard University staff",
+       "url": "https://en.wikipedia.org/wiki/V._S._Ramachandran"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "University of Madras",
+    "Trinity College"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Vitaly Churkin",
+   "url": "https://en.wikipedia.org/wiki/Vitaly_Churkin",
+   "qid": "Q1394102",
+   "description": "Russian diplomat (1952–2017)",
+   "documents": [],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Diplomatic Academy of the Ministry of Foreign Affairs of the Russian Federation",
+    "Moscow State Institute of International Relations"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Woody Allen",
+   "url": "https://en.wikipedia.org/wiki/Woody_Allen",
+   "qid": "Q25089",
+   "description": "American filmmaker and actor (born 1935)",
+   "documents": [
+    "Emails",
+    "Photographs"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Midwood High School",
+    "New York University Tisch School of the Arts",
+    "New York University"
+   ],
+   "verified": false
+  }
+ ]
+}
