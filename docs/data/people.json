@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-09-30T19:34:42+00:00",
+  "generated": "2026-09-30T19:38:33+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "member_list_error": null,
@@ -2227,14 +2227,14 @@
    },
    "orgs": [],
    "education": [
+    "Georgetown University Law Center",
     "University of Florida",
-    "Walsh School of Foreign Service",
-    "Georgetown University Law Center"
+    "Walsh School of Foreign Service"
    ],
    "verified": true,
    "colleges": [
-    "University of Florida",
-    "Georgetown University"
+    "Georgetown University",
+    "University of Florida"
    ]
   },
   {
@@ -5508,9 +5508,9 @@
     }
    ],
    "education": [
+    "University of California, Berkeley",
     "Birmingham High School",
-    "The Wharton School",
-    "University of California, Berkeley"
+    "The Wharton School"
    ],
    "verified": true,
    "note": "Member at UC Berkeley.",
@@ -7668,19 +7668,19 @@
    },
    "orgs": [],
    "education": [
+    "Virginia Tech College of Architecture and Urban Studies",
     "Benedictine High School",
     "Walsh School of Foreign Service",
     "Virginia Tech",
     "Harvard Business School",
-    "Harvard University",
-    "Virginia Tech College of Architecture and Urban Studies"
+    "Harvard University"
    ],
    "verified": false,
    "colleges": [
     "Harvard University",
+    "Virginia Tech College of Architecture and Urban Studies",
     "Georgetown University",
-    "Virginia Tech",
-    "Virginia Tech College of Architecture and Urban Studies"
+    "Virginia Tech"
    ]
   },
   {
