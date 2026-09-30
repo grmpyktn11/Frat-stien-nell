@@ -1,9 +1,9 @@
 {
  "meta": {
-  "generated": "2026-09-30T18:45:03+00:00",
+  "generated": "2026-09-30T18:49:05+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
-  "member_list_error": "Traceback (most recent call last):\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/run.py\", line 110, in main\n    listed = lookup(set(pages), existing)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/member_lists.py\", line 178, in lookup\n    canon = resolve(sorted(all_links))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/member_lists.py\", line 79, in existing\n    q = wp({\"action\": \"query\", \"titles\": \"|\".join(batch), \"redirects\": 1}).get(\"query\", {})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/common.py\", line 34, in wp\n    return get_json(WP_API, base, post=len(str(params.get(\"titles\", \"\"))) > 1500)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/common.py\", line 20, in get_json\n    raise requests.HTTPError(f\"HTTP {r.status_code}\")\nrequests.exceptions.HTTPError: HTTP 429\n",
+  "member_list_error": null,
   "counts": {
    "people": 210,
    "epstein": 152,
@@ -47,10 +47,10 @@
      "possible": 0
     }
    },
-   "frat_yes": 19,
+   "frat_yes": 23,
    "frat_possible": 0,
-   "orgs_yes": 2,
-   "orgs_possible": 11
+   "orgs_yes": 7,
+   "orgs_possible": 10
   }
  },
  "people": [
@@ -216,10 +216,18 @@
    "cases": [],
    "schools": {},
    "frat": {
-    "status": "no",
-    "orgs": [],
+    "status": "yes",
+    "orgs": [
+     "Kappa Alpha Psi"
+    ],
     "honor_societies": [],
-    "evidence": []
+    "evidence": [
+     {
+      "source": "Wikipedia: List of Kappa Alpha Psi members",
+      "text": "name=Albert Bryan",
+      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Alpha_Psi_members"
+     }
+    ]
    },
    "orgs": [],
    "education": [
@@ -786,6 +794,11 @@
       "source": "Wikipedia article text",
       "text": "Madoff attended the University of Alabama for one year, where he became a brother of the Tau chapter of the Sigma Alpha Mu fraternity, then transferred to and graduated from Hofstra University in 1960 with a Bachelor of Arts in political science.",
       "url": "https://en.wikipedia.org/wiki/Bernie_Madoff"
+     },
+     {
+      "source": "Wikipedia: List of Sigma Alpha Mu members",
+      "text": "Bernard Madoff, former stockbroker, investment advisor, financier, and white collar criminal",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Alpha_Mu_members"
      }
     ]
    },
@@ -867,6 +880,46 @@
       "source": "Wikipedia article text",
       "text": "He is a member of Kappa Kappa Psi honorary band fraternity.",
       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+     },
+     {
+      "source": "Wikipedia: List of Alpha Delta Pi members",
+      "text": "Carol Rasco (Delta Delta) – Director of the Domestic Policy Council under President Bill Clinton from 1993 to 1996",
+      "url": "https://en.wikipedia.org/wiki/List_of_Alpha_Delta_Pi_members"
+     },
+     {
+      "source": "Wikipedia: List of Alpha Phi Omega members",
+      "text": "{{Mem/f|name=Bill Clinton |chapter=Mu Alpha |nota=Forty-second president of the United States (1993–2001)|ref=",
+      "url": "https://en.wikipedia.org/wiki/List_of_Alpha_Phi_Omega_members"
+     },
+     {
+      "source": "Wikipedia: List of Delta Sigma Theta members",
+      "text": "nota=Founder and former chair of the Department of African American Studies, Northeastern University; former president and CEO of the National Urban Coalition; created the M. Carl Holman Leadership Development Institute and Executive Leadership Program to bring minorities into leadership development",
+      "url": "https://en.wikipedia.org/wiki/List_of_Delta_Sigma_Theta_members"
+     },
+     {
+      "source": "Wikipedia: List of Kappa Kappa Psi members",
+      "text": "Bill Clinton, President of the United States",
+      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Kappa_Psi_members"
+     },
+     {
+      "source": "Wikipedia: List of Kappa Sigma members",
+      "text": "David E. Kendall (Alpha-Pi), Attorney to President Bill Clinton",
+      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Sigma_members"
+     },
+     {
+      "source": "Wikipedia: List of Phi Beta Sigma members",
+      "text": "name=Bill Clinton",
+      "url": "https://en.wikipedia.org/wiki/List_of_Phi_Beta_Sigma_members"
+     },
+     {
+      "source": "Wikipedia: List of Pi Lambda Phi members",
+      "text": "IL Omicron || 1927 || U.S. Representative (D), 9th District, Illinois, from 1949 to 1963 and 1965 to 1999. Presented with the Presidential Citizens Medal by President Bill Clinton in 1993. Died 2000.",
+      "url": "https://en.wikipedia.org/wiki/List_of_Pi_Lambda_Phi_members"
+     },
+     {
+      "source": "Wikipedia: List of Sigma Chi members",
+      "text": "",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Chi_members"
      }
     ]
    },
@@ -878,6 +931,11 @@
      "status": "yes",
      "evidence": [
       {
+       "source": "Wikipedia: List of Phi Beta Kappa members",
+       "text": "",
+       "url": "https://en.wikipedia.org/wiki/List_of_Phi_Beta_Kappa_members"
+      },
+      {
        "source": "Wikidata (member of)",
        "text": "Phi Beta Kappa Society",
        "url": "https://www.wikidata.org/wiki/Q1124"
@@ -886,6 +944,32 @@
        "source": "Wikipedia article text",
        "text": "While in college, he became a brother of service fraternity Alpha Phi Omega and was elected to Phi Beta Kappa.",
        "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      }
+     ]
+    },
+    {
+     "name": "Sphinx Senior Society",
+     "kind": "society",
+     "school": "Penn",
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikipedia: Sphinx Senior Society",
+       "text": "Richard Clarke - National Counterterrorism Center Director under Presidents Bill Clinton and George W. Bush - 1972",
+       "url": "https://en.wikipedia.org/wiki/Sphinx_Senior_Society"
+      }
+     ]
+    },
+    {
+     "name": "The Harvard Crimson",
+     "kind": "publication",
+     "school": "Harvard",
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikipedia: List of The Harvard Crimson people",
+       "text": "Nicole Seligman, attorney for Bill Clinton during his impeachment trial and director for OpenAI",
+       "url": "https://en.wikipedia.org/wiki/List_of_The_Harvard_Crimson_people"
       }
      ]
     }
@@ -929,6 +1013,11 @@
       "source": "Wikipedia article text",
       "text": "He is also a member of the Omega Psi Phi fraternity; he was initiated in the fraternity's Beta Alpha Alpha graduate chapter in White Plains, New York, in 1988, and served briefly on the board of directors for the CDC Foundation.",
       "url": "https://en.wikipedia.org/wiki/Bill_Cosby"
+     },
+     {
+      "source": "Wikipedia: List of Omega Psi Phi members",
+      "text": "name=Bill Cosby",
+      "url": "https://en.wikipedia.org/wiki/List_of_Omega_Psi_Phi_members"
      }
     ]
    },
@@ -989,12 +1078,46 @@
     }
    },
    "frat": {
-    "status": "no",
-    "orgs": [],
+    "status": "yes",
+    "orgs": [
+     "Chi Psi",
+     "Kappa Alpha Theta",
+     "Kappa Kappa Gamma"
+    ],
     "honor_societies": [],
-    "evidence": []
+    "evidence": [
+     {
+      "source": "Wikipedia: List of Chi Psi members",
+      "text": "William Henry Gates Sr., attorney, philanthropist, and father of Microsoft founder Bill Gates",
+      "url": "https://en.wikipedia.org/wiki/List_of_Chi_Psi_members"
+     },
+     {
+      "source": "Wikipedia: List of Kappa Alpha Theta members",
+      "text": "Melinda Gates (Beta Rho, Duke) – former wife of Bill Gates; co-founder of Bill & Melinda Gates Foundation",
+      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Alpha_Theta_members"
+     },
+     {
+      "source": "Wikipedia: List of Kappa Kappa Gamma members",
+      "text": "Banker, civic activist, non-profit executive, and mother of Bill Gates",
+      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Kappa_Gamma_members"
+     }
+    ]
    },
-   "orgs": [],
+   "orgs": [
+    {
+     "name": "Fox Club",
+     "kind": "club",
+     "school": "Harvard",
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikipedia: Fox Club",
+       "text": "Bill Gates, co-founder of Microsoft and co-chair of the Bill & Melinda Gates Foundation",
+       "url": "https://en.wikipedia.org/wiki/Fox_Club"
+      }
+     ]
+    }
+   ],
    "education": [
     "Lakeside School",
     "Harvard College"
@@ -1114,6 +1237,11 @@
       "source": "Wikipedia article text",
       "text": "Richardson earned a Bachelor's degree at Tufts University in 1970, majoring in French and political science, and was a member and president of Delta Tau Delta fraternity.",
       "url": "https://en.wikipedia.org/wiki/Bill_Richardson"
+     },
+     {
+      "source": "Wikipedia: List of Delta Tau Delta members",
+      "text": "Bill Richardson, Governor of New Mexico and U.S. Secretary of Energy",
+      "url": "https://en.wikipedia.org/wiki/List_of_Delta_Tau_Delta_members"
      }
     ]
    },
@@ -2138,12 +2266,65 @@
     }
    },
    "frat": {
-    "status": "no",
-    "orgs": [],
+    "status": "yes",
+    "orgs": [
+     "Kappa Alpha Theta",
+     "Sigma Chi",
+     "Sigma Nu",
+     "Zeta Psi"
+    ],
     "honor_societies": [],
-    "evidence": []
+    "evidence": [
+     {
+      "source": "Wikipedia: List of Kappa Alpha Theta members",
+      "text": "Tiffany Trump (Beta Eta, University of Pennsylvania) – socialite, law school graduate, daughter of Donald Trump",
+      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Alpha_Theta_members"
+     },
+     {
+      "source": "Wikipedia: List of Sigma Chi members",
+      "text": "",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Chi_members"
+     },
+     {
+      "source": "Wikipedia: List of Sigma Nu members",
+      "text": "nota=United States district judge appointed by President Donald Trump in 2020.",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Nu_members"
+     },
+     {
+      "source": "Wikipedia: List of Zeta Psi members",
+      "text": "nota=National Security Council Coordinator for the Middle East and North Africa, served in senior national security positions in Bush, Obama, and Trump administrations.",
+      "url": "https://en.wikipedia.org/wiki/List_of_Zeta_Psi_members"
+     }
+    ]
    },
-   "orgs": [],
+   "orgs": [
+    {
+     "name": "The Stanford Review",
+     "kind": "publication",
+     "school": "Stanford",
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikipedia: The Stanford Review",
+       "text": "Kevin Warsh (graduated 1992, former writer), former member of the Federal Reserve Board of Governors (2006–2011), nominated by President Donald Trump in January 2026 to serve as Chair of the Federal Reserve.",
+       "url": "https://en.wikipedia.org/wiki/The_Stanford_Review"
+      }
+     ]
+    },
+    {
+     "name": "The Harvard Crimson",
+     "kind": "publication",
+     "school": "Harvard",
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikipedia: List of The Harvard Crimson people",
+       "text": "Harry Hurt III, writer, professional golfer, and biographer of Donald Trump",
+       "url": "https://en.wikipedia.org/wiki/List_of_The_Harvard_Crimson_people"
+      }
+     ]
+    }
+   ],
    "education": [
     "The Kew-Forest School",
     "New York Military Academy",
@@ -2413,6 +2594,19 @@
      ]
     },
     {
+     "name": "Phi Beta Kappa",
+     "kind": "honor",
+     "school": null,
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikipedia: List of Phi Beta Kappa members",
+       "text": "",
+       "url": "https://en.wikipedia.org/wiki/List_of_Phi_Beta_Kappa_members"
+      }
+     ]
+    },
+    {
      "evidence": [
       {
        "source": "The Daily Princetonian",
@@ -2551,6 +2745,11 @@
       "source": "Wikipedia article text",
       "text": "She was a member of Kappa Alpha Theta at Stanford.",
       "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+     },
+     {
+      "source": "Wikipedia: List of Kappa Alpha Theta members",
+      "text": "Elizabeth Holmes (Phi Deuteron, Stanford) – founder and former CEO of now-defunct Theranos, convicted of criminal fraud",
+      "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Alpha_Theta_members"
      }
     ]
    },
@@ -2856,10 +3055,18 @@
    "cases": [],
    "schools": {},
    "frat": {
-    "status": "no",
-    "orgs": [],
+    "status": "yes",
+    "orgs": [
+     "Sigma Nu"
+    ],
     "honor_societies": [],
-    "evidence": []
+    "evidence": [
+     {
+      "source": "Wikipedia: List of Sigma Nu members",
+      "text": "name=George J. Mitchell",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Nu_members"
+     }
+    ]
    },
    "orgs": [],
    "education": [
@@ -3414,6 +3621,11 @@
       "source": "Wikipedia article text",
       "text": "He graduated from West Aurora High School and received a full scholarship to Southern Methodist University in Dallas, Texas, where he was a member of the Beta Theta Pi fraternity.",
       "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling"
+     },
+     {
+      "source": "Wikipedia: List of Beta Theta Pi members",
+      "text": "Jeffrey Skilling||Southern Methodist 1975||CEO of Enron; convicted on charges related to Enron's financial collapse",
+      "url": "https://en.wikipedia.org/wiki/List_of_Beta_Theta_Pi_members"
      }
     ]
    },
@@ -3832,6 +4044,16 @@
       "source": "Wikipedia article text",
       "text": "During summer vacations in 1983 and 1984, Harris managed operations of a lemonade stand business with locations at the National Zoo and Farragut North station in Washington, D.C. He is a member of the Sigma Alpha Epsilon fraternity.",
       "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+     },
+     {
+      "source": "Wikipedia: List of Phi Delta Theta members",
+      "text": "Josh Harris, Wharton School, 1986 – co-founder of Apollo Global Management and owner of several sports teams",
+      "url": "https://en.wikipedia.org/wiki/List_of_Phi_Delta_Theta_members"
+     },
+     {
+      "source": "Wikipedia: List of Sigma Alpha Epsilon members",
+      "text": "Josh Harris – co-founder of Apollo Global Management and owner of several sports teams",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Alpha_Epsilon_members"
      }
     ]
    },
@@ -4074,6 +4296,11 @@
       "source": "Wikipedia article text",
       "text": "He served as president of the Zeta Phi chapter of the Beta Theta Pi fraternity at the University of Missouri.",
       "url": "https://en.wikipedia.org/wiki/Kenneth_Lay"
+     },
+     {
+      "source": "Wikipedia: List of Beta Theta Pi members",
+      "text": "Kenneth Lay||Missouri 1967||Chairman and CEO of Enron; indicted/convicted on charges related to Enron's financial collapse",
+      "url": "https://en.wikipedia.org/wiki/List_of_Beta_Theta_Pi_members"
      }
     ]
    },
@@ -4678,6 +4905,11 @@
       "source": "Wikipedia article text",
       "text": "While a student at Ohio State University, he joined the Sigma Alpha Mu fraternity.",
       "url": "https://en.wikipedia.org/wiki/Les_Wexner"
+     },
+     {
+      "source": "Wikipedia: List of Sigma Alpha Mu members",
+      "text": "Les Wexner, chairman of The Limited, Structure, Bath and Body Works, and Express",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Alpha_Mu_members"
      }
     ]
    },
@@ -4757,7 +4989,21 @@
     "honor_societies": [],
     "evidence": []
    },
-   "orgs": [],
+   "orgs": [
+    {
+     "name": "Phi Beta Kappa",
+     "kind": "honor",
+     "school": null,
+     "status": "yes",
+     "evidence": [
+      {
+       "source": "Wikipedia: List of Phi Beta Kappa members",
+       "text": "",
+       "url": "https://en.wikipedia.org/wiki/List_of_Phi_Beta_Kappa_members"
+      }
+     ]
+    }
+   ],
    "education": [
     "Stuyvesant High School",
     "Harvard University"
@@ -5017,6 +5263,11 @@
       "source": "Wikipedia article text",
       "text": "The New Yorker noted that by the time Zuckerberg began classes at Harvard in 2002, he had already achieved a \"reputation as a programming prodigy\". He studied psychology and computer science, resided in Kirkland House, and belonged to Alpha Epsilon Pi. In his second year, he wrote a program that he called CourseMatch, which allowed users to make class selection decisions based on the choices of ot",
       "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+     },
+     {
+      "source": "Wikipedia: List of Alpha Epsilon Pi members",
+      "text": "name=Mark Zuckerberg",
+      "url": "https://en.wikipedia.org/wiki/List_of_Alpha_Epsilon_Pi_members"
      }
     ]
    },
@@ -5381,6 +5632,11 @@
       "source": "Wikipedia article text",
       "text": "He was elected to Phi Beta Kappa and was a member of the Sigma Alpha Mu fraternity.",
       "url": "https://en.wikipedia.org/wiki/Michael_Milken"
+     },
+     {
+      "source": "Wikipedia: List of Sigma Alpha Mu members",
+      "text": "Michael Milken, financial executive for Drexel Burnham Lambert",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Alpha_Mu_members"
      }
     ]
    },
@@ -5405,9 +5661,9 @@
     }
    ],
    "education": [
+    "University of California, Berkeley",
     "Birmingham High School",
-    "The Wharton School",
-    "University of California, Berkeley"
+    "The Wharton School"
    ],
    "verified": true,
    "note": "Member at UC Berkeley.",
@@ -6140,8 +6396,13 @@
      "name": "Quill and Dagger",
      "kind": "society",
      "school": "Cornell",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
+      {
+       "source": "Wikipedia: List of Quill and Dagger members",
+       "text": "Paul Wolfowitz (1965) – United States Deputy Secretary of Defense (2001–2005); World Bank President (2005–2007); United States Director of Policy Planning (1981–1982)",
+       "url": "https://en.wikipedia.org/wiki/List_of_Quill_and_Dagger_members"
+      },
       {
        "source": "Wikipedia article text",
        "text": "Wolfowitz was a member of the Quill and Dagger society.",
@@ -6329,8 +6590,13 @@
      "name": "The Stanford Review",
      "kind": "publication",
      "school": "Stanford",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
+      {
+       "source": "Wikipedia: The Stanford Review",
+       "text": "Peter Thiel (graduated 1989, founding editor-in-chief from 1987–1989), co-founder of PayPal, Founders Fund, Palantir Technologies",
+       "url": "https://en.wikipedia.org/wiki/The_Stanford_Review"
+      },
       {
        "source": "Wikipedia article text",
        "text": "Thiel was The Stanford Review's first editor-in-chief until he graduated in 1989.",
@@ -6728,17 +6994,17 @@
     }
    ],
    "education": [
-    "Sloan Fellows Program",
     "Johns Hopkins University",
     "University of California, Los Angeles",
-    "MIT Sloan School of Management"
+    "MIT Sloan School of Management",
+    "Sloan Fellows Program"
    ],
    "verified": false,
    "colleges": [
-    "Sloan Fellows Program",
     "Johns Hopkins University",
     "UCLA",
-    "Massachusetts Institute of Technology"
+    "Massachusetts Institute of Technology",
+    "Sloan Fellows Program"
    ]
   },
   {
@@ -7453,10 +7719,10 @@
    "education": [
     "Byron House School",
     "St Albans School",
-    "St Albans High School for Girls",
     "Trinity Hall",
     "University College, Oxford",
-    "University of Cambridge"
+    "University of Cambridge",
+    "St Albans High School for Girls"
    ],
    "verified": false,
    "colleges": [
@@ -7645,6 +7911,11 @@
       "source": "Wikipedia article text",
       "text": "After high school, Wynn studied English literature at the University of Pennsylvania, where he was a member of the Sigma Alpha Mu fraternity.",
       "url": "https://en.wikipedia.org/wiki/Steve_Wynn"
+     },
+     {
+      "source": "Wikipedia: List of Sigma Alpha Mu members",
+      "text": "Steve Wynn, owner of the Wynn Las Vegas, Golden Nugget Las Vegas, The Mirage, Treasure Island Hotel and Casino, and Bellagio in Las Vegas, Nevada",
+      "url": "https://en.wikipedia.org/wiki/List_of_Sigma_Alpha_Mu_members"
      }
     ]
    },

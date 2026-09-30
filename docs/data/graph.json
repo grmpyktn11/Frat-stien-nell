@@ -1762,6 +1762,12 @@
    "count": 2
   },
   {
+   "id": "f:Chi Psi",
+   "type": "frat",
+   "label": "Chi Psi",
+   "count": 1
+  },
+  {
    "id": "f:Delta Phi Epsilon",
    "type": "frat",
    "label": "Delta Phi Epsilon",
@@ -1786,9 +1792,21 @@
    "count": 2
   },
   {
+   "id": "f:Kappa Alpha Psi",
+   "type": "frat",
+   "label": "Kappa Alpha Psi",
+   "count": 1
+  },
+  {
    "id": "f:Kappa Alpha Theta",
    "type": "frat",
    "label": "Kappa Alpha Theta",
+   "count": 3
+  },
+  {
+   "id": "f:Kappa Kappa Gamma",
+   "type": "frat",
+   "label": "Kappa Kappa Gamma",
    "count": 1
   },
   {
@@ -1828,9 +1846,27 @@
    "count": 5
   },
   {
+   "id": "f:Sigma Chi",
+   "type": "frat",
+   "label": "Sigma Chi",
+   "count": 1
+  },
+  {
+   "id": "f:Sigma Nu",
+   "type": "frat",
+   "label": "Sigma Nu",
+   "count": 2
+  },
+  {
    "id": "f:Sigma Phi Epsilon",
    "type": "frat",
    "label": "Sigma Phi Epsilon",
+   "count": 1
+  },
+  {
+   "id": "f:Zeta Psi",
+   "type": "frat",
+   "label": "Zeta Psi",
    "count": 1
   },
   {
@@ -1839,6 +1875,14 @@
    "kind": "club",
    "school": "Bucknell",
    "label": "Cap and Dagger",
+   "count": 1
+  },
+  {
+   "id": "o:Fox Club",
+   "type": "club",
+   "kind": "club",
+   "school": "Harvard",
+   "label": "Fox Club",
    "count": 1
   },
   {
@@ -1855,7 +1899,7 @@
    "kind": "honor",
    "school": null,
    "label": "Phi Beta Kappa",
-   "count": 3
+   "count": 5
   },
   {
    "id": "o:Princeton Undergraduate Student Government",
@@ -1864,6 +1908,38 @@
    "school": "Princeton",
    "label": "Princeton Undergraduate Student Government",
    "count": 1
+  },
+  {
+   "id": "o:Quill and Dagger",
+   "type": "club",
+   "kind": "society",
+   "school": "Cornell",
+   "label": "Quill and Dagger",
+   "count": 1
+  },
+  {
+   "id": "o:Sphinx Senior Society",
+   "type": "club",
+   "kind": "society",
+   "school": "Penn",
+   "label": "Sphinx Senior Society",
+   "count": 1
+  },
+  {
+   "id": "o:The Harvard Crimson",
+   "type": "club",
+   "kind": "publication",
+   "school": "Harvard",
+   "label": "The Harvard Crimson",
+   "count": 2
+  },
+  {
+   "id": "o:The Stanford Review",
+   "type": "club",
+   "kind": "publication",
+   "school": "Stanford",
+   "label": "The Stanford Review",
+   "count": 2
   }
  ],
  "links": [
@@ -2818,6 +2894,11 @@
    "kind": "frat"
   },
   {
+   "source": "p:Bill Gates",
+   "target": "f:Chi Psi",
+   "kind": "frat"
+  },
+  {
    "source": "p:Ken Starr",
    "target": "f:Delta Phi Epsilon",
    "kind": "frat"
@@ -2843,8 +2924,28 @@
    "kind": "frat"
   },
   {
+   "source": "p:Albert Bryan Jr.",
+   "target": "f:Kappa Alpha Psi",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Bill Gates",
+   "target": "f:Kappa Alpha Theta",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Donald Trump",
+   "target": "f:Kappa Alpha Theta",
+   "kind": "frat"
+  },
+  {
    "source": "p:Elizabeth Holmes",
    "target": "f:Kappa Alpha Theta",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Bill Gates",
+   "target": "f:Kappa Kappa Gamma",
    "kind": "frat"
   },
   {
@@ -2898,13 +2999,38 @@
    "kind": "frat"
   },
   {
+   "source": "p:Donald Trump",
+   "target": "f:Sigma Chi",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Donald Trump",
+   "target": "f:Sigma Nu",
+   "kind": "frat"
+  },
+  {
+   "source": "p:George J. Mitchell",
+   "target": "f:Sigma Nu",
+   "kind": "frat"
+  },
+  {
    "source": "p:Doug Band",
    "target": "f:Sigma Phi Epsilon",
    "kind": "frat"
   },
   {
+   "source": "p:Donald Trump",
+   "target": "f:Zeta Psi",
+   "kind": "frat"
+  },
+  {
    "source": "p:Les Moonves",
    "target": "o:Cap and Dagger",
+   "kind": "club"
+  },
+  {
+   "source": "p:Bill Gates",
+   "target": "o:Fox Club",
    "kind": "club"
   },
   {
@@ -2914,6 +3040,16 @@
   },
   {
    "source": "p:Bill Clinton",
+   "target": "o:Phi Beta Kappa",
+   "kind": "club"
+  },
+  {
+   "source": "p:Eliot Spitzer",
+   "target": "o:Phi Beta Kappa",
+   "kind": "club"
+  },
+  {
+   "source": "p:Lisa Randall",
    "target": "o:Phi Beta Kappa",
    "kind": "club"
   },
@@ -2931,13 +3067,43 @@
    "source": "p:Eliot Spitzer",
    "target": "o:Princeton Undergraduate Student Government",
    "kind": "club"
+  },
+  {
+   "source": "p:Paul Wolfowitz",
+   "target": "o:Quill and Dagger",
+   "kind": "club"
+  },
+  {
+   "source": "p:Bill Clinton",
+   "target": "o:Sphinx Senior Society",
+   "kind": "club"
+  },
+  {
+   "source": "p:Bill Clinton",
+   "target": "o:The Harvard Crimson",
+   "kind": "club"
+  },
+  {
+   "source": "p:Donald Trump",
+   "target": "o:The Harvard Crimson",
+   "kind": "club"
+  },
+  {
+   "source": "p:Donald Trump",
+   "target": "o:The Stanford Review",
+   "kind": "club"
+  },
+  {
+   "source": "p:Peter Thiel",
+   "target": "o:The Stanford Review",
+   "kind": "club"
   }
  ],
  "counts": {
   "people_linked": 136,
   "people_unlinked": 74,
   "colleges": 43,
-  "frats": 15,
-  "clubs": 4
+  "frats": 21,
+  "clubs": 9
  }
 }

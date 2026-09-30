@@ -1,3 +1,5 @@
+218 raw entries from rev 1376910601 (+60 scandal entries)
+  fetched 0/201
   fetched 25/201
   fetched 50/201
   fetched 75/201
@@ -6,29 +8,12 @@
   fetched 150/201
   fetched 175/201
   fetched 200/201
-Traceback (most recent call last):
-  File "/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/run.py", line 110, in main
-    listed = lookup(set(pages), existing)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/member_lists.py", line 178, in lookup
-    canon = resolve(sorted(all_links))
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/member_lists.py", line 79, in existing
-    q = wp({"action": "query", "titles": "|".join(batch), "redirects": 1}).get("query", {})
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/common.py", line 34, in wp
-    return get_json(WP_API, base, post=len(str(params.get("titles", ""))) > 1500)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/common.py", line 20, in get_json
-    raise requests.HTTPError(f"HTTP {r.status_code}")
-requests.exceptions.HTTPError: HTTP 429
-
-member lists matched 0 people
+member lists matched 20 people
 {
- "generated": "2026-09-30T18:45:03+00:00",
+ "generated": "2026-09-30T18:49:05+00:00",
  "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
  "source_revision": 1376910601,
- "member_list_error": "Traceback (most recent call last):\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/run.py\", line 110, in main\n    listed = lookup(set(pages), existing)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/member_lists.py\", line 178, in lookup\n    canon = resolve(sorted(all_links))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/member_lists.py\", line 79, in existing\n    q = wp({\"action\": \"query\", \"titles\": \"|\".join(batch), \"redirects\": 1}).get(\"query\", {})\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/common.py\", line 34, in wp\n    return get_json(WP_API, base, post=len(str(params.get(\"titles\", \"\"))) > 1500)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Frat-stien-nell/Frat-stien-nell/pipeline/common.py\", line 20, in get_json\n    raise requests.HTTPError(f\"HTTP {r.status_code}\")\nrequests.exceptions.HTTPError: HTTP 429\n",
+ "member_list_error": null,
  "counts": {
   "people": 210,
   "epstein": 152,
@@ -72,9 +57,9 @@ member lists matched 0 people
     "possible": 0
    }
   },
-  "frat_yes": 19,
+  "frat_yes": 23,
   "frat_possible": 0,
-  "orgs_yes": 2,
-  "orgs_possible": 11
+  "orgs_yes": 7,
+  "orgs_possible": 10
  }
 }
