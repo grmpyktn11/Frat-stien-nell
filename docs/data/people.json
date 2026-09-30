@@ -1,13 +1,13 @@
 {
  "meta": {
-  "generated": "2026-09-30T16:21:46+00:00",
+  "generated": "2026-09-30T16:23:11+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "counts": {
-   "people": 131,
-   "excluded": 10,
+   "people": 137,
+   "excluded": 4,
    "unresolved": 16,
-   "ivy_yes": 44,
+   "ivy_yes": 46,
    "ivy_possible": 4,
    "by_school": {
     "Brown": {
@@ -31,7 +31,7 @@
      "possible": 0
     },
     "Penn": {
-     "yes": 7,
+     "yes": 8,
      "possible": 0
     },
     "Princeton": {
@@ -39,12 +39,12 @@
      "possible": 2
     },
     "Yale": {
-     "yes": 3,
+     "yes": 4,
      "possible": 2
     }
    },
-   "frat_yes": 3,
-   "frat_possible": 17
+   "frat_yes": 5,
+   "frat_possible": 19
   }
  },
  "people": [
@@ -466,6 +466,83 @@
     "Simon's Rock at Bard College",
     "Temple University",
     "New York University"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Bill Clinton",
+   "url": "https://en.wikipedia.org/wiki/Bill_Clinton",
+   "qid": "Q1124",
+   "description": "President of the United States from 1993 to 2001",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {
+    "Yale": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "Yale Law School",
+       "url": "https://www.wikidata.org/wiki/Q1124"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Yale Law School alumni",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Born and raised in Arkansas, Clinton graduated from Georgetown University in 1968, and later from Yale Law School, where he met his future wife, Hillary Rodham.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After Oxford, Clinton attended Yale Law School and earned a Juris Doctor (J.D.) degree in 1973.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "After graduating from Yale Law School, Clinton returned to Arkansas and became a law professor at the University of Arkansas.",
+       "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "yes",
+    "orgs": [
+     "Phi Beta Kappa Society",
+     "Alpha Phi Omega",
+     "Kappa Kappa Psi"
+    ],
+    "honor_societies": [
+     "Phi Beta Kappa"
+    ],
+    "evidence": [
+     {
+      "source": "Wikidata (member of)",
+      "text": "Phi Beta Kappa Society (organization, learned society, honor society, academic publisher)",
+      "url": "https://www.wikidata.org/wiki/Q1124"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "While in college, he became a brother of service fraternity Alpha Phi Omega and was elected to Phi Beta Kappa.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "He is a member of Kappa Kappa Psi honorary band fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+     }
+    ]
+   },
+   "education": [
+    "Hot Springs High School",
+    "Yale Law School",
+    "Walsh School of Foreign Service",
+    "University College, Oxford"
    ],
    "verified": false
   },
@@ -1158,6 +1235,74 @@
    },
    "education": [
     "All India Institutes of Medical Sciences"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Donald Trump",
+   "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+   "qid": "Q22686",
+   "description": "President of the United States (2017–2021; since 2025)",
+   "documents": [
+    "DOJ / Congressional release",
+    "Emails"
+   ],
+   "schools": {
+    "Penn": {
+     "status": "yes",
+     "faculty": false,
+     "evidence": [
+      {
+       "source": "Wikidata (educated at)",
+       "text": "The Wharton School",
+       "url": "https://www.wikidata.org/wiki/Q22686"
+      },
+      {
+       "source": "Wikidata (educated at)",
+       "text": "University of Pennsylvania",
+       "url": "https://www.wikidata.org/wiki/Q22686"
+      },
+      {
+       "source": "Wikipedia category",
+       "text": "Wharton School alumni",
+       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "Born into a wealthy New York City family, Trump graduated from the University of Pennsylvania in 1968 with a bachelor's degree in economics.",
+       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+      },
+      {
+       "source": "Wikipedia article text",
+       "text": "In his junior year, he transferred to the Wharton School of the University of Pennsylvania, most often commuting to his father's office on weekends, and graduated in May 1968 with a Bachelor of Science in economics.",
+       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "He pledged to deport millions of illegal immigrants residing in the U.S., and criticized birthright citizenship for incentivizing \"anchor babies\". According to an analysis in Political Science Quarterly, Trump made \"explicitly racist and sexist appeals to win over white voters\" during his 2016 presidential campaign.",
+      "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "In the 2016 campaign, he pledged that Roe v. Wade would be overturned \"automatically\" if he were elected and given the opportunity to appoint two or three anti-abortion justices.",
+      "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+     }
+    ]
+   },
+   "education": [
+    "The Kew-Forest School",
+    "New York Military Academy",
+    "The Wharton School",
+    "Fordham University",
+    "University of Pennsylvania"
    ],
    "verified": false
   },
@@ -2869,6 +3014,60 @@
    "verified": false
   },
   {
+   "name": "Les Wexner",
+   "url": "https://en.wikipedia.org/wiki/Les_Wexner",
+   "qid": "Q1675849",
+   "description": "American businessman (born 1937)",
+   "documents": [
+    "Court documents",
+    "DOJ / Congressional release",
+    "Financial records"
+   ],
+   "schools": {
+    "Harvard": {
+     "status": "no",
+     "faculty": true,
+     "evidence": [
+      {
+       "source": "Wikipedia article text (faculty/other)",
+       "text": "In 1993, Wexner hired Len Schlesinger, a Harvard Business School professor, whom he later appointed as a company director, to advise him.",
+       "url": "https://en.wikipedia.org/wiki/Les_Wexner"
+      }
+     ]
+    }
+   },
+   "frat": {
+    "status": "yes",
+    "orgs": [
+     "Sigma Alpha Mu"
+    ],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikidata (member of)",
+      "text": "Sigma Alpha Mu (fraternity)",
+      "url": "https://www.wikidata.org/wiki/Q1675849"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "While a student at Ohio State University, he joined the Sigma Alpha Mu fraternity.",
+      "url": "https://en.wikipedia.org/wiki/Les_Wexner"
+     },
+     {
+      "source": "Wikipedia article text",
+      "text": "The award was presented by the Woodrow Wilson International Center for Scholars of the Smithsonian Institution in Washington, D.C. On February 16, 2011, Wexner pledged a donation of $100 million to Ohio State, to be allocated to the university's academic Medical Center and James Cancer Hospital and Solove Research Institute, with additional gifts to the Wexner Center for the Arts and other areas.",
+      "url": "https://en.wikipedia.org/wiki/Les_Wexner"
+     }
+    ]
+   },
+   "education": [
+    "Moritz College of Law",
+    "Bexley High School",
+    "Ohio State University"
+   ],
+   "verified": false
+  },
+  {
    "name": "Lisa Randall",
    "url": "https://en.wikipedia.org/wiki/Lisa_Randall",
    "qid": "Q450404",
@@ -3892,6 +4091,28 @@
    "verified": false
   },
   {
+   "name": "Peter Mandelson",
+   "url": "https://en.wikipedia.org/wiki/Peter_Mandelson",
+   "qid": "Q310046",
+   "description": "British politician and diplomat (born 1953)",
+   "documents": [
+    "Emails",
+    "Financial records"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Hendon School",
+    "St Catherine's College"
+   ],
+   "verified": false
+  },
+  {
    "name": "Peter Thiel",
    "url": "https://en.wikipedia.org/wiki/Peter_Thiel",
    "qid": "Q705525",
@@ -3948,6 +4169,33 @@
     "evidence": []
    },
    "education": [],
+   "verified": false
+  },
+  {
+   "name": "Queen Mette-Marit of Norway",
+   "url": "https://en.wikipedia.org/wiki/Queen_Mette-Marit_of_Norway",
+   "qid": "Q470362",
+   "description": "Queen of Norway since 2026",
+   "documents": [
+    "DOJ / Congressional release",
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "education": [
+    "Bjørknes Private School",
+    "Wangaratta High School",
+    "Kristiansand Cathedral School",
+    "University of Agder",
+    "BI Norwegian Business School",
+    "University of Oslo",
+    "SOAS, University of London"
+   ],
    "verified": false
   },
   {
@@ -4159,12 +4407,12 @@
     ]
    },
    "education": [
-    "University of Oxford",
     "University of London Worldwide",
     "Kutama College",
     "Achimota School",
     "University of Fort Hare",
-    "University of South Africa"
+    "University of South Africa",
+    "University of Oxford"
    ],
    "verified": false
   },
@@ -4731,6 +4979,32 @@
     "Booth School of Business",
     "University of Chicago Law School",
     "University of Chicago"
+   ],
+   "verified": false
+  },
+  {
+   "name": "Thorbjørn Jagland",
+   "url": "https://en.wikipedia.org/wiki/Thorbj%C3%B8rn_Jagland",
+   "qid": "Q209611",
+   "description": "Norwegian politician (born 1950)",
+   "documents": [
+    "Emails"
+   ],
+   "schools": {},
+   "frat": {
+    "status": "possible",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": [
+     {
+      "source": "Wikipedia article text",
+      "text": "The whole of my remaining realizable estate shall be dealt with in the following way...the capital, invested in safe securities by my executors, shall constitute a fund, the interest on which shall be annually distributed in the form of prizes to those who, during the preceding year, shall have conferred the greatest benefit to mankind... and one part to the person who shall have done the most or ",
+      "url": "https://en.wikipedia.org/wiki/Thorbj%C3%B8rn_Jagland"
+     }
+    ]
+   },
+   "education": [
+    "University of Oslo"
    ],
    "verified": false
   },
