@@ -1,14 +1,14 @@
 {
  "meta": {
-  "generated": "2026-09-30T16:23:11+00:00",
+  "generated": "2026-09-30T16:25:49+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "counts": {
    "people": 137,
    "excluded": 4,
    "unresolved": 16,
-   "ivy_yes": 46,
-   "ivy_possible": 4,
+   "ivy_yes": 45,
+   "ivy_possible": 0,
    "by_school": {
     "Brown": {
      "yes": 1,
@@ -16,7 +16,7 @@
     },
     "Columbia": {
      "yes": 8,
-     "possible": 3
+     "possible": 0
     },
     "Cornell": {
      "yes": 2,
@@ -36,15 +36,15 @@
     },
     "Princeton": {
      "yes": 2,
-     "possible": 2
+     "possible": 0
     },
     "Yale": {
-     "yes": 4,
-     "possible": 2
+     "yes": 3,
+     "possible": 0
     }
    },
-   "frat_yes": 5,
-   "frat_possible": 19
+   "frat_yes": 8,
+   "frat_possible": 0
   }
  },
  "people": [
@@ -107,7 +107,8 @@
     "New Rochelle High School",
     "Cornell University"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Attended Cornell 1976–78, left without a degree (Wikipedia)."
   },
   {
    "name": "Alan Dershowitz",
@@ -194,16 +195,10 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "Upon assuming office, Bryan announced his senior staff and pledged to fill his cabinet within 90 days.",
-      "url": "https://en.wikipedia.org/wiki/Albert_Bryan_Jr."
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Wittenberg University",
@@ -392,16 +387,10 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "In aftermath, FT India didn't sell the pledged securities and wound 6 debt funds affecting 300,000 investors.",
-      "url": "https://en.wikipedia.org/wiki/Anil_Ambani"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Kishinchand Chellaram College",
@@ -513,19 +502,14 @@
    "frat": {
     "status": "yes",
     "orgs": [
-     "Phi Beta Kappa Society",
      "Alpha Phi Omega",
      "Kappa Kappa Psi"
     ],
     "honor_societies": [
+     "Phi Beta Kappa Society",
      "Phi Beta Kappa"
     ],
     "evidence": [
-     {
-      "source": "Wikidata (member of)",
-      "text": "Phi Beta Kappa Society (organization, learned society, honor society, academic publisher)",
-      "url": "https://www.wikidata.org/wiki/Q1124"
-     },
      {
       "source": "Wikipedia article text",
       "text": "While in college, he became a brother of service fraternity Alpha Phi Omega and was elected to Phi Beta Kappa.",
@@ -544,7 +528,8 @@
     "Walsh School of Foreign Service",
     "University College, Oxford"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Alpha Phi Omega is a service fraternity (joined at Georgetown); Kappa Kappa Psi is an honorary band fraternity. Phi Beta Kappa (honor society) not counted."
   },
   {
    "name": "Bill Gates",
@@ -588,26 +573,10 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "In 2010, he and Warren Buffett founded the Giving Pledge, whereby they and other billionaires pledged to give at least half their wealth to philanthropy.",
-      "url": "https://en.wikipedia.org/wiki/Bill_Gates"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "He also pledged an additional $50 million to start-up ventures working in Alzheimer's research.",
-      "url": "https://en.wikipedia.org/wiki/Bill_Gates"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "One was Mission Innovation, in which 20 national governments pledged to double their spending on research and development for carbon-free energy in over five years' time.",
-      "url": "https://en.wikipedia.org/wiki/Bill_Gates"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Lakeside School",
@@ -663,7 +632,8 @@
     "The Fletcher School of Law and Diplomacy",
     "Tufts University"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Member and president of Delta Tau Delta at Tufts."
   },
   {
    "name": "Bobby Kotick",
@@ -947,19 +917,7 @@
    "documents": [
     "Emails"
    ],
-   "schools": {
-    "Columbia": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "Dan Ariely was born to Yoram and Dafna Ariely in New York City while his father was studying for an MBA at Columbia University.",
-       "url": "https://en.wikipedia.org/wiki/Dan_Ariely"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -1155,30 +1113,13 @@
        "url": "https://en.wikipedia.org/wiki/Dean_Kamen"
       }
      ]
-    },
-    "Yale": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "In 2015, Kamen received an honorary Doctor of Engineering and Technology degree from Yale University.",
-       "url": "https://en.wikipedia.org/wiki/Dean_Kamen"
-      }
-     ]
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "BioFabUSA's mission is to \"...make practical the large-scale manufacturing of engineered tissues and tissue-related technologies, to benefit existing industries and grow new ones\". In addition to DoD funding, Kamen brought together a consortium of private sector entities to form a public-private partnership which pledged $214M additional private dollars.",
-      "url": "https://en.wikipedia.org/wiki/Dean_Kamen"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "South Side High School",
@@ -1271,31 +1212,15 @@
        "source": "Wikipedia article text",
        "text": "Born into a wealthy New York City family, Trump graduated from the University of Pennsylvania in 1968 with a bachelor's degree in economics.",
        "url": "https://en.wikipedia.org/wiki/Donald_Trump"
-      },
-      {
-       "source": "Wikipedia article text",
-       "text": "In his junior year, he transferred to the Wharton School of the University of Pennsylvania, most often commuting to his father's office on weekends, and graduated in May 1968 with a Bachelor of Science in economics.",
-       "url": "https://en.wikipedia.org/wiki/Donald_Trump"
       }
      ]
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "He pledged to deport millions of illegal immigrants residing in the U.S., and criticized birthright citizenship for incentivizing \"anchor babies\". According to an analysis in Political Science Quarterly, Trump made \"explicitly racist and sexist appeals to win over white voters\" during his 2016 presidential campaign.",
-      "url": "https://en.wikipedia.org/wiki/Donald_Trump"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "In the 2016 campaign, he pledged that Roe v. Wade would be overturned \"automatically\" if he were elected and given the opportunity to appoint two or three anti-abortion justices.",
-      "url": "https://en.wikipedia.org/wiki/Donald_Trump"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "The Kew-Forest School",
@@ -1317,7 +1242,7 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Sigma Phi Epsilon"
     ],
@@ -1335,7 +1260,7 @@
     "University of Florida",
     "Walsh School of Foreign Service"
    ],
-   "verified": false
+   "verified": true
   },
   {
    "name": "Edward Boyden",
@@ -1438,7 +1363,8 @@
     "Cornell University",
     "Harvard University"
    ],
-   "verified": false
+   "verified": true,
+   "note": "B.A. and M.A. in government from Cornell; Ph.D. from Harvard. No relation to Jeffrey Epstein."
   },
   {
    "name": "Ehud Barak",
@@ -1581,35 +1507,13 @@
        "url": "https://en.wikipedia.org/wiki/Elon_Musk"
       }
      ]
-    },
-    "Yale": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "In 2015, he received an honorary doctorate in engineering and technology from Yale University and an Institute of Electrical and Electronics Engineers Honorary Membership.",
-       "url": "https://en.wikipedia.org/wiki/Elon_Musk"
-      }
-     ]
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "Musk pledged $1 billion of funding to the company, but only donated $50 million.",
-      "url": "https://en.wikipedia.org/wiki/Elon_Musk"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "Musk has publicly supported far-right activist Tommy Robinson, and initially pledged financial backing to Reform UK ahead of the next general election.",
-      "url": "https://en.wikipedia.org/wiki/Elon_Musk"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Smith School of Business",
@@ -1919,19 +1823,7 @@
    "documents": [
     "Emails"
    ],
-   "schools": {
-    "Princeton": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "After this, he helped run the family sand-and-gravel business for two years, during which he regularly sent letters to scientific institutions looking for a job, until he was admitted as a preparator at Princeton University (New Jersey) in 1975.",
-       "url": "https://en.wikipedia.org/wiki/Jack_Horner_(paleontologist)"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -2048,19 +1940,7 @@
    "documents": [
     "Emails"
    ],
-   "schools": {
-    "Columbia": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "Emails between the two contained in the Epstein files indicated that Epstein helped Staley's daughter obtain an invitation to a theoretical physics conference, through Lisa Randall, and prepare an application to the PhD program in physics at Columbia University through his personal friendship with Richard Axel.",
-       "url": "https://en.wikipedia.org/wiki/Jes_Staley"
-      }
-     ]
-    }
-   },
+   "schools": {},
    "frat": {
     "status": "no",
     "orgs": [],
@@ -2318,20 +2198,16 @@
    "frat": {
     "status": "yes",
     "orgs": [
-     "Phi Delta Theta",
-     "Kappa Beta Phi",
-     "Sigma Alpha Epsilon"
+     "Sigma Alpha Epsilon",
+     "Phi Delta Theta"
     ],
-    "honor_societies": [],
+    "honor_societies": [
+     "Kappa Beta Phi"
+    ],
     "evidence": [
      {
       "source": "Wikidata (member of)",
       "text": "Phi Delta Theta (fraternity)",
-      "url": "https://www.wikidata.org/wiki/Q6289885"
-     },
-     {
-      "source": "Wikidata (member of)",
-      "text": "Kappa Beta Phi (organization, honor society)",
       "url": "https://www.wikidata.org/wiki/Q6289885"
      },
      {
@@ -2356,7 +2232,8 @@
     "The Wharton School",
     "Harvard Business School"
    ],
-   "verified": false
+   "verified": false,
+   "note": "Wikipedia article text names Sigma Alpha Epsilon; Wikidata also lists Phi Delta Theta. Kappa Beta Phi is a Wall Street honor society, not counted."
   },
   {
    "name": "Joshua Cooper Ramo",
@@ -2473,7 +2350,7 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Delta Phi Epsilon"
     ],
@@ -2492,7 +2369,8 @@
     "Duke University",
     "Brown University"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Delta Phi Epsilon is a professional foreign-service fraternity, joined at George Washington University."
   },
   {
    "name": "Kenneth Mapp",
@@ -2541,7 +2419,8 @@
     "St. Croix Central High School",
     "John F. Kennedy School of Government"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Harvard Kennedy School: executive programs and fellowships, not a degree program."
   },
   {
    "name": "Kevin Rudd",
@@ -2560,35 +2439,13 @@
        "url": "https://en.wikipedia.org/wiki/Kevin_Rudd"
       }
      ]
-    },
-    "Yale": {
-     "status": "yes",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikidata (educated at)",
-       "text": "Yale-China Chinese Language Center",
-       "url": "https://www.wikidata.org/wiki/Q43135"
-      }
-     ]
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "Rudd pledged the government to bridging the gap between Indigenous and Non-Indigenous Australian health, education and living conditions, and in a way that respects their rights to self-determination.",
-      "url": "https://en.wikipedia.org/wiki/Kevin_Rudd"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "As prime minister, he also pledged support for East Timor, stating that Australian troops would remain in East Timor for as long as East Timor's government wanted them to.",
-      "url": "https://en.wikipedia.org/wiki/Kevin_Rudd"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Yale-China Chinese Language Center",
@@ -2612,10 +2469,10 @@
     "evidence": []
    },
    "education": [
-    "Los Angeles Valley College",
-    "Chatsworth High School",
     "Canoga Park High School",
-    "Juilliard School"
+    "Juilliard School",
+    "Los Angeles Valley College",
+    "Chatsworth High School"
    ],
    "verified": false
   },
@@ -2713,16 +2570,10 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "Epstein pledged to donate at least $25 million to Harvard during Summers' tenure to endow Harvard's Program for Evolutionary Dynamics, and Epstein was given an office at Harvard for his personal use.",
-      "url": "https://en.wikipedia.org/wiki/Larry_Summers"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Harriton High School",
@@ -2873,17 +2724,6 @@
     "Financial records"
    ],
    "schools": {
-    "Columbia": {
-     "status": "possible",
-     "faculty": false,
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "Black is married to Debra Ressler, a 1976 Barnard College graduate and Broadway producer and sister of Ares Management co-founder Antony Ressler.",
-       "url": "https://en.wikipedia.org/wiki/Leon_Black"
-      }
-     ]
-    },
     "Dartmouth": {
      "status": "yes",
      "faculty": true,
@@ -2943,16 +2783,10 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "Black pledged his intention to donate $200 million to women's initiatives.",
-      "url": "https://en.wikipedia.org/wiki/Leon_Black"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Van High School",
@@ -3052,11 +2886,6 @@
       "source": "Wikipedia article text",
       "text": "While a student at Ohio State University, he joined the Sigma Alpha Mu fraternity.",
       "url": "https://en.wikipedia.org/wiki/Les_Wexner"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "The award was presented by the Woodrow Wilson International Center for Scholars of the Smithsonian Institution in Washington, D.C. On February 16, 2011, Wexner pledged a donation of $100 million to Ohio State, to be allocated to the university's academic Medical Center and James Cancer Hospital and Solove Research Institute, with additional gifts to the Wexner Center for the Arts and other areas.",
-      "url": "https://en.wikipedia.org/wiki/Les_Wexner"
      }
     ]
    },
@@ -3065,7 +2894,8 @@
     "Bexley High School",
     "Ohio State University"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Joined at Ohio State University."
   },
   {
    "name": "Lisa Randall",
@@ -3106,7 +2936,7 @@
      ]
     },
     "Princeton": {
-     "status": "possible",
+     "status": "no",
      "faculty": true,
      "evidence": [
       {
@@ -3115,7 +2945,7 @@
        "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
       },
       {
-       "source": "Wikipedia article text",
+       "source": "Wikipedia article text (faculty/other)",
        "text": "After her graduate work at Harvard, Randall held professorships at MIT and Princeton University before returning to Harvard in 2001.",
        "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
       }
@@ -3195,11 +3025,6 @@
       {
        "source": "Wikipedia category",
        "text": "Wharton School alumni",
-       "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
-      },
-      {
-       "source": "Wikipedia article text",
-       "text": "Rowan studied at the University of Pennsylvania, where financial hardship following his father's death might have ended his studies; instead, the university allowed him to complete his degree and settle the tuition when he was able.",
        "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
       },
       {
@@ -3320,14 +3145,14 @@
       },
       {
        "source": "Wikipedia article text",
-       "text": "On May 25, 2017, at Harvard's 366th commencement day, Zuckerberg, after giving a commencement speech, received an honorary degree from Harvard.",
+       "text": "In November 2007, court documents were posted on the website of 02138, a magazine that catered to Harvard alumni.",
        "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
       }
      ]
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Alpha Epsilon Pi"
     ],
@@ -3336,16 +3161,6 @@
      {
       "source": "Wikipedia article text",
       "text": "The New Yorker noted that by the time Zuckerberg began classes at Harvard in 2002, he had already achieved a \"reputation as a programming prodigy\". He studied psychology and computer science, resided in Kirkland House, and belonged to Alpha Epsilon Pi. In his second year, he wrote a program that he called CourseMatch, which allowed users to make class selection decisions based on the choices of ot",
-      "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "\"On January 1, 2013, Mr. Zuckerberg's annual base salary was reduced to $1.\" In June 2016, Business Insider named Zuckerberg one of the \"Top 10 Business Visionaries Creating Value for the World\" along with Elon Musk and Sal Khan, due to the fact that he and his wife \"pledged to give away 99% of their wealth-then estimated at $55.0 billion\" (equivalent to $7.2240700516×1010 in 2025).",
-      "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "Later in 2020, the San Francisco Board of Supervisors passed a near-unanimous, non-binding measure condemning the renaming, citing concerns that a public hospital should not be named after an individual whose social media platform is accused of \"endangering public health, spreading misinformation, and violating privacy\". On December 1, 2015, the couple pledged to transfer 99% of their Facebook sha",
       "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
      }
     ]
@@ -3358,7 +3173,8 @@
     "Phillips Exeter Academy",
     "Harvard University"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Member of Alpha Epsilon Pi at Harvard."
   },
   {
    "name": "Martin Nowak",
@@ -3566,16 +3382,10 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "Trump and Mohammed pledged \"close cooperation\" on security and economic issues and discussed the need to cut off support for terrorism, the diplomatic dispute with Qatar, and the push for peace between Israel and the Palestinians.",
-      "url": "https://en.wikipedia.org/wiki/Mohammed_bin_Salman"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "King Saud University"
@@ -3674,26 +3484,10 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "In May 2004, Zuckerman pledged $10 million to Harvard University to fund a fellowship for students who are pursuing or have earned professional degree in law, business or medicine but are interested in a degree at Harvard’s Harvard Graduate School of Education, Harvard T.H. Chan School of Public Health, or the Harvard Kennedy School.",
-      "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "In May 2006, Zuckerman pledged $100 million from his charitable trust towards Memorial Sloan Kettering's new cancer research facility.",
-      "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "In December 2012, Zuckerman pledged $200 million to endow the Mortimer B. Zuckerman Mind Brain Behavior Institute at Columbia University.",
-      "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "McGill Faculty of Law",
@@ -3749,7 +3543,7 @@
        "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
       },
       {
-       "source": "Wikipedia article text",
+       "source": "Wikipedia article text (faculty/other)",
        "text": "Transferring from Santa Monica College, he studied mathematics (B.Sc.), and geophysics and space physics (Master's) at UCLA. He was awarded a Hertz Foundation Fellowship for graduate study and studied at Princeton University, where he earned a master's degree in mathematical economics and completed a Ph.D. in applied mathematics after completing a doctoral dissertation titled \"Vistas in curved spa",
        "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
       },
@@ -3964,7 +3758,8 @@
     "Massachusetts Institute of Technology",
     "Harvard University"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Degrees (B.A., M.A., Ph.D.) from Penn. At Harvard he was a Junior Fellow in the Society of Fellows (1951–55), not a degree student."
   },
   {
    "name": "Nouriel Roubini",
@@ -4134,16 +3929,10 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "On 15 April 2008, Thiel pledged $500,000 to the newly created non-profit Seasteading Institute, directed by Patri Friedman, whose mission is \"to establish permanent, autonomous ocean communities to enable experimentation and innovation with diverse social, political, and legal systems.\" At one of the institute's conferences, he described seasteading as \"one of the few technological frontiers that ",
-      "url": "https://en.wikipedia.org/wiki/Peter_Thiel"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Stanford Law School",
@@ -4334,20 +4123,13 @@
    "documents": [],
    "schools": {},
    "frat": {
-    "status": "yes",
-    "orgs": [
-     "Phi Beta Kappa Society"
-    ],
+    "status": "no",
+    "orgs": [],
     "honor_societies": [
+     "Phi Beta Kappa Society",
      "Phi Beta Kappa"
     ],
-    "evidence": [
-     {
-      "source": "Wikidata (member of)",
-      "text": "Phi Beta Kappa Society (organization, learned society, honor society, academic publisher)",
-      "url": "https://www.wikidata.org/wiki/Q10489406"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Sloan Fellows Program",
@@ -4385,26 +4167,10 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "He gave a speech at Salisbury's Rufaro Stadium announcing that Rhodesia would be renamed \"Zimbabwe\" and pledged racial reconciliation.",
-      "url": "https://en.wikipedia.org/wiki/Robert_Mugabe"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "Mugabe's government had pledged support for the African National Congress and other anti-apartheid forces within South Africa but did not allow them to use Zimbabwe as a base for their military operations.",
-      "url": "https://en.wikipedia.org/wiki/Robert_Mugabe"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "Following the collapse of the Marxist-Leninist regimes in the Soviet Union and the Eastern Bloc, in 1991 ZANU–PF removed references to \"Marxism-Leninism\" and \"scientific socialism\" in its material; Mugabe maintained that \"socialism remains our sworn ideology\". That year, Mugabe pledged himself to free market economics and accepted a structural adjustment programme provided by the International Mon",
-      "url": "https://en.wikipedia.org/wiki/Robert_Mugabe"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "University of London Worldwide",
@@ -4673,7 +4439,7 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "yes",
     "orgs": [
      "Delta Sigma Theta"
     ],
@@ -4692,7 +4458,8 @@
     "Georgetown University",
     "Washington College of Law"
    ],
-   "verified": false
+   "verified": true,
+   "note": "Sorority. Initiated through the St. Croix Alumnae Chapter in 2019, not as a student."
   },
   {
    "name": "Stephen Hawking",
@@ -4803,16 +4570,10 @@
     }
    },
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "Bannon met with Tino Chrupalla and pledged to support the AfD in their campaign for the 2019 Saxony state election.",
-      "url": "https://en.wikipedia.org/wiki/Steve_Bannon"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "Virginia Tech College of Architecture and Urban Studies",
@@ -4992,16 +4753,10 @@
    ],
    "schools": {},
    "frat": {
-    "status": "possible",
+    "status": "no",
     "orgs": [],
     "honor_societies": [],
-    "evidence": [
-     {
-      "source": "Wikipedia article text",
-      "text": "The whole of my remaining realizable estate shall be dealt with in the following way...the capital, invested in safe securities by my executors, shall constitute a fund, the interest on which shall be annually distributed in the form of prizes to those who, during the preceding year, shall have conferred the greatest benefit to mankind... and one part to the person who shall have done the most or ",
-      "url": "https://en.wikipedia.org/wiki/Thorbj%C3%B8rn_Jagland"
-     }
-    ]
+    "evidence": []
    },
    "education": [
     "University of Oslo"
