@@ -1,6 +1,6 @@
 # Frat-stien-nell
 
-Public figures named in the Epstein documents, checked for Ivy League education (Brown, Columbia, Cornell, Dartmouth, Harvard, Penn, Princeton, Yale) and fraternity membership. Results are shown on a static site in `docs/`.
+Public figures named in the Epstein documents, checked for Ivy League education (Brown, Columbia, Cornell, Dartmouth, Harvard, Penn, Princeton, Yale) and fraternity membership. Results are shown on a static site in `docs/`: **Ledger** (`index.html`, the people table), **Web** (`web.html`, a network of people linked by shared colleges and fraternities, from `docs/data/graph.json`), and **Sources** (`sources.html`, the method plus source links for each person).
 
 Being named in these documents does not imply wrongdoing.
 
@@ -11,7 +11,8 @@ Being named in these documents does not imply wrongdoing.
 3. **Enrich** (`pipeline/enrich.py`):
    - **Ivy League** (per school, including graduate/professional schools such as Wharton, Harvard Law and Weill Cornell): *yes* if Wikidata *educated at* (P69) includes the school or the article has an alumni category for it. *Possible* if the article text places an attendance word (graduated, attended, B.A., PhD, …) near the school's name. Faculty, trustees and fellows are flagged separately as *(fac)*. The patterns avoid look-alikes such as British Columbia, Penn State, Cornell College and Britannia Royal Naval College, Dartmouth.
    - **Fraternity**: *yes* if Wikidata *member of* (P463) is a fraternity or sorority, or if a category names one. *Possible* if the article text mentions a fraternity or a Greek-letter organization. Honor societies (Phi Beta Kappa, etc.) are listed but not counted.
-4. **Manual verification** (`data/overrides.json`): confirms or corrects hits by hand and marks them ✓ verified on the site.
+4. **Graph** (`pipeline/graph.py`): links people to the colleges and fraternities they share. Graduate schools are grouped under their parent university and secondary schools are dropped.
+5. **Manual verification** (`data/overrides.json`): confirms or corrects hits by hand and marks them ✓ verified on the site.
 
 ## Run locally
 

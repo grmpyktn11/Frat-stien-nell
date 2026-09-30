@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sources and Method</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+main{max-width:760px}
+h2{font-family:var(--serif);font-weight:600;font-size:24px;margin:28px 0 8px;padding-top:12px;border-top:1px solid var(--line)}
+h2:first-child{border-top:0;margin-top:12px}
+p,li{max-width:70ch}
+ol,ul{padding-left:20px}
+li{margin:4px 0}
+dl{margin:0}
+.src{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.src>div{padding:10px 0;border-bottom:1px solid var(--line)}
+.src .who{font-family:var(--serif);font-size:17px}
+.src .links{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;margin-top:2px}
+.src .links a{overflow-wrap:anywhere}
+.ex{width:100%;border-collapse:collapse;font-size:14px}
+.ex td{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.ex td:first-child{padding-right:12px;white-space:nowrap}
+.field{margin:8px 0}
+@media (max-width:719px){.ex td:first-child{white-space:normal}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1><a href="index.html">Frat-stien-nell</a></h1>
+    <nav class="tabs" aria-label="Pages"><a href="index.html">Ledger</a><a href="web.html">Web</a><a href="sources.html" aria-current="page">Sources</a></nav>
+  </header>
+  <main>
+    <section>
+      <h2>Method</h2>
+      <ol>
+        <li><b>Names</b> come from Wikipedia's <a id="srcLink" href="https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files">List of people named in the Epstein files</a>. That list covers the flight logs, the contact book, the court filings and the DOJ/Congressional releases. <span id="rev"></span></li>
+        <li><b>Filter:</b> public figures only. Victims, survivors and Epstein's staff are removed, along with private individuals who have no public role.</li>
+        <li><b>Ivy League:</b> a person counts as <i>attended</i> when Wikidata's "educated at" lists the school, when their Wikipedia article is in the school's alumni category, or when a checked source says so. Graduate and professional schools count (Wharton, Harvard Law, Weill Cornell). Faculty, fellows and trustees are marked separately. Honorary degrees don't count.</li>
+        <li><b>Fraternities:</b> Wikidata "member of" entries that are fraternities or sororities, plus article text naming one. Every match was checked by hand. Honor societies such as Phi Beta Kappa and Kappa Beta Phi don't count.</li>
+        <li><b>People without a Wikipedia article</b> were researched from professional bios and news coverage. Education is listed only when a source states it.</li>
+        <li><b>Web:</b> people are linked to the colleges and fraternities they attended or joined. Graduate schools are grouped under their parent university. A non-Ivy college appears only when two or more people share it.</li>
+        <li>Being named in these documents does not imply wrongdoing.</li>
+      </ol>
+      <p class="muted mono" style="font-size:12px" id="gen"></p>
+    </section>
+
+    <section>
+      <h2>Data sources</h2>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files">Wikipedia — List of people named in the Epstein files</a></li>
+        <li><a href="https://www.wikidata.org/wiki/Property:P69">Wikidata — educated at (P69)</a> and <a href="https://www.wikidata.org/wiki/Property:P463">member of (P463)</a></li>
+        <li>Each person's English Wikipedia article: categories and text</li>
+        <li>Professional bios and news reporting for people without an article (listed per person below)</li>
+      </ul>
+      <p>Code and raw data: <a href="https://github.com/grmpyktn11/Frat-stien-nell">github.com/grmpyktn11/Frat-stien-nell</a> (<a href="data/people.json">people.json</a>, <a href="data/graph.json">graph.json</a>, <a href="data/excluded.json">excluded.json</a>).</p>
+    </section>
+
+    <section>
+      <h2>Sources by person</h2>
+      <label class="field"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="sr">Filter people</span><input id="q" type="search" placeholder="Filter people"></label>
+      <div class="src" id="list"></div>
+    </section>
+
+    <section>
+      <h2>Excluded</h2>
+      <table class="ex"><tbody id="ex"></tbody></table>
+    </section>
+  </main>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl=u=>/^https:\/\//.test(u||"")?u:"#";
+const host=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch{return u}};
+let P=[];
+Promise.all([fetch("data/people.json").then(r=>r.json()),fetch("data/excluded.json").then(r=>r.json()).catch(()=>({excluded:[]}))]).then(([d,x])=>{
+  P=d.people;const m=d.meta;
+  $("rev").innerHTML=`Revision used: <a href="https://en.wikipedia.org/w/index.php?oldid=${encodeURIComponent(m.source_revision)}">${esc(m.source_revision)}</a>.`;
+  $("gen").textContent=`Data generated ${m.generated}`;
+  render();
+  $("ex").innerHTML=(x.excluded||[]).filter(e=>!/not a person/.test(e.reason)).map(e=>`<tr><td>${esc(e.name)}</td><td class="muted">${esc(e.reason)}</td></tr>`).join("")||'<tr><td class="muted">None</td></tr>';
+}).catch(e=>{$("list").innerHTML=`<p class="muted">Could not load data: ${esc(e.message)}</p>`});
+
+function links(p){
+  const L=new Map();
+  const add=(u,label)=>{if(u&&/^https:\/\//.test(u)&&!L.has(u))L.set(u,label)};
+  if(p.url)add(p.url,p.manual?host(p.url):"Wikipedia");
+  if(p.qid)add(`https://www.wikidata.org/wiki/${p.qid}`,"Wikidata");
+  (p.education_sources||[]).forEach(e=>add(e.url,e.source));
+  Object.values(p.schools).forEach(s=>(s.evidence||[]).forEach(e=>add(e.url,e.source.replace(/\s*\(.*\)$/,"").replace(/^Wikipedia.*/,"Wikipedia"))));
+  (p.frat.evidence||[]).forEach(e=>add(e.url,e.source.replace(/\s*\(.*\)$/,"").replace(/^Wikipedia.*/,"Wikipedia")));
+  return [...L].map(([u,l])=>`<a href="${safeUrl(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join("");
+}
+function render(){
+  const q=$("q").value.trim().toLowerCase();
+  const rows=P.filter(p=>!q||p.name.toLowerCase().includes(q)).sort((a,b)=>a.name.localeCompare(b.name));
+  $("list").innerHTML=rows.map(p=>`<div><div class="who">${esc(p.name.replace(/\s*\(.*\)$/,""))}</div><div class="links">${links(p)||'<span class="muted">No source links</span>'}</div></div>`).join("")||'<p class="muted">No matches.</p>';
+}
+$("q").addEventListener("input",render);
+</script>
+</body>
+</html>

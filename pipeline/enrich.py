@@ -50,7 +50,7 @@ ATTEND = (
 )
 ATTEND_BEFORE = rf"\b{ATTEND}\b[^;]{{0,90}}?"
 ATTEND_AFTER = r"[^;]{0,20}?\b(?:graduate|alumn\w*|dropout|class of|degree)\b"
-HONORARY_RE = re.compile(r"\bhonorary\b|honoris causa", re.I)
+HONORARY_RE = re.compile(r"\bhonorary\b|honoris causa|\bfalse(?:ly)?\b|fabricat\w*|claimed to have|fake degree", re.I)
 RELATIVE_RE = re.compile(
     r"\b(?:his|her|their|\w+'s)\s+(?:father|mother|wife|husband|son|daughter|brother|sister|"
     r"parents|children|child|spouse|partner|grandfather|grandmother)\b"

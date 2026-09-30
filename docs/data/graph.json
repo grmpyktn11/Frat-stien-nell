@@ -1,0 +1,1673 @@
+{
+ "nodes": [
+  {
+   "id": "p:Al Seckel",
+   "type": "person",
+   "label": "Al Seckel",
+   "name": "Al Seckel",
+   "description": "American collector and skeptic (1958–2015)",
+   "url": "https://en.wikipedia.org/wiki/Al_Seckel"
+  },
+  {
+   "id": "p:Alan Dershowitz",
+   "type": "person",
+   "label": "Alan Dershowitz",
+   "name": "Alan Dershowitz",
+   "description": "American lawyer and author (born 1938)",
+   "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+  },
+  {
+   "id": "p:Albert Bryan Jr.",
+   "type": "person",
+   "label": "Albert Bryan Jr.",
+   "name": "Albert Bryan Jr.",
+   "description": "Governor of the United States Virgin Islands since 2019",
+   "url": "https://en.wikipedia.org/wiki/Albert_Bryan_Jr."
+  },
+  {
+   "id": "p:Andrew Farkas (businessman)",
+   "type": "person",
+   "label": "Andrew Farkas",
+   "name": "Andrew Farkas (businessman)",
+   "description": "American real estate developer",
+   "url": "https://en.wikipedia.org/wiki/Andrew_Farkas_(businessman)"
+  },
+  {
+   "id": "p:Andrés Pastrana Arango",
+   "type": "person",
+   "label": "Andrés Pastrana Arango",
+   "name": "Andrés Pastrana Arango",
+   "description": "President of Colombia from 1998 to 2002",
+   "url": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Pastrana_Arango"
+  },
+  {
+   "id": "p:Anil Ambani",
+   "type": "person",
+   "label": "Anil Ambani",
+   "name": "Anil Ambani",
+   "description": "Indian businessman (born 1959)",
+   "url": "https://en.wikipedia.org/wiki/Anil_Ambani"
+  },
+  {
+   "id": "p:Ariane de Rothschild",
+   "type": "person",
+   "label": "Ariane de Rothschild",
+   "name": "Ariane de Rothschild",
+   "description": "French banker",
+   "url": "https://en.wikipedia.org/wiki/Ariane_de_Rothschild"
+  },
+  {
+   "id": "p:Ben Goertzel",
+   "type": "person",
+   "label": "Ben Goertzel",
+   "name": "Ben Goertzel",
+   "description": "American computer scientist and AI researcher",
+   "url": "https://en.wikipedia.org/wiki/Ben_Goertzel"
+  },
+  {
+   "id": "p:Bill Clinton",
+   "type": "person",
+   "label": "Bill Clinton",
+   "name": "Bill Clinton",
+   "description": "President of the United States from 1993 to 2001",
+   "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
+  },
+  {
+   "id": "p:Bill Gates",
+   "type": "person",
+   "label": "Bill Gates",
+   "name": "Bill Gates",
+   "description": "American businessman and philanthropist (born 1955)",
+   "url": "https://en.wikipedia.org/wiki/Bill_Gates"
+  },
+  {
+   "id": "p:Bill Richardson",
+   "type": "person",
+   "label": "Bill Richardson",
+   "name": "Bill Richardson",
+   "description": "American politician (1947–2023)",
+   "url": "https://en.wikipedia.org/wiki/Bill_Richardson"
+  },
+  {
+   "id": "p:Brad S. Karp",
+   "type": "person",
+   "label": "Brad S. Karp",
+   "name": "Brad S. Karp",
+   "description": "American lawyer (born 1959)",
+   "url": "https://en.wikipedia.org/wiki/Brad_S._Karp"
+  },
+  {
+   "id": "p:Brett Ratner",
+   "type": "person",
+   "label": "Brett Ratner",
+   "name": "Brett Ratner",
+   "description": "American filmmaker (born 1969)",
+   "url": "https://en.wikipedia.org/wiki/Brett_Ratner"
+  },
+  {
+   "id": "p:Casey Wasserman",
+   "type": "person",
+   "label": "Casey Wasserman",
+   "name": "Casey Wasserman",
+   "description": "American businessman (born 1974)",
+   "url": "https://en.wikipedia.org/wiki/Casey_Wasserman"
+  },
+  {
+   "id": "p:Corina Tarnita",
+   "type": "person",
+   "label": "Corina Tarnita",
+   "name": "Corina Tarnita",
+   "description": "Mathematical biologist",
+   "url": "https://en.wikipedia.org/wiki/Corina_Tarnita"
+  },
+  {
+   "id": "p:Dan Ariely",
+   "type": "person",
+   "label": "Dan Ariely",
+   "name": "Dan Ariely",
+   "description": "Israeli-American professor of psychology and behavioral economics (born 1967)",
+   "url": "https://en.wikipedia.org/wiki/Dan_Ariely"
+  },
+  {
+   "id": "p:David Copperfield (illusionist)",
+   "type": "person",
+   "label": "David Copperfield",
+   "name": "David Copperfield (illusionist)",
+   "description": "American magician (born 1956)",
+   "url": "https://en.wikipedia.org/wiki/David_Copperfield_(illusionist)"
+  },
+  {
+   "id": "p:David Gelernter",
+   "type": "person",
+   "label": "David Gelernter",
+   "name": "David Gelernter",
+   "description": "American computer scientist (born 1955)",
+   "url": "https://en.wikipedia.org/wiki/David_Gelernter"
+  },
+  {
+   "id": "p:David Schoen",
+   "type": "person",
+   "label": "David Schoen",
+   "name": "David Schoen",
+   "description": "American attorney",
+   "url": "https://en.wikipedia.org/wiki/David_Schoen"
+  },
+  {
+   "id": "p:Donald Trump",
+   "type": "person",
+   "label": "Donald Trump",
+   "name": "Donald Trump",
+   "description": "President of the United States (2017–2021; since 2025)",
+   "url": "https://en.wikipedia.org/wiki/Donald_Trump"
+  },
+  {
+   "id": "p:Doug Band",
+   "type": "person",
+   "label": "Doug Band",
+   "name": "Doug Band",
+   "description": "American presidential advisor (born 1972)",
+   "url": "https://en.wikipedia.org/wiki/Doug_Band"
+  },
+  {
+   "id": "p:Edward Boyden",
+   "type": "person",
+   "label": "Edward Boyden",
+   "name": "Edward Boyden",
+   "description": "American neuroscientist (born 1979)",
+   "url": "https://en.wikipedia.org/wiki/Edward_Boyden"
+  },
+  {
+   "id": "p:Edward Jay Epstein",
+   "type": "person",
+   "label": "Edward Jay Epstein",
+   "name": "Edward Jay Epstein",
+   "description": "American investigative journalist (1935–2024)",
+   "url": "https://en.wikipedia.org/wiki/Edward_Jay_Epstein"
+  },
+  {
+   "id": "p:Ehud Barak",
+   "type": "person",
+   "label": "Ehud Barak",
+   "name": "Ehud Barak",
+   "description": "Prime Minister of Israel from 1999 to 2001",
+   "url": "https://en.wikipedia.org/wiki/Ehud_Barak"
+  },
+  {
+   "id": "p:Elisa New",
+   "type": "person",
+   "label": "Elisa New",
+   "name": "Elisa New",
+   "description": "American academic",
+   "url": "https://en.wikipedia.org/wiki/Elisa_New"
+  },
+  {
+   "id": "p:Elon Musk",
+   "type": "person",
+   "label": "Elon Musk",
+   "name": "Elon Musk",
+   "description": "Businessman and entrepreneur (born 1971)",
+   "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+  },
+  {
+   "id": "p:George Church (geneticist)",
+   "type": "person",
+   "label": "George Church",
+   "name": "George Church (geneticist)",
+   "description": "American geneticist (born 1954)",
+   "url": "https://en.wikipedia.org/wiki/George_Church_(geneticist)"
+  },
+  {
+   "id": "p:George J. Mitchell",
+   "type": "person",
+   "label": "George J. Mitchell",
+   "name": "George J. Mitchell",
+   "description": "American politician, diplomat, and judge (born 1933)",
+   "url": "https://en.wikipedia.org/wiki/George_J._Mitchell"
+  },
+  {
+   "id": "p:Ghislaine Maxwell",
+   "type": "person",
+   "label": "Ghislaine Maxwell",
+   "name": "Ghislaine Maxwell",
+   "description": "British socialite and child sex trafficker (born 1961)",
+   "url": "https://en.wikipedia.org/wiki/Ghislaine_Maxwell"
+  },
+  {
+   "id": "p:Glenn Dubin",
+   "type": "person",
+   "label": "Glenn Dubin",
+   "name": "Glenn Dubin",
+   "description": "American hedge fund manager (born 1957)",
+   "url": "https://en.wikipedia.org/wiki/Glenn_Dubin"
+  },
+  {
+   "id": "p:Jack Lang (French politician)",
+   "type": "person",
+   "label": "Jack Lang",
+   "name": "Jack Lang (French politician)",
+   "description": "French politician (born 1939)",
+   "url": "https://en.wikipedia.org/wiki/Jack_Lang_(French_politician)"
+  },
+  {
+   "id": "p:Jean Pigozzi",
+   "type": "person",
+   "label": "Jean Pigozzi",
+   "name": "Jean Pigozzi",
+   "description": "Italian businessman (born 1952)",
+   "url": "https://en.wikipedia.org/wiki/Jean_Pigozzi"
+  },
+  {
+   "id": "p:Jes Staley",
+   "type": "person",
+   "label": "Jes Staley",
+   "name": "Jes Staley",
+   "description": "American banker (born 1956)",
+   "url": "https://en.wikipedia.org/wiki/Jes_Staley"
+  },
+  {
+   "id": "p:John Brockman (literary agent)",
+   "type": "person",
+   "label": "John Brockman",
+   "name": "John Brockman (literary agent)",
+   "description": "American literary agent and author",
+   "url": "https://en.wikipedia.org/wiki/John_Brockman_(literary_agent)"
+  },
+  {
+   "id": "p:John C. Phelan",
+   "type": "person",
+   "label": "John C. Phelan",
+   "name": "John C. Phelan",
+   "description": "American businessman and government official (born 1964)",
+   "url": "https://en.wikipedia.org/wiki/John_C._Phelan"
+  },
+  {
+   "id": "p:Joi Ito",
+   "type": "person",
+   "label": "Joi Ito",
+   "name": "Joi Ito",
+   "description": "Japanese-American entrepreneur",
+   "url": "https://en.wikipedia.org/wiki/Joi_Ito"
+  },
+  {
+   "id": "p:Josh Harris (businessman)",
+   "type": "person",
+   "label": "Josh Harris",
+   "name": "Josh Harris (businessman)",
+   "description": "American investor and sports team owner (born 1964)",
+   "url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)"
+  },
+  {
+   "id": "p:Joshua Cooper Ramo",
+   "type": "person",
+   "label": "Joshua Cooper Ramo",
+   "name": "Joshua Cooper Ramo",
+   "description": "American foreign policy consultant and writer",
+   "url": "https://en.wikipedia.org/wiki/Joshua_Cooper_Ramo"
+  },
+  {
+   "id": "p:Karim Wade",
+   "type": "person",
+   "label": "Karim Wade",
+   "name": "Karim Wade",
+   "description": "Senegalese politician (born 1968)",
+   "url": "https://en.wikipedia.org/wiki/Karim_Wade"
+  },
+  {
+   "id": "p:Kathryn Ruemmler",
+   "type": "person",
+   "label": "Kathryn Ruemmler",
+   "name": "Kathryn Ruemmler",
+   "description": "American lawyer (born 1971)",
+   "url": "https://en.wikipedia.org/wiki/Kathryn_Ruemmler"
+  },
+  {
+   "id": "p:Ken Starr",
+   "type": "person",
+   "label": "Ken Starr",
+   "name": "Ken Starr",
+   "description": "American lawyer (1946–2022)",
+   "url": "https://en.wikipedia.org/wiki/Ken_Starr"
+  },
+  {
+   "id": "p:Kenneth Mapp",
+   "type": "person",
+   "label": "Kenneth Mapp",
+   "name": "Kenneth Mapp",
+   "description": "American politician (born 1955)",
+   "url": "https://en.wikipedia.org/wiki/Kenneth_Mapp"
+  },
+  {
+   "id": "p:Kimbal Musk",
+   "type": "person",
+   "label": "Kimbal Musk",
+   "name": "Kimbal Musk",
+   "description": "Entrepreneur (born 1972)",
+   "url": "https://en.wikipedia.org/wiki/Kimbal_Musk"
+  },
+  {
+   "id": "p:Larry Summers",
+   "type": "person",
+   "label": "Larry Summers",
+   "name": "Larry Summers",
+   "description": "American economist (born 1954)",
+   "url": "https://en.wikipedia.org/wiki/Larry_Summers"
+  },
+  {
+   "id": "p:Lawrence Krauss",
+   "type": "person",
+   "label": "Lawrence Krauss",
+   "name": "Lawrence Krauss",
+   "description": "American particle physicist and cosmologist (born 1954)",
+   "url": "https://en.wikipedia.org/wiki/Lawrence_Krauss"
+  },
+  {
+   "id": "p:Len Blavatnik",
+   "type": "person",
+   "label": "Len Blavatnik",
+   "name": "Len Blavatnik",
+   "description": "Businessman and philanthropist (born 1957)",
+   "url": "https://en.wikipedia.org/wiki/Len_Blavatnik"
+  },
+  {
+   "id": "p:Leon Black",
+   "type": "person",
+   "label": "Leon Black",
+   "name": "Leon Black",
+   "description": "American private equity investor (born 1951)",
+   "url": "https://en.wikipedia.org/wiki/Leon_Black"
+  },
+  {
+   "id": "p:Leon Botstein",
+   "type": "person",
+   "label": "Leon Botstein",
+   "name": "Leon Botstein",
+   "description": "American conductor, educator (born 1946)",
+   "url": "https://en.wikipedia.org/wiki/Leon_Botstein"
+  },
+  {
+   "id": "p:Les Wexner",
+   "type": "person",
+   "label": "Les Wexner",
+   "name": "Les Wexner",
+   "description": "American businessman (born 1937)",
+   "url": "https://en.wikipedia.org/wiki/Les_Wexner"
+  },
+  {
+   "id": "p:Lisa Randall",
+   "type": "person",
+   "label": "Lisa Randall",
+   "name": "Lisa Randall",
+   "description": "American theoretical physicist (b. 1962)",
+   "url": "https://en.wikipedia.org/wiki/Lisa_Randall"
+  },
+  {
+   "id": "p:Lynn Forester de Rothschild",
+   "type": "person",
+   "label": "Lynn Forester de Rothschild",
+   "name": "Lynn Forester de Rothschild",
+   "description": "American-British businesswoman (born 1954)",
+   "url": "https://en.wikipedia.org/wiki/Lynn_Forester_de_Rothschild"
+  },
+  {
+   "id": "p:Marc Rowan",
+   "type": "person",
+   "label": "Marc Rowan",
+   "name": "Marc Rowan",
+   "description": "American businessman (born 1962)",
+   "url": "https://en.wikipedia.org/wiki/Marc_Rowan"
+  },
+  {
+   "id": "p:Mark Zuckerberg",
+   "type": "person",
+   "label": "Mark Zuckerberg",
+   "name": "Mark Zuckerberg",
+   "description": "American businessman and programmer (born 1984)",
+   "url": "https://en.wikipedia.org/wiki/Mark_Zuckerberg"
+  },
+  {
+   "id": "p:Marvin Minsky",
+   "type": "person",
+   "label": "Marvin Minsky",
+   "name": "Marvin Minsky",
+   "description": "American cognitive scientist (1927–2016)",
+   "url": "https://en.wikipedia.org/wiki/Marvin_Minsky"
+  },
+  {
+   "id": "p:Michael Wolff (journalist)",
+   "type": "person",
+   "label": "Michael Wolff",
+   "name": "Michael Wolff (journalist)",
+   "description": "American writer (born 1953)",
+   "url": "https://en.wikipedia.org/wiki/Michael_Wolff_(journalist)"
+  },
+  {
+   "id": "p:Miroslav Lajčák",
+   "type": "person",
+   "label": "Miroslav Lajčák",
+   "name": "Miroslav Lajčák",
+   "description": "Slovak politician and diplomat (born 1963)",
+   "url": "https://en.wikipedia.org/wiki/Miroslav_Laj%C4%8D%C3%A1k"
+  },
+  {
+   "id": "p:Mortimer Zuckerman",
+   "type": "person",
+   "label": "Mortimer Zuckerman",
+   "name": "Mortimer Zuckerman",
+   "description": "Canadian businessman (born 1937)",
+   "url": "https://en.wikipedia.org/wiki/Mortimer_Zuckerman"
+  },
+  {
+   "id": "p:Nathan Myhrvold",
+   "type": "person",
+   "label": "Nathan Myhrvold",
+   "name": "Nathan Myhrvold",
+   "description": "Chief Technology Officer at Microsoft",
+   "url": "https://en.wikipedia.org/wiki/Nathan_Myhrvold"
+  },
+  {
+   "id": "p:Nathan Wolfe",
+   "type": "person",
+   "label": "Nathan Wolfe",
+   "name": "Nathan Wolfe",
+   "description": "American virologist (born 1970)",
+   "url": "https://en.wikipedia.org/wiki/Nathan_Wolfe"
+  },
+  {
+   "id": "p:Nicole Junkermann",
+   "type": "person",
+   "label": "Nicole Junkermann",
+   "name": "Nicole Junkermann",
+   "description": "German businesswoman (born 1975)",
+   "url": "https://en.wikipedia.org/wiki/Nicole_Junkermann"
+  },
+  {
+   "id": "p:Noam Chomsky",
+   "type": "person",
+   "label": "Noam Chomsky",
+   "name": "Noam Chomsky",
+   "description": "American linguist and activist (born 1928)",
+   "url": "https://en.wikipedia.org/wiki/Noam_Chomsky"
+  },
+  {
+   "id": "p:Nouriel Roubini",
+   "type": "person",
+   "label": "Nouriel Roubini",
+   "name": "Nouriel Roubini",
+   "description": "Iranian-American economist (born 1958)",
+   "url": "https://en.wikipedia.org/wiki/Nouriel_Roubini"
+  },
+  {
+   "id": "p:Peter Attia",
+   "type": "person",
+   "label": "Peter Attia",
+   "name": "Peter Attia",
+   "description": "Canadian-American author and licensed physician (born 1973)",
+   "url": "https://en.wikipedia.org/wiki/Peter_Attia"
+  },
+  {
+   "id": "p:Peter Thiel",
+   "type": "person",
+   "label": "Peter Thiel",
+   "name": "Peter Thiel",
+   "description": "American entrepreneur and venture capitalist (born 1967)",
+   "url": "https://en.wikipedia.org/wiki/Peter_Thiel"
+  },
+  {
+   "id": "p:Queen Mette-Marit of Norway",
+   "type": "person",
+   "label": "Queen Mette-Marit of Norway",
+   "name": "Queen Mette-Marit of Norway",
+   "description": "Queen of Norway since 2026",
+   "url": "https://en.wikipedia.org/wiki/Queen_Mette-Marit_of_Norway"
+  },
+  {
+   "id": "p:Reid Hoffman",
+   "type": "person",
+   "label": "Reid Hoffman",
+   "name": "Reid Hoffman",
+   "description": "American internet entrepreneur (born 1967)",
+   "url": "https://en.wikipedia.org/wiki/Reid_Hoffman"
+  },
+  {
+   "id": "p:Richard Axel",
+   "type": "person",
+   "label": "Richard Axel",
+   "name": "Richard Axel",
+   "description": "American molecular biologist (born 1946)",
+   "url": "https://en.wikipedia.org/wiki/Richard_Axel"
+  },
+  {
+   "id": "p:Robert F. Kennedy Jr.",
+   "type": "person",
+   "label": "Robert F. Kennedy Jr.",
+   "name": "Robert F. Kennedy Jr.",
+   "description": "American politician (born 1954)",
+   "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr."
+  },
+  {
+   "id": "p:Robert Lawrence Kuhn",
+   "type": "person",
+   "label": "Robert Lawrence Kuhn",
+   "name": "Robert Lawrence Kuhn",
+   "description": "American investment banker",
+   "url": "https://en.wikipedia.org/wiki/Robert_Lawrence_Kuhn"
+  },
+  {
+   "id": "p:Robert Mugabe",
+   "type": "person",
+   "label": "Robert Mugabe",
+   "name": "Robert Mugabe",
+   "description": "Leader of Zimbabwe from 1980 to 2017",
+   "url": "https://en.wikipedia.org/wiki/Robert_Mugabe"
+  },
+  {
+   "id": "p:Robert Trivers",
+   "type": "person",
+   "label": "Robert Trivers",
+   "name": "Robert Trivers",
+   "description": "American biologist (1943–2026)",
+   "url": "https://en.wikipedia.org/wiki/Robert_Trivers"
+  },
+  {
+   "id": "p:Ronald Lauder",
+   "type": "person",
+   "label": "Ronald Lauder",
+   "name": "Ronald Lauder",
+   "description": "American businessman (born 1944)",
+   "url": "https://en.wikipedia.org/wiki/Ronald_Lauder"
+  },
+  {
+   "id": "p:Sergey Brin",
+   "type": "person",
+   "label": "Sergey Brin",
+   "name": "Sergey Brin",
+   "description": "American computer scientist (born 1973)",
+   "url": "https://en.wikipedia.org/wiki/Sergey_Brin"
+  },
+  {
+   "id": "p:Soon-Yi Previn",
+   "type": "person",
+   "label": "Soon-Yi Previn",
+   "name": "Soon-Yi Previn",
+   "description": "Third wife of Woody Allen (born 1970)",
+   "url": "https://en.wikipedia.org/wiki/Soon-Yi_Previn"
+  },
+  {
+   "id": "p:Stacey Plaskett",
+   "type": "person",
+   "label": "Stacey Plaskett",
+   "name": "Stacey Plaskett",
+   "description": "American politician (born 1966)",
+   "url": "https://en.wikipedia.org/wiki/Stacey_Plaskett"
+  },
+  {
+   "id": "p:Stephen Hawking",
+   "type": "person",
+   "label": "Stephen Hawking",
+   "name": "Stephen Hawking",
+   "description": "English theoretical physicist (1942–2018)",
+   "url": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  {
+   "id": "p:Stephen Kosslyn",
+   "type": "person",
+   "label": "Stephen Kosslyn",
+   "name": "Stephen Kosslyn",
+   "description": "American psychologist, neuroscientist, and expert on learning (Born: 1948)",
+   "url": "https://en.wikipedia.org/wiki/Stephen_Kosslyn"
+  },
+  {
+   "id": "p:Steve Bannon",
+   "type": "person",
+   "label": "Steve Bannon",
+   "name": "Steve Bannon",
+   "description": "American media executive and political strategist (born 1953)",
+   "url": "https://en.wikipedia.org/wiki/Steve_Bannon"
+  },
+  {
+   "id": "p:Steve Tisch",
+   "type": "person",
+   "label": "Steve Tisch",
+   "name": "Steve Tisch",
+   "description": "American businessman and sports team owner (born 1949)",
+   "url": "https://en.wikipedia.org/wiki/Steve_Tisch"
+  },
+  {
+   "id": "p:Steven Pinker",
+   "type": "person",
+   "label": "Steven Pinker",
+   "name": "Steven Pinker",
+   "description": "Canadian-American psycholinguist (born 1954)",
+   "url": "https://en.wikipedia.org/wiki/Steven_Pinker"
+  },
+  {
+   "id": "p:Sultan Ahmed bin Sulayem",
+   "type": "person",
+   "label": "Sultan Ahmed bin Sulayem",
+   "name": "Sultan Ahmed bin Sulayem",
+   "description": "Emirati businessman (born 1955)",
+   "url": "https://en.wikipedia.org/wiki/Sultan_Ahmed_bin_Sulayem"
+  },
+  {
+   "id": "p:Terje Rød-Larsen",
+   "type": "person",
+   "label": "Terje Rød-Larsen",
+   "name": "Terje Rød-Larsen",
+   "description": "Norwegian diplomat, politician (born 1947)",
+   "url": "https://en.wikipedia.org/wiki/Terje_R%C3%B8d-Larsen"
+  },
+  {
+   "id": "p:Thomas Pritzker",
+   "type": "person",
+   "label": "Thomas Pritzker",
+   "name": "Thomas Pritzker",
+   "description": "American billionaire and businessman",
+   "url": "https://en.wikipedia.org/wiki/Thomas_Pritzker"
+  },
+  {
+   "id": "p:Thorbjørn Jagland",
+   "type": "person",
+   "label": "Thorbjørn Jagland",
+   "name": "Thorbjørn Jagland",
+   "description": "Norwegian politician (born 1950)",
+   "url": "https://en.wikipedia.org/wiki/Thorbj%C3%B8rn_Jagland"
+  },
+  {
+   "id": "p:Todd Boehly",
+   "type": "person",
+   "label": "Todd Boehly",
+   "name": "Todd Boehly",
+   "description": "American businessman (born 1973)",
+   "url": "https://en.wikipedia.org/wiki/Todd_Boehly"
+  },
+  {
+   "id": "p:Vitaly Churkin",
+   "type": "person",
+   "label": "Vitaly Churkin",
+   "name": "Vitaly Churkin",
+   "description": "Russian diplomat (1952–2017)",
+   "url": "https://en.wikipedia.org/wiki/Vitaly_Churkin"
+  },
+  {
+   "id": "p:Woody Allen",
+   "type": "person",
+   "label": "Woody Allen",
+   "name": "Woody Allen",
+   "description": "American filmmaker and actor (born 1935)",
+   "url": "https://en.wikipedia.org/wiki/Woody_Allen"
+  },
+  {
+   "id": "p:Thomas Magnani",
+   "type": "person",
+   "label": "Thomas Magnani",
+   "name": "Thomas Magnani",
+   "description": "New York dentist; former volunteer professor at Columbia's College of Dental Medicine",
+   "url": null
+  },
+  {
+   "id": "p:Jess Ting",
+   "type": "person",
+   "label": "Jess Ting",
+   "name": "Jess Ting",
+   "description": "Plastic surgeon, Mount Sinai; former Juilliard double bassist",
+   "url": null
+  },
+  {
+   "id": "p:Lawrence Delson",
+   "type": "person",
+   "label": "Lawrence Delson",
+   "name": "Lawrence Delson",
+   "description": "Adjunct professor (FIT, NYU School of Professional Studies)",
+   "url": null
+  },
+  {
+   "id": "p:Nick Leese",
+   "type": "person",
+   "label": "Nick Leese",
+   "name": "Nick Leese",
+   "description": "British film producer; son of arms dealer Sir Douglas Leese",
+   "url": "https://x.com/thetimes/status/1967250380817138169"
+  },
+  {
+   "id": "i:Bowdoin College",
+   "type": "college",
+   "label": "Bowdoin College",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Brown University",
+   "type": "college",
+   "label": "Brown University",
+   "ivy": true,
+   "count": 1
+  },
+  {
+   "id": "i:Columbia University",
+   "type": "college",
+   "label": "Columbia University",
+   "ivy": true,
+   "count": 11
+  },
+  {
+   "id": "i:Cornell University",
+   "type": "college",
+   "label": "Cornell University",
+   "ivy": true,
+   "count": 2
+  },
+  {
+   "id": "i:Dartmouth College",
+   "type": "college",
+   "label": "Dartmouth College",
+   "ivy": true,
+   "count": 1
+  },
+  {
+   "id": "i:Duke University",
+   "type": "college",
+   "label": "Duke University",
+   "ivy": false,
+   "count": 3
+  },
+  {
+   "id": "i:Fordham University",
+   "type": "college",
+   "label": "Fordham University",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Georgetown University",
+   "type": "college",
+   "label": "Georgetown University",
+   "ivy": false,
+   "count": 7
+  },
+  {
+   "id": "i:Harvard University",
+   "type": "college",
+   "label": "Harvard University",
+   "ivy": true,
+   "count": 27
+  },
+  {
+   "id": "i:Hebrew University of Jerusalem",
+   "type": "college",
+   "label": "Hebrew University of Jerusalem",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:London School of Economics",
+   "type": "college",
+   "label": "London School of Economics",
+   "ivy": false,
+   "count": 3
+  },
+  {
+   "id": "i:Massachusetts Institute of Technology",
+   "type": "college",
+   "label": "Massachusetts Institute of Technology",
+   "ivy": false,
+   "count": 5
+  },
+  {
+   "id": "i:Moscow State Institute of International Relations",
+   "type": "college",
+   "label": "Moscow State Institute of International Relations",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:New York University",
+   "type": "college",
+   "label": "New York University",
+   "ivy": false,
+   "count": 3
+  },
+  {
+   "id": "i:Princeton University",
+   "type": "college",
+   "label": "Princeton University",
+   "ivy": true,
+   "count": 2
+  },
+  {
+   "id": "i:Queen's University",
+   "type": "college",
+   "label": "Queen's University",
+   "ivy": false,
+   "count": 3
+  },
+  {
+   "id": "i:Sciences Po",
+   "type": "college",
+   "label": "Sciences Po",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Stanford University",
+   "type": "college",
+   "label": "Stanford University",
+   "ivy": false,
+   "count": 8
+  },
+  {
+   "id": "i:Stony Brook University",
+   "type": "college",
+   "label": "Stony Brook University",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Temple University",
+   "type": "college",
+   "label": "Temple University",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Tufts University",
+   "type": "college",
+   "label": "Tufts University",
+   "ivy": false,
+   "count": 3
+  },
+  {
+   "id": "i:UCLA",
+   "type": "college",
+   "label": "UCLA",
+   "ivy": false,
+   "count": 4
+  },
+  {
+   "id": "i:University of Chicago",
+   "type": "college",
+   "label": "University of Chicago",
+   "ivy": false,
+   "count": 4
+  },
+  {
+   "id": "i:University of Oslo",
+   "type": "college",
+   "label": "University of Oslo",
+   "ivy": false,
+   "count": 3
+  },
+  {
+   "id": "i:University of Oxford",
+   "type": "college",
+   "label": "University of Oxford",
+   "ivy": false,
+   "count": 5
+  },
+  {
+   "id": "i:University of Paris",
+   "type": "college",
+   "label": "University of Paris",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:University of Pennsylvania",
+   "type": "college",
+   "label": "University of Pennsylvania",
+   "ivy": true,
+   "count": 8
+  },
+  {
+   "id": "i:University of the Virgin Islands",
+   "type": "college",
+   "label": "University of the Virgin Islands",
+   "ivy": false,
+   "count": 2
+  },
+  {
+   "id": "i:Yale University",
+   "type": "college",
+   "label": "Yale University",
+   "ivy": true,
+   "count": 3
+  },
+  {
+   "id": "f:Alpha Epsilon Pi",
+   "type": "frat",
+   "label": "Alpha Epsilon Pi",
+   "count": 1
+  },
+  {
+   "id": "f:Alpha Phi Omega",
+   "type": "frat",
+   "label": "Alpha Phi Omega",
+   "count": 1
+  },
+  {
+   "id": "f:Delta Phi Epsilon",
+   "type": "frat",
+   "label": "Delta Phi Epsilon",
+   "count": 1
+  },
+  {
+   "id": "f:Delta Sigma Theta",
+   "type": "frat",
+   "label": "Delta Sigma Theta",
+   "count": 1
+  },
+  {
+   "id": "f:Delta Tau Delta",
+   "type": "frat",
+   "label": "Delta Tau Delta",
+   "count": 1
+  },
+  {
+   "id": "f:Kappa Kappa Psi",
+   "type": "frat",
+   "label": "Kappa Kappa Psi",
+   "count": 1
+  },
+  {
+   "id": "f:Phi Delta Theta",
+   "type": "frat",
+   "label": "Phi Delta Theta",
+   "count": 1
+  },
+  {
+   "id": "f:Sigma Alpha Epsilon",
+   "type": "frat",
+   "label": "Sigma Alpha Epsilon",
+   "count": 1
+  },
+  {
+   "id": "f:Sigma Alpha Mu",
+   "type": "frat",
+   "label": "Sigma Alpha Mu",
+   "count": 1
+  },
+  {
+   "id": "f:Sigma Phi Epsilon",
+   "type": "frat",
+   "label": "Sigma Phi Epsilon",
+   "count": 1
+  }
+ ],
+ "links": [
+  {
+   "source": "p:George J. Mitchell",
+   "target": "i:Bowdoin College",
+   "kind": "college"
+  },
+  {
+   "source": "p:Jes Staley",
+   "target": "i:Bowdoin College",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ken Starr",
+   "target": "i:Brown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:David Schoen",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Elisa New",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Jess Ting",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:John Brockman (literary agent)",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Lawrence Delson",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Len Blavatnik",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Lynn Forester de Rothschild",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Michael Wolff (journalist)",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Richard Axel",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Soon-Yi Previn",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Thomas Magnani",
+   "target": "i:Columbia University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Al Seckel",
+   "target": "i:Cornell University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Edward Jay Epstein",
+   "target": "i:Cornell University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Leon Black",
+   "target": "i:Dartmouth College",
+   "kind": "college"
+  },
+  {
+   "source": "p:Dan Ariely",
+   "target": "i:Duke University",
+   "kind": "college"
+  },
+  {
+   "source": "p:George Church (geneticist)",
+   "target": "i:Duke University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ken Starr",
+   "target": "i:Duke University",
+   "kind": "college"
+  },
+  {
+   "source": "p:David Copperfield (illusionist)",
+   "target": "i:Fordham University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Donald Trump",
+   "target": "i:Fordham University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Bill Clinton",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Doug Band",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:George J. Mitchell",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Kathryn Ruemmler",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Robert F. Kennedy Jr.",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Stacey Plaskett",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Steve Bannon",
+   "target": "i:Georgetown University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Andrew Farkas (businessman)",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Andrés Pastrana Arango",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Bill Gates",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Brad S. Karp",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Corina Tarnita",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Edward Jay Epstein",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:George Church (geneticist)",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Jean Pigozzi",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:John C. Phelan",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Josh Harris (businessman)",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Kenneth Mapp",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Larry Summers",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Len Blavatnik",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Leon Black",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Leon Botstein",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Lisa Randall",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Mark Zuckerberg",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Marvin Minsky",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Mortimer Zuckerman",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Nathan Wolfe",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Nicole Junkermann",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Noam Chomsky",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Nouriel Roubini",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Robert F. Kennedy Jr.",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Robert Trivers",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Steve Bannon",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Steven Pinker",
+   "target": "i:Harvard University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ehud Barak",
+   "target": "i:Hebrew University of Jerusalem",
+   "kind": "college"
+  },
+  {
+   "source": "p:Nouriel Roubini",
+   "target": "i:Hebrew University of Jerusalem",
+   "kind": "college"
+  },
+  {
+   "source": "p:John C. Phelan",
+   "target": "i:London School of Economics",
+   "kind": "college"
+  },
+  {
+   "source": "p:Robert F. Kennedy Jr.",
+   "target": "i:London School of Economics",
+   "kind": "college"
+  },
+  {
+   "source": "p:Todd Boehly",
+   "target": "i:London School of Economics",
+   "kind": "college"
+  },
+  {
+   "source": "p:Edward Boyden",
+   "target": "i:Massachusetts Institute of Technology",
+   "kind": "college"
+  },
+  {
+   "source": "p:Larry Summers",
+   "target": "i:Massachusetts Institute of Technology",
+   "kind": "college"
+  },
+  {
+   "source": "p:Lawrence Krauss",
+   "target": "i:Massachusetts Institute of Technology",
+   "kind": "college"
+  },
+  {
+   "source": "p:Noam Chomsky",
+   "target": "i:Massachusetts Institute of Technology",
+   "kind": "college"
+  },
+  {
+   "source": "p:Robert Lawrence Kuhn",
+   "target": "i:Massachusetts Institute of Technology",
+   "kind": "college"
+  },
+  {
+   "source": "p:Miroslav Lajčák",
+   "target": "i:Moscow State Institute of International Relations",
+   "kind": "college"
+  },
+  {
+   "source": "p:Vitaly Churkin",
+   "target": "i:Moscow State Institute of International Relations",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ben Goertzel",
+   "target": "i:New York University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Brett Ratner",
+   "target": "i:New York University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Woody Allen",
+   "target": "i:New York University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Marvin Minsky",
+   "target": "i:Princeton University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Nathan Myhrvold",
+   "target": "i:Princeton University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Elon Musk",
+   "target": "i:Queen's University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Kimbal Musk",
+   "target": "i:Queen's University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Peter Attia",
+   "target": "i:Queen's University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ariane de Rothschild",
+   "target": "i:Sciences Po",
+   "kind": "college"
+  },
+  {
+   "source": "p:Jack Lang (French politician)",
+   "target": "i:Sciences Po",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ehud Barak",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Elon Musk",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Nathan Wolfe",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Peter Attia",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Peter Thiel",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Reid Hoffman",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Sergey Brin",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Stephen Kosslyn",
+   "target": "i:Stanford University",
+   "kind": "college"
+  },
+  {
+   "source": "p:David Gelernter",
+   "target": "i:Stony Brook University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Glenn Dubin",
+   "target": "i:Stony Brook University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ben Goertzel",
+   "target": "i:Temple University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Sultan Ahmed bin Sulayem",
+   "target": "i:Temple University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Bill Richardson",
+   "target": "i:Tufts University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Joi Ito",
+   "target": "i:Tufts University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Steve Tisch",
+   "target": "i:Tufts University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Casey Wasserman",
+   "target": "i:UCLA",
+   "kind": "college"
+  },
+  {
+   "source": "p:Nathan Myhrvold",
+   "target": "i:UCLA",
+   "kind": "college"
+  },
+  {
+   "source": "p:Robert Lawrence Kuhn",
+   "target": "i:UCLA",
+   "kind": "college"
+  },
+  {
+   "source": "p:Stephen Kosslyn",
+   "target": "i:UCLA",
+   "kind": "college"
+  },
+  {
+   "source": "p:Joi Ito",
+   "target": "i:University of Chicago",
+   "kind": "college"
+  },
+  {
+   "source": "p:Joshua Cooper Ramo",
+   "target": "i:University of Chicago",
+   "kind": "college"
+  },
+  {
+   "source": "p:Leon Botstein",
+   "target": "i:University of Chicago",
+   "kind": "college"
+  },
+  {
+   "source": "p:Thomas Pritzker",
+   "target": "i:University of Chicago",
+   "kind": "college"
+  },
+  {
+   "source": "p:Queen Mette-Marit of Norway",
+   "target": "i:University of Oslo",
+   "kind": "college"
+  },
+  {
+   "source": "p:Terje Rød-Larsen",
+   "target": "i:University of Oslo",
+   "kind": "college"
+  },
+  {
+   "source": "p:Thorbjørn Jagland",
+   "target": "i:University of Oslo",
+   "kind": "college"
+  },
+  {
+   "source": "p:Bill Clinton",
+   "target": "i:University of Oxford",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ghislaine Maxwell",
+   "target": "i:University of Oxford",
+   "kind": "college"
+  },
+  {
+   "source": "p:Nick Leese",
+   "target": "i:University of Oxford",
+   "kind": "college"
+  },
+  {
+   "source": "p:Robert Mugabe",
+   "target": "i:University of Oxford",
+   "kind": "college"
+  },
+  {
+   "source": "p:Stephen Hawking",
+   "target": "i:University of Oxford",
+   "kind": "college"
+  },
+  {
+   "source": "p:Karim Wade",
+   "target": "i:University of Paris",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ronald Lauder",
+   "target": "i:University of Paris",
+   "kind": "college"
+  },
+  {
+   "source": "p:Anil Ambani",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Donald Trump",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Elon Musk",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Josh Harris (businessman)",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Marc Rowan",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Mortimer Zuckerman",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Noam Chomsky",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Ronald Lauder",
+   "target": "i:University of Pennsylvania",
+   "kind": "college"
+  },
+  {
+   "source": "p:Albert Bryan Jr.",
+   "target": "i:University of the Virgin Islands",
+   "kind": "college"
+  },
+  {
+   "source": "p:Kenneth Mapp",
+   "target": "i:University of the Virgin Islands",
+   "kind": "college"
+  },
+  {
+   "source": "p:Alan Dershowitz",
+   "target": "i:Yale University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Bill Clinton",
+   "target": "i:Yale University",
+   "kind": "college"
+  },
+  {
+   "source": "p:David Gelernter",
+   "target": "i:Yale University",
+   "kind": "college"
+  },
+  {
+   "source": "p:Mark Zuckerberg",
+   "target": "f:Alpha Epsilon Pi",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Bill Clinton",
+   "target": "f:Alpha Phi Omega",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Ken Starr",
+   "target": "f:Delta Phi Epsilon",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Stacey Plaskett",
+   "target": "f:Delta Sigma Theta",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Bill Richardson",
+   "target": "f:Delta Tau Delta",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Bill Clinton",
+   "target": "f:Kappa Kappa Psi",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Josh Harris (businessman)",
+   "target": "f:Phi Delta Theta",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Josh Harris (businessman)",
+   "target": "f:Sigma Alpha Epsilon",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Les Wexner",
+   "target": "f:Sigma Alpha Mu",
+   "kind": "frat"
+  },
+  {
+   "source": "p:Doug Band",
+   "target": "f:Sigma Phi Epsilon",
+   "kind": "frat"
+  }
+ ],
+ "counts": {
+  "people_linked": 91,
+  "people_unlinked": 61,
+  "colleges": 29,
+  "frats": 10
+ }
+}
