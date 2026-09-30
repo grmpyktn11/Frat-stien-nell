@@ -1854,6 +1854,30 @@
    "count": 1
   },
   {
+   "id": "o:College Democrats",
+   "type": "club",
+   "kind": "political",
+   "school": null,
+   "label": "College Democrats",
+   "count": 1
+  },
+  {
+   "id": "o:College Republicans",
+   "type": "club",
+   "kind": "political",
+   "school": null,
+   "label": "College Republicans",
+   "count": 1
+  },
+  {
+   "id": "o:Duke Law Journal",
+   "type": "club",
+   "kind": "publication",
+   "school": "Duke",
+   "label": "Duke Law Journal",
+   "count": 1
+  },
+  {
    "id": "o:Fox Club",
    "type": "club",
    "kind": "club",
@@ -1862,11 +1886,35 @@
    "count": 1
   },
   {
+   "id": "o:Georgetown Law Journal",
+   "type": "club",
+   "kind": "publication",
+   "school": "Georgetown",
+   "label": "Georgetown Law Journal",
+   "count": 1
+  },
+  {
+   "id": "o:Harvard Law Review",
+   "type": "club",
+   "kind": "publication",
+   "school": "Harvard",
+   "label": "Harvard Law Review",
+   "count": 1
+  },
+  {
    "id": "o:Harvard Society of Fellows",
    "type": "club",
    "kind": "honor",
    "school": "Harvard",
    "label": "Harvard Society of Fellows",
+   "count": 2
+  },
+  {
+   "id": "o:Hasty Pudding Club",
+   "type": "club",
+   "kind": "club",
+   "school": "Harvard",
+   "label": "Hasty Pudding Club",
    "count": 1
   },
   {
@@ -1894,11 +1942,35 @@
    "count": 1
   },
   {
+   "id": "o:Skull and Bones",
+   "type": "club",
+   "kind": "society",
+   "school": "Yale",
+   "label": "Skull and Bones",
+   "count": 1
+  },
+  {
+   "id": "o:Telluride House",
+   "type": "club",
+   "kind": "club",
+   "school": "Cornell",
+   "label": "Telluride House",
+   "count": 1
+  },
+  {
    "id": "o:The Stanford Review",
    "type": "club",
    "kind": "publication",
    "school": "Stanford",
    "label": "The Stanford Review",
+   "count": 1
+  },
+  {
+   "id": "o:Yale Law Journal",
+   "type": "club",
+   "kind": "publication",
+   "school": "Yale",
+   "label": "Yale Law Journal",
    "count": 1
   }
  ],
@@ -2954,13 +3026,48 @@
    "kind": "club"
   },
   {
+   "source": "p:Scooter Libby",
+   "target": "o:College Democrats",
+   "kind": "club"
+  },
+  {
+   "source": "p:Jack Abramoff",
+   "target": "o:College Republicans",
+   "kind": "club"
+  },
+  {
+   "source": "p:Ken Starr",
+   "target": "o:Duke Law Journal",
+   "kind": "club"
+  },
+  {
    "source": "p:Bill Gates",
    "target": "o:Fox Club",
    "kind": "club"
   },
   {
+   "source": "p:Kathryn Ruemmler",
+   "target": "o:Georgetown Law Journal",
+   "kind": "club"
+  },
+  {
+   "source": "p:Eliot Spitzer",
+   "target": "o:Harvard Law Review",
+   "kind": "club"
+  },
+  {
    "source": "p:Marvin Minsky",
    "target": "o:Harvard Society of Fellows",
+   "kind": "club"
+  },
+  {
+   "source": "p:Noam Chomsky",
+   "target": "o:Harvard Society of Fellows",
+   "kind": "club"
+  },
+  {
+   "source": "p:Andrew Farkas (businessman)",
+   "target": "o:Hasty Pudding Club",
    "kind": "club"
   },
   {
@@ -2999,8 +3106,23 @@
    "kind": "club"
   },
   {
+   "source": "p:Scooter Libby",
+   "target": "o:Skull and Bones",
+   "kind": "club"
+  },
+  {
+   "source": "p:Paul Wolfowitz",
+   "target": "o:Telluride House",
+   "kind": "club"
+  },
+  {
    "source": "p:Peter Thiel",
    "target": "o:The Stanford Review",
+   "kind": "club"
+  },
+  {
+   "source": "p:Alan Dershowitz",
+   "target": "o:Yale Law Journal",
    "kind": "club"
   }
  ],
@@ -3009,6 +3131,6 @@
   "people_unlinked": 74,
   "colleges": 43,
   "frats": 17,
-  "clubs": 7
+  "clubs": 16
  }
 }

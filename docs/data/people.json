@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-09-30T18:53:13+00:00",
+  "generated": "2026-09-30T18:57:27+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "member_list_error": null,
@@ -49,8 +49,8 @@
    },
    "frat_yes": 21,
    "frat_possible": 0,
-   "orgs_yes": 5,
-   "orgs_possible": 10
+   "orgs_yes": 11,
+   "orgs_possible": 0
   }
  },
  "people": [
@@ -183,7 +183,7 @@
      "name": "Yale Law Journal",
      "kind": "publication",
      "school": "Yale",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -198,7 +198,7 @@
     "Yale Law School",
     "Brooklyn College"
    ],
-   "verified": false,
+   "verified": true,
    "colleges": [
     "Yale University",
     "Brooklyn College"
@@ -435,7 +435,7 @@
      "name": "Hasty Pudding Club",
      "kind": "club",
      "school": "Harvard",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -446,7 +446,7 @@
     }
    ],
    "education": [],
-   "verified": false,
+   "verified": true,
    "colleges": [
     "Harvard University"
    ]
@@ -872,34 +872,14 @@
     ],
     "evidence": [
      {
-      "source": "Wikipedia article text",
-      "text": "While in college, he became a brother of service fraternity Alpha Phi Omega and was elected to Phi Beta Kappa.",
-      "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
-     },
-     {
-      "source": "Wikipedia article text",
-      "text": "He is a member of Kappa Kappa Psi honorary band fraternity.",
-      "url": "https://en.wikipedia.org/wiki/Bill_Clinton"
-     },
-     {
       "source": "Wikipedia: List of Alpha Phi Omega members",
-      "text": "{{Mem/f|name=Bill Clinton |chapter=Mu Alpha |nota=Forty-second president of the United States (1993–2001)|ref=",
+      "text": "Bill Clinton, Mu Alpha chapter (Georgetown): Forty-second president of the United States",
       "url": "https://en.wikipedia.org/wiki/List_of_Alpha_Phi_Omega_members"
-     },
-     {
-      "source": "Wikipedia: List of Delta Sigma Theta members",
-      "text": "nota=Founder and former chair of the Department of African American Studies, Northeastern University; former president and CEO of the National Urban Coalition; created the M. Carl Holman Leadership Development Institute and Executive Leadership Program to bring minorities into leadership development",
-      "url": "https://en.wikipedia.org/wiki/List_of_Delta_Sigma_Theta_members"
      },
      {
       "source": "Wikipedia: List of Kappa Kappa Psi members",
       "text": "Bill Clinton, President of the United States",
       "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Kappa_Psi_members"
-     },
-     {
-      "source": "Wikipedia: List of Phi Beta Sigma members",
-      "text": "name=Bill Clinton",
-      "url": "https://en.wikipedia.org/wiki/List_of_Phi_Beta_Sigma_members"
      }
     ]
    },
@@ -2465,7 +2445,7 @@
      "name": "Harvard Law Review",
      "kind": "publication",
      "school": "Harvard",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -3268,7 +3248,7 @@
      "name": "College Republicans",
      "kind": "political",
      "school": null,
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -3293,7 +3273,7 @@
     "Georgetown University Law Center",
     "Brandeis University"
    ],
-   "verified": false,
+   "verified": true,
    "colleges": [
     "Georgetown University",
     "Brandeis University"
@@ -3940,9 +3920,9 @@
    },
    "orgs": [],
    "education": [
-    "The Field School",
     "The Wharton School",
-    "Harvard Business School"
+    "Harvard Business School",
+    "The Field School"
    ],
    "verified": false,
    "note": "Wikipedia article text names Sigma Alpha Epsilon; Wikidata also lists Phi Delta Theta. Kappa Beta Phi is a Wall Street honor society, not counted.",
@@ -4024,7 +4004,7 @@
      "name": "Georgetown Law Journal",
      "kind": "publication",
      "school": "Georgetown",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -4039,7 +4019,7 @@
     "Georgetown University Law Center",
     "Q219563"
    ],
-   "verified": false,
+   "verified": true,
    "colleges": [
     "Georgetown University",
     "Q219563"
@@ -4127,7 +4107,7 @@
      "name": "Duke Law Journal",
      "kind": "publication",
      "school": "Duke",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -4416,27 +4396,13 @@
     "honor_societies": [],
     "evidence": []
    },
-   "orgs": [
-    {
-     "name": "The Harvard Crimson",
-     "kind": "publication",
-     "school": "Harvard",
-     "status": "possible",
-     "evidence": [
-      {
-       "source": "Wikipedia article text",
-       "text": "An article in The Harvard Crimson in 2003, during Summers's tenure as president, detailed a reportedly \"special connection\" between Summers and Jeffrey Epstein.",
-       "url": "https://en.wikipedia.org/wiki/Larry_Summers"
-      }
-     ]
-    }
-   ],
+   "orgs": [],
    "education": [
     "Massachusetts Institute of Technology",
     "Harvard University",
     "Harriton High School"
    ],
-   "verified": false,
+   "verified": true,
    "colleges": [
     "Harvard University",
     "Massachusetts Institute of Technology"
@@ -6069,7 +6035,7 @@
      "name": "Harvard Society of Fellows",
      "kind": "honor",
      "school": "Harvard",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -6264,7 +6230,7 @@
      "name": "Telluride House",
      "kind": "club",
      "school": "Cornell",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -6297,7 +6263,7 @@
     "University of Chicago",
     "Cornell University"
    ],
-   "verified": false,
+   "verified": true,
    "colleges": [
     "Cornell University",
     "University of Chicago"
@@ -7361,7 +7327,7 @@
      "name": "Skull and Bones",
      "kind": "society",
      "school": "Yale",
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -7379,7 +7345,7 @@
      "name": "College Democrats",
      "kind": "political",
      "school": null,
-     "status": "possible",
+     "status": "yes",
      "evidence": [
       {
        "source": "Wikipedia article text",
@@ -7395,7 +7361,7 @@
     "Columbia Law School",
     "Yale University"
    ],
-   "verified": false,
+   "verified": true,
    "colleges": [
     "Columbia University",
     "Yale University"
