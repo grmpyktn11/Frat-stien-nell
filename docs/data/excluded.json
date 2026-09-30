@@ -15,24 +15,15 @@
   {
    "name": "Personal life of Jeffrey Epstein",
    "reason": "not a person (Wikidata)"
+  },
+  {
+   "name": "Shelley Anne Lewis",
+   "reason": "private individual (personal relationship only, no public role)"
+  },
+  {
+   "name": "Anastasiya Siroochenko",
+   "reason": "described in reporting as a model Epstein paid; possible victim"
   }
  ],
- "unresolved": [
-  "Stephen Alexander",
-  "Francisco D'Agostino",
-  "Lawrence Delson",
-  "Caroline Lang",
-  "Julian Leese",
-  "Nick Leese",
-  "Shelley Anne Lewis",
-  "Thomas Magnani",
-  "Matthew Menchel",
-  "Letty Moss-Salentijn",
-  "Alberto Pinto and Linda Pinto",
-  "David A. Ross",
-  "Rony Shimony",
-  "Anastasiya Siroochenko",
-  "Jess Ting",
-  "Mark Tramo"
- ]
+ "unresolved": []
 }
