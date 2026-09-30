@@ -1,0 +1,2 @@
+# Extra notable people to add beyond the Wikipedia list (must have a Wikipedia article).
+# Format: Wikipedia title | document types (comma separated)

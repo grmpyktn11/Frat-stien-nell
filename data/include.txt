@@ -1,0 +1,2 @@
+# Force-include names the automatic victim/staff filter wrongly removed.
+# Format: Wikipedia title | reason

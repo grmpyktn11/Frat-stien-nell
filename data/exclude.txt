@@ -1,0 +1,17 @@
+# Names removed from the dataset: victims/survivors, Epstein's staff, and Epstein himself.
+# Format: Wikipedia title | reason
+Jeffrey Epstein | subject of the documents
+Virginia Giuffre | survivor
+Maria Farmer | survivor
+Annie Farmer | survivor
+Sarah Ransome | survivor
+Johanna Sjoberg | survivor
+Courtney Wild | survivor
+Chauntae Davies | survivor
+Nadia Marcinko | alleged victim / Epstein employee (pilot)
+Sarah Kellen | Epstein assistant
+Lesley Groff | Epstein assistant
+Adriana Ross | Epstein assistant
+Larry Visoski | Epstein pilot
+Juan Alessi | Epstein house manager
+Alfredo Rodriguez | Epstein butler
