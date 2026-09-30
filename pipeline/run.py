@@ -9,7 +9,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from enrich import (  # noqa: E402
     IVY, detect_frat, detect_ivy, exclusion_reason, fetch_page, resolve_titles, wikidata_facts,
 )
-from graph import build_graph, person_colleges  # noqa: E402
+from graph import build_graph, load_cases, person_colleges  # noqa: E402
 from orgs import detect_orgs  # noqa: E402
 from member_lists import lookup  # noqa: E402
 from scrape_names import SOURCE_PAGE, classify, get_entries  # noqa: E402
@@ -227,7 +227,7 @@ def main():
         },
     }
     (OUT / "people.json").write_text(json.dumps({"meta": meta, "people": people}, indent=1, ensure_ascii=False))
-    (OUT / "graph.json").write_text(json.dumps(build_graph(people), indent=1, ensure_ascii=False))
+    (OUT / "graph.json").write_text(json.dumps(build_graph(people, load_cases()), indent=1, ensure_ascii=False))
     (OUT / "excluded.json").write_text(json.dumps({"excluded": excluded, "unresolved": unresolved}, indent=1, ensure_ascii=False))
     print(json.dumps(meta, indent=1))
 

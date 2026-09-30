@@ -1443,6 +1443,27 @@
    "cases": []
   },
   {
+   "id": "c:Cornell 7",
+   "type": "case",
+   "label": "Cornell 7",
+   "badge": "7",
+   "description": "Seven Cornell students accused in a civil lawsuit (filed Sept 16, 2026) of a sexual assault in October 2024 at the Chi Phi chapter house. No criminal charges have been filed; the Tompkins County District Attorney reopened the investigation in September 2026. Cornell expelled or suspended some students in 2024 and closed the chapter. Individuals are not named here.",
+   "sources": [
+    {
+     "source": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/nation/prosecutor-reopens-probe-into-cornell-gang-rape-allegations-after-accuser-files-lawsuit"
+    },
+    {
+     "source": "CNN",
+     "url": "https://www.cnn.com/2026/09/29/us/cornell-rape-case-sexual-assault-debate"
+    },
+    {
+     "source": "The Washington Post",
+     "url": "https://www.washingtonpost.com/education/2026/09/28/cornell-rape-allegations-prompt-prosecutor-reopen-criminal-investigation/"
+    }
+   ]
+  },
+  {
    "id": "i:American University",
    "type": "college",
    "label": "American University",
@@ -1972,6 +1993,12 @@
    "school": "Yale",
    "label": "Yale Law Journal",
    "count": 1
+  },
+  {
+   "id": "f:Chi Phi",
+   "type": "frat",
+   "label": "Chi Phi",
+   "count": 0
   }
  ],
  "links": [
@@ -3124,6 +3151,16 @@
    "source": "p:Alan Dershowitz",
    "target": "o:Yale Law Journal",
    "kind": "club"
+  },
+  {
+   "source": "c:Cornell 7",
+   "target": "i:Cornell University",
+   "kind": "college"
+  },
+  {
+   "source": "c:Cornell 7",
+   "target": "f:Chi Phi",
+   "kind": "frat"
   }
  ],
  "counts": {
@@ -3131,6 +3168,7 @@
   "people_unlinked": 74,
   "colleges": 43,
   "frats": 17,
-  "clubs": 16
+  "clubs": 16,
+  "cases": 1
  }
 }

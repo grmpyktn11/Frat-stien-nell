@@ -235,3 +235,11 @@ def test_member_list_first_link_only():
     lines = ["* [[David E. Kendall]] (Alpha-Pi), Attorney to President [[Bill Clinton]]", "* [[Bill Clinton]], President"]
     firsts = [member_lists.LINK_RE.search(l).group(1) for l in lines]
     assert firsts == ["David E. Kendall", "Bill Clinton"]
+
+
+def test_case_node():
+    g = build_graph([], [{"id": "c:X", "label": "X", "colleges": ["Cornell University"], "frats": ["Chi Phi"]}])
+    ids = {n["id"] for n in g["nodes"]}
+    assert {"c:X", "i:Cornell University", "f:Chi Phi"} <= ids
+    assert {(l["source"], l["target"]) for l in g["links"]} == {("c:X", "i:Cornell University"), ("c:X", "f:Chi Phi")}
+    assert g["counts"]["people_linked"] == 0

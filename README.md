@@ -90,6 +90,17 @@ Add a record to `data/manual_people.json`:
 
 School keys: `Brown`, `Columbia`, `Cornell`, `Dartmouth`, `Harvard`, `Penn`, `Princeton`, `Yale`. Add `"faculty": true` for faculty/staff.
 
+### Add an unnamed case node
+
+For cases where the accused are private individuals who have not been charged, add one node to `data/cases.json` instead of naming anyone. It links to the colleges and orgs involved:
+
+```json
+{"id": "c:Cornell 7", "label": "Cornell 7", "badge": "7",
+ "description": "Factual summary and legal status.",
+ "colleges": ["Cornell University"], "frats": ["Chi Phi"],
+ "sources": [{"source": "PBS NewsHour", "url": "https://…"}]}
+```
+
 ### Remove a person
 
 Add their Wikipedia title and a reason to `data/exclude.txt`:

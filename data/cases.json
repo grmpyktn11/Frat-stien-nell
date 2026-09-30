@@ -1,0 +1,18 @@
+{
+ "_comment": "Cases shown as a single unnamed node on the map (no individuals listed). Each links to the colleges/orgs involved.",
+ "cases": [
+  {
+   "id": "c:Cornell 7",
+   "label": "Cornell 7",
+   "badge": "7",
+   "description": "Seven Cornell students accused in a civil lawsuit (filed Sept 16, 2026) of a sexual assault in October 2024 at the Chi Phi chapter house. No criminal charges have been filed; the Tompkins County District Attorney reopened the investigation in September 2026. Cornell expelled or suspended some students in 2024 and closed the chapter. Individuals are not named here.",
+   "colleges": ["Cornell University"],
+   "frats": ["Chi Phi"],
+   "sources": [
+    {"source": "PBS NewsHour", "url": "https://www.pbs.org/newshour/nation/prosecutor-reopens-probe-into-cornell-gang-rape-allegations-after-accuser-files-lawsuit"},
+    {"source": "CNN", "url": "https://www.cnn.com/2026/09/29/us/cornell-rape-case-sexual-assault-debate"},
+    {"source": "The Washington Post", "url": "https://www.washingtonpost.com/education/2026/09/28/cornell-rape-allegations-prompt-prosecutor-reopen-criminal-investigation/"}
+   ]
+  }
+ ]
+}

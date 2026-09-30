@@ -83,7 +83,13 @@ def person_colleges(p):
     return sorted(dict.fromkeys(insts), key=lambda x: (x not in ivy, insts.index(x)))
 
 
-def build_graph(people):
+def load_cases(root=None):
+    root = root or pathlib.Path(__file__).resolve().parent.parent
+    f = root / "data" / "cases.json"
+    return json.loads(f.read_text())["cases"] if f.exists() else []
+
+
+def build_graph(people, cases=()):
     person_nodes, inst_members, frat_members, club_members = [], {}, {}, {}
     ivy_inst = set(IVY_NAMES.values())
     for p in people:
@@ -113,8 +119,24 @@ def build_graph(people):
         nodes.append({"id": "o:" + c, "type": "club", "kind": info["kind"], "school": info["school"],
                       "label": c, "count": len(info["m"])})
         links += [{"source": "p:" + n, "target": "o:" + c, "kind": "club"} for n in sorted(info["m"])]
-    linked = {l["source"] for l in links}
-    nodes = [n for n in person_nodes if n["id"] in linked] + nodes
+    # Unnamed case nodes (e.g. "Cornell 7"): one node linked to the colleges/orgs involved.
+    have = {n["id"] for n in nodes}
+    case_nodes = []
+    for c in cases:
+        case_nodes.append({"id": c["id"], "type": "case", "label": c["label"], "badge": c.get("badge", ""),
+                           "description": c.get("description", ""), "sources": c.get("sources", [])})
+        for col in c.get("colleges", []):
+            if "i:" + col not in have:
+                nodes.append({"id": "i:" + col, "type": "college", "label": col, "ivy": col in ivy_inst, "count": 0})
+                have.add("i:" + col)
+            links.append({"source": c["id"], "target": "i:" + col, "kind": "college"})
+        for fr in c.get("frats", []):
+            if "f:" + fr not in have:
+                nodes.append({"id": "f:" + fr, "type": "frat", "label": fr, "count": 0})
+                have.add("f:" + fr)
+            links.append({"source": c["id"], "target": "f:" + fr, "kind": "frat"})
+    linked = {l["source"] for l in links if not l["source"].startswith("c:")}
+    nodes = [n for n in person_nodes if n["id"] in linked] + case_nodes + nodes
     return {
         "nodes": nodes,
         "links": links,
@@ -124,6 +146,7 @@ def build_graph(people):
             "colleges": len(kept_inst),
             "frats": len(frat_members),
             "clubs": len(club_members),
+            "cases": len(case_nodes),
         },
     }
 
@@ -131,7 +154,7 @@ def build_graph(people):
 def main():
     out = pathlib.Path(__file__).resolve().parent.parent / "docs" / "data"
     people = json.loads((out / "people.json").read_text())["people"]
-    g = build_graph(people)
+    g = build_graph(people, load_cases())
     (out / "graph.json").write_text(json.dumps(g, indent=1, ensure_ascii=False))
     print(json.dumps(g["counts"]))
 
