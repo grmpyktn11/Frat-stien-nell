@@ -144,6 +144,8 @@ body.sheetfull .key,body.sheetfull .zoom{opacity:0;pointer-events:none}
   <span><svg width="11" height="11" aria-hidden="true"><rect width="11" height="11" fill="var(--college)"/></svg>Ivy</span>
   <span><svg width="11" height="11" aria-hidden="true"><rect x="1" y="1" width="9" height="9" fill="none" stroke="var(--college)" stroke-width="2"/></svg>College</span>
   <span><svg width="11" height="11" aria-hidden="true"><rect x="2" y="2" width="7" height="7" transform="rotate(45 5.5 5.5)" fill="var(--frat)"/></svg>Fraternity</span>
+  <span><svg width="11" height="11" aria-hidden="true"><path d="M5.5 1L10 10H1z" fill="var(--club)"/></svg>Society / club</span>
+  <span><svg width="11" height="11" aria-hidden="true"><path d="M5.5 1L10 10H1z" fill="var(--pub)"/></svg>Paper / political</span>
   <span><svg width="11" height="11" aria-hidden="true"><circle cx="5.5" cy="5.5" r="4" fill="var(--ink)"/></svg>Epstein files</span>
   <span><svg width="11" height="11" aria-hidden="true"><circle cx="5.5" cy="5.5" r="3.5" fill="none" stroke="var(--ink)" stroke-width="1.6"/></svg>Other scandal</span>
 </div>
@@ -169,6 +171,9 @@ body.sheetfull .key,body.sheetfull .zoom{opacity:0;pointer-events:none}
     <h3>Show</h3>
     <div class="row"><label for="tCol">Colleges</label><input class="switch" type="checkbox" id="tCol" checked></div>
     <div class="row"><label for="tFrat">Fraternities &amp; sororities</label><input class="switch" type="checkbox" id="tFrat" checked></div>
+    <div class="row"><label for="tClub">Secret societies &amp; clubs</label><input class="switch" type="checkbox" id="tClub" checked></div>
+    <div class="row"><label for="tPub">Student papers &amp; political groups</label><input class="switch" type="checkbox" id="tPub" checked></div>
+    <div class="row"><label for="tHonor">Honor societies</label><input class="switch" type="checkbox" id="tHonor"></div>
     <div class="row"><label for="tIvy">Ivy League only</label><input class="switch" type="checkbox" id="tIvy"></div>
     <div class="row"><label for="tShared">Only shared links (2+ people)</label><input class="switch" type="checkbox" id="tShared"></div>
     <h3>Focus on a school</h3>
@@ -188,7 +193,9 @@ const GREEK={Alpha:"Α",Beta:"Β",Gamma:"Γ",Delta:"Δ",Epsilon:"Ε",Zeta:"Ζ",E
 const greek=o=>{const w=o.split(/\s+/);return w.every(x=>GREEK[x])?w.map(x=>GREEK[x]).join(""):o};
 const SHORT={"Brown University":"Brown","Columbia University":"Columbia","Cornell University":"Cornell","Dartmouth College":"Dartmouth","Harvard University":"Harvard","University of Pennsylvania":"Penn","Princeton University":"Princeton","Yale University":"Yale","Massachusetts Institute of Technology":"MIT","Stanford University":"Stanford","New York University":"NYU","London School of Economics":"LSE"};
 const IVYS=["Brown University","Columbia University","Cornell University","Dartmouth College","Harvard University","University of Pennsylvania","Princeton University","Yale University"];
-const DEF={grp:"",colleges:true,frats:true,ivy:false,shared:false,school:""};
+const DEF={grp:"",colleges:true,frats:true,clubs:true,pubs:true,honor:false,ivy:false,shared:false,school:""};
+const KIND={society:"Secret / senior society",club:"Club",publication:"Student publication",political:"Student political group",honor:"Honor society"};
+const kindColor=k=>k==="honor"?"--honor":(k==="publication"||k==="political")?"--pub":"--club";
 const state={...DEF,sel:null};
 const mqWide=matchMedia("(min-width:760px)");
 let G,P={},byId={},adj={},sim,zoom,svg,gRoot,gLinks,gNodes,nodeSel,linkSel,k=1,firstFit=true;
@@ -206,6 +213,7 @@ Promise.all([fetch("data/graph.json").then(r=>r.json()),fetch("data/people.json"
 function hubOk(n){
   if(n.type==="college")return state.colleges&&(!state.ivy||n.ivy)&&(!state.shared||n.count>=2);
   if(n.type==="frat")return state.frats&&(!state.shared||n.count>=2);
+  if(n.type==="club"){const on=n.kind==="honor"?state.honor:(n.kind==="publication"||n.kind==="political")?state.pubs:state.clubs;return on&&(!state.shared||n.count>=2)}
   return false;
 }
 function personOk(n){return !state.grp||(state.grp==="epstein"?n.epstein:n.cases.length)}
@@ -221,14 +229,14 @@ function visible(){
 function activeFilters(){return Object.keys(DEF).filter(k=>state[k]!==DEF[k]).length}
 
 /* ---------- drawing ---------- */
-function size(n){return n.type==="person"?4.5:n.type==="frat"?7:5+Math.sqrt(n.count)*3.4}
+function size(n){return n.type==="person"?4.5:n.type==="frat"||n.type==="club"?6.5+Math.sqrt(n.count):5+Math.sqrt(n.count)*3.4}
 function init(){
   svg=d3.select("#svg");gRoot=svg.append("g");gLinks=gRoot.append("g");gNodes=gRoot.append("g");
   zoom=d3.zoom().scaleExtent([.15,8]).on("zoom",e=>{gRoot.attr("transform",e.transform);k=e.transform.k;labels()});
   svg.call(zoom).on("dblclick.zoom",null);
   svg.on("click",e=>{if(e.target===svg.node()){select(null);closeFilters();hideResults()}});
   sim=d3.forceSimulation()
-    .force("link",d3.forceLink().id(d=>d.id).distance(l=>l.kind==="frat"?36:54).strength(.7))
+    .force("link",d3.forceLink().id(d=>d.id).distance(l=>l.kind==="college"?54:36).strength(.7))
     .force("charge",d3.forceManyBody().strength(d=>d.type==="person"?-40:-240).distanceMax(420))
     .force("collide",d3.forceCollide(d=>size(d)+3))
     .force("x",d3.forceX().strength(.05)).force("y",d3.forceY().strength(.06));
@@ -246,7 +254,7 @@ function draw(){
   const {nodes,links}=visible();
   const cCol=css("--college"),cFrat=css("--frat"),cInk=css("--ink"),cLine=css("--line"),cSurf=css("--surface");
   linkSel=gLinks.selectAll("line").data(links,d=>(d.source.id||d.source)+"|"+(d.target.id||d.target))
-    .join("line").attr("stroke",d=>d.kind==="frat"?cFrat:cLine).attr("stroke-width",d=>d.kind==="frat"?1.6:1.1);
+    .join("line").attr("stroke",d=>d.kind==="frat"?cFrat:d.kind==="club"?css(kindColor(byId[d.target.id||d.target].kind)):cLine).attr("stroke-width",d=>d.kind==="college"?1.1:1.6);
   nodeSel=gNodes.selectAll("g.n").data(nodes,d=>d.id).join(enter=>{
     const g=enter.append("g").attr("class","n").style("cursor","pointer");
     g.each(function(d){
@@ -254,12 +262,13 @@ function draw(){
       if(d.type==="college"){
         if(d.ivy)s.append("rect").attr("x",-r).attr("y",-r).attr("width",r*2).attr("height",r*2).attr("fill",cCol);
         else s.append("rect").attr("x",-r+1).attr("y",-r+1).attr("width",r*2-2).attr("height",r*2-2).attr("fill",cSurf).attr("stroke",cCol).attr("stroke-width",2);
-      }else if(d.type==="frat")s.append("rect").attr("x",-r*.75).attr("y",-r*.75).attr("width",r*1.5).attr("height",r*1.5).attr("transform","rotate(45)").attr("fill",cFrat);
+      }else if(d.type==="club")s.append("path").attr("d",d3.symbol(d3.symbolTriangle,r*r*2.2)()).attr("fill",css(kindColor(d.kind)));
+      else if(d.type==="frat")s.append("rect").attr("x",-r*.75).attr("y",-r*.75).attr("width",r*1.5).attr("height",r*1.5).attr("transform","rotate(45)").attr("fill",cFrat);
       else if(d.epstein)s.append("circle").attr("r",r).attr("fill",cInk);
       else s.append("circle").attr("r",r-.6).attr("fill",cSurf).attr("stroke",cInk).attr("stroke-width",1.7);
       s.append("circle").attr("r",Math.max(r+8,16)).attr("fill","transparent");/* touch target */
       s.append("text").attr("text-anchor","middle").attr("font-weight",d.type==="person"?400:600)
-        .attr("fill",d.type==="college"?cCol:d.type==="frat"?cFrat:cInk)
+        .attr("fill",d.type==="college"?cCol:d.type==="frat"?cFrat:d.type==="club"?css(kindColor(d.kind)):cInk)
         .text(d.type==="frat"?greek(d.label):d.type==="college"?(SHORT[d.label]||d.label):d.label);
     });
     g.on("click",(e,d)=>{e.stopPropagation();hideResults();closeFilters();select(d.id)});
@@ -279,7 +288,8 @@ function draw(){
   if(state.sel&&!nodes.find(n=>n.id===state.sel))select(null);else{highlight();labels()}
   const n=activeFilters();$("fcount").hidden=!n;$("fcount").textContent=n;
   const people=nodes.filter(n=>n.type==="person").length,cols=nodes.filter(n=>n.type==="college").length,fr=nodes.filter(n=>n.type==="frat").length;
-  $("stats").innerHTML=`<span><b>${people}</b>people</span><span><b>${cols}</b>colleges</span><span><b>${fr}</b>fraternities</span>`;
+  const cl=nodes.filter(n=>n.type==="club").length;
+  $("stats").innerHTML=`<span><b>${people}</b>people</span><span><b>${cols}</b>colleges</span><span><b>${fr}</b>fraternities</span><span><b>${cl}</b>societies &amp; clubs</span>`;
   $("svg").setAttribute("aria-label",`Network: ${people} people, ${cols} colleges, ${fr} fraternities`);
 }
 function neighbors(id){return new Set([id,...(adj[id]||[])])}
@@ -292,7 +302,7 @@ function labels(){
     if(nb)show=nb.has(d.id);
     else if(d.type==="person")show=k>(small?2.2:1.7);
     else if(d.type==="college")show=d.ivy||d.count>=(small?4:3)||k>1.3;
-    else show=d.count>=2||k>1.1;
+    else show=d.count>=2||k>1.1||d.type==="club";
     d3.select(this).attr("display",show?null:"none").attr("font-size",fs).attr("dy",-(r+4));
   });
 }
@@ -319,6 +329,7 @@ function select(id,fromHash){
     const ivy=Object.entries(p.schools||{}).filter(([s,x])=>x.status==="yes").map(([s])=>s);
     h=`${cases}
       <div class="facts"><div class="fact"><div class="l">Ivy League</div><div class="v">${esc(ivy.join(", ")||"—")}</div></div><div class="fact"><div class="l">Fraternity</div><div class="v">${p.frat?.status==="unknown"?"Unknown":esc((p.frat?.orgs||[]).join(", ")||"—")}</div></div></div>
+      ${(p.orgs||[]).filter(o=>o.status==="yes").length?`<h3>Societies &amp; clubs</h3>${p.orgs.filter(o=>o.status==="yes").map(o=>`<div class="case"><b>${esc(o.name)}</b> <span class="muted">· ${esc(KIND[o.kind]||o.kind)}${o.evidence&&o.evidence[0]?.url?` · <a href="${safeUrl(o.evidence[0].url)}" target="_blank" rel="noopener">source</a>`:""}</span></div>`).join("")}`:""}
       ${(p.colleges||[]).length?`<h3>Colleges</h3><p style="margin:0;font-size:14px">${esc(p.colleges.join(" · "))}</p>`:""}
       ${hubs.map(hid=>{const hub=byId[hid],others=members(hid).filter(x=>x!==id);
         return `<h3>${esc(hub.type==="frat"?hub.label:(SHORT[hub.label]||hub.label))} · ${others.length?`shared with ${others.length}`:"no one else"}</h3>${others.length?`<ul class="chips">${others.map(o=>chip(o)).join("")}</ul>`:""}`}).join("")}
@@ -326,7 +337,7 @@ function select(id,fromHash){
       <div class="links">${n.url?`<a href="${safeUrl(n.url)}" target="_blank" rel="noopener">${p.manual?"Profile":"Wikipedia"}</a>`:""}<a href="list.html#${encodeURIComponent(n.name)}">Full record</a></div>`;
   }else{
     const m=members(id);
-    sub=`${n.type==="frat"?"Fraternity / sorority":n.ivy?"Ivy League":"College"} · ${m.length} ${m.length===1?"person":"people"}${n.type==="frat"&&greek(n.label)!==n.label?" · "+esc(greek(n.label)):""}`;
+    sub=`${n.type==="frat"?"Fraternity / sorority":n.type==="club"?esc(KIND[n.kind]||"Club")+(n.school?" · "+esc(n.school):""):n.ivy?"Ivy League":"College"} · ${m.length} ${m.length===1?"person":"people"}${n.type==="frat"&&greek(n.label)!==n.label?" · "+esc(greek(n.label)):""}`;
     const ep=m.filter(x=>byId[x].epstein),sc=m.filter(x=>!byId[x].epstein);
     h=(ep.length?`<h3>Epstein files · ${ep.length}</h3><ul class="chips">${ep.map(x=>chip(x)).join("")}</ul>`:"")+(sc.length?`<h3>Other scandals · ${sc.length}</h3><ul class="chips">${sc.map(x=>chip(x)).join("")}</ul>`:"")+
       (n.type==="college"?`<div class="links"><button class="btn" id="focusSchool">${state.school===id?"Show everything":"Show only this network"}</button></div>`:"");
@@ -381,7 +392,7 @@ function pick(id){hideResults();const inp=$("q");inp.value="";inp.blur();
 /* ---------- UI bindings ---------- */
 function syncFilterUI(){
   $("grp").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===state.grp));
-  $("tCol").checked=state.colleges;$("tFrat").checked=state.frats;$("tIvy").checked=state.ivy;$("tShared").checked=state.shared;
+  $("tCol").checked=state.colleges;$("tFrat").checked=state.frats;$("tClub").checked=state.clubs;$("tPub").checked=state.pubs;$("tHonor").checked=state.honor;$("tIvy").checked=state.ivy;$("tShared").checked=state.shared;
   $("schools").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.id===state.school));
 }
 function bindUI(){
@@ -392,7 +403,7 @@ function bindUI(){
   $("fclose").onclick=$("fdone").onclick=closeFilters;
   $("freset").onclick=()=>{Object.assign(state,DEF);syncFilterUI();draw()};
   $("grp").onclick=e=>{const b=e.target.closest("button");if(!b)return;state.grp=b.dataset.v;syncFilterUI();draw()};
-  [["tCol","colleges"],["tFrat","frats"],["tIvy","ivy"],["tShared","shared"]].forEach(([id,key])=>$(id).onchange=()=>{state[key]=$(id).checked;draw()});
+  [["tCol","colleges"],["tFrat","frats"],["tClub","clubs"],["tPub","pubs"],["tHonor","honor"],["tIvy","ivy"],["tShared","shared"]].forEach(([id,key])=>$(id).onchange=()=>{state[key]=$(id).checked;draw()});
   $("schools").onclick=e=>{const b=e.target.closest("button");if(!b)return;state.school=state.school===b.dataset.id?"":b.dataset.id;syncFilterUI();draw();if(state.school)select(state.school)};
   $("dclose").onclick=()=>select(null);
   dragSheet($("dsheet"),$("dgrab"),()=>{const d=$("dsheet");openSheet(d,d.classList.contains("peek")?"full":"peek")},()=>{const d=$("dsheet");d.classList.contains("peek")?select(null):openSheet(d,"peek")},()=>openSheet($("dsheet"),"full"));
@@ -403,7 +414,7 @@ function bindUI(){
     if(!v){hideResults();res.innerHTML="";return}
     const hits=G.nodes.filter(n=>n.label.toLowerCase().includes(v)||(SHORT[n.label]||"").toLowerCase().includes(v)||(n.type==="frat"&&greek(n.label).toLowerCase().includes(v)))
       .sort((a,b)=>a.label.toLowerCase().indexOf(v)-b.label.toLowerCase().indexOf(v)||(b.count||0)-(a.count||0)).slice(0,8);
-    res.innerHTML=hits.map(n=>`<li><button data-id="${esc(n.id)}"><span>${esc(n.label)}</span><span class="t">${n.type==="person"?(n.epstein?"Epstein files":"scandal"):n.type==="frat"?"fraternity":n.ivy?"Ivy":"college"}</span></button></li>`).join("")||'<li class="none">No matches</li>';
+    res.innerHTML=hits.map(n=>`<li><button data-id="${esc(n.id)}"><span>${esc(n.label)}</span><span class="t">${n.type==="person"?(n.epstein?"Epstein files":"scandal"):n.type==="frat"?"fraternity":n.type==="club"?(n.kind==="publication"?"paper":n.kind==="political"?"political":n.kind==="honor"?"honor":"society/club"):n.ivy?"Ivy":"college"}</span></button></li>`).join("")||'<li class="none">No matches</li>';
     res.hidden=false;
   });
   $("q").addEventListener("focus",()=>{closeFilters();if($("q").value.trim())res.hidden=false});

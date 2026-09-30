@@ -72,7 +72,7 @@ tr.open>td{background:var(--hl)}
     <label class="sr" for="fg">Case</label><select id="fg" class="opt"><option value="">All cases</option><option value="epstein">Epstein files</option><option value="scandal">Other scandals</option></select>
     <label class="sr" for="fs">School</label><select id="fs" class="opt"><option value="">Any school</option></select>
     <label class="sr" for="fc">Ivy status</label><select id="fc" class="opt"><option value="">Any Ivy</option><option value="hit">Attended an Ivy</option><option value="faculty">Ivy faculty</option><option value="none">No Ivy</option></select>
-    <label class="sr" for="ff">Fraternity</label><select id="ff" class="opt"><option value="">Any frat</option><option value="yes">In a frat</option><option value="unknown">Frat unknown</option><option value="no">No frat found</option></select>
+    <label class="sr" for="ff">Fraternity</label><select id="ff" class="opt"><option value="">Any frat</option><option value="yes">In a frat</option><option value="club">In a society/club</option><option value="unknown">Frat unknown</option><option value="no">No frat found</option></select>
     <label class="sr" for="fd">Document</label><select id="fd" class="opt"><option value="">Any document</option></select>
   </div>
 
@@ -82,7 +82,7 @@ tr.open>td{background:var(--hl)}
         <th aria-sort="ascending" data-k="name"><button>Name</button></th>
         <th data-k="case"><button>Case</button></th>
         <th data-k="ivy"><button>Colleges</button></th>
-        <th data-k="frat"><button>Fraternity</button></th>
+        <th data-k="frat"><button>Frats &amp; clubs</button></th>
       </tr></thead>
       <tbody id="tb"></tbody>
     </table>
@@ -116,7 +116,7 @@ fetch("data/people.json").then(r=>r.json()).then(d=>{
 function ivyRank(p){const v=Object.values(p.schools).filter(x=>x.status!=="no");return v.length?Math.min(...v.map(x=>RANK[x.status])):(p.colleges.length?5:9)}
 function val(p,k){
   if(k==="ivy")return ivyRank(p);
-  if(k==="frat")return RANK[p.frat.status]??3;
+  if(k==="frat")return (RANK[p.frat.status]??3)-(clubs(p).length?.5:0);
   if(k==="case")return (p.cases[0]?.case||"~Epstein files").toLowerCase();
   return clean(p.name).toLowerCase();
 }
@@ -130,7 +130,7 @@ function match(p){
   if(fc==="hit"&&!sch.some(x=>x.status==="yes"||x.status==="possible"))return false;
   if(fc==="faculty"&&!sch.some(x=>x.faculty))return false;
   if(fc==="none"&&Object.values(p.schools).some(x=>x.status!=="no"))return false;
-  if(ff&&p.frat.status!==ff)return false;
+  if(ff==="club"){if(!clubs(p).length)return false}else if(ff&&p.frat.status!==ff)return false;
   if(fd&&!p.documents.includes(fd))return false;
   return true;
 }
@@ -158,15 +158,18 @@ function detail(p,mobile){
     ${p.note?`<p style="margin:6px 0">${esc(p.note)}</p>`:""}
     <h3>Education</h3>${esc(p.education.join(" · ")||"None found")}${srcs?` <span class="muted">(${srcs})</span>`:""}
     ${Object.entries(p.schools).map(([s,x])=>`<h3>${esc(s)} — ${x.status==="no"?"faculty":esc(x.status)}</h3>${evList(x.evidence)}`).join("")}
+    ${(p.orgs||[]).filter(o=>o.status==="yes").map(o=>`<h3>${esc(o.name)} — ${esc(o.kind)}</h3>${evList(o.evidence)}`).join("")}
     <h3>Fraternity${p.frat.orgs.length?" — "+esc(p.frat.orgs.join(", ")):""}</h3>${p.frat.status==="unknown"?"<p class='muted' style='margin:2px 0'>Unknown.</p>":evList(p.frat.evidence)}
     ${p.frat.honor_societies&&p.frat.honor_societies.length?`<h3>Honor societies (not counted)</h3>${esc(p.frat.honor_societies.join(", "))}`:""}
     <p style="margin:8px 0 0">${link}${p.verified?`<span class="ver">✓ ${p.manual?"researched":"verified"}</span>`:""}</p>
   </div>`;
 }
+function clubs(p){return (p.orgs||[]).filter(o=>o.status==="yes"&&o.kind!=="honor")}
 function fratCell(p){
-  if(p.frat.status==="unknown")return '<span class="muted">unknown</span>';
-  if(!p.frat.orgs.length)return '<span class="muted">—</span>';
-  return p.frat.orgs.map(o=>`<span class="pill greek">${esc(o)}</span>`).join("");
+  const c=clubs(p);
+  if(p.frat.status==="unknown"&&!c.length)return '<span class="muted">unknown</span>';
+  if(!p.frat.orgs.length&&!c.length)return '<span class="muted">—</span>';
+  return p.frat.orgs.map(o=>`<span class="pill greek">${esc(o)}</span>`).join("")+c.map(o=>`<span class="pill" style="background:var(--hl)">${esc(o.name)}</span>`).join("");
 }
 function rows(){
   return DATA.filter(match).sort((a,b)=>{
@@ -182,8 +185,9 @@ function render(){
     $("lb").innerHTML=rs.length?rs.map((p,i)=>{
       const o=open.has(p.name);
       const g=p.frat.status==="unknown"?'<span class="lgreek none">unk.</span>':p.frat.orgs.length?`<span class="lgreek">${esc(p.frat.orgs.map(greek).join(" "))}</span>`:'<span class="lgreek none">—</span>';
+      const cl=clubs(p).length?`<span class="tag" style="color:var(--club)">${esc(clubs(p).map(o=>o.name).join(" · "))}</span>`:"";
       const tag=p.cases.length?`<span class="tag">${esc(p.cases.map(c=>c.case).join(" · "))}</span>`:"";
-      return `<div class="lrow${o?" open":""}"><div class="lname"><button class="toggle" data-n="${i}" aria-expanded="${o}">${esc(clean(p.name))}</button>${colleges(p,true)}${tag}</div>${g}</div>${o?`<div class="ldetail">${detail(p,true)}</div>`:""}`;
+      return `<div class="lrow${o?" open":""}"><div class="lname"><button class="toggle" data-n="${i}" aria-expanded="${o}">${esc(clean(p.name))}</button>${colleges(p,true)}${cl}${tag}</div>${g}</div>${o?`<div class="ldetail">${detail(p,true)}</div>`:""}`;
     }).join(""):`<p class="empty">No matches.</p>`;
     $("lb").onclick=toggleHandler(rs);
   }else{

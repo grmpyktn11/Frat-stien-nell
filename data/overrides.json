@@ -30,7 +30,13 @@
    }
   },
   "note": "Degrees (B.A., M.A., Ph.D.) from Penn. At Harvard he was a Junior Fellow in the Society of Fellows (1951–55), not a degree student.",
-  "verified": true
+  "verified": true,
+  "orgs": [
+   {
+    "name": "Harvard Society of Fellows",
+    "status": "yes"
+   }
+  ]
  },
  "Kenneth Mapp": {
   "schools": {
@@ -47,6 +53,18 @@
    "orgs": [
     "Alpha Phi Omega",
     "Kappa Kappa Psi"
+   ],
+   "evidence": [
+    {
+     "source": "Wikipedia: List of Alpha Phi Omega members",
+     "text": "Bill Clinton, Mu Alpha chapter (Georgetown): Forty-second president of the United States",
+     "url": "https://en.wikipedia.org/wiki/List_of_Alpha_Phi_Omega_members"
+    },
+    {
+     "source": "Wikipedia: List of Kappa Kappa Psi members",
+     "text": "Bill Clinton, President of the United States",
+     "url": "https://en.wikipedia.org/wiki/List_of_Kappa_Kappa_Psi_members"
+    }
    ]
   },
   "note": "Alpha Phi Omega is a service fraternity (joined at Georgetown); Kappa Kappa Psi is an honorary band fraternity. Phi Beta Kappa (honor society) not counted.",
@@ -79,7 +97,13 @@
    ]
   },
   "note": "Delta Phi Epsilon is a professional foreign-service fraternity, joined at George Washington University.",
-  "verified": true
+  "verified": true,
+  "orgs": [
+   {
+    "name": "Duke Law Journal",
+    "status": "yes"
+   }
+  ]
  },
  "Les Wexner": {
   "frat": {
@@ -305,8 +329,75 @@
       "url": "https://www.dailyprincetonian.com/article/2011/05/after-scandal-spitzer-81-rebounds"
      }
     ]
+   },
+   {
+    "name": "Harvard Law Review",
+    "status": "yes"
    }
   ],
   "verified": true
+ },
+ "Alan Dershowitz": {
+  "orgs": [
+   {
+    "name": "Yale Law Journal",
+    "status": "yes"
+   }
+  ],
+  "verified": true
+ },
+ "Andrew Farkas (businessman)": {
+  "orgs": [
+   {
+    "name": "Hasty Pudding Club",
+    "status": "yes"
+   }
+  ],
+  "verified": true
+ },
+ "Jack Abramoff": {
+  "orgs": [
+   {
+    "name": "College Republicans",
+    "status": "yes"
+   }
+  ],
+  "verified": true
+ },
+ "Kathryn Ruemmler": {
+  "orgs": [
+   {
+    "name": "Georgetown Law Journal",
+    "status": "yes"
+   }
+  ],
+  "verified": true
+ },
+ "Paul Wolfowitz": {
+  "orgs": [
+   {
+    "name": "Telluride House",
+    "status": "yes"
+   }
+  ],
+  "verified": true
+ },
+ "Scooter Libby": {
+  "orgs": [
+   {
+    "name": "Skull and Bones",
+    "status": "yes"
+   },
+   {
+    "name": "College Democrats",
+    "status": "yes"
+   }
+  ],
+  "verified": true
+ },
+ "Larry Summers": {
+  "orgs_remove": [
+   "The Harvard Crimson"
+  ]
  }
 }
