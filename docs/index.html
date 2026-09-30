@@ -9,7 +9,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 <style>
-.controls{display:grid;grid-template-columns:minmax(0,2fr) repeat(5,minmax(0,1fr));gap:8px;margin-bottom:12px}
+.controls{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:12px}
+.controls>.field{grid-column:1/-1}
 .filtbtn{display:none}
 .tablewrap{border:1px solid var(--line);background:var(--surface)}
 table{width:100%;border-collapse:collapse}
@@ -49,6 +50,7 @@ tr.open>td{background:var(--hl)}
   .top,.stats{padding-left:16px;padding-right:16px}
   .top h1{font-size:30px}
   .controls{grid-template-columns:minmax(0,1fr) auto;padding:0 16px}
+  .controls>.field{grid-column:auto}
   .controls .opt{display:none}
   .controls.show select.opt{display:block;width:100%;grid-column:1/-1}
   .filtbtn{display:inline-flex;align-items:center;justify-content:center}
