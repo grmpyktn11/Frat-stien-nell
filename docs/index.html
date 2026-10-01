@@ -230,7 +230,8 @@ function visible(){
 function activeFilters(){return Object.keys(DEF).filter(k=>state[k]!==DEF[k]).length}
 
 /* ---------- drawing ---------- */
-function size(n){return n.type==="case"?13:n.type==="person"?4.5:n.type==="frat"||n.type==="club"?6.5+Math.sqrt(n.count):5+Math.sqrt(n.count)*3.4}
+const SUBJECT="p:Jeffrey Epstein";
+function size(n){return n.id===SUBJECT?9:n.type==="case"?13:n.type==="person"?4.5:n.type==="frat"||n.type==="club"?6.5+Math.sqrt(n.count):5+Math.sqrt(n.count)*3.4}
 function init(){
   svg=d3.select("#svg");gRoot=svg.append("g");gLinks=gRoot.append("g");gNodes=gRoot.append("g");
   zoom=d3.zoom().scaleExtent([.15,8]).on("zoom",e=>{gRoot.attr("transform",e.transform);k=e.transform.k;labels()});
@@ -268,6 +269,7 @@ function draw(){
       else if(d.type==="case"){s.append("circle").attr("r",r).attr("fill",css("--red"));
         s.append("text").attr("class","badge7").attr("text-anchor","middle").attr("dy","0.35em").attr("font-size",14).attr("font-weight",700)
           .attr("fill","#fff").attr("stroke","none").text(d.badge||"")}
+      else if(d.id===SUBJECT)s.append("circle").attr("r",r).attr("fill",cInk).attr("stroke",css("--red")).attr("stroke-width",3);
       else if(d.epstein)s.append("circle").attr("r",r).attr("fill",cInk);
       else s.append("circle").attr("r",r-.6).attr("fill",cSurf).attr("stroke",cInk).attr("stroke-width",1.7);
       s.append("circle").attr("r",Math.max(r+8,16)).attr("fill","transparent");/* touch target */
@@ -305,6 +307,7 @@ function labels(){
     let show;
     if(d.type==="case")show=!nb||nb.has(d.id);
     else if(nb)show=nb.has(d.id);
+    else if(d.id===SUBJECT)show=true;
     else if(d.type==="person")show=k>(small?2.2:1.7);
     else if(d.type==="college")show=d.ivy||d.count>=(small?4:3)||k>1.3;
     else show=d.count>=2||k>1.1||d.type==="club";

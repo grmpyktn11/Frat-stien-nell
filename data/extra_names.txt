@@ -1,3 +1,4 @@
 # Extra notable people to add beyond the Wikipedia list (must have a Wikipedia article).
 # Format: Wikipedia title | document types (comma separated)
 Alberto Pinto (interior designer) | emails
+Jeffrey Epstein | flight logs, black book, court documents, DOJ / Congressional release, emails

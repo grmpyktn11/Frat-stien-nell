@@ -1,6 +1,5 @@
 # Names removed from the dataset: victims/survivors, Epstein's staff, and Epstein himself.
 # Format: Wikipedia title | reason
-Jeffrey Epstein | subject of the documents
 Virginia Giuffre | survivor
 Maria Farmer | survivor
 Annie Farmer | survivor
