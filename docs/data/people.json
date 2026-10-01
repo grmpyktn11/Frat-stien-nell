@@ -1,13 +1,13 @@
 {
  "meta": {
-  "generated": "2026-09-30T19:38:33+00:00",
+  "generated": "2026-10-01T02:34:25+00:00",
   "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
   "source_revision": 1376910601,
   "member_list_error": null,
   "counts": {
-   "people": 210,
-   "epstein": 152,
-   "scandal": 58,
+   "people": 211,
+   "epstein": 153,
+   "scandal": 59,
    "cornell": 3,
    "excluded": 7,
    "unresolved": 1,
@@ -727,15 +727,15 @@
    },
    "orgs": [],
    "education": [
-    "Simon's Rock at Bard College",
     "Temple University",
-    "New York University"
+    "New York University",
+    "Simon's Rock at Bard College"
    ],
    "verified": false,
    "colleges": [
-    "Simon's Rock at Bard College",
     "Temple University",
-    "New York University"
+    "New York University",
+    "Simon's Rock at Bard College"
    ]
   },
   {
@@ -2227,14 +2227,14 @@
    },
    "orgs": [],
    "education": [
-    "Georgetown University Law Center",
     "University of Florida",
-    "Walsh School of Foreign Service"
+    "Walsh School of Foreign Service",
+    "Georgetown University Law Center"
    ],
    "verified": true,
    "colleges": [
-    "Georgetown University",
-    "University of Florida"
+    "University of Florida",
+    "Georgetown University"
    ]
   },
   {
@@ -3424,6 +3424,44 @@
    "education": [],
    "verified": false,
    "colleges": []
+  },
+  {
+   "name": "Jeffrey Epstein",
+   "url": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+   "qid": "Q2904131",
+   "description": "American financier and child sex offender (1953–2019)",
+   "documents": [
+    "Flight logs",
+    "Black book",
+    "Court documents",
+    "DOJ / Congressional release",
+    "Emails"
+   ],
+   "epstein": true,
+   "cases": [
+    {
+     "case": "Epstein sex trafficking cases",
+     "outcome": "Pleaded guilty to soliciting prostitution from a minor (2008); died in federal custody awaiting a sex-trafficking trial (2019)"
+    }
+   ],
+   "schools": {},
+   "frat": {
+    "status": "no",
+    "orgs": [],
+    "honor_societies": [],
+    "evidence": []
+   },
+   "orgs": [],
+   "education": [
+    "Lafayette High School",
+    "Courant Institute School of Mathematics, Computing, and Data Science",
+    "Cooper Union"
+   ],
+   "verified": false,
+   "colleges": [
+    "Courant Institute School of Mathematics, Computing, and Data Science",
+    "Cooper Union"
+   ]
   },
   {
    "name": "Jeffrey Skilling",
@@ -5508,9 +5546,9 @@
     }
    ],
    "education": [
-    "University of California, Berkeley",
     "Birmingham High School",
-    "The Wharton School"
+    "The Wharton School",
+    "University of California, Berkeley"
    ],
    "verified": true,
    "note": "Member at UC Berkeley.",
@@ -8051,15 +8089,15 @@
    },
    "orgs": [],
    "education": [
+    "University of Southern California",
     "University of San Diego School of Law",
-    "USC Gould School of Law",
-    "University of Southern California"
+    "USC Gould School of Law"
    ],
    "verified": false,
    "colleges": [
+    "University of Southern California",
     "University of San Diego School of Law",
-    "USC Gould School of Law",
-    "University of Southern California"
+    "USC Gould School of Law"
    ]
   },
   {

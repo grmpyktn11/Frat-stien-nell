@@ -1,23 +1,23 @@
-218 raw entries from rev 1376910601 (+60 scandal entries)
-  fetched 0/201
-  fetched 25/201
-  fetched 50/201
-  fetched 75/201
-  fetched 100/201
-  fetched 125/201
-  fetched 150/201
-  fetched 175/201
-  fetched 200/201
+220 raw entries from rev 1376910601 (+61 scandal entries)
+  fetched 0/202
+  fetched 25/202
+  fetched 50/202
+  fetched 75/202
+  fetched 100/202
+  fetched 125/202
+  fetched 150/202
+  fetched 175/202
+  fetched 200/202
 member lists matched 19 people
 {
- "generated": "2026-09-30T19:38:33+00:00",
+ "generated": "2026-10-01T02:34:25+00:00",
  "source": "https://en.wikipedia.org/wiki/List_of_people_named_in_the_Epstein_files",
  "source_revision": 1376910601,
  "member_list_error": null,
  "counts": {
-  "people": 210,
-  "epstein": 152,
-  "scandal": 58,
+  "people": 211,
+  "epstein": 153,
+  "scandal": 59,
   "cornell": 3,
   "excluded": 7,
   "unresolved": 1,
