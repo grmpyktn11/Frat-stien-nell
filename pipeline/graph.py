@@ -25,7 +25,7 @@ IVY_NAMES = {
 PARENTS = [
     (r"Walsh School of Foreign Service|Georgetown", "Georgetown University"),
     (r"Fletcher School|Tufts", "Tufts University"),
-    (r"New York University|\bNYU\b|Tisch School|Stern School", "New York University"),
+    (r"New York University|\bNYU\b|Tisch School|Stern School|Courant Institute", "New York University"),
     (r"Oxford", "University of Oxford"),
     (r"Cambridge", "University of Cambridge"),
     (r"Stanford", "Stanford University"),

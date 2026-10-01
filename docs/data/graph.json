@@ -535,6 +535,18 @@
    "cases": []
   },
   {
+   "id": "p:Jeffrey Epstein",
+   "type": "person",
+   "label": "Jeffrey Epstein",
+   "name": "Jeffrey Epstein",
+   "description": "American financier and child sex offender (1953–2019)",
+   "url": "https://en.wikipedia.org/wiki/Jeffrey_Epstein",
+   "epstein": true,
+   "cases": [
+    "Epstein sex trafficking cases"
+   ]
+  },
+  {
    "id": "p:Jeffrey Skilling",
    "type": "person",
    "label": "Jeffrey Skilling",
@@ -1601,7 +1613,7 @@
    "type": "college",
    "label": "New York University",
    "ivy": false,
-   "count": 6
+   "count": 7
   },
   {
    "id": "i:Northwestern University",
@@ -2503,6 +2515,11 @@
    "kind": "college"
   },
   {
+   "source": "p:Jeffrey Epstein",
+   "target": "i:New York University",
+   "kind": "college"
+  },
+  {
    "source": "p:Joseph Nacchio",
    "target": "i:New York University",
    "kind": "college"
@@ -3164,8 +3181,8 @@
   }
  ],
  "counts": {
-  "people_linked": 136,
-  "people_unlinked": 75,
+  "people_linked": 137,
+  "people_unlinked": 74,
   "colleges": 43,
   "frats": 17,
   "clubs": 16,

@@ -164,6 +164,7 @@ def test_canonical_institution():
     assert canonical_institution("Walsh School of Foreign Service") == "Georgetown University"
     assert canonical_institution("Columbia University College of Physicians and Surgeons (MD)") == "Columbia University"
     assert canonical_institution("Harvard Business School") == "Harvard University"
+    assert canonical_institution("Courant Institute School of Mathematics, Computing, and Data Science") == "New York University"
     assert canonical_institution("Stuyvesant High School") is None
     assert canonical_institution("Middlesex School") is None
     assert canonical_institution("Phillips Academy") is None
